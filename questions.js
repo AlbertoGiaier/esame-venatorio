@@ -9917,9 +9917,7 @@ const questions = [
       "Fucili ad aria compressa",
       "Tutte le armi non appartenenti alle armi da fuoco"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3002",
@@ -9930,10 +9928,7 @@ const questions = [
       "Fucili ad aria compressa",
       "Le armi a canna liscia"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 3]
   },
   {
     "id": "3003",
@@ -9941,13 +9936,9 @@ const questions = [
     "answers": [
       "Cartucce a pallini",
       "Cartucce per carabina",
-      "Cartucce con palla slug (palla unica) per armi a canna liscia 4",
-      ""
+      "Cartucce con palla slug (palla unica) per armi a canna liscia"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "3004",
@@ -9955,12 +9946,9 @@ const questions = [
     "answers": [
       "Cartucce a pallini",
       "Cartucce per carabina",
-      "Cartucce con palla slug (palla unica) per armi a canna liscia 4",
-      ""
+      "Cartucce con palla slug (palla unica) per armi a canna liscia"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "3005",
@@ -9968,12 +9956,9 @@ const questions = [
     "answers": [
       "L'interno della canna è liscio",
       "Nella canna sono impresse delle scanalature a spirale",
-      "L'interno della canna è rigato 4",
-      ""
+      "L'interno della canna è rigato"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3006",
@@ -9981,12 +9966,9 @@ const questions = [
     "answers": [
       "Hanno le canne lisce internamente",
       "Hanno le canne rigate internamente",
-      "L'interno della canna si restringe verso la bocca 4",
-      ""
+      "L'interno della canna si restringe verso la bocca"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "3007",
@@ -9997,9 +9979,7 @@ const questions = [
       "Impediscono il capovolgimento del proiettile durante il volo stabilizzando il proiettile",
       "Accelerano il proiettile"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3008",
@@ -10010,9 +9990,7 @@ const questions = [
       "Un fucile che ha due canne ad anima liscia e una rigata",
       "Un fucile che ha due canne ad anima rigata e una liscia"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3009",
@@ -10021,11 +9999,9 @@ const questions = [
       "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano orizzontale",
       "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano verticale",
       "Un fucile che ha due canne ad anima liscia e una rigata",
-      "Un fucile che ha due canne ad anima rigata e una liscia rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+      "Un fucile che ha due canne ad anima rigata e una liscia"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "3010",
@@ -10036,9 +10012,7 @@ const questions = [
       "Un fucile a tre canne, solitamente due canne ad anima liscia e una rigata",
       "Un attrezzo per l'addestramento di cani"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3011",
@@ -10049,9 +10023,7 @@ const questions = [
       "Un fucile che ha due canne ad anima liscia poste sullo stesso piano verticale",
       "Un fucile che ha due canne ad anima liscia poste sullo stesso piano orizzontale"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3012",
@@ -10062,22 +10034,18 @@ const questions = [
       "Un fucile che ha due canne ad anima liscia poste sullo stesso piano orizzontale",
       "Un fucile che ha due canne ad anima rigata poste sullo stesso piano orizzontale"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3013",
-    "question": "Cos è un Bergstutzen?",
+    "question": "Cos'è un Bergstutzen?",
     "answers": [
       "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano verticale",
-      "Un fucile che ha due canne ad anima rigata dello stesso calibro poste sullo stesso piano",
+      "Un fucile che ha due canne ad anima rigata dello stesso calibro poste sullo stesso piano verticale",
       "Un fucile a ripetizione con canne interscambiabili",
       "Un fucile che ha due canne ad anima rigata di differente calibro"
     ],
-    "correct": [
-      3
-    ]
+    "correct": [3]
   },
   {
     "id": "3014",
@@ -10085,26 +10053,20 @@ const questions = [
     "answers": [
       "Un fucile che ha due canne ad anima liscia poste sullo stesso piano verticale",
       "Un drilling con due canne ad anima rigata",
-      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano verticale 4",
-      ""
+      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano verticale"
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "3015",
     "question": "Cosa viene controllato nella prova a fuoco di un'arma lunga presso un banco di prova?",
     "answers": [
       "Che l'arma sia precisa",
-      "Che il fucile, specialmente l'otturatore e la canna siano resistenti alla pressione dei gas prodotti",
+      "Che il fucile, specialmente l'otturatore e la canna siano resistenti alla pressione dei gas prodotti dalla deflagrazione",
       "La potenza di penetrazione dei proiettili",
       "La distanza di aggiustamento del tiro ideale"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "3016",
@@ -10115,46 +10077,38 @@ const questions = [
       "Lo stecher serve da sicura per il fucile",
       "Il congegno di mira nei fucili a canna ad anima liscia consta nel mirino e nella bindella"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 3]
   },
   {
     "id": "3017",
-    "question": "Per quale motivo i fucili con percussore a molla devono essere custoditi con la stessa non in",
+    "question": "Per quale motivo i fucili con percussore a molla devono essere custoditi con la stessa non in tensione?",
     "answers": [
       "Per evitare l'usura del percussore",
-      "",
-      "Perché così si risparmia il bossolo salvapercussore 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
-      ""
+      "Perché in tal modo la molla del percussore viene sgravata",
+      "Perché così si risparmia il bossolo salvapercussore"
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "3018",
-    "question": "Quali dei seguenti fucili sono muniti di caricatore o serbatoio, dal quale le cartucce vengono",
+    "question": "Quali dei seguenti fucili sono muniti di caricatore o serbatoio, dal quale le cartucce vengono caricate nella camera di scoppio?",
     "answers": [
       "I fucili a bascula",
-      "",
+      "Le carabine a ripetizione manuale",
       "I fucili semiautomatici con canna ad anima liscia",
       "Le carabine semiautomatiche"
     ],
-    "correct": [
-      2,
-      3
-    ]
+    "correct": [1, 2, 3]
   },
   {
     "id": "3019",
-    "question": "Quali dei seguenti fucili sono muniti di caricatore o serbatoio, dal quale le cartucce vengono",
+    "question": "Quali dei seguenti fucili sono muniti di caricatore o serbatoio, dal quale le cartucce vengono spostate manualmente, tramite l'azionamento dell'otturatore, nella camera di scoppio?",
     "answers": [
       "I fucili a bascula",
-      "",
-      "I fucili a colpo singolo 4",
-      ""
+      "Le carabine a ripetizione manuale",
+      "I fucili a colpo singolo"
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "3020",
@@ -10162,13 +10116,9 @@ const questions = [
     "answers": [
       "Bergstutzen",
       "Fucili a ripetizione",
-      "Drilling 4",
-      ""
+      "Drilling"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "3021",
@@ -10179,10 +10129,7 @@ const questions = [
       "Lo spostamento in avanti di un cursore sul calcio permette di mettere in pretensione il grilletto di sparo",
       "Si può trovare sia nelle carabine a ripetizione che nei fucili basculanti con canne rigate"
     ],
-    "correct": [
-      1,
-      3
-    ]
+    "correct": [1, 3]
   },
   {
     "id": "3022",
@@ -10190,23 +10137,20 @@ const questions = [
     "answers": [
       "E' dotato di un secondo grilletto per attivare la pretensione del grilletto di sparo",
       "Viene utilizzato nelle carabine a ripetizione e nei fucili combinati",
-      "Lo spostamento in avanti di un cursore sul calcio permette di mettere in pretensione il grilletto di sparo 4",
-      ""
+      "Lo spostamento in avanti di un cursore sul calcio permette di mettere in pretensione il grilletto di sparo"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3023",
-    "question": "Quale dei seguenti calibri di fucili con canna ad anima liscia è quello con il diametro della",
+    "question": "Quale dei seguenti calibri di fucili con canna ad anima liscia è quello con il diametro della canna maggiore?",
     "answers": [
       "Calibro 20 Magnum",
-      "",
+      "Calibro 12",
       "Calibro 16",
       "Calibro .410"
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "3024",
@@ -10214,12 +10158,9 @@ const questions = [
     "answers": [
       "Operando sul bossolo della cartuccia",
       "Mediante una strozzatura della canna",
-      "Utilizzando fucili con canne molto corte 4",
-      ""
+      "Utilizzando fucili con canne molto corte"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "3025",
@@ -10227,25 +10168,20 @@ const questions = [
     "answers": [
       "Il profilo della canna rigata, che aiuta a stabilizzare il proiettile sulla sua traiettoria",
       "Un restringimento della canna che influenza la dispersione dello sciame dei pallini",
-      "Una reazione del selvatico quando viene perforato dal proiettile 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
-      ""
+      "Una reazione del selvatico quando viene perforato dal proiettile"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "3026",
     "question": "Cosa s'intende con fucile con canna ad anima liscia con caricamento automatico della molla?",
     "answers": [
       "Un fucile con canna ad anima liscia che monta la molla facendo basculare la canna stessa",
-      "Un fucile con canna ad anima liscia, che si carica automaticamente mediante una pressione sul",
+      "Un fucile con canna ad anima liscia, che si carica automaticamente mediante una pressione sul grilletto",
       "Un fucile con canna ad anima liscia, che si carica automaticamente con il rinculo del tiro precedente",
       "Un fucile con canna ad anima liscia, che si carica mediante un congegno a slitta"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3027",
@@ -10256,20 +10192,18 @@ const questions = [
       "Per eliminare automaticamente i bossoli sparati",
       "Per allentare la molla del fucile"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3028",
     "question": "A cosa serve la sicura?",
     "answers": [
       "Per assicurare che il fucile non venga maneggiato da bambini o da persone non capaci di intendere e volere",
-      "",
+      "Per evitare che parta un colpo inavvertitamente",
       "Per diminuire il rinculo",
       "Per aumentare la pressione del grilletto"
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "3029",
@@ -10280,10 +10214,7 @@ const questions = [
       "Per dover utilizzare meno forza nell'azionare il grilletto in modo di evitare di strappare",
       "Per mettere l'arma in sicura"
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "3030",
@@ -10294,10 +10225,7 @@ const questions = [
       "Il meccanismo di pretensionamento del grilletto viene attivato",
       "Il caricatore o il serbatoio vengono caricati"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "3031",
@@ -10308,10 +10236,7 @@ const questions = [
       "Il fucile viene basculato",
       "Il fucile viene messo automaticamente in sicura"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "3032",
@@ -10319,13 +10244,9 @@ const questions = [
     "answers": [
       "Diametro interno della canna nei fucili con canne ad anima liscia",
       "Diametro dei proiettili nelle carabine",
-      "Proiettili particolarmente grosse 4",
-      ""
+      "Proiettili particolarmente grosse"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "3033",
@@ -10334,11 +10255,9 @@ const questions = [
       "Calibro 12",
       "Calibro 16",
       "Calibro 20 Magnum",
-      "Calibro 6,5 mm rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+      "Calibro 6,5 mm"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3034",
@@ -10349,36 +10268,28 @@ const questions = [
       "Calibro 0,222 pollici",
       "Calibro 6,5 mm"
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "3035",
-    "question": "Cosa può succedere se da un fucile con canna ad anima liscia con calibro 12/70 si spara una",
+    "question": "Cosa può succedere se da un fucile con canna ad anima liscia con calibro 12/70 si spara una cartuccia di calibro 12/76?",
     "answers": [
       "La canna potrebbe rompersi",
-      "",
-      "Aumenta la rosata dei pallini 4",
-      ""
+      "Il colpo non parte",
+      "Aumenta la rosata dei pallini"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3036",
-    "question": "Cosa può succedere se da un fucile con canna ad anima liscia con calibro 16/70 si spara una",
+    "question": "Cosa può succedere se da un fucile con canna ad anima liscia con calibro 16/70 si spara una cartuccia di calibro 12/76?",
     "answers": [
       "La canna potrebbe rompersi",
-      "",
+      "Il colpo non parte",
       "I pallini aumentano di potenza",
       "La cartuccia non può essere inserita non passando per la canna"
     ],
-    "correct": [
-      3
-    ]
+    "correct": [3]
   },
   {
     "id": "3037",
@@ -10389,10 +10300,7 @@ const questions = [
       "Calibro 7 mm Rem. Mag.",
       "Calibro 20 Magnum"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "3038",
@@ -10403,22 +10311,17 @@ const questions = [
       "Calibro 12, 70 cartucce",
       "Anno di produzione delle cartucce: dicembre 1970"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3039",
-    "question": "Quale delle seguenti cartucce, a parità di grandezza dei pallini, contiene il maggior numero di",
+    "question": "Quale delle seguenti cartucce, a parità di grandezza dei pallini, contiene il maggior numero di pallini?",
     "answers": [
       "Cartuccia 12/70",
-      "",
-      "Cartuccia 20/70 4",
-      ""
+      "Cartuccia 16/70",
+      "Cartuccia 20/70"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3040",
@@ -10429,10 +10332,7 @@ const questions = [
       "Alla lunghezza minima della camera di scoppio da utilizzare",
       "Al calibro della cartuccia"
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "3042",
@@ -10440,12 +10340,9 @@ const questions = [
     "answers": [
       "Quantità di polvere da sparo utilizzata",
       "Diametro della cartuccia a pallini",
-      "Diametro del singolo pallino con cui viene caricato il bossolo 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
-      ""
+      "Diametro del singolo pallino con cui viene caricato il bossolo"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3043",
@@ -10453,12 +10350,9 @@ const questions = [
     "answers": [
       "Calibro 6,5 mm, lunghezza del bossolo 68 mm, cartuccia con orlo (bordo)",
       "Lunghezza del bossolo 6,5 cm, calibro 0,68 pollici, cartuccia a percussione anulare",
-      "Calibro 6,5 cm, lunghezza del bossolo 68 pollici, cartuccia per carabine a ripetizione 4",
-      ""
+      "Calibro 6,5 cm, lunghezza del bossolo 68 pollici, cartuccia per carabine a ripetizione"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3044",
@@ -10466,25 +10360,19 @@ const questions = [
     "answers": [
       "Carabine basculanti",
       "Fucili con canna ad anima liscia basculanti",
-      "Fucili a ripetizione 4",
-      ""
+      "Fucili a ripetizione"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3045",
     "question": "Cosa significa la lettera \"R\" nell'indicazione delle cartucce 6,5 x 68 R?",
     "answers": [
       "La cartuccia ha un collarino adatto per fucili a ripetizione",
-      "La cartuccia ha un orlo (bordo) che sporge dal fondello e viene principalmente utilizzata per",
-      "La lettera R indica il produttore Remington 4",
-      ""
+      "La cartuccia ha un orlo (bordo) che sporge dal fondello e viene principalmente utilizzata per carabine basculanti e a blocco cadente",
+      "La lettera R indica il produttore Remington"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "3046",
@@ -10492,12 +10380,9 @@ const questions = [
     "answers": [
       "Non è possibile caricare la carabina",
       "I bossoli sparati possono essere estratti dalla camera di scoppio solo con un attrezzo",
-      "Si rompe la canna del fucile 4",
-      ""
+      "Si rompe la canna del fucile"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "3047",
@@ -10505,12 +10390,9 @@ const questions = [
     "answers": [
       "Si",
       "No",
-      "Si ma solo se non troppo caricate 4",
-      ""
+      "Si ma solo se non troppo caricate"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "3048",
@@ -10518,25 +10400,19 @@ const questions = [
     "answers": [
       "Si",
       "No",
-      "Si, ma solo con l'apposito bossolo riduttore di calibro 4",
-      ""
+      "Si, ma solo con l'apposito bossolo riduttore di calibro"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "3049",
-    "question": "Si possono sparare munizione di cal. 6,5 x 68R con carabine dotate di canna adatta a sparare",
+    "question": "Si possono sparare munizione di cal. 6,5 x 68R con carabine dotate di canna adatta a sparare colpi di cal. 6,5 x 57 R?",
     "answers": [
       "Si",
-      "",
-      "Ciò non è possibile, perché non si adattano alla camera di cartuccia 4",
-      ""
+      "Si, se il diametro della pallottola è lo stesso non possono accadere inconvenienti",
+      "Ciò non è possibile, perché non si adattano alla camera di cartuccia"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3050",
@@ -10545,12 +10421,9 @@ const questions = [
       "La cartuccia 7 x 57 R ha un orlo (bordo) sul fondello",
       "La cartuccia 7 x 57 R è a percussione anulare",
       "La cartuccia 7 x 57 ha una scanalatura per facilitarne l'estrazione",
-      "I diametri dei bossoli sono differenti, onde evitare di essere scambiati rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+      "I diametri dei bossoli sono differenti, onde evitare di essere scambiati"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "3051",
@@ -10561,9 +10434,7 @@ const questions = [
       "7 x 64",
       ".270 Win"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3052",
@@ -10571,12 +10442,9 @@ const questions = [
     "answers": [
       "All'incirca 5,6 mm",
       "All'incirca 6,5 mm",
-      "All'incirca 7,0 mm 4",
-      ""
+      "All'incirca 7,0 mm"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3053",
@@ -10587,45 +10455,37 @@ const questions = [
       ".243",
       ".222"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "3054",
-    "question": "In Alto Adige è ammesso l'utilizzo della palla nei fucili con canna ad anima liscia nell'esercizio",
+    "question": "In Alto Adige è ammesso l'utilizzo della palla nei fucili con canna ad anima liscia nell'esercizio della caccia?",
     "answers": [
       "Si",
-      "",
+      "No",
       "Solo da parte degli agenti venatori",
       "Si, ma solo nei periodi di caccia in deroga"
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "3055",
     "question": "Quali dei seguenti proiettili si deforma fortemente se colpisce un bersaglio resistente?",
     "answers": [
       "Proiettili camiciati",
-      "Proiettili parzialmente camiciati 3 4",
-      "",
-      ""
+      "Proiettili parzialmente camiciati"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "3056",
-    "question": "Quali dei seguenti proiettili vengono utilizzati per la caccia agli ungulati, anche nel rispetto",
+    "question": "Quali dei seguenti proiettili vengono utilizzati per la caccia agli ungulati, anche nel rispetto dell'etica venatoria?",
     "answers": [
       "Proiettili camiciati",
-      "",
-      "Palle o slug per fucili con canna ad anima liscia 4",
-      ""
+      "Proiettili parzialmente camiciati",
+      "Palle o slug per fucili con canna ad anima liscia"
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "3057",
@@ -10636,10 +10496,7 @@ const questions = [
       "Lepri",
       "Cinghiale"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "3058",
@@ -10648,53 +10505,41 @@ const questions = [
       "Camoscio",
       "Selvaggina da piuma",
       "Volpe",
-      "Cervo rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+      "Cervo"
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "3059",
     "question": "Armi da caccia e munizioni. Quali affermazioni corrispondono al vero?",
     "answers": [
       "Per ogni arma può essere utilizzata unicamente una munizione prevista per la stessa",
-      "Nel caso di un tiro a pallini bisogna prestare attenzione, che i pallini che non colpiscono il",
+      "Nel caso di un tiro a pallini bisogna prestare attenzione, che i pallini che non colpiscono il bersaglio, non arrechino danni",
       "Pallini di colpi che vengono sparati in verticale non sono pericolosi quando ricadono a terra",
       "Si può effettuare un colpo a fauna selvatica solamente se il proiettile non metta in pericolo persone o non provochi danni (ad esclusione al capo eventualmente colpito)"
     ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "3060",
     "question": "In quale caso si può dire di aver sparato un colpo in sicurezza?",
     "answers": [
       "Sparare su un terreno con buona visibilità, in salita in direzione di tiro con la natura del terreno tale, da non deviare la pallottola",
-      "",
+      "Presenza di alberi",
       "Presenza di fabbricati",
       "Presenza di cespugli"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3061",
-    "question": "Fino a quale distanza un tiro a pallini con munizione standard è efficace per l'abbattimento di",
+    "question": "Fino a quale distanza un tiro a pallini con munizione standard è efficace per l'abbattimento di selvaggina?",
     "answers": [
       "70 m",
-      "",
-      "35 m 4",
-      ""
+      "50 m",
+      "35 m"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3062",
@@ -10705,9 +10550,7 @@ const questions = [
       "250 m",
       "2,5 chilometri"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3063",
@@ -10718,9 +10561,7 @@ const questions = [
       "400 m",
       "4 chilometri"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3064",
@@ -10728,12 +10569,9 @@ const questions = [
     "answers": [
       "Diametro dei pallini (mm) x 50 m",
       "Diametro dei pallini (mm) x 100 m",
-      "Diametro dei pallini (mm) x 1000 m 4",
-      ""
+      "Diametro dei pallini (mm) x 1000 m"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "3065",
@@ -10741,12 +10579,9 @@ const questions = [
     "answers": [
       "Massimo 300 m",
       "Massimo 500 m",
-      "Massimo 700 m 4",
-      ""
+      "Massimo 700 m"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3066",
@@ -10754,38 +10589,27 @@ const questions = [
     "answers": [
       "All'incirca 500 m",
       "All'incirca 5 km",
-      "All'incirca 10 km 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
-      ""
+      "All'incirca 10 km"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "3067",
     "question": "In una doppietta quale canna viene attivata dal grilletto anteriore?",
     "answers": [
       "Quella destra",
-      "Quella sinistra 3 4",
-      "",
-      ""
+      "Quella sinistra"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3068",
     "question": "In un sovrapposto quale canna viene attivata dal grilletto anteriore?",
     "answers": [
-      "Quelle superiore",
-      "Quella inferiore 3 4",
-      "",
-      ""
+      "Quella superiore",
+      "Quella inferiore"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "3069",
@@ -10796,23 +10620,18 @@ const questions = [
       "Solo durante la caccia e su terreno non accidentato",
       "Solamente dopo aver individuato il capo da abbattere"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3070",
     "question": "Come deve essere portata un'arma in presenza di altre persone?",
     "answers": [
-      "Mai in maniera tale, che l¿arma sia puntata verso una persona",
+      "Mai in maniera tale, che l'arma sia puntata verso una persona",
       "Sempre smontata in ogni sua parte",
       "Solo in custodia",
       "Aperta se basculante o con l'otturatore aperto"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 3]
   },
   {
     "id": "3072",
@@ -10823,20 +10642,16 @@ const questions = [
       "Che vi sia fauna selvatica nei paraggi",
       "Che il fucile sia in sicura"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3073",
-    "question": "Come deve comportarsi un cacciatore se, dopo aver premuto il grilletto, il colpo non parte ....",
+    "question": "Come deve comportarsi un cacciatore se, dopo aver premuto il grilletto, il colpo non parte e se è certo di non aver dimenticato di togliere la sicura?",
     "answers": [
-      "Aprire immediatamente il fucile e prepararsi di nuovo al tiro 3 4",
-      "",
-      "",
-      ""
+      "Aprire immediatamente il fucile e prepararsi di nuovo al tiro",
+      "Attendere per un certo tempo, potendo trattarsi di un colpo a scoppio ritardato"
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "3074",
@@ -10844,12 +10659,9 @@ const questions = [
     "answers": [
       "Dopo averla caricata",
       "Durante l'uscita di caccia",
-      "Immediatamente prima del tiro 4",
-      ""
+      "Immediatamente prima del tiro"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3075",
@@ -10857,12 +10669,9 @@ const questions = [
     "answers": [
       "Immediatamente dopo aver caricato l'arma",
       "Immediatamente prima di aver tolto la sicura",
-      "Immediatamente prima del tiro 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
-      ""
+      "Immediatamente prima del tiro"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3076",
@@ -10873,23 +10682,17 @@ const questions = [
       "In caso di maltempo",
       "Quando si segue la selvaggina in alta quota"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "3077",
-    "question": "Come ci si comporta, se dopo aver tolto la sicura e inserito lo stecher, non si effettua lo",
+    "question": "Come ci si comporta, se dopo aver tolto la sicura e inserito lo stecher, non si effettua lo sparo?",
     "answers": [
       "Prima mettere in sicura, poi disattivare lo stecher",
-      "",
-      "Se è stato attivato lo stecher, l'arma non può più essere messa in sicura 4",
-      ""
+      "Prima disattivare lo stecher, poi mettere in sicura",
+      "Se è stato attivato lo stecher, l'arma non può più essere messa in sicura"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3078",
@@ -10897,37 +10700,29 @@ const questions = [
     "answers": [
       "Ingrandimento per 8 volte",
       "56 mm di diametro dell'obbiettivo",
-      "Ingrandimento per 8 volte e campo visivo di 56 m a una distanza di 1 chilometro 4",
-      ""
+      "Ingrandimento per 8 volte e campo visivo di 56 m a una distanza di 1 chilometro"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "3079",
     "question": "Cosa comporta l'appoggiare la punta del fucile su una base rigida al momento dello sparo?",
     "answers": [
-      "Il punto d' impatto sul bersaglio non cambia",
+      "Il punto d'impatto sul bersaglio non cambia",
       "Il rinculo è maggiore, perché la canna non può oscillare liberamente",
-      "Porta spesso a un'alterazione del punto d'impatto, perché la canna non può oscillare liberamente 4",
-      ""
+      "Porta spesso a un'alterazione del punto d'impatto, perché la canna non può oscillare liberamente"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3080",
-    "question": "Cosa può accadere se in fucile combinato sovrapposto o in un drilling con canna ad anima",
+    "question": "Cosa può accadere se in fucile combinato sovrapposto o in un drilling con canna ad anima rigata si sparano più colpi a palla consecutivi?",
     "answers": [
       "La traiettoria risulta bassa",
-      "",
-      "Non si hanno variazioni di traiettoria 4",
-      ""
+      "La traiettoria risulta alta",
+      "Non si hanno variazioni di traiettoria"
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "3082",
@@ -10935,12 +10730,9 @@ const questions = [
     "answers": [
       "La traiettoria della pallottola taglia la linea di mira a una distanza di 200 m",
       "200 m è la distanza ideale per cagionare un colpo mortale",
-      "La traiettoria ha una lunghezza di 200 m 4",
-      ""
+      "La traiettoria ha una lunghezza di 200 m"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3083",
@@ -10948,12 +10740,9 @@ const questions = [
     "answers": [
       "Nelle vicinanze della bocca della canna",
       "Nelle vicinanze del centro della canna",
-      "Nelle vicinanze della camera di cartuccia 4",
-      ""
+      "Nelle vicinanze della camera di cartuccia"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3084",
@@ -10961,12 +10750,9 @@ const questions = [
     "answers": [
       "A 50 m dalla fuoriuscita dalla canna",
       "A 100 m dalla fuoriuscita dalla canna",
-      "Al momento della fuoriuscita dalla canna 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
-      ""
+      "Al momento della fuoriuscita dalla canna"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3085",
@@ -10974,12 +10760,9 @@ const questions = [
     "answers": [
       "Massimo 6",
       "Massimo 10",
-      "In numero illimitato 4",
-      ""
+      "In numero illimitato"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3086",
@@ -10987,13 +10770,9 @@ const questions = [
     "answers": [
       "Tutti i maggiorenni, senza particolari limitazioni",
       "Chi ottiene il nulla osta dal Questore",
-      "Chi è in possesso di un qualsiasi porto d'armi 4",
-      ""
+      "Chi è in possesso di un qualsiasi porto d'armi"
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "3087",
@@ -11001,12 +10780,9 @@ const questions = [
     "answers": [
       "72 ore",
       "1 settimana",
-      "1 mese 4",
-      ""
+      "1 mese"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3088",
@@ -11017,10 +10793,7 @@ const questions = [
       "Otturatore",
       "Il calcio di un fucile a ripetizione"
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "3089",
@@ -11031,9 +10804,7 @@ const questions = [
       "Il caricatore",
       "I congegni di puntamento"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "3090",
@@ -11044,51 +10815,39 @@ const questions = [
       "Il prezzo",
       "Indicazione delle armi già in possesso della persona, per le armi con obbligo di denuncia"
     ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "3091",
     "question": "Dove deve essere denunciato il possesso di armi o di parti essenziali di esse?",
     "answers": [
-      "Alla Questura o al Commissariato di Polizia, competente per il comune dove le armi vengono detenute Questura o un Commissariato di Polizia",
-      "",
+      "Alla Questura o al Commissariato di Polizia, competente per il comune dove le armi vengono detenute",
+      "Alla Stazione dei Carabinieri del comune dove vengono custodite, se nel comune non vi è una Questura o un Commissariato di Polizia",
       "Al rettore della riserva di diritto di caccia",
       "Presso gli Uffici del comune di residenza"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "3092",
     "question": "In quali dei seguenti luoghi si possono custodire armi?",
     "answers": [
       "In luoghi sufficientemente sicuri cosicché non possano venir prese da bambini, persone non affidabili o tossicodipendenti",
-      "",
-      "Incustodite nella baita dei cacciatori 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
-      ""
+      "Nel vano portabagagli di una macchina incustodita",
+      "Incustodite nella baita dei cacciatori"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3093",
     "question": "Quali regole vigono per la custodia di munizioni?",
     "answers": [
       "Non è obbligatorio denunciare il possesso di munizioni",
-      "Se si è in possesso di un'arma denunciata, non è obbligatorio denunciare il possesso di",
+      "Se si è in possesso di un'arma denunciata, non è obbligatorio denunciare il possesso di cartucce a pallini fino a 1.000 pezzi",
       "Le munizioni a pallini devono sempre essere denunciate",
       "Per custodire più di 5 kg di polvere da sparo, compresa quella eventualmente presente in cartucce, bisogna avere una autorizzazione al deposito di sostanze esplosive"
     ],
-    "correct": [
-      1,
-      3
-    ]
+    "correct": [1, 3]
   },
   {
     "id": "3094",
@@ -11096,13 +10855,9 @@ const questions = [
     "answers": [
       "Bisogna essere in possesso di una licenza di porto d'armi o di un'autorizzazione al loro trasporto",
       "L'autorizzazione al trasporto di armi deve essere indicato nella patente di guida",
-      "Durante il trasporto le armi non possono essere utilizzabili rapidamente 4",
-      ""
+      "Durante il trasporto le armi non possono essere utilizzabili rapidamente"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "3095",
@@ -11113,24 +10868,17 @@ const questions = [
       "Smontate in ogni sua componente",
       "In custodia"
     ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "3096",
     "question": "Come devono essere trasportate armi?",
     "answers": [
       "Le munizioni devono essere custodite in luogo separato o impacchettate separatamente dalle armi",
-      "",
-      "In automobile le armi devono essere trasportate nel portabagagli 4",
-      ""
+      "In automobile le armi devono essere trasportate in custodia",
+      "In automobile le armi devono essere trasportate nel portabagagli"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "3097",
@@ -11141,32 +10889,26 @@ const questions = [
       "In autovettura le armi possono essere trasportate cariche e in custodia",
       "In autovettura le armi possono essere trasportate solo smontate"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "3098",
-    "question": "A quali persone si possono consegnare le proprie armi da caccia (vendere, imprestare o",
+    "question": "A quali persone si possono consegnare le proprie armi da caccia (vendere, imprestare o regalare)?",
     "answers": [
       "Solo a parenti",
-      "",
-      "Solo a persone che hanno superato l'esame venatorio 4",
-      ""
+      "Solo a persone che hanno l'autorizzazione all'acquisto di armi",
+      "Solo a persone che hanno superato l'esame venatorio"
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "3099",
-    "question": "Un privato cittadino vende o regala la propria doppietta a una persona con porto d'armi valido.",
+    "question": "Un privato cittadino vende o regala la propria doppietta a una persona con porto d'armi valido. Quali obblighi hanno gli interessati?",
     "answers": [
-      "Devono denunciarlo congiuntamente entro due settimane all'Autorità competente 3 4",
-      "",
-      "",
-      ""
+      "Devono denunciarlo congiuntamente entro due settimane all'Autorità competente",
+      "Devono denunziare la cessione congiuntamente entro 72 ore all'Autorità competente"
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "3100",
@@ -11174,25 +10916,20 @@ const questions = [
     "answers": [
       "No, in nessun caso",
       "Si, non vi sono limitazioni",
-      "Solo con l'autorizzazione del Prefetto o tramite un armaiolo 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
-      ""
+      "Solo con l'autorizzazione del Prefetto o tramite un armaiolo"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3101",
-    "question": "Quali documenti servono per l'esportazione temporanea di armi da caccia al di fuori del",
+    "question": "Quali documenti servono per l'esportazione temporanea di armi da caccia al di fuori del territorio statale?",
     "answers": [
       "Carta europea armi da fuoco o autorizzazione del Questore",
-      "",
+      "Licenza di porto di fucile a uso caccia valido",
       "Permesso di caccia",
       "Certificato d'origine"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "3102",
@@ -11200,25 +10937,20 @@ const questions = [
     "answers": [
       "Per l'identificazione certa della stessa",
       "Per documentarne la resistenza",
-      "Per indicarne il calibro 4",
-      ""
+      "Per indicarne il calibro"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3106",
-    "question": "In una carabina vi accorgete che fra la canna e la cassa vi è per tutta la lunghezza un pó di",
+    "question": "In una carabina vi accorgete che fra la canna e la cassa vi è per tutta la lunghezza un pó di luce (gioco). Ritenete che...",
     "answers": [
       "sia indispensabile, così che la canna possa oscillare liberamente",
-      "",
+      "sia un difetto di fabbrica",
       "sia dovuta al deposito del fucile in modo non consono in un luogo troppo secco",
       "sia indispensabile, dato che l'aerazione aiuta ad evitare l'arrugginimento della canna"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3107",
@@ -11229,9 +10961,7 @@ const questions = [
       "Sono visibili se l'arma non è in sicura e se lo stecher è stato armato",
       "Indicano che il meccanismo di percussione, cioè il percussore, è armato"
     ],
-    "correct": [
-      3
-    ]
+    "correct": [3]
   },
   {
     "id": "3108",
@@ -11240,12 +10970,9 @@ const questions = [
       "una configurazione del calcio che permette una migliore imbracciatura del fucile",
       "la pulizia e la custodia delle armi nel periodo annuale di silenzio venatorio",
       "La curvatura laterale del calcio rispetto alla linea di mira sia in fucili con canna ad anima liscia che in carabine",
-      "L¿individuale angolazione del calciolo, che permette una veloce e buona imbracciatura del fucile"
+      "L'individuale angolazione del calciolo, che permette una veloce e buona imbracciatura del fucile"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "3109",
@@ -11256,11 +10983,7 @@ const questions = [
       "Venendo le onde sonore, e rispettivamente pressorie, deviate lateralmente, la salute (l'udito) del tiratore e delle persone che gli stanno nelle vicinanze viene messa in pericolo",
       "Carabine sparano diversamente se dotate o meno di compensatore di bocca perché cambia il comportamento di oscillazione della canna"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 2, 3]
   },
   {
     "id": "3110",
@@ -11271,11 +10994,7 @@ const questions = [
       "La scelta della polvere nelle cartucce viene fatta in modo tale che la pressione sia distribuita pressoché equamente su tutta la lunghezza della canna",
       "Nei test al Banco di Prova per armi da caccia si lavora con pressioni del gas che superano del 25-30% quelle previste per il normale utilizzo dell'arma"
     ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "3111",
@@ -11284,70 +11003,53 @@ const questions = [
       "Produttore",
       "Il potere di penetrazione",
       "A volte, dati relativi alla velocità ed energia",
-      "Dati relativi al proiettile utilizzato rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+      "Dati relativi al proiettile utilizzato"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 2, 3]
   },
   {
     "id": "3112",
     "question": "Quali indicazioni si possono trovare sulle scatole per cartucce da carabina?",
     "answers": [
-      "L¿indicazione di tenere le munizioni fuori dalla portata dei bambini",
+      "L'indicazione di tenere le munizioni fuori dalla portata dei bambini",
       "Dati sulla traiettoria, compresa la distanza ottimale d'azzeramento",
       "La gettata massima del proiettile",
       "Il numero del lotto di produzione"
     ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "3113",
     "question": "Cosa corrisponde al vero nell'indicazione del calibro da carabina?",
     "answers": [
-      "Le indicazioni del calibro sono spesso indicazioni commerciali arrotondate, che corrispondono all¿incirca al diametro del proiettile indicato",
-      "",
+      "Le indicazioni del calibro sono spesso indicazioni commerciali arrotondate, che corrispondono all'incirca al diametro del proiettile indicato",
+      "Cartucce con calibro .270 Win hanno i proiettili di un diametro di 0.277 pollici (=7,0358 mm)",
       "L'indicazione del calibro in millimetri corrisponde sempre esattamente al diametro del proiettile",
       "Le cartucce di calibro .308 Win e .300 Win Mag hanno il medesimo diametro dei proiettili"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "3115",
     "question": "A che scopo vengono rivestiti i proiettili per carabine?",
     "answers": [
       "Si ha una diminuzione di depositi di materiale della palla all'interno della canna",
-      "Vengono aumentate le deformazioni e frammentazioni del proiettile nel corpo del selvatico",
+      "Vengono aumentate le deformazioni e frammentazioni del proiettile nel corpo del selvatico colpito",
       "Diminuisce l'attrito all'interno della canna",
       "Viene migliorata l'aerodinamica del proiettile"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "3116",
-    "question": "Quali di queste affermazioni riguardo alle palle uniche per armi non rigate (\"slug\")",
+    "question": "Quali di queste affermazioni riguardo alle palle uniche per armi non rigate (\"slug\") corrispondono al vero?",
     "answers": [
       "Possono essere sparate con tutti i fucili ad anima liscia, con qualsiasi strozzatura",
-      "",
+      "La detenzione di cartucce \"slug\" deve essere denunciata",
       "Da noi sono ammesse per la caccia al cinghiale",
       "Possono essere utilizzate in caso di ricerca autorizzata di fauna selvatica ferita quale, ad esempio, al cervo"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "3117",
@@ -11358,24 +11060,17 @@ const questions = [
       "12, 16, e 20",
       "10, 24 e 28"
     ],
-    "correct": [
-      2,
-      3
-    ]
+    "correct": [2, 3]
   },
   {
     "id": "3119",
     "question": "Di cosa bisogna tenere conto nella scelta della dimensione dei pallini?",
     "answers": [
-      "Pallini di dimensioni troppo grandi possono avere effetti a distanze più lunghe, ma, colpendo il bersaglio in numero minore, manca l'effetto shock, così che l'animale colpito va a morire",
+      "Pallini di dimensioni troppo grandi possono avere effetti a distanze più lunghe, ma, colpendo il bersaglio in numero minore, manca l'effetto shock, così che l'animale colpito va a morire lentamente",
       "La giusta scelta della dimensione dei pallini consente di sparare a distanze un pò più lunghe",
-      "Pallini troppo piccoli perdono velocemente velocità e potere di penetrazione e non riescono a sviluppare l'effetto mortale desiderato 4",
-      ""
+      "Pallini troppo piccoli perdono velocemente velocità e potere di penetrazione e non riescono a sviluppare l'effetto mortale desiderato"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "3120",
@@ -11383,55 +11078,43 @@ const questions = [
     "answers": [
       "No",
       "Sì, se l'arma è stata allo scopo adattata",
-      "Sì, se l'arma è sta sottoposta a una ulteriore prova a fuoco",
+      "Sì, se l'arma è stata sottoposta a una ulteriore prova a fuoco",
       "Sì, ma solamente se la bascula è in acciaio"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "3121",
-    "question": "Cosa può essere sparato da un fucile con canna ad anima liscia con calibro 12/76, strozzatura",
+    "question": "Cosa può essere sparato da un fucile con canna ad anima liscia con calibro 12/76, strozzatura 3/4 e provati per l'utilizzo di pallini in acciaio?",
     "answers": [
       "Palla unica per armi non rigate 12/76 magnum",
-      "",
+      "Cartucce 12/76 con 40 g di pallini in acciaio da 3,5 mm",
       "Cartucce 12/70 con 36 g di pallini in acciaio da 3 mm",
-      "Cartucce 12/67,5 con 32 g di pallini in piombo da 4 mm rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+      "Cartucce 12/67,5 con 32 g di pallini in piombo da 4 mm"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 1, 2, 3]
   },
   {
     "id": "3122",
     "question": "Come mai per fucili ad anima liscia vengono vendute munizioni con bossoli di 67,5 mm?",
     "answers": [
       "Perché i fucili di tutti i calibri sono dotati di camera di scoppio di questa grandezza",
-      "Perché queste munizioni possono essere utilizzate con i vecchi fucili con camera di scoppio di",
+      "Perché queste munizioni possono essere utilizzate con i vecchi fucili con camera di scoppio di 65 mm",
       "Si tratta di una munizione con una pressione del gas più bassa, così da poter essere utilizzata con i vecchi fucili a pallini Damasco Dies",
       "Questo tipo di munizione è stato creato principalmente quale compromesso per essere utilizzato in ambedue le camere di cartuccia di 65 e 70 mm"
     ],
-    "correct": [
-      1,
-      3
-    ]
+    "correct": [1, 3]
   },
   {
     "id": "3123",
-    "question": "Cosa corrisponde al vero nell'utilizzo di munizioni magnum con fucili con canne ad anima",
+    "question": "Cosa corrisponde al vero nell'utilizzo di munizioni magnum con fucili con canne ad anima liscia?",
     "answers": [
-      "Le munizioni magnum operano con una maggiore pressione del gas adeguata prova forzata da parte del Banco di Prova",
-      "",
+      "Le munizioni magnum operano con una maggiore pressione del gas",
+      "Fucili con canne ad anima liscia con munizioni magnum devono essere sottoposti ad una adeguata prova forzata da parte del Banco di Prova",
       "Camere di scoppio di 76 mm sono adatte all'utilizzo di munizioni magnum",
       "Con calibro uguale al 20 o più piccolo, le munizioni magnum non vengono più commercializzate"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 1, 2]
   },
   {
     "id": "3124",
@@ -11442,51 +11125,40 @@ const questions = [
       "Proiettili a punta cava",
       "Proiettili in rame"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "3125",
-    "question": "In alternativa ai proiettili parzialmente camiciati con nocciolo in piombo che possono",
+    "question": "In alternativa ai proiettili parzialmente camiciati con nocciolo in piombo che possono danneggiare l'ambiente e la salute oggi vengono utilizzati anche:",
     "answers": [
       "Proiettili pieni in ottone",
-      "",
+      "Proiettili pieni in rame",
       "Proiettili parzialmente camiciati con nocciolo in uranio",
       "Proiettili parzialmente camiciati con nocciolo in stagno"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "3126",
     "question": "Quali affermazioni rispetto ai pallini in acciaio (ferro dolce) sono vere?",
     "answers": [
       "A parità di diametro, i pallini in acciaio sono più leggeri di quelli in piombo",
-      "I nuovi fucili con canna ad anima liscia di norma sono adatti all¿utilizzo di pallini in acciaio, funzione della strozzatura utilizzata, per evitare possibili danni",
+      "I nuovi fucili con canna ad anima liscia di norma sono adatti all'utilizzo di pallini in acciaio, mentre nel caso di fucili più vecchi, vengono consigliate limitazioni del diametro dei pallini in funzione della strozzatura utilizzata, per evitare possibili danni",
       "Sulla stessa distanza cartucce a pallini in acciaio garantiscono una migliore copertura rispetto a cartucce a pallini di piombo",
       "I pallini in acciaio vengono frenati nella propria traiettoria più velocemente di quelli in piombo, a parità di peso"
     ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "3128",
-    "question": "Per quale motivo le munizioni per carabine non dovrebbero essere conservate troppo a lungo",
+    "question": "Per quale motivo le munizioni per carabine non dovrebbero essere conservate troppo a lungo (oltre 10 anni)?",
     "answers": [
-      "Per danni inevitabili alle stesse, causati da umidità e ruggine scoppio",
-      "",
+      "Per danni inevitabili alle stesse, causati da umidità e ruggine",
+      "Perche in bossoli di ottone il verderame che si forma potrebbe bloccare gli stessi nella camera di scoppio",
       "In quanto la capsula d'innesco potrebbe non funzionare",
       "Perché a lungo termine la polvere subisce variazioni chimiche che possono ripercuotersi sul rendimento del tiro, principalmente sulla pressione dei gas"
     ],
-    "correct": [
-      3
-    ]
+    "correct": [3]
   },
   {
     "id": "3130",
@@ -11495,83 +11167,63 @@ const questions = [
       "Cartucce per carabine, le cui pallottole mostrano una maggior dispersione",
       "Cartucce a pallini che sono più dispersanti di quelle standard",
       "Cartucce a pallini costruite in tale maniera per motivi ecologici, così che la borra si frantuma disperdendosi nell'ambiente",
-      "Cartucce a pallini che vengono preferite, ad esempio, per la caccia alle beccacce rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+      "Cartucce a pallini che vengono preferite, ad esempio, per la caccia alle beccacce"
     ],
-    "correct": [
-      1,
-      3
-    ]
+    "correct": [1, 3]
   },
   {
     "id": "3132",
-    "question": "Cosa corrisponde al vero in riferimento al tiro con l'utilizzo o meno del sensibilizzatore di",
+    "question": "Cosa corrisponde al vero in riferimento al tiro con l'utilizzo o meno del sensibilizzatore di scatto (stecher)?",
     "answers": [
-      "Nella caccia a battuta, con o senza cane, di regola non è ammesso l'utilizzo dello stecher scatto con stecher",
-      "",
+      "Nella caccia a battuta, con o senza cane, di regola non è ammesso l'utilizzo dello stecher",
+      "Nello sparo al bersaglio lo scatto diretto senza stecher è sempre svantaggioso rispetto allo scatto con stecher",
       "Anche per motivi di sicurezza, nelle carabine di nuova generazione si tende a preferire lo scatto diretto senza stecher",
       "Gli stecher sono regolabili in modo da essere molto sensibili, ma nell'effettuazione del tiro è necessaria una ulteriore azione meccanica, aumentando i movimenti e i tempi fino all'accensione dell'innesco"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 2, 3]
   },
   {
     "id": "3133",
-    "question": "In una carabina a ripetizione manuale con stecher a due grilletti, il grilletto posteriore viene",
+    "question": "In una carabina a ripetizione manuale con stecher a due grilletti, il grilletto posteriore viene azionato spingendolo in avanti. Quale sarà l'effetto?",
     "answers": [
       "Non succede nulla, perché non è possibile",
-      "",
+      "Il grilletto si blocca in avanti evitando il disinserimento non voluto dell'otturatore",
       "Può partire un colpo se l'arma è pronta al tiro",
-      "L¿otturatore può essere completamente estratto dal cilindro (scatola di culatta)"
+      "L'otturatore può essere completamente estratto dal cilindro (scatola di culatta)"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3134",
-    "question": "Quali accorgimenti importanti dal punto di vista della sicurezza bisogna adottare nelle armi con",
+    "question": "Quali accorgimenti importanti dal punto di vista della sicurezza bisogna adottare nelle armi con monta manuale a leva o a slitta (anche se sono considerate molto sicure)?",
     "answers": [
       "Nei fucili a canne basculanti cariche con due acciarini si ha un'arma ancora pronta al tiro dopo aver effettuato il primo colpo",
       "Con due successivi azionamenti della leva o slitta d'armamento in alcune armi basculanti vengono armati due acciarini",
       "Fucili a ripetizione con monta manuale a leva o a slitta, di norma, dopo lo sparo e la successiva ripetizione sono pronti all'uso",
-      "Spesso i fucili combinati a tre canne hanno un sistema di caricamento automatico per le canne ad anima liscia, così da dover essere messe in sicura separatamente; solo l¿acciarino della canna ad anima rigata viene caricato manualmente"
+      "Spesso i fucili combinati a tre canne hanno un sistema di caricamento automatico per le canne ad anima liscia, così da dover essere messe in sicura separatamente; solo l'acciarino della canna ad anima rigata viene caricato manualmente"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 2, 3]
   },
   {
     "id": "3135",
-    "question": "Quale delle seguenti affermazioni è esatta nel caso di uno sparo con residui d'olio nella",
+    "question": "Quale delle seguenti affermazioni è esatta nel caso di uno sparo con residui d'olio nella canna?",
     "answers": [
-      "I residui d'olio usato per la pulizia della canna vengono espulsi dal proiettile velocità uniformi delle pallottole",
-      "",
-      "Il colpo con canna oliata provoca quasi sempre scostamenti della traiettoria 4",
-      ""
+      "I residui d'olio usato per la pulizia della canna vengono espulsi dal proiettile",
+      "Nel tiro al bersaglio la canna viene leggermente oliata prima di ogni colpo, così da garantire velocità uniformi delle pallottole",
+      "Il colpo con canna oliata provoca quasi sempre scostamenti della traiettoria"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "3136",
-    "question": "Dovete dare il colpo di grazia da una breve distanza (5 metri) con una carabina dotata di",
+    "question": "Dovete dare il colpo di grazia da una breve distanza (5 metri) con una carabina dotata di cannocchiale da puntamento. A cosa dovete prestare particolare attenzione?",
     "answers": [
-      "Linea di mira e traiettoria si discostano di alcuni centimetri fra loro punto di mira)",
-      "",
+      "Linea di mira e traiettoria si discostano di alcuni centimetri fra loro",
+      "A 5 metri di distanza linea di mira e traiettoria si sovrappongono (l'arma spara all'incirca sul punto di mira)",
       "Puntare alcuni cm più in basso",
       "Puntare alcuni cm più in alto"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 3]
   },
   {
     "id": "3137",
@@ -11580,39 +11232,31 @@ const questions = [
       "I reticoli fosforescenti sono vietati, in quanto anche la caccia nelle ore notturne è vietata",
       "I reticoli fosforescenti servono a un preciso riconoscimento del bersaglio",
       "I reticoli fosforescenti permettono di riconoscere il reticolo di mira in caso di luce insufficiente",
-      "L¿utilizzo di reticoli fosforescenti, da non confondersi con le sorgenti luminose artificiali o con i dispositivi ottici equipaggiati di convertitore di immagini, è consentito"
+      "L'utilizzo di reticoli fosforescenti, da non confondersi con le sorgenti luminose artificiali o con i dispositivi ottici equipaggiati di convertitore di immagini, è consentito"
     ],
-    "correct": [
-      2,
-      3
-    ]
+    "correct": [2, 3]
   },
   {
     "id": "3138",
     "question": "Quali delle seguenti affermazioni in riferimento alla parallasse dei cannocchiali sono esatte?",
     "answers": [
-      "Si parla di parallasse se guardando attraverso il cannocchiale il reticolo di mira si muove sul bersaglio, quando si sposta l'occhio fenomeno stesso della parallasse solo a una distanza ben definita (solitamente 100 m)",
-      "",
+      "Si parla di parallasse se guardando attraverso il cannocchiale il reticolo di mira si muove sul bersaglio, quando si sposta l'occhio",
+      "I cannocchiali non dotati di dispositivo per la regolazione della parallasse sono liberi dal fenomeno stesso della parallasse solo a una distanza ben definita (solitamente 100 m)",
       "Normalmente fino a 300 metri non si dovrebbero riscontrare errori di puntamento a causa della parallasse",
-      "Errori di puntamento a causa della parallasse possono essere evitati se si riesce a guardare centralmente attraverso il cannocchiale rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+      "Errori di puntamento a causa della parallasse possono essere evitati se si riesce a guardare centralmente attraverso il cannocchiale"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "3139",
-    "question": "Quali dei seguenti parametri dei cannocchiali sono di particolare rilevanza in caso di luce",
+    "question": "Quali dei seguenti parametri dei cannocchiali sono di particolare rilevanza in caso di luce debole?",
     "answers": [
       "Diametro dell'oculare (lente più vicina all'occhio)",
-      "",
+      "Ingrandimento",
       "Diametro dell'obiettivo (lente più lontana dall'occhio)",
       "Lunghezza del cannocchiale"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "3140",
@@ -11623,9 +11267,7 @@ const questions = [
       "8 x 56",
       "10 x 42"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3141",
@@ -11636,34 +11278,29 @@ const questions = [
       "Si diminuisce il riflesso sulla superficie della lente",
       "Si aumenta la permeabilità ai raggi luminosi della luce"
     ],
-    "correct": [
-      2,
-      3
-    ]
+    "correct": [2, 3]
   },
   {
     "id": "3142",
     "question": "Cosa si intende per gli intensificatori di luce residua?",
     "answers": [
       "Vengono anche detti visori notturni e aumentano, tramite apposito valvola intensificatore, l'intensità della luce residua presente",
-      "",
+      "Ne è vietato l'utilizzo per l'esercizio della caccia",
       "Funzionano solamente se viene attivata una lampada a raggi infrarossi, peraltro non recepita dall'occhio umano",
       "In caso di danni da fauna selvatica a colture agricole intensive, il suo utilizzo per la caccia al cervo, anche in combinazione con un cannocchiale di puntamento, è ammesso"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "3143",
     "question": "Cosa si intende per balistica esterna di un proiettile sparato con carabina?",
     "answers": [
-      "I processi che avvengono dal momento dell'innesco della cartuccia fino al momento in cui il proiettile colpisce il bersaglio colpisce il bersaglio",
-      "",
+      "I processi che avvengono dal momento dell'innesco della cartuccia fino al momento in cui il proiettile colpisce il bersaglio",
+      "I processi che avvengono dal momento in cui la palla esce dalla canna fino al momento in cui colpisce il bersaglio",
       "I processi che avvengono dopo l'uscita del proiettile dal corpo dell'animale colpito",
       "Il moto del proiettile dal distacco dal bossolo fino alla volata"
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "3144",
@@ -11674,9 +11311,7 @@ const questions = [
       "Le proprietà comportamentali del proiettile dovute alla sua costituzione interna",
       "Tutti i processi che si svolgono all'interno della culatta da quando si preme il grilletto all'urto della punta del percussore sulla capsula d'innesco"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "3145",
@@ -11687,23 +11322,18 @@ const questions = [
       "L'attrito della canna",
       "La forza di gravità"
     ],
-    "correct": [
-      1,
-      3
-    ]
+    "correct": [1, 3]
   },
   {
     "id": "3146",
-    "question": "Cosa accade se al momento dell'effettuazione di un tiro una carabina viene inclinata",
+    "question": "Cosa accade se al momento dell'effettuazione di un tiro una carabina viene inclinata lateralmente (verso destra o verso sinistra)?",
     "answers": [
       "Il colpo risulta spostato leggermente in alto e nella stessa direzione dell'inclinazione",
-      "",
+      "Il colpo risulta spostato leggermente in alto e in direzione contraria dell'inclinazione",
       "Il colpo risulta spostato leggermente in basso e nella stessa direzione dell'inclinazione",
-      "Il colpo risulta spostato leggermente in basso e in direzione contraria all'inclinazione rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+      "Il colpo risulta spostato leggermente in basso e in direzione contraria all'inclinazione"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3147",
@@ -11714,25 +11344,18 @@ const questions = [
       "A causa di reazioni chimiche col gas prodotto dallo sparo, risultano più visibili",
       "Dopo aver pulito a fondo e asportato completamente il materiale depositato, si possono manifestare variazioni d'impatto del proiettile nei primi tiri"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 3]
   },
   {
     "id": "3148",
     "question": "Quali affermazioni sono esatte in un tiro con grande angolo di sito?",
     "answers": [
-      "In un tiro verso valle l'animale deve essere colpito un pò più in alto, così che il proiettile trapassi trasversalmente all'incirca il centro della gabbia toracica stesso aumenta",
-      "",
+      "In un tiro verso valle l'animale deve essere colpito un pò più in alto, così che il proiettile trapassi trasversalmente all'incirca il centro della gabbia toracica",
+      "In un tiro verso monte diminuisce l'effetto della forza di gravità, mentre in un tiro verso valle lo stesso aumenta",
       "Con tiri con grande angolo di sito, l'impatto del proiettile è più alto che nei tiri in piano, dato che la forza di gravità non agisce sul proiettile perpendicolarmente alla sua traiettoria",
       "In un tiro verso monte l'animale deve essere colpito un pò più in basso, così che il proiettile trapassi trasversalmente all'incirca il centro della gabbia toracica"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 2, 3]
   },
   {
     "id": "3149",
@@ -11743,76 +11366,60 @@ const questions = [
       "Il valore dell'energia del proiettile (indicata normalmente in joule) a una distanza di tiro di 100 m",
       "Indica che questa munizione dovrebbe essere utilizzata solo fino a 100 m di distanza a causa della propria energia"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3151",
-    "question": "In quale dei seguenti punti di una traiettoria si trova la distanza ottimale d'azzeramento in caso",
+    "question": "In quale dei seguenti punti di una traiettoria si trova la distanza ottimale d'azzeramento in caso di tiro orizzontale?",
     "answers": [
-      "All¿incrocio del proiettile in traiettoria discendente con la linea di mira distanza ottimale d'azzeramento",
-      "",
-      "All¿incrocio del proiettile in traiettoria ascendente con la linea di mira",
+      "All'incrocio del proiettile in traiettoria discendente con la linea di mira",
+      "La traiettoria e la linea di mira si incrociano solamente una volta nel punto esatto in cui si trova la distanza ottimale d'azzeramento",
+      "All'incrocio del proiettile in traiettoria ascendente con la linea di mira",
       "Nel punto in cui il proiettile incrocia la seconda volta la linea di mira"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 3]
   },
   {
     "id": "3152",
-    "question": "Come tarate una carabina, la cui munizione ha una distanza ottimale di azzeramento di 170",
+    "question": "Come tarate una carabina, la cui munizione ha una distanza ottimale di azzeramento di 170 m?",
     "answers": [
-      "Col punto in bianco a 200 m indicato dal produttore per ottenere l'esatta taratura sulla distanza ottimale di azzeramento",
-      "",
+      "Col punto in bianco a 200 m",
+      "A 100 m in maniera tale, che la traiettoria del proiettile abbia il rialzo rispetto alla linea di mira indicato dal produttore per ottenere l'esatta taratura sulla distanza ottimale di azzeramento",
       "Col punto in bianco a 170 m",
-      "Punto d¿impatto a 100 metri 5 cm sopra il punto di mira"
+      "Punto d'impatto a 100 metri 5 cm sopra il punto di mira"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "3153",
-    "question": "Quante volte la traiettoria di un proiettile di carabina incrocia l'asse dell'anima della canna",
+    "question": "Quante volte la traiettoria di un proiettile di carabina incrocia l'asse dell'anima della canna (teorico prolungamento della linea mediana della canna) al di fuori della canna stessa?",
     "answers": [
       "1 volta",
-      "",
-      "mai 4",
-      ""
+      "2 volte",
+      "mai"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3154",
-    "question": "Come bisogna tarare le carabine per un tiro utile alla prassi venatoria in un poligono a 100",
+    "question": "Come bisogna tarare le carabine per un tiro utile alla prassi venatoria in un poligono a 100 metri?",
     "answers": [
       "In maniera tale, che la traiettoria del proiettile a 100 m abbia il rialzo rispetto alla linea di mira indicato dal produttore per ottenere l'esatta taratura sulla distanza ottimale di azzeramento (solitamente il rialzo è di appena 4 cm)",
       "Chi a volte vuole sparare a distanze molto lunghe dovrebbe alzare la traiettoria a 8 - 10 cm sopra la linea di mira",
-      "Il rialzo del punto d'impatto non andrebbe mai portato sopra i 4 cm, in quanto l'ordinata massima di traiettoria normalmente è posta leggermente oltre i 100 m di distanza e un innalzamento maggiore potrebbe aumentare il rischio di colpire male l¿animale 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
-      ""
+      "Il rialzo del punto d'impatto non andrebbe mai portato sopra i 4 cm, in quanto l'ordinata massima di traiettoria normalmente è posta leggermente oltre i 100 m di distanza e un innalzamento maggiore potrebbe aumentare il rischio di colpire male l'animale"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "3158",
-    "question": "Con quale inclinatura in alto della canna i proiettili di carabina raggiungono la distanza",
+    "question": "Con quale inclinatura in alto della canna i proiettili di carabina raggiungono la distanza maggiore?",
     "answers": [
       "15° (gradi sessagesimali)",
-      "",
+      "20° - 25°",
       "30° - 35°",
       "40° - 45°"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3161",
@@ -11823,25 +11430,18 @@ const questions = [
       "Il grado di frammentazione dell'incamiciatura",
       "La massa del proiettile"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 3]
   },
   {
     "id": "3162",
     "question": "Cosa corrisponde al vero riguardo alle velocità dei proiettili?",
     "answers": [
       "proiettili per carabina raggiungono velocità anche superiori ai 1000 m/s",
-      "Proiettili di fucili con canna ad anima liscia raggiungono velocità simili a quelli di carabine, solo",
+      "Proiettili di fucili con canna ad anima liscia raggiungono velocità simili a quelli di carabine, solo che l'attrito dell'aria ne diminuisce repentinamente la velocità",
       "Quando escono dalla bocca dell'arma i pallini raggiungono una velocità all'incirca del 20% superiore a quella del suono",
-      "Proiettili leggeri possono essere accelerati a una velocità superiore, ma vengono frenati più velocemente dalla forza d'attrito dell:aria"
+      "Proiettili leggeri possono essere accelerati a una velocità superiore, ma vengono frenati più velocemente dalla forza d'attrito dell'aria"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 2, 3]
   },
   {
     "id": "3163",
@@ -11852,25 +11452,18 @@ const questions = [
       "Carabine semiautomatiche con riduzione della capacità del serbatoio o caricatore a 2 colpi",
       "Fucili automatici, se la capacità del serbatoio o caricatore viene ridotta a due soli colpi"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "3164",
-    "question": "Cosa bisogna considerare nell'indicazione dell diametro dei pallini espresso in numeri?",
+    "question": "Cosa bisogna considerare nell'indicazione del diametro dei pallini espresso in numeri?",
     "answers": [
       "Con numerazione tedesca il diametro varia di ca. 0,25 mm per ogni numero intero",
-      "In Italia si utilizza volentieri una numerazione con intervalli di ca. 0,20 mm per ogni numero",
+      "In Italia si utilizza volentieri una numerazione con intervalli di ca. 0,20 mm per ogni numero intero",
       "Nell'Unione Europea esistono norme unificate per l'indicazione in numeri dei pallini",
       "A causa di differenti numerazioni utilizzate per indicare il diametro dei pallini è opportuno attenersi alle indicazioni espresse in millimetri"
     ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "3165",
@@ -11881,11 +11474,7 @@ const questions = [
       "Con i calibri magnum ad alta velocità il vento non influisce sulla traiettoria del proiettile",
       "Nel rispetto dell'etica venatoria si raccomanda di rinunciare a tiri lontani con vento"
     ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "3166",
@@ -11893,25 +11482,19 @@ const questions = [
     "answers": [
       "dopo ogni utilizzo",
       "una volta l'anno",
-      "una volta al mese 4",
-      ""
+      "una volta al mese"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "3167",
-    "question": "Le cartucce a pallini che hanno preso umidiá...",
+    "question": "Le cartucce a pallini che hanno preso umidità...",
     "answers": [
       "devono essere asciugate prima dell'utilizzo",
       "possono essere utilizzate solo a scopo di esercitazione",
-      "non devono essere più utilizzate 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
-      ""
+      "non devono essere più utilizzate"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "3168",
@@ -11919,12 +11502,9 @@ const questions = [
     "answers": [
       "è maggiore con pallini più grandi",
       "è maggiore con pallini più piccoli",
-      "è uguale in entrambi i casi 4 rep_jfrag",
-      ""
+      "è uguale in entrambi i casi"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "4001",
