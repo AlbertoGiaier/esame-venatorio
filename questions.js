@@ -636,30 +636,30 @@ const questions = [
     "question": "Quali specie portano durante l'inverno un mantello o un piumaggio bianco?",
     "answers": [
       "Lepre variabile",
-      "Ermellino",
-      "Pernice bianca Lepre comune"
+      "Coturnice"
+      "Marmotta",
+      "Ermellino"
     ],
     "correct": [
-      1,
-      2,
-      3
+      0,3
     ]
   },
   {
     "id": "1060",
-    "question": "Dove è presente dappertutto il capriolo? In quale ambiente naturale il capriolo si trova maggiormente a proprio agio?",
+    "question": "Dove è presente dappertutto il capriolo?",
     "answers": [
-      "nel fitto del bosco di conifere",
-      "nei territori caratterizzati dall'alternanza di bosco e prato/coltivi, con molto sottobosco e zone aperte con vegetazione fresca",
-      "zone ripide e rocciose al disopra del confine del bosco a 2000 m di altitudine"
+      "in pianura",
+      "in bosco",
+      "al confine del bosco",
+      "nei territori aperti"
     ],
     "correct": [
-      1
+      0,1,2,3
     ]
   },
   {
     "id": "1061",
-    "question": "Dove è presente dappertutto il capriolo? In quale ambiente naturale il capriolo si trova maggiormente a proprio agio?",
+    "question": "In quale ambiente naturale il capriolo si trova maggiormente a proprio agio?",
     "answers": [
       "nel fitto del bosco di conifere",
       "nei territori caratterizzati dall'alternanza di bosco e prato/coltivi, con molto sottobosco e zone aperte con vegetazione fresca",
@@ -673,32 +673,33 @@ const questions = [
     "id": "1062",
     "question": "Quale fabbisogno di nutrimento ha il capriolo?",
     "answers": [
-      "ha bisogno di nutrimento ricco di cellulosa e fibre, che rimane a lungo nel rumine ha bisogno di cibo facilmente digeribile ad alto valore nutrizionale",
+      "ha bisogno di nutrimento ricco di cellulosa e fibre, che rimane a lungo nel rumine",
+      "ha bisogno di cibo facilmente digeribile ad alto valore nutrizionale",
       "bruca principalmente erba, farne e corteccia",
       "bruca principalmente foglie, erbe e gemme"
     ],
     "correct": [
-      3
+      1,3
     ]
   },
   {
     "id": "1063",
-    "question": "In quale mese il fabbisogno nutrizionale del capriolo è ridotto al minimo? Comportamento alimentare e fabbisogno nutrizionale del capriolo. Quali affermazioni sono corrette?",
+    "question": "In quale mese il fabbisogno nutrizionale del capriolo è ridotto al minimo?",
     "answers": [
-      "di tutti i ruminanti selvatici autoctoni il capriolo ha il rumine più grande il capriolo è in grado di sfruttare bene foraggio difficilmente digeribile",
-      "il rumine è relativamente piccolo in relazione al volume corporeo",
-      "il capriolo deve brucare spesso per assorbire sufficientemente sostanze nutritive"
+      "gennaio",
+      "maggio",
+      "settembre"   
     ],
     "correct": [
-      2,
-      3
+      0
     ]
   },
   {
     "id": "1064",
-    "question": "In quale mese il fabbisogno nutrizionale del capriolo è ridotto al minimo? Comportamento alimentare e fabbisogno nutrizionale del capriolo. Quali affermazioni sono corrette?",
+    "question": "Comportamento alimentare e fabbisogno nutrizionale del capriolo. Quali affermazioni sono corrette?",
     "answers": [
-      "di tutti i ruminanti selvatici autoctoni il capriolo ha il rumine più grande il capriolo è in grado di sfruttare bene foraggio difficilmente digeribile",
+      "di tutti i ruminanti selvatici autoctoni il capriolo ha il rumine più grande",
+      "il capriolo è in grado di sfruttare bene foraggio difficilmente digeribile",
       "il rumine è relativamente piccolo in relazione al volume corporeo",
       "il capriolo deve brucare spesso per assorbire sufficientemente sostanze nutritive"
     ],
@@ -712,59 +713,63 @@ const questions = [
     "question": "Quale di questi ambiti dell'habitat è particolarmente attrattivo per i caprioli?",
     "answers": [
       "prati fortemente sovra concimati",
-      "posti umidi dove rotolarsi nel fango e melma ambito di transito da bosco in prato",
+      "posti umidi dove rotolarsi nel fango e melma",
+      "ambito di transito da bosco in prato",
       "ghiaioni alpini al disopra del confine del bosco"
     ],
     "correct": [
-      1
+      2
     ]
   },
   {
     "id": "1066",
     "question": "Come é il comportamento sociale dei caprioli?",
     "answers": [
-      "becchi e capriole vivono territorialmente in primavera ed in estate becchi e capriole vivono in branchi separati",
+      "becchi e capriole vivono territorialmente in primavera ed in estate",
+      "becchi e capriole vivono in branchi separati",
       "i caprioli si radunano in piccoli gruppi durante l'inverno",
       "becchi e capriole si occupano entrambi nell'allevamento dei piccoli"
     ],
     "correct": [
-      1
+      0,2
     ]
   },
   {
     "id": "1067",
-    "question": "Quali tipi di comportamento corrispondono al capriolo durante l'estate? Etologia dei becchi di capriolo. Quali affermazioni sono corrette?",
+    "question": "Quali tipi di comportamento corrispondono al capriolo durante l'estate?",
     "answers": [
-      "i becchi si radunano in branchi durante il periodo del basto i becchi marcano il loro territorio da marzo in poi",
-      "dal mese di maggio i yearling cercano un proprio territorio",
-      "i becchi si tollerano a vicenda nello stesso e medesimo territorio"
+      "territoriale",
+      "prevalentemente solitario",
+      "in gruppi"
     ],
     "correct": [
-      1
+      0, 1
     ]
   },
   {
     "id": "1068",
-    "question": "Quali tipi di comportamento corrispondono al capriolo durante l'estate? Etologia dei becchi di capriolo. Quali affermazioni sono corrette?",
+    "question": "Etologia dei becchi di capriolo. Quali affermazioni sono corrette?",
     "answers": [
-      "i becchi si radunano in branchi durante il periodo del basto i becchi marcano il loro territorio da marzo in poi",
+      "i becchi si radunano in branchi durante il periodo del basto",
+      "i becchi marcano il loro territorio da marzo in poi",
       "dal mese di maggio i yearling cercano un proprio territorio",
       "i becchi si tollerano a vicenda nello stesso e medesimo territorio"
     ],
     "correct": [
-      1
+      1,2
     ]
   },
   {
     "id": "1069",
     "question": "Etologia dei becchi di capriolo. Quali affermazioni sono corrette?",
     "answers": [
-      "i becchi difendono il loro territorio da aprile/maggio, gli intrusi vengono scacciati i becchi si radunano in branchi durante il periodo del basto",
+      "i becchi difendono il loro territorio da aprile/maggio, gli intrusi vengono scacciati",
+      "i becchi si radunano in branchi durante il periodo del basto",
       "i becchi difendono un branco di capriole durante il periodo degli amori dai rivali in competizione",
       "durante l'autunno e l'inverno i becchi possono vivere anche in gruppi misti"
     ],
     "correct": [
-      3
+      0,3
     ]
   },
   {
@@ -772,24 +777,25 @@ const questions = [
     "question": "Capriolo: perché i becchi yearling si possono osservare più spesso in primavera che in estate?",
     "answers": [
       "perché sono alla ricerca di un territorio libero",
-      "perché vengono allontanati dalla madre e dagli altri becchi perché sono alla ricerca di capriole in amore",
+      "perché vengono allontanati dalla madre e dagli altri becchi",
+      "perché sono alla ricerca di capriole in amore",
       "perché gli yearling in primavera si raggruppano in branchi di becchi"
     ],
     "correct": [
-      1
+      0,1
     ]
   },
   {
     "id": "1071",
     "question": "Come marca il suo territorio, il becco di capriolo?",
     "answers": [
-      "pone le fatte presso i rialzamenti pronunciati del terreno bramisce",
+      "pone le fatte presso i rialzamenti pronunciati del terreno",
+      "bramisce",
       "soffrega piccoli alberi, rami ed arbusti",
       "soffregando rilascia una sostanza odorosa escreta da una ghiandola sulla fronte"
     ],
     "correct": [
-      2,
-      3
+      2,3
     ]
   },
   {
@@ -797,11 +803,12 @@ const questions = [
     "question": "Come marca il suo territorio, il becco di capriolo?",
     "answers": [
       "soffrega piccoli alberi, rami ed arbusti",
-      "pone le fatte presso i rialzamenti pronunciati del terreno spruzza la propria urina",
+      "pone le fatte presso i rialzamenti pronunciati del terreno",
+      "spruzza la propria urina",
       "raspa il suolo boschivo con le zampe anteriori"
     ],
     "correct": [
-      3
+      0, 3
     ]
   },
   {
@@ -809,23 +816,25 @@ const questions = [
     "question": "In quali posizioni del corpo, il becco di capriolo ha ghiandole odorifere, con le quali vengono emessi degli escreti per rilasciare segnalazioni odorose o per marcare il proprio quartiere?",
     "answers": [
       "allo specchio",
-      "sul torace tra le zampe anteriori presso le zampe posteriori",
+      "sul torace tra le zampe anteriori",
+      "presso le zampe posteriori",
       "sulla regione frontale in prossimità del trofeo"
     ],
     "correct": [
-      1
+      2,3
     ]
   },
   {
     "id": "1074",
     "question": "Etologia della capriola. Quali affermazioni sono corrette?",
     "answers": [
-      "le capriole vivono in branchi, le femmine gravide si allontanano solo al momento del parto le capriole sottili si insediano solitamente nelle vicinanze della madre",
+      "le capriole vivono in branchi, le femmine gravide si allontanano solo al momento del parto",
+      "le capriole sottili si insediano solitamente nelle vicinanze della madre",
       "in autunno e in inverno le capriole possono vivere anche in gruppi misti",
       "i giovani caprioli rimangono con la capriola fino al compimento del secondo anno di vita"
     ],
     "correct": [
-      1
+      1,2
     ]
   },
   {
@@ -833,33 +842,37 @@ const questions = [
     "question": "Quando il becco di capriolo difende particolarmente il suo territorio?",
     "answers": [
       "in primavera e in estate",
-      "in uguale misura, durante tutto l'anno d'inverno e in primavera",
+      "in uguale misura, durante tutto l'anno",
+      "d'inverno e in primavera",
       "in autunno e d'inverno"
     ],
     "correct": [
-      1
+      0
     ]
   },
   {
     "id": "1076",
-    "question": "In quali mesi cade l'epoca degli amori nei caprioli? Da cosa si riconosce, che nella riserva è in corso l'epoca degli amori nei caprioli?",
+    "question": "In quali mesi cade l'epoca degli amori nei caprioli?",
     "answers": [
-      "le capriole vengono inseguite insistentemente dal becco si notano più danni da scortecciamento agli alberi",
-      "si sente la capriola emettere \"fippii\" (tenui fischi) si sente il becco emettere un tipico \"abbaio\""
+      "febbraio-marzo",
+      "aprile-maggio",
+      "luglio-agosto"
     ],
     "correct": [
-      1
+      2
     ]
   },
   {
     "id": "1077",
-    "question": "In quali mesi cade l'epoca degli amori nei caprioli? Da cosa si riconosce, che nella riserva è in corso l'epoca degli amori nei caprioli?",
+    "question": "Da cosa si riconosce, che nella riserva è in corso l'epoca degli amori nei caprioli?",
     "answers": [
-      "le capriole vengono inseguite insistentemente dal becco si notano più danni da scortecciamento agli alberi",
-      "si sente la capriola emettere \"fippii\" (tenui fischi) si sente il becco emettere un tipico \"abbaio\""
+      "le capriole vengono inseguite insistentemente dal becco",
+      "si notano più danni da scortecciamento agli alberi",
+      "si sente la capriola emettere \"fippii\" (tenui fischi)",
+      "si sente il becco emettere un tipico \"abbaio\""
     ],
     "correct": [
-      1
+      0,2
     ]
   },
   {
@@ -868,29 +881,32 @@ const questions = [
     "answers": [
       "nuovi getti e germogli vengono morsicati con maggior frequenza",
       "si possono notare piccoli sentieri raspati sul terreno, a forma di otto o di cerchio (cerchi delle streghe, giostre amorose)",
-      "si sente la capriola emettere \"fippii\" (tenui fischi) si possono trovare palchi gettati"
+      "si sente la capriola emettere \"fippii\" (tenui fischi)",
+      "si possono trovare palchi gettati"
     ],
     "correct": [
-      1
+      1,2
     ]
   },
   {
     "id": "1079",
     "question": "Cosa s'intende per \"periodo amori ritardato\"?",
     "answers": [
-      "capriole, che in estate non sono state coperte, ritornano in calore da novembre gli yearling sfregano appena in luglio e vanno tardivamente in amore",
+      "capriole, che in estate non sono state coperte, ritornano in calore da novembre",
+      "gli yearling sfregano appena in luglio e vanno tardivamente in amore",
       "lo sviluppo dell'uovo fecondato in estate inizia appena in inverno",
       "se le condizioni atmosferico/climatiche sono sfavorevoli il periodo degli amori parte in ritardo"
     ],
     "correct": [
-      1
+      0
     ]
   },
   {
     "id": "1080",
     "question": "Cosa s'intende con \"embriostasi\"?",
     "answers": [
-      "capriole, che in estate non sono state coperte, ritornano in calore da novembre lo sviluppo dell'uovo fecondato in estate inizia appena in inverno",
+      "capriole, che in estate non sono state coperte, ritornano in calore da novembre",
+      "lo sviluppo dell'uovo fecondato in estate inizia appena in inverno",
       "è il periodo nel quale le femmine degli uccelli covano le uova",
       "i lagomorfi hanno un utero diviso e possono essere nuovamente fecondati prima di partorire"
     ],
@@ -902,7 +918,9 @@ const questions = [
     "id": "1081",
     "question": "Quando termina la \"embriostasi\" dei caprioli?",
     "answers": [
-      "in dicembre"
+      "in ottobre",
+      "in dicembre",
+      "in febbraio"
     ],
     "correct": [
       1
@@ -912,49 +930,60 @@ const questions = [
     "id": "1082",
     "question": "Quale scopo ha la \"embriostasi\"?",
     "answers": [
-      "lo svezzamento dei piccoli avviene in un periodo climaticamente favorevole tutte le femmine riproduttive, ovvero sessualmente mature, vengono coperte",
+      "lo svezzamento dei piccoli avviene in un periodo climaticamente favorevole",
+      "tutte le femmine riproduttive, ovvero sessualmente mature, vengono coperte",
       "molta calma e possibilmente poco movimento favoriscono il bilancio energetico durante lo sviluppo embrionale",
       "il metabolismo aumenta durante i mesi invernali, quando vige scarsità di foraggio"
     ],
     "correct": [
-      1
+      0
     ]
   },
   {
     "id": "1083",
-    "question": "In quali specie selvatiche conosciamo la \"embriostasi\"? In quali specie selvatiche conosciamo la \"embriostasi\"?",
+    "question": "In quali specie selvatiche conosciamo la \"embriostasi\"?",
     "answers": [
-      "Volpe Martora Ermellino Camoscio"
+      "Capriolo",
+      "Gallo cedrone",
+      "Lepre comune",
+      "Tasso"
     ],
     "correct": [
-      1
+      0,3
     ]
   },
   {
     "id": "1084",
-    "question": "In quali specie selvatiche conosciamo la \"embriostasi\"? In quali specie selvatiche conosciamo la \"embriostasi\"?",
+    "question": "In quali specie selvatiche conosciamo la \"embriostasi\"?",
     "answers": [
-      "Volpe Martora Ermellino Camoscio"
+      "Volpe",
+      "Martora",
+      "Ermellino",
+      "Camoscio"
     ],
     "correct": [
-      1
+      1,2
     ]
   },
   {
     "id": "1085",
-    "question": "A quale età le capriole solitamente possono avere il primo estro (vanno in calore)? Quando maturano sessualmente i caprioli?",
+    "question": "A quale età le capriole solitamente possono avere il primo estro (vanno in calore)?",
     "answers": [
-      "con mezzo anno di età con un anno di età con due anni di età"
+      "14esimo mese di vita",
+      "18esimo mese di vita",
+      "22esimo mese di vita"
     ],
     "correct": [
-      1
+      0
     ]
   },
   {
     "id": "1086",
-    "question": "A quale età le capriole solitamente possono avere il primo estro (vanno in calore)? Quando maturano sessualmente i caprioli?",
+    "question": "Quando maturano sessualmente i caprioli?",
     "answers": [
-      "con mezzo anno di età con un anno di età con due anni di età"
+      "con mezzo anno di età",
+      "con un anno di età",
+      "con due anni di età"
     ],
     "correct": [
       1
@@ -964,7 +993,9 @@ const questions = [
     "id": "1087",
     "question": "Con che età, generalmente una capriola, è in grado di partorire per la prima volta?",
     "answers": [
-      "con un anno di età con due anni di età con tre anno di età"
+      "con un anno di età",
+      "con due anni di età",
+      "con tre anno di età"
     ],
     "correct": [
       1
@@ -972,20 +1003,23 @@ const questions = [
   },
   {
     "id": "1088",
-    "question": "Quali sono i mesi, che possono essere presi maggiormente in considerazione, per il parto dei caprioli? Quanti piccoli partorisce di regola una capriola?",
+    "question": "Quali sono i mesi, che possono essere presi maggiormente in considerazione, per il parto dei caprioli? ",
     "answers": [
-      "ogni secondo anno un piccolo ogni anno due piccoli",
-      "ogni anno tre o più piccoli"
+      "aprile",
+      "maggio",
+      "giugno",
+      "luglio"
     ],
     "correct": [
-      1
+      1, 2
     ]
   },
   {
     "id": "1089",
-    "question": "Quali sono i mesi, che possono essere presi maggiormente in considerazione, per il parto dei caprioli? Quanti piccoli partorisce di regola una capriola?",
+    "question": "Quanti piccoli partorisce di regola una capriola?",
     "answers": [
-      "ogni secondo anno un piccolo ogni anno due piccoli",
+      "ogni secondo anno un piccolo",
+      "ogni anno due piccoli",
       "ogni anno tre o più piccoli"
     ],
     "correct": [
@@ -996,11 +1030,13 @@ const questions = [
     "id": "1090",
     "question": "Dove vengono prevalentemente partoriti i piccoli di capriolo?",
     "answers": [
-      "nell'erba alta, in mezzo ai cespugli e alla vegetazione in posti soleggiati con bassa vegetazione",
-      "in conche nel terreno, che la capriola ha raspato con le zampe anteriori su terreno roccioso e inaccessibile"
+      "nell'erba alta, in mezzo ai cespugli e alla vegetazione",
+      "in posti soleggiati con bassa vegetazione",
+      "in conche nel terreno, che la capriola ha raspato con le zampe anteriori",
+      "su terreno roccioso e inaccessibile"
     ],
     "correct": [
-      1
+      0
     ]
   },
   {
@@ -1009,10 +1045,11 @@ const questions = [
     "answers": [
       "i piccoli sono pressoché autosufficienti e seguono permanentemente la madre già dopo 1 - 2 giorni",
       "le prime settimane di vita vengono trascorse al riparo e le capriole raggiungono i piccoli per l'allattamento",
-      "in caso di pericolo, i piccoli di capriolo rimangono distesi e immobili in caso di pericolo, i piccoli di capriolo fuggono immediatamente"
+      "in caso di pericolo, i piccoli di capriolo rimangono distesi e immobili",
+      "in caso di pericolo, i piccoli di capriolo fuggono immediatamente"
     ],
     "correct": [
-      1
+      1,2
     ]
   },
   {
@@ -1021,21 +1058,23 @@ const questions = [
     "answers": [
       "fino in autunno",
       "fino al parto dell'anno successivo",
-      "fino a quando i caprioletti producono il loro primo trofeo fino a quando si sviluppano i denti da latte"
+      "fino a quando i caprioletti producono il loro primo trofeo",
+      "fino a quando si sviluppano i denti da latte"
     ],
     "correct": [
-      1
+      0,1
     ]
   },
   {
     "id": "1093",
     "question": "Per quanto tempo il piccolo di capriolo ha un mantello maculato?",
     "answers": [
-      "2 - 3 mesi dopo la nascita 5 - 6 mesi dopo la nascita",
+      "2 - 3 mesi dopo la nascita",
+      "5 - 6 mesi dopo la nascita",
       "durante tutto il primo anno di vita"
     ],
     "correct": [
-      1
+      0
     ]
   },
   {
@@ -1043,17 +1082,20 @@ const questions = [
     "question": "Quale é il naturale rapporto in proporzione tra i sessi (sex ratio) nei caprioli?",
     "answers": [
       "ci sono un po' più capriole che becchi",
-      "capriole e becchi sono presenti in uguale misura ci sono un po' più becchi che capriole"
+      "capriole e becchi sono presenti in uguale misura",
+      "ci sono un po' più becchi che capriole"
     ],
     "correct": [
-      1
+      0
     ]
   },
   {
     "id": "1095",
     "question": "Quale di questi fattori può regolare seriamente un popolamento di caprioli?",
     "answers": [
-      "l'aquila reale gli inverni rigidi la rogna",
+      "l'aquila reale",
+      "gli inverni rigidi"
+      "la rogna",
       "l'orso"
     ],
     "correct": [
@@ -1070,7 +1112,7 @@ const questions = [
       "precoci abbassamenti di temperatura in tarda estate/autunno indeboliscono e debilitano il popolamento di caprioli nel periodo degli amori"
     ],
     "correct": [
-      1
+      2
     ]
   },
   {
@@ -1078,11 +1120,12 @@ const questions = [
     "question": "Quali conseguenze hanno alte densità di popolazione nei caprioli?",
     "answers": [
       "peso corporeo e trofei si riducono",
-      "Le capriole partoriscono 2 o piú piccoli maggiori perdite dovute alla rogna",
+      "Le capriole partoriscono 2 o piú piccoli",
+      "maggiori perdite dovute alla rogna",
       "il tasso di sopravvivenza dei piccoli diminuisce"
     ],
     "correct": [
-      3
+      1, 3
     ]
   },
   {
@@ -1090,22 +1133,25 @@ const questions = [
     "question": "Quali di queste tracce dimostrano al cacciatore, che nella riserva ci sono caprioli?",
     "answers": [
       "segni di scortecciamento sugli alberi",
-      "segni di soffregamento sugli alberelli e sui cespugli pozze umide per i bagni di fango",
+      "segni di soffregamento sugli alberelli e sui cespugli",
+      "pozze umide per i bagni di fango",
       "piccole piazzole di terreno raspato (per marcare un territorio)"
     ],
     "correct": [
-      3
+      1,3
     ]
   },
   {
     "id": "1100",
     "question": "Quale fattore é determinante per le dimensioni del trofeo di un becco di capriolo?",
     "answers": [
-      "la costituzione fisica durante il periodo di crescita del trofeo la presenza sufficiente di novellame di larice da soffregare il numero di capriole nel suo territorio",
+      "la costituzione fisica durante il periodo di crescita del trofeo",
+      "la presenza sufficiente di novellame di larice da soffregare",
+      "il numero di capriole nel suo territorio",
       "il clima durante il periodo degli amori"
     ],
     "correct": [
-      1
+      0
     ]
   },
   {
@@ -1113,18 +1159,20 @@ const questions = [
     "question": "Capriolo: Da cosa si riconosce nel maschio yearling, che il trofeo portato è il primo in assoluto?",
     "answers": [
       "è sempre arcuato all'indietro",
-      "è poroso, gli apici dei palchi sono smussi è privo di rose",
+      "è poroso, gli apici dei palchi sono smussi",
+      "è privo di rose",
       "le basi ossee sotto le rose sono basse"
     ],
     "correct": [
-      1
+      2
     ]
   },
   {
     "id": "1102",
     "question": "In quale stagione avviene la maggior parte della crescita del trofeo nel maschio di capriolo adulto?",
     "answers": [
-      "in primavera d'estate",
+      "in primavera",
+      "d'estate",
       "in autunno",
       "d'inverno"
     ],
@@ -1136,7 +1184,10 @@ const questions = [
     "id": "1103",
     "question": "Quando di norma, il becco di capriolo pluriennale soffrega il suo trofeo?",
     "answers": [
-      "febbraio - marzo marzo - maggio giugno - luglio dicembre - gennaio"
+      "febbraio - marzo",
+      "marzo- maggio",
+      "giugno - luglio",
+      "dicembre - gennaio"
     ],
     "correct": [
       1
@@ -1151,35 +1202,41 @@ const questions = [
       "tramite la linfa delle pinte, battendo e soffregando il trofeo contro i rami e tronchi deboli"
     ],
     "correct": [
-      1
+      2
     ]
   },
   {
     "id": "1107",
     "question": "Che cosa s'intende con il termine \"grembiule\" del capriolo?",
     "answers": [
-      "macchia bianca sopra il naso macchia bianca sulla base del collo",
-      "ciuffo di pelo lungo che copre l'organo sessuale femminile nel manto invernale ciuffo di pelo lungo presso lo \"specchio\" bianco del capriolo maschio"
+      "macchia bianca sopra il naso",
+      "macchia bianca sulla base del collo",
+      "ciuffo di pelo lungo che copre l'organo sessuale femminile nel manto invernale",
+      "ciuffo di pelo lungo presso lo \"specchio\" bianco del capriolo maschio"
     ],
     "correct": [
-      1
+      2
     ]
   },
   {
     "id": "1108",
     "question": "Autunno: Si osserva un capriolo maschio giovane con trofeo a piccole punte semplici nel basto. Di che classe d'età si tratterà?",
     "answers": [
-      "piccolo maschio yearling maschio capo ammalato"
+      "piccolo maschio",
+      "yearling maschio",
+      "capo ammalato"
     ],
     "correct": [
-      1
+      0
     ]
   },
   {
     "id": "1109",
     "question": "Autunno: Si osserva un capriolo maschio giovane con trofeo a piccole punte semplici pulite dal basto. Di che classe d'età si tratterà?",
     "answers": [
-      "piccolo maschio yearling maschio capo ammalato"
+      "piccolo maschio",
+      "yearling maschio",
+      "capo ammalato"
     ],
     "correct": [
       1
@@ -1189,30 +1246,34 @@ const questions = [
     "id": "1110",
     "question": "I periodi primaverili di muta e si soffregamento, permettono di stimare l'età di un becco di capriolo in buone condizioni. Quali affermazioni sono corrette?",
     "answers": [
-      "muta il colore prima il becco di un anno muta il colore prima il becco adulto",
+      "muta il colore prima il becco di un anno"
+      "muta il colore prima il becco adulto",
       "soffrega prima il becco giovane",
       "soffrega prima il becco adulto"
     ],
     "correct": [
-      3
+      1,3
     ]
   },
   {
     "id": "1111",
     "question": "É inizio ottobre e si osservano due becchi di capriolo in buone condizioni. Uno è di colore grigio mentre l'altro è di colore rosso. Quale dei due, di norma è il più vecchio?",
     "answers": [
-      "il becco rosso il becco grigio",
+      "il becco rosso",
+      "il becco grigio",
       "sono della stessa età"
     ],
     "correct": [
-      1
+      0
     ]
   },
   {
     "id": "1112",
     "question": "Un maschio di capriolo mostra un trofeo forcuto di buon sviluppo e ancora nel basto a inizio giugno. Potrebbe trattarsi di un yearling?",
     "answers": [
-      "no, un yearling può formare al massimo un trofeo forcuto debole sì, perchè i maschi adulti in quel periodo portano già il trofeo pulito no, perchè il yearling non sviluppa ancora un trofeo forcuto"
+      "no, un yearling può formare al massimo un trofeo forcuto debole",
+      "sì, perchè i maschi adulti in quel periodo portano già il trofeo pulito",
+      "no, perchè il yearling non sviluppa ancora un trofeo forcuto"
     ],
     "correct": [
       1
