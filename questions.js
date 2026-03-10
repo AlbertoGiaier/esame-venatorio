@@ -2021,1701 +2021,1387 @@ const questions = [
     "id": "4001",
     "question": "Qual è la specie arborea più frequente in Alto Adige?",
     "answers": [
-      "Faggio.",
-      "Abete rosso.",
-      "Abete bianco.",
-      "Larice."
+      "Faggio",
+      "Abete rosso",
+      "Abete bianco",
+      "Larice"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "4002",
     "question": "Qual è generalmente la distribuzione altitudinale dell'abete rosso?",
     "answers": [
-      "sotto agli 800 m.",
-      "solamente sotto i 1500 m.",
-      "da 800 a 1200 m.",
-      "sopra i 2000 m."
+      "sotto agli 800 m",
+      "solamente sotto i 1500 m",
+      "da 800 a 1200 m",
+      "sopra i 2000 m"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "4003",
     "question": "Quale specie di conifera perde gli aghi in autunno?",
     "answers": [
-      "Larice.",
+      "Larice",
       "Abete rosso",
-      "Pino cembro / cirmolo.",
-      "Abete bianco."
+      "Pino cembro / cirmolo",
+      "Abete bianco"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4004",
     "question": "Quale è la specie arborea, le cui pigne mature sono erette unicamente all'insù sui rami?",
     "answers": [
-      "Abete bianco.",
-      "Abete rosso.",
-      "Pino silvestre.",
+      "Abete bianco",
+      "Abete rosso",
+      "Pino silvestre",
       "Larice"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4005",
     "question": "Quali specie arboree sono presenti verso il limite superiore del bosco?",
     "answers": [
-      "Quercia.",
-      "Abete rosso.",
-      "Pino cembro / cirmolo.",
-      "Larice."
+      "Quercia",
+      "Abete rosso",
+      "Pino cembro / cirmolo",
+      "Larice"
     ],
-    "correct": [
-      1,
-      2,
-      3
-    ]
+    "correct": [1, 2, 3]
   },
   {
     "id": "4006",
     "question": "Quale specie arboree crescono e sono presenti soprattutto al limite superiore del bosco?",
     "answers": [
       "Pino cembro/cirmolo",
-      "Abete bianco.",
-      "Acero montano.",
-      "Pino mugo."
+      "Abete bianco",
+      "Acero montano",
+      "Pino mugo"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 3]
   },
   {
     "id": "4007",
     "question": "Quali delle seguenti affermazioni riguardanti l'abete rosso sono corrette?",
     "answers": [
-      "I picchi estraggono le formiche dai tronchi decomposti degli abeti rossi.",
-      "Il gufo reale nidifica nelle corone degli abeti rossi vecchi (maturi).",
-      "I giovani abeti rossi vengono volentieri morsicati dagli ungulati.",
-      ""
+      "I picchi estraggono le formiche dai tronchi decomposti degli abeti rossi",
+      "Il gufo reale nidifica nelle corone degli abeti rossi vecchi (maturi)",
+      "I giovani abeti rossi vengono volentieri morsicati dagli ungulati",
+      "Il larice è, per diffusione, la seconda specie arborea presente nei boschi dell'Alto Adige"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "4008",
     "question": "Quali delle seguenti affermazioni riguardanti l'abete rosso sono corrette?",
     "answers": [
-      "Gli scoiattoli si cibano dei semi che trovano nelle pigne d'abete rosso.",
-      "L'abete rosso è, per diffusione, la seconda specie arborea presente nei boschi dell'Alto Adige.",
-      "Il cervo scorteccia i tronchi dei giovani abeti rossi.",
+      "Gli scoiattoli si cibano dei semi che trovano nelle pigne d'abete rosso",
+      "L'abete rosso è, per diffusione, la seconda specie arborea presente nei boschi dell'Alto Adige",
+      "Il cervo scorteccia i tronchi dei giovani abeti rossi",
       ""
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "4009",
     "question": "Quali delle seguenti affermazioni riguardanti il larice sono corrette?",
     "answers": [
-      "Il larice è, per diffusione, la seconda specie arborea presente nei boschi dell'Alto Adige.",
-      "Nella corteccia del larice, molti uccelli del bosco trovano insetti.",
-      "I giovani larici vengono spesso soffregati dai becchi di capriolo e dai maschi del cervo.",
-      "I giovani larici vengono spesso morsicati dagli ungulati."
+      "Il larice è, per diffusione, la seconda specie arborea presente nei boschi dell'Alto Adige",
+      "Nella corteccia del larice, molti uccelli del bosco trovano insetti",
+      "I giovani larici vengono spesso soffregati dai becchi di capriolo e dai maschi del cervo",
+      "I giovani larici vengono spesso morsicati dagli ungulati"
     ],
-    "correct": [
-      0,
-      1,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "4010",
     "question": "Quali delle seguenti affermazioni riguardanti il pino silvestre sono corrette?",
     "answers": [
-      "Gli alberi di pino silvestre sono frequentemente utilizzati dai galli cedroni per le parate nuziali.",
-      "D'inverno il gallo cedrone si ciba volentieri degli aghi di pino silvestre.",
-      "Spesso e volentieri, d'inverno i pini silvestri vengono morsicati dagli ungulati.",
-      "Si trovano spesso pini silvestri nelle vicinanze dei corsi d'acqua."
+      "Gli alberi di pino silvestre sono frequentemente utilizzati dai galli cedroni per le parate nuziali",
+      "D'inverno il gallo cedrone si ciba volentieri degli aghi di pino silvestre",
+      "Spesso e volentieri, d'inverno i pini silvestri vengono morsicati dagli ungulati",
+      "Si trovano spesso pini silvestri nelle vicinanze dei corsi d'acqua"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4011",
-    "question": "Quali delle seguenti specie animali si trovano particolarmente a loro agio nei boschi ricchi di",
+    "question": "Quali delle seguenti specie animali si trovano particolarmente a loro agio nei boschi ricchi di faggio?",
     "answers": [
-      "Picchio nero.",
-      "",
-      "Coturnice.",
-      "Beccaccia."
+      "Picchio nero",
+      "Gracchio alpino",
+      "Coturnice",
+      "Beccaccia"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 3]
   },
   {
     "id": "4012",
     "question": "Quali delle seguenti piante sono appetite dagli ungulati, come pastura?",
     "answers": [
-      "Pioppo tremulo.",
-      "Larice.",
-      "Salice caprino.",
-      "Castagno."
+      "Pioppo tremulo",
+      "Larice",
+      "Salice caprino",
+      "Castagno"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 2, 3]
   },
   {
     "id": "4013",
     "question": "Quali delle seguenti piante sono appetite dagli ungulati, come pastura?",
     "answers": [
-      "Pino silvestre.",
-      "Frassino.",
-      "Acero.",
-      "Quercia."
+      "Pino silvestre",
+      "Frassino",
+      "Acero",
+      "Quercia"
     ],
-    "correct": [
-      1,
-      2,
-      3
-    ]
+    "correct": [1, 2, 3]
   },
   {
     "id": "4014",
     "question": "Quali delle seguenti piante sono appetite dagli ungulati, come pastura?",
     "answers": [
-      "Noce.",
-      "Cespuglio di lampone.",
-      "Sambuco.",
-      "Pino cembro / cirmolo."
+      "Noce",
+      "Cespuglio di lampone",
+      "Sambuco",
+      "Pino cembro / cirmolo"
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "4015",
     "question": "Quali delle seguenti affermazioni sono corrette?",
     "answers": [
-      "I giovani abeti bianchi vengono morsicati volentieri d'inverno.",
-      "I pinoli di cirmolo sono una fonte d'alimento importante per la nocciolaia (cirmolaia).",
-      "La presenza del tiglio indica che un habitat è idoneo per lo stambecco.",
-      "I castagneti offrono buone possibilità di nidificazione agli uccelli che si riproducono in cavità."
+      "I giovani abeti bianchi vengono morsicati volentieri d'inverno",
+      "I pinoli di cirmolo sono una fonte d'alimento importante per la nocciolaia (cirmolaia)",
+      "La presenza del tiglio indica che un habitat è idoneo per lo stambecco",
+      "I castagneti offrono buone possibilità di nidificazione agli uccelli che si riproducono in cavità"
     ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "4016",
     "question": "Quale valenza hanno i boschetti di ontano verde per la selvaggina?",
     "answers": [
-      "Sono habitat per le anatre selvatiche.",
-      "Offrono agli ungulati selvatici disponibilità di foraggio e protezione.",
-      "Sono habitat per il francolino di monte.",
-      "Vengono ricercati dal gallo forcello per eseguirvi le parate nuziali."
+      "Sono habitat per le anatre selvatiche",
+      "Offrono agli ungulati selvatici disponibilità di foraggio e protezione",
+      "Sono habitat per il francolino di monte",
+      "Vengono ricercati dal gallo forcello per eseguirvi le parate nuziali"
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "4017",
     "question": "Quale valenza hanno i boschi di ripa per la selvaggina?",
     "answers": [
-      "Sono un habitat importante per molti uccelli.",
-      "Vengono ricercati dal gallo cedrone per eseguirvi le parate nuziali.",
-      "Sono quartieri per volpe, capriolo e cervo.",
+      "Sono un habitat importante per molti uccelli",
+      "Vengono ricercati dal gallo cedrone per eseguirvi le parate nuziali",
+      "Sono quartieri per volpe, capriolo e cervo",
       ""
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "4018",
     "question": "Quali delle seguenti affermazioni sono corrette?",
     "answers": [
-      "La presenza di betulle in un bosco indica che l'habitat è idoneo per il francolino di monte.",
-      "La coturnice mangia con gusto le bacche di ginepro.",
-      "I picchi favoriscono la diffusione del pino cembro.",
+      "La presenza di betulle in un bosco indica che l'habitat è idoneo per il francolino di monte",
+      "La coturnice mangia con gusto le bacche di ginepro",
+      "I picchi favoriscono la diffusione del pino cembro",
       ""
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4019",
     "question": "Per quali delle seguenti specie animali i mugheti sono ottimi ripari?",
     "answers": [
-      "Capriolo, cervo e camoscio.",
-      "Quaglia.",
-      "Lepre variabile.",
-      "Tasso."
+      "Capriolo, cervo e camoscio",
+      "Quaglia",
+      "Lepre variabile",
+      "Tasso"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "4020",
     "question": "Cosa intende la legge provinciale sulla caccia per danni da selvaggina?",
     "answers": [
-      "I danni arrecati dalla fauna selvatica alle colture agricole e forestali.",
-      "I danni arrecati dalla fauna selvatica agli animali domestici.",
-      "I danni arrecati dalla fauna selvatica ad autoveicoli ed edifici.",
+      "I danni arrecati dalla fauna selvatica alle colture agricole e forestali",
+      "I danni arrecati dalla fauna selvatica agli animali domestici",
+      "I danni arrecati dalla fauna selvatica ad autoveicoli ed edifici",
       ""
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4021",
     "question": "Chi risponde dei danni arrecati dalla fauna selvatica agli animali domestici?",
     "answers": [
-      "La riserva di caccia.",
+      "La riserva di caccia",
       "La Giunta Provinciale risarcisce i danni causati da alcune specie di selvatici protetti",
       "La Giunta Provinciale risarcisce i danni causati dalla volpe",
-      "Sono coperti dalla polizza assicurativa del cacciatore."
+      "Sono coperti dalla polizza assicurativa del cacciatore"
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "4022",
-    "question": "Quali dei seguenti tipi di danni sono considerati danni da selvaggina ai sensi della legge",
+    "question": "Quali dei seguenti tipi di danni sono considerati danni da selvaggina ai sensi della legge provinciale sulla caccia?",
     "answers": [
-      "Brucamento di alberi giovani da parte di fauna ungulata o lepri.",
-      "",
-      "Brucamento a carico di frutteti o vigneti arrecati da fauna ungulata o lepri.",
-      "Incidenti stradali originati dalla fauna ungulata."
+      "Brucamento di alberi giovani da parte di fauna ungulata o lepri",
+      "Scortecciamento arrecato da capre domestiche inselvatichite",
+      "Brucamento a carico di frutteti o vigneti arrecati da fauna ungulata o lepri",
+      "Incidenti stradali originati dalla fauna ungulata"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "4023",
-    "question": "Quali dei seguenti tipi di danno sono considerati danni da selvaggina ai sensi della legge",
+    "question": "Quali dei seguenti tipi di danno sono considerati danni da selvaggina ai sensi della legge provinciale sulla caccia?",
     "answers": [
-      "Brucamento a carico di alberi giovani da parte di buoi, pecore o capre.",
-      "",
-      "Danni arrecati da mustelidi ad autoveicoli.",
+      "Brucamento a carico di alberi giovani da parte di buoi, pecore o capre",
+      "Scortecciamento da parte di fauna ungulata",
+      "Danni arrecati da mustelidi ad autoveicoli",
       ""
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "4024",
-    "question": "Quali dei seguenti tipi di danno sono considerati danni da selvaggina ai sensi della legge sulla",
+    "question": "Quali dei seguenti tipi di danno sono considerati danni da selvaggina ai sensi della legge sulla caccia?",
     "answers": [
-      "Incidenti stradali originati da mammiferi predatori.",
-      "",
-      "Danni per alimentazione diretta causati da uccelli a carico di frutteti e vigneti.",
-      "Danni per alimentazione diretta e calpestio da parte causati da ungulati selvatici a carico di"
+      "Incidenti stradali originati da mammiferi predatori",
+      "Danni ai campi causati da ungulati selvatici",
+      "Danni per alimentazione diretta causati da uccelli a carico di frutteti e vigneti",
+      "Danni per alimentazione diretta e calpestio da parte causati da ungulati selvatici a carico di colture cerealicole"
     ],
-    "correct": [
-      2,
-      3
-    ]
+    "correct": [1, 2, 3]
   },
   {
     "id": "4025",
     "question": "Cosa si intende per danni provocati da attività venatoria?",
     "answers": [
-      "Danni a carico di colture agricole e forestali causati dalla fauna selvatica.",
-      "Danni a carico del bestiame domestico causati dalla fauna selvatica.",
-      "Danni alle colture agricole e forestali verificatisi in seguito all'esercizio venatorio.",
-      "Danni agli animali domestici verificatisi in seguito all'esercizio venatorio."
+      "Danni a carico di colture agricole e forestali causati dalla fauna selvatica",
+      "Danni a carico del bestiame domestico causati dalla fauna selvatica",
+      "Danni alle colture agricole e forestali verificatisi in seguito all'esercizio venatorio",
+      "Danni agli animali domestici verificatisi in seguito all'esercizio venatorio"
     ],
-    "correct": [
-      2,
-      3
-    ]
+    "correct": [2, 3]
   },
   {
     "id": "4026",
     "question": "Chi risponde dei danni causati nell'esercizio dell'attività venatoria?",
     "answers": [
-      "Chi li ha cagionati.",
-      "La riserva di caccia.",
+      "Chi li ha cagionati",
+      "La riserva di caccia",
       "Lo stato italiano",
       "Nessuno"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4027",
     "question": "Quali dei seguenti selvatici, in bosco, morsicano germogli degli alberi giovani?",
     "answers": [
-      "Ungulati.",
+      "Ungulati",
       "Topi",
       "Lepri",
-      "Beccacce."
+      "Beccacce"
     ],
-    "correct": [
-      0,
-      1,
-      2
-    ]
+    "correct": [0, 1, 2]
   },
   {
     "id": "4028",
     "question": "Danni da morso in bosco: quali delle seguenti affermazioni sono corrette?",
     "answers": [
-      "Alberi di latifoglie e abete bianco sono i più ricercati dalla fauna come oggetto di morsicatura.",
-      "Pino e pino cembro sono molto ricercati come oggetto di morsicatura.",
-      "I danni da morso possono avvenire anche in conseguenza di errato foraggiamento della fauna",
+      "Alberi di latifoglie e abete bianco sono i più ricercati dalla fauna come oggetto di morsicatura",
+      "Pino e pino cembro sono molto ricercati come oggetto di morsicatura",
+      "I danni da morso possono avvenire anche in conseguenza di errato foraggiamento della fauna selvatica",
       ""
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "4029",
     "question": "Quali ripercussioni ha sulle piante la morsicatura della cima?",
     "answers": [
-      "Sulla pianta si sviluppa un doppio apice (deformazione del tronco).",
-      "La pianta viene limitata nel suo sviluppo in altezza.",
-      "La pianta muore.",
-      "Nessuna ripercussione."
+      "Sulla pianta si sviluppa un doppio apice (deformazione del tronco)",
+      "La pianta viene limitata nel suo sviluppo in altezza",
+      "La pianta muore",
+      "Nessuna ripercussione"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4030",
     "question": "Quali ripercussioni ecologiche può avere un morsicamento massiccio delle piante?",
     "answers": [
-      "Alcune specie arboree (abete bianco, latifoglie) sono sottoposte a una sorta di \"potatura\", con",
-      "",
-      "Piante acquatiche rare muoiono.",
+      "Alcune specie arboree (abete bianco, latifoglie) sono sottoposte a una sorta di \"potatura\", con effetti negativi sulla varietà arborea",
+      "Il bosco viene inibito nel rinnovamento e può non essere più in grado di assolvere alla sua funzione protettiva",
+      "Piante acquatiche rare muoiono",
       ""
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4031",
-    "question": "Quali delle seguenti specie possono lasciare tracce di scortecciamento sui tronchi degli",
+    "question": "Quali delle seguenti specie possono lasciare tracce di scortecciamento sui tronchi degli alberi?",
     "answers": [
-      "Cervo.",
-      "",
-      "Capra e muflone.",
+      "Cervo",
+      "Capriolo",
+      "Capra e muflone",
       "Lepre"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 2, 3]
   },
   {
     "id": "4032",
-    "question": "Quali delle seguenti specie possono lasciare tracce di rosicchiamento sulla corteccia degli",
+    "question": "Quali delle seguenti specie possono lasciare tracce di rosicchiamento sulla corteccia degli alberi?",
     "answers": [
-      "Tasso.",
-      "",
-      "Topi.",
-      "Martora/faina."
+      "Tasso",
+      "Camoscio",
+      "Topi",
+      "Martora/faina"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "4033",
     "question": "Come si ripercuotono sull'albero i danni da scortecciamento?",
     "answers": [
-      "L'albero sviluppa un doppio apice.",
-      "Nell'albero penetrano spore fungine, e il tronco è vittima di marciume rosso.",
-      "L'albero diviene più vulnerabile al peso della neve e al vento.",
+      "L'albero sviluppa un doppio apice",
+      "Nell'albero penetrano spore fungine, e il tronco è vittima di marciume rosso",
+      "L'albero diviene più vulnerabile al peso della neve e al vento",
       "Lo sviluppo della pianta viene condizionato solo in maniera irrilevante"
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "4034",
     "question": "Quali specie arboree vengono scortecciate preferibilmente?",
     "answers": [
-      "Gli alberi con corteccia sottile.",
-      "Gli alberi resinosi, con corteccia grossolana.",
+      "Gli alberi con corteccia sottile",
+      "Gli alberi resinosi, con corteccia grossolana",
       "Gli alberi con molti rami",
       "Larici"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4035",
     "question": "Quali delle seguenti specie arboree vengono soffregate preferibilmente?",
     "answers": [
-      "Pino silvestre.",
-      "Larice.",
-      "Frassino.",
-      "Quercia."
+      "Pino silvestre",
+      "Larice",
+      "Frassino",
+      "Quercia"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4036",
     "question": "Come si ripercuote sull'albero un danno da soffregamento?",
     "answers": [
-      "L'albero non riporta conseguenze.",
+      "L'albero non riporta conseguenze",
       "L'albero sviluppa molti germogli",
-      "L'albero può morire.",
+      "L'albero può morire",
       ""
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "4037",
     "question": "Quali danni da selvaggina creano problemi all'agricoltura?",
     "answers": [
-      "Danni da scavo sulle aree pascolive, causati da marmotte.",
-      "Danni da scavo e danni per alimentazione diretta alle colture di mais, causati dal tasso.",
-      "Danni da scavo ai vigneti, causati dalla lepre comune.",
+      "Danni da scavo sulle aree pascolive, causati da marmotte",
+      "Danni da scavo e danni per alimentazione diretta alle colture di mais, causati dal tasso",
+      "Danni da scavo ai vigneti, causati dalla lepre comune",
       "Danni al suolo sui campi, causati da grufolamento (rooting) del cinghiale"
     ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "4038",
-    "question": "Il morsicamento da parte del capriolo è differente da quello della lepre comune. Come si",
+    "question": "Il morsicamento da parte del capriolo è differente da quello della lepre comune. Come si presenta il germoglio morsicato dal capriolo?",
     "answers": [
-      "È obliquo e liscio, come tagliato di netto con una lama di coltello.",
-      "",
-      "Fra i due tipi di morso non c'è differenza.",
+      "È obliquo e liscio, come tagliato di netto con una lama di coltello",
+      "È sfilacciato e schiacciato",
+      "Fra i due tipi di morso non c'è differenza",
       ""
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "4039",
     "question": "Quali sono le ragioni della caccia?",
     "answers": [
-      "Fruizione sostenibile del bene naturale rappresentato dalla carne di selvaggina.",
-      "Controllo e conservazione in salute delle consistenze di fauna selvatica.",
-      "È una interessante gara a chi ottiene il miglior trofeo.",
-      "Prevenzione dei danni da selvaggina alle colture agricolo-forestali."
+      "Fruizione sostenibile del bene naturale rappresentato dalla carne di selvaggina",
+      "Controllo e conservazione in salute delle consistenze di fauna selvatica",
+      "È una interessante gara a chi ottiene il miglior trofeo",
+      "Prevenzione dei danni da selvaggina alle colture agricolo-forestali"
     ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "4040",
     "question": "Quali sono i principi alla base di un esercizio venatorio eticamente corretto e responsabile?",
     "answers": [
-      "Non arrecare disturbo inutile alla fauna selvatica.",
-      "Osare tiri molto lunghi per ridurre il disturbo venatorio a carico della fauna.",
-      "Un approccio rispettoso al capo abbattuto e al carniere.",
-      "Cautela nel maneggio dell'arma."
+      "Non arrecare disturbo inutile alla fauna selvatica",
+      "Osare tiri molto lunghi per ridurre il disturbo venatorio a carico della fauna",
+      "Un approccio rispettoso al capo abbattuto e al carniere",
+      "Cautela nel maneggio dell'arma"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 2, 3]
   },
   {
     "id": "4041",
     "question": "Per quali delle seguente specie è previsto in Alto Adige un piano di abbattimento?",
     "answers": [
-      "Ungulati selvatici, eccettuato il cinghiale.",
-      "Volpe.",
-      "Gallo forcello (maschio del fagiano di monte).",
-      "Lepre bianca."
+      "Ungulati selvatici, eccettuato il cinghiale",
+      "Volpe",
+      "Gallo forcello (maschio del fagiano di monte)",
+      "Lepre bianca"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "4042",
     "question": "Per quali delle seguente specie è previsto in Alto Adige un piano di abbattimento?",
     "answers": [
       "Beccaccia",
-      "Pernice bianca.",
-      "Coturnice.",
+      "Pernice bianca",
+      "Coturnice",
       "Cinghiale"
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "4043",
-    "question": "Per quali dei seguenti selvatici l'età del capo abbattuto può essere determinata notevolmente",
+    "question": "Per quali dei seguenti selvatici l'età del capo abbattuto può essere determinata notevolmente meglio in base al trofeo che non in base all'usura dentale?",
     "answers": [
-      "Cervo.",
-      "",
-      "Stambecco.",
-      "Capriolo."
+      "Cervo",
+      "Camoscio",
+      "Stambecco",
+      "Capriolo"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "4044",
     "question": "Da cosa si deduce la condizione fisica degli animali selvatici?",
     "answers": [
-      "Dalla presenza di riserve di grasso nei muscoli, nel midollo, nei reni e sottopelle.",
-      "Dalla grandezza del rumine.",
-      "Dall'usura dentale.",
+      "Dalla presenza di riserve di grasso nei muscoli, nel midollo, nei reni e sottopelle",
+      "Dalla grandezza del rumine",
+      "Dall'usura dentale",
       "Sempre dal trofeo"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4045",
     "question": "Valutazione visiva del capo: quali affermazioni sono corrette?",
     "answers": [
-      "I capi femmine vanno in muta prima dei capi maschi.",
-      "Nel cervo, il piccolo maschio e piccolo femmina si distinguono dalla coda.",
-      "Nei piccoli di capriolo nel mantello invernale, le femmine si identificano dal \"grembiule\", i maschi",
+      "I capi femmine vanno in muta prima dei capi maschi",
+      "Nel cervo, il piccolo maschio e piccolo femmina si distinguono dalla coda",
+      "Nei piccoli di capriolo nel mantello invernale, le femmine si identificano dal \"grembiule\", i maschi dal pennello",
       "I capi sani e forti vanno in muta prima di quelli scarsi/deboli"
     ],
-    "correct": [
-      2,
-      3
-    ]
+    "correct": [2, 3]
   },
   {
     "id": "4046",
     "question": "Perché è importante sapere se un capo femmina ha il piccolo o meno?",
     "answers": [
-      "Perché all'atto del prelievo bisogna tenere presente che i piccoli, per il loro sviluppo, hanno",
-      "",
-      "Per prevenire tiri che rendano necessaria una ricerca.",
-      "Perché i piccoli di capriolo e cervo vanno abbattuti assolutamente dopo la madre."
+      "Perché all'atto del prelievo bisogna tenere presente che i piccoli, per il loro sviluppo, hanno bisogno della madre",
+      "Perché per le femmine conduttrici vigono periodi di prelievo in parte differenti",
+      "Per prevenire tiri che rendano necessaria una ricerca",
+      "Perché i piccoli di capriolo e cervo vanno abbattuti assolutamente dopo la madre"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4047",
-    "question": "Poniamo che si stiano per abbattere una vecchia femmina di capriolo e il suo piccolo debole.",
+    "question": "Poniamo che si stiano per abbattere una vecchia femmina di capriolo e il suo piccolo debole. In quale ordine deve avvenire il prelievo?",
     "answers": [
-      "Prima la femmina, poi il piccolo.",
-      "",
-      "Vanno prelevati insieme, quando si trovano uno dietro l'altro, in una posizione che consenta di",
+      "Prima la femmina, poi il piccolo",
+      "Prima il piccolo, poi la femmina",
+      "Vanno prelevati insieme, quando si trovano uno dietro l'altro, in una posizione che consenta di abbatterli entrambi con un solo colpo",
       "Dipende dalla situazione, prima la femmina oppure il piccolo"
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "4048",
-    "question": "I piccoli di cervo rimasti orfani tentano di aggregarsi ad altri selvatici: da quali vengono",
+    "question": "I piccoli di cervo rimasti orfani tentano di aggregarsi ad altri selvatici: da quali vengono accettati più facilmente?",
     "answers": [
-      "Da un cervo maschio.",
-      "",
-      "Da una femmina di cervo sottile.",
-      "Da una femmina di capriolo."
+      "Da un cervo maschio",
+      "Da una femmina di cervo con piccolo",
+      "Da una femmina di cervo sottile",
+      "Da una femmina di capriolo"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4049",
-    "question": "Nel mese di giugno, da cosa si è in grado di capire inequivocabilmente se una femmina di",
+    "question": "Nel mese di giugno, da cosa si è in grado di capire inequivocabilmente se una femmina di capriolo ha il piccolo?",
     "answers": [
-      "Dalla testa.",
-      "",
-      "Dalle mammelle.",
-      "Dalla muta del pelo."
+      "Dalla testa",
+      "Dal \"grembiule\"",
+      "Dalle mammelle",
+      "Dalla muta del pelo"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "4050",
-    "question": "Da quali parti fisiche è possibile capire, nel mese di luglio, se una cerva che sta pasturando",
+    "question": "Da quali parti fisiche è possibile capire, nel mese di luglio, se una cerva che sta pasturando sola è una vecchia femmina conduttrice o una femmina sottile?",
     "answers": [
-      "Dal mantello.",
-      "",
+      "Dal mantello",
+      "Dalle mammelle",
       "Dalla coda",
-      "Se sta pasturando da sola, sicuramente non ha il piccolo."
+      "Se sta pasturando da sola, sicuramente non ha il piccolo"
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "4051",
-    "question": "Alla fine di novembre da una distanza di tiro confacente e in presenza di luce idonea a tirare, è",
+    "question": "Alla fine di novembre da una distanza di tiro confacente e in presenza di luce idonea a tirare, è possibile determinare con certezza se un capriolo femmina, intento a pasturare lungamente su un prato da solo, è una femmina sottile o una femmina vecchia?",
     "answers": [
-      "Sì.",
-      "No.",
-      "Solo se si osserva il capo dal di dietro.",
+      "Sì",
+      "No",
+      "Solo se si osserva il capo dal di dietro",
       ""
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "4052",
-    "question": "Nel mese di dicembre, da quale dei seguenti elementi è possibile distinguere con certezza un",
+    "question": "Nel mese di dicembre, da quale dei seguenti elementi è possibile distinguere con certezza un capriolo maschio adulto da una femmina?",
     "answers": [
-      "Dal pennello.",
-      "",
-      "Dalla corporatura.",
-      "Dallo \"specchio\"."
+      "Dal pennello",
+      "Dai testicoli",
+      "Dalla corporatura",
+      "Dallo \"specchio\""
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "4053",
-    "question": "A fine novembre osservate due caprioli maschi all'incirca della stessa stazza: l'uno con piccoli",
+    "question": "A fine novembre osservate due caprioli maschi all'incirca della stessa stazza: l'uno con piccoli bottoni non ancora puliti, l'altro con piccole punte pulite. Quale dei due maschi è il piccolo dell'anno?",
     "answers": [
-      "Quello con le piccole punte pulite.",
-      "Quello con i bottoni non ancora puliti.",
-      "Sono entrambi dell'anno, quindi hanno la stessa età.",
+      "Quello con le piccole punte pulite",
+      "Quello con i bottoni non ancora puliti",
+      "Sono entrambi dell'anno, quindi hanno la stessa età",
       ""
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "4054",
-    "question": "Nel mese di novembre vi trovate di fronte, a una distanza di 80 metri, un singolo camoscio",
+    "question": "Nel mese di novembre vi trovate di fronte, a una distanza di 80 metri, un singolo camoscio che determinate come vecchio maschio. A quali delle seguenti caratteristiche fisiche va fatto riferimento per ritenere che sia un maschio e non una femmina?",
     "answers": [
-      "La mancanza del \"grembiule\".",
-      "Un pennello ben visibile.",
-      "Corni fortemente uncinati.",
-      "Corni alti e molto divaricati."
+      "La mancanza del \"grembiule\"",
+      "Un pennello ben visibile",
+      "Corni fortemente uncinati",
+      "Corni alti e molto divaricati"
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "4055",
-    "question": "Siamo all'inizio della stagione venatoria, ai primi di maggio. Un capriolo maschio in muta quasi",
+    "question": "Siamo all'inizio della stagione venatoria, ai primi di maggio. Un capriolo maschio in muta quasi completata, con corni ad altezza di orecchio e non puliti, è un capo di un anno o un maschio più vecchio con sviluppo ritardato del trofeo?",
     "answers": [
-      "",
-      "Un maschio più vecchio.",
-      "È impossibile fare una distinzione.",
+      "Un maschio di un anno",
+      "Un maschio più vecchio",
+      "È impossibile fare una distinzione",
       ""
     ],
-    "correct": []
+    "correct": [0]
   },
   {
     "id": "4056",
     "question": "Per quali specie in Alto Adige è indicata la caccia da appostamento?",
     "answers": [
-      "Per le specie molto schive.",
-      "Per la selvaggina da penna.",
-      "Per la lepre comune e la lepre bianca.",
-      "Per la becaccia"
+      "Per le specie molto schive",
+      "Per la selvaggina da penna",
+      "Per la lepre comune e la lepre bianca",
+      "Per la beccaccia"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4057",
     "question": "Con quali condizioni meteorologiche la caccia agli ungulati è più promettente?",
     "answers": [
-      "In presenza di nebbia fitta.",
-      "In presenza di gelate.",
-      "Con una leggera pioggia.",
-      "Con il vento."
+      "In presenza di nebbia fitta",
+      "In presenza di gelate",
+      "Con una leggera pioggia",
+      "Con il vento"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "4058",
-    "question": "Nella caccia col richiamo, quale verso viene abitualmente simulato dal cacciatore nel periodo",
+    "question": "Nella caccia col richiamo, quale verso viene abitualmente simulato dal cacciatore nel periodo degli amori del capriolo?",
     "answers": [
-      "Il fippio della femmina o del piccolo.",
-      "",
-      "L'abbaio d'allarme del maschio.",
+      "Il fippio della femmina o del piccolo",
+      "L'abbaio d'allarme della femmina",
+      "L'abbaio d'allarme del maschio",
       ""
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4059",
-    "question": "Nell'esercizio venatorio bisogna tenere conto anche del vento. Come spira, normalmente, sui",
+    "question": "Nell'esercizio venatorio bisogna tenere conto anche del vento. Come spira, normalmente, sui pendii montani di prima mattina?",
     "answers": [
-      "Verso valle.",
-      "",
-      "Da ovest a est.",
+      "Verso valle",
+      "Verso monte",
+      "Da ovest a est",
       ""
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4060",
-    "question": "Nell'esercizio venatorio bisogna tenere conto anche del vento. Come spira, normalmente, sui",
+    "question": "Nell'esercizio venatorio bisogna tenere conto anche del vento. Come spira, normalmente, sui pendii al solivo durante il giorno?",
     "answers": [
-      "Verso valle.",
-      "",
+      "Verso valle",
+      "Verso monte",
       "Da est a ovest",
       ""
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "4061",
     "question": "Per quali delle seguenti specie, in Alto Adige, la caccia si pratica anche con il cane segugio?",
     "answers": [
-      "Volpe.",
-      "Lepre.",
-      "Camoscio.",
-      "Cervo."
+      "Volpe",
+      "Lepre",
+      "Camoscio",
+      "Cervo"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4062",
-    "question": "Sparando a un ungulato, a cosa si deve mirare, di norma, per tirare un colpo che abbatta il",
+    "question": "Sparando a un ungulato, a cosa si deve mirare, di norma, per tirare un colpo che abbatta il capo sicuramente, con rapidità e senza dolore?",
     "answers": [
-      "Alla testa.",
-      "",
-      "Al collo.",
-      "Alla colonna vertebrale."
+      "Alla testa",
+      "Alla spalla o subito dietro alla stessa",
+      "Al collo",
+      "Alla colonna vertebrale"
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "4063",
-    "question": "Tirando alla spalla di un capriolo posizionato di traverso, quali dei seguenti organi possono",
+    "question": "Tirando alla spalla di un capriolo posizionato di traverso, quali dei seguenti organi possono essere attinti?",
     "answers": [
-      "Il rumine.",
-      "",
-      "I reni.",
-      "Il cuore."
+      "Il rumine",
+      "Il polmone",
+      "I reni",
+      "Il cuore"
     ],
-    "correct": [
-      3
-    ]
+    "correct": [1, 3]
   },
   {
     "id": "4064",
     "question": "Come deve essere posizionato un capo di selvaggina ungulata al momento del tiro?",
     "answers": [
-      "Trasversalmente al tiratore.",
-      "Frontalmente al tiratore.",
-      "Col posteriore al tiratore.",
-      "È indifferente, quel che conta è che venga colpito."
+      "Trasversalmente al tiratore",
+      "Frontalmente al tiratore",
+      "Col posteriore al tiratore",
+      "È indifferente, quel che conta è che venga colpito"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4065",
     "question": "A cosa deve prestare attenzione il cacciatore prima di tirare al selvatico?",
     "answers": [
-      "A eventuali segni esteriori di malattie in atto.",
-      "Acché il capo sia sufficientemente distante da lui, così da non notarlo.",
+      "A eventuali segni esteriori di malattie in atto",
+      "Acché il capo sia sufficientemente distante da lui, così da non notarlo",
       "Al luogo esatto ove si trova l'animale",
       "Acché la traiettoria del colpo sia libera e sia presente un \"fermapalle\" adatto"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 2, 3]
   },
   {
     "id": "4066",
     "question": "Cosa deve valutare il cacciatore prima di tirare al selvatico?",
     "answers": [
-      "Un eventuale comportamento anomalo dell'animale, o tale da farlo ritenere malato.",
-      "Che la carne sia idonea al consumo.",
-      "La possibilità, in caso di abbattimento, di recuperare la carcassa.",
-      "Che sia presente un \"fermapalle\" adatto."
+      "Un eventuale comportamento anomalo dell'animale, o tale da farlo ritenere malato",
+      "Che la carne sia idonea al consumo",
+      "La possibilità, in caso di abbattimento, di recuperare la carcassa",
+      "Che sia presente un \"fermapalle\" adatto"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 2, 3]
   },
   {
     "id": "4067",
     "question": "Avete tirato a un capriolo maschio da un palco, e l'animale è caduto sul colpo. Cosa fate ora?",
     "answers": [
-      "Ricarico, e, con l'arma pronta al tiro, osservo il capo aspettando almeno 5 minuti.",
-      "Scarico l'arma, scendo dal palco, ricarico e mi reco subito correndo verso il punto dove è caduto",
-      "Scendo subito dal palco, poi scarico l'arma e mi reco camminando verso il punto dove è caduto",
+      "Ricarico, e, con l'arma pronta al tiro, osservo il capo aspettando almeno 5 minuti",
+      "Scarico l'arma, scendo dal palco, ricarico e mi reco subito correndo verso il punto dove è caduto l'animale",
+      "Scendo subito dal palco, poi scarico l'arma e mi reco camminando verso il punto dove è caduto l'animale",
       "Chiamo un conduttore di cane da traccia per sentire la sua opinione"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4068",
-    "question": "Quando il tiro a un cervo posizionato trasversalmente impatta sull'addome, quali dei seguenti",
+    "question": "Quando il tiro a un cervo posizionato trasversalmente impatta sull'addome, quali dei seguenti organi possono essere attinti?",
     "answers": [
-      "Polmone.",
-      "",
-      "Rumine.",
-      "Intestino."
+      "Polmone",
+      "Cuore",
+      "Rumine",
+      "Intestino"
     ],
-    "correct": [
-      2,
-      3
-    ]
+    "correct": [2, 3]
   },
   {
     "id": "4069",
-    "question": "Avete tirato a un capriolo maschio da un palco; l'animale si è dapprima messo in fuga, poi si è",
+    "question": "Avete tirato a un capriolo maschio da un palco; l'animale si è dapprima messo in fuga, poi si è messo giù. Cosa fate?",
     "answers": [
-      "Ricarico e tento di dare il colpo di grazia.",
-      "",
+      "Ricarico e tento di dare il colpo di grazia",
+      "Scarico l'arma, scendo dal palco, ricarico e mi reco di corsa verso il punto dove si trovava l'animale al momento del tiro (\"Anschuss\")",
       "Avviare la ricerca con il cane da recupero",
-      "In un caso del genere, evidentemente l'animale è stato mancato."
+      "In un caso del genere, evidentemente l'animale è stato mancato"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4070",
     "question": "Il comportamento del cacciatore dopo il tiro. Quale delle seguenti affermazioni è corretta?",
     "answers": [
-      "Dopo aver tirato, il cacciatore raggiunge rapidamente il posto dove si trovava il capo al momento",
-      "",
-      "Ispeziona il luogo ove si trovava l'animale al momento dello sparo, in cerca di eventuali indizi del",
+      "Dopo aver tirato, il cacciatore raggiunge rapidamente il posto dove si trovava il capo al momento del tiro (Anschuss) e lo marca con un rametto verde",
+      "Se non è certo che il capo sia caduto sul colpo, aspetta un po', poi si porta sul posto dove si trovava il capo al momento del tiro (Anschuss)",
+      "Ispeziona il luogo ove si trovava l'animale al momento dello sparo, in cerca di eventuali indizi del colpo o tracce del proiettile",
       ""
     ],
-    "correct": [
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "4071",
-    "question": "Un capriolo maschio cade sul colpo, ma dopo breve tempo si rialza e fugge, come se fosse",
+    "question": "Un capriolo maschio cade sul colpo, ma dopo breve tempo si rialza e fugge, come se fosse sano. Di che tipo di colpo si potrebbe trattare?",
     "answers": [
-      "Il colpo ha ferito la spalla.",
-      "",
-      "Il colpo ha strisciato l¿addome.",
-      "Il colpo ha ferito un arto."
+      "Il colpo ha ferito la spalla",
+      "Il colpo ha ferito i processi spinosi",
+      "Il colpo ha strisciato l'addome",
+      "Il colpo ha ferito un arto"
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "4072",
-    "question": "Sul luogo ove si trovava - al momento dello sparo - il capriolo maschio a cui avete tirato, e che",
+    "question": "Sul luogo ove si trovava - al momento dello sparo - il capriolo maschio a cui avete tirato, e che è fuggito dopo il colpo, rinvenite del sangue rosso chiaro e schiumoso. Quale parte è stata attinta?",
     "answers": [
-      "La punta del petto.",
-      "Il collo.",
-      "Il polmone.",
-      "Il fegato."
+      "La punta del petto",
+      "Il collo",
+      "Il polmone",
+      "Il fegato"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "4073",
-    "question": "Se sul luogo ove si trovava un ungulato al momento dello sparo non si rinvengono né sangue",
+    "question": "Se sul luogo ove si trovava un ungulato al momento dello sparo non si rinvengono né sangue né altri segni di ferimento, ciò indica che si tratta di un colpo mancato?",
     "answers": [
-      "Sì.",
-      "",
-      "Solo se al suolo vengono trovate tracce provocate dal proiettile colpendo il terreno.",
+      "Sì",
+      "No",
+      "Solo se al suolo vengono trovate tracce provocate dal proiettile colpendo il terreno",
       ""
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "4074",
-    "question": "Se sul luogo ove si trovava un ungulato al momento dello sparo si rinviene del sangue rosso",
+    "question": "Se sul luogo ove si trovava un ungulato al momento dello sparo si rinviene del sangue rosso scuro e granuloso, quale organo può essere stato attinto?",
     "answers": [
-      "Il polmone.",
-      "",
-      "Il cuore.",
-      "L'intestino."
+      "Il polmone",
+      "Il fegato",
+      "Il cuore",
+      "L'intestino"
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "4075",
-    "question": "Durante un appostamento mattutino, un cacciatore tira a una femmina sottile di cervo, e dopo",
+    "question": "Durante un appostamento mattutino, un cacciatore tira a una femmina sottile di cervo, e dopo il colpo la vede arrancare verso una spessaia distante una ventina di metri. È ipotizzabile che abbia accusato un colpo addominale. Quali dei seguenti comportamenti deve tenere il cacciatore?",
     "answers": [
-      "Non deve correre subito sul punto dove si trovava l'animale al momento del tiro (\"Anschuss\"),",
-      "Deve subito recarsi nel folto ove suppone di trovare il capo ferito.",
-      "Se ha con sé il proprio cane da caccia, non abilitato però alla ricerca di selvatici feriti, deve",
-      ""
+      "Non deve correre subito sul punto dove si trovava l'animale al momento del tiro (\"Anschuss\"), bensì deve andare a marcarlo dopo un congruo tempo di attesa; deve contattare il rettore e procurare che arrivi un conduttore di cane da recupero",
+      "Deve subito recarsi nel folto ove suppone di trovare il capo ferito",
+      "Se ha con sé il proprio cane da caccia, non abilitato però alla ricerca di selvatici feriti, deve condurlo sulla traccia del capo ferito affinché lo spinga fuori dal folto",
+      "Aspettare il ritorno dell'animale ferito"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4076",
-    "question": "Durante un'uscita di caccia individuale, un cacciatore ferisce una lepre. Quando deve iniziare",
+    "question": "Durante un'uscita di caccia individuale, un cacciatore ferisce una lepre. Quando deve iniziare la ricerca con un cane idoneo e abilitato?",
     "answers": [
-      "Quanto prima possibile.",
-      "",
-      "Dopo due ore.",
+      "Quanto prima possibile",
+      "Dopo 30 minuti",
+      "Dopo due ore",
       "Per selvaggina bassa non è prevista la ricerca con cane da recupero"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4077",
     "question": "Cosa rientra fra le infrastrutture ausiliarie della riserva?",
     "answers": [
-      "Sentieri di caccia.",
-      "Strade forestali.",
-      "Postazioni a terra.",
-      "Falciatrici e trattori da utilizzarsi per ottenere fieno a fini di foraggiamento invernale."
+      "Sentieri di caccia",
+      "Strade forestali",
+      "Postazioni a terra",
+      "Falciatrici e trattori da utilizzarsi per ottenere fieno a fini di foraggiamento invernale"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "4078",
     "question": "Cosa rientra fra le infrastrutture ausiliarie della riserva?",
     "answers": [
-      "Altane aperte e chiuse.",
-      "Punti di foraggiamento e saline.",
-      "Rifugi montani.",
-      "Argani portatili."
+      "Altane aperte e chiuse",
+      "Punti di foraggiamento e saline",
+      "Rifugi montani",
+      "Argani portatili"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4079",
-    "question": "Con riferimento alle altane, quali delle seguenti operazioni dovete avere cura di svolgere",
+    "question": "Con riferimento alle altane, quali delle seguenti operazioni dovete avere cura di svolgere durante tutto l'anno?",
     "answers": [
-      "Prima di ogni utilizzo, la verifica di eventuali danni sopraggiunti.",
-      "",
-      "La manutenzione del rivestimento.",
-      "La chiusura tramite recinzione di filo spinato."
+      "Prima di ogni utilizzo, la verifica di eventuali danni sopraggiunti",
+      "La rimozione delle vecchie altane non più utilizzate",
+      "La manutenzione del rivestimento",
+      "La chiusura tramite recinzione di filo spinato"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4080",
-    "question": "Con riferimento al foraggiamento di selvaggina, quali delle seguenti affermazioni sono",
+    "question": "Con riferimento al foraggiamento di selvaggina, quali delle seguenti affermazioni sono corrette?",
     "answers": [
-      "In Alto Adige il foraggiamento e l'offerta di sale alla fauna sono pratiche pressoché non",
-      "In assenza di foraggiamento, gran parte degli animali selvatici muore di fame.",
-      "Un foraggiamento attuato in maniera impropria può provocare danni da selvaggina.",
-      "Presso i siti di foraggiamento e le saline può verificarsi il contagio di malattie fra selvatici."
+      "In Alto Adige il foraggiamento e l'offerta di sale alla fauna sono pratiche pressoché non necessarie",
+      "In assenza di foraggiamento, gran parte degli animali selvatici muore di fame",
+      "Un foraggiamento attuato in maniera impropria può provocare danni da selvaggina",
+      "Presso i siti di foraggiamento e le saline può verificarsi il contagio di malattie fra selvatici"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 2, 3]
   },
   {
     "id": "4081",
     "question": "Con riferimento all'eviscerazione del selvatico, quali delle seguenti affermazioni sono corrette?",
     "answers": [
-      "La selvaggina ungulata abbattuta deve essere eviscerata il prima possibile, così da consentire",
-      "",
-      "Dapprima tutti i capi abbattuti vengono distesi a terra formando il cosiddetto \"plateau\", poi si",
+      "La selvaggina ungulata abbattuta deve essere eviscerata il prima possibile, così da consentire alla carcassa di raffreddarsi e impedire ai germi di proliferare",
+      "La selvaggina ungulata abbattuta può essere eviscerata solo nella cella frigo / nel locale refrigerato, per evitare di sporcare la carcassa durante il trasporto",
+      "Dapprima tutti i capi abbattuti vengono distesi a terra formando il cosiddetto \"plateau\", poi si procede con l'eviscerazione",
       ""
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4082",
-    "question": "Secondo le odierne conoscenze in materia di igiene del carniere, con cosa va pulita la cavità",
+    "question": "Secondo le odierne conoscenze in materia di igiene del carniere, con cosa va pulita la cavità addominale di un selvatico ferito all'addome?",
     "answers": [
-      "Con acqua pulita (potabile).",
-      "",
-      "Con il sangue presente nella cavità addominale stessa.",
-      "Con un fazzoletto."
+      "Con acqua pulita (potabile)",
+      "Con erba o muschio",
+      "Con il sangue presente nella cavità addominale stessa",
+      "Con un fazzoletto"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4083",
     "question": "In quali delle seguenti specie la cistifellea deve essere separata dal fegato con cautela?",
     "answers": [
-      "Capriolo.",
-      "Camoscio.",
-      "Cervo.",
-      "Cinghiale."
+      "Capriolo",
+      "Camoscio",
+      "Cervo",
+      "Cinghiale"
     ],
-    "correct": [
-      1,
-      3
-    ]
+    "correct": [1, 3]
   },
   {
     "id": "4084",
     "question": "In quali delle seguenti specie la cistifellea deve essere separata dal fegato con cautela?",
     "answers": [
-      "Camoscio.",
-      "Stambecco.",
-      "Daino.",
-      "Capriolo."
+      "Camoscio",
+      "Stambecco",
+      "Daino",
+      "Capriolo"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4085",
     "question": "A quale organo è unita la cistifellea, presente in alcune specie di fauna selvatica?",
     "answers": [
-      "Alla milza.",
-      "Al pancreas.",
-      "Al fegato.",
-      "Ai reni."
+      "Alla milza",
+      "Al pancreas",
+      "Al fegato",
+      "Ai reni"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "4086",
-    "question": "Se si intende vendere la carne del selvatico abbattuto, 5 dei suoi organi devono essere",
+    "question": "Se si intende vendere la carne del selvatico abbattuto, 5 dei suoi organi devono essere sottoposti al controllo della \"persona formata\". Quali dei seguenti organi fanno parte dei 5 da far controllare?",
     "answers": [
-      "",
-      "Fegato.",
-      "Rumine.",
-      "Pancreas."
+      "Cuore",
+      "Fegato",
+      "Rumine",
+      "Pancreas"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4087",
-    "question": "Se si intende vendere la carne del selvatico abbattuto, 5 dei suoi organi devono essere",
+    "question": "Se si intende vendere la carne del selvatico abbattuto, 5 dei suoi organi devono essere sottoposti al controllo della \"persona formata\". Quali dei seguenti organi fanno parte dei 5 da far controllare?",
     "answers": [
-      "",
-      "Polmone.",
-      "Milza.",
-      "Cervello."
+      "Reni",
+      "Polmone",
+      "Milza",
+      "Cervello"
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [0, 1, 2]
   },
   {
     "id": "4088",
     "question": "Igiene del carniere e selvaggina bassa: quale delle seguenti affermazioni sono corrette?",
     "answers": [
-      "Avendo la selvaggina bassa una massa corporea ridotta, non vi è pericolo che la carne del capo",
-      "",
-      "Anche se non eviscerata, fuori dal contatto con l'aria la carcassa si conserva senza problemi per",
-      "Nel trasporto e nella conservazione della selvaggina bassa bisogna avere cura che la carcassa"
+      "Avendo la selvaggina bassa una massa corporea ridotta, non vi è pericolo che la carne del capo abbattuto si surriscaldi e si deteriori",
+      "Eviscerare rapidamente eleva la qualità della carne e impedisce che essa si deteriori",
+      "Anche se non eviscerata, fuori dal contatto con l'aria la carcassa si conserva senza problemi per alcuni giorni",
+      "Nel trasporto e nella conservazione della selvaggina bassa bisogna avere cura che la carcassa possa raffreddarsi"
     ],
-    "correct": [
-      3
-    ]
+    "correct": [1, 3]
   },
   {
     "id": "4089",
     "question": "Cosa si intende per selvatico \"riscaldato\"?",
     "answers": [
-      "Un capo di selvaggina abbattuto in presenza di una temperatura esterna molto alta.",
-      "Un capo di selvaggina non correttamente raffreddato e la cui carne appare quindi di dubbia",
-      "La carne di un capo maschio nel periodo degli amori.",
+      "Un capo di selvaggina abbattuto in presenza di una temperatura esterna molto alta",
+      "Un capo di selvaggina non correttamente raffreddato e la cui carne appare quindi di dubbia qualità per la salute del consumatore",
+      "La carne di un capo maschio nel periodo degli amori",
       "Un capo di selvaggina abbattuto dopo una fuga prolungata"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "4090",
-    "question": "Quali delle seguenti circostanze possono far sì che la carne del selvatico abbattuto divenga",
+    "question": "Quali delle seguenti circostanze possono far sì che la carne del selvatico abbattuto divenga \"riscaldata\"?",
     "answers": [
-      "La carne stessa non ha potuto raffreddarsi a sufficienza.",
-      "",
-      "La carne è stata attaccata da muffe.",
-      "La carcassa, non sufficientemente raffreddata, ha subíto un lungo trasporto lontano dal contatto"
+      "La carne stessa non ha potuto raffreddarsi a sufficienza",
+      "Il capo è stato abbattuto con un colpo alla spalla",
+      "La carne è stata attaccata da muffe",
+      "La carcassa, non sufficientemente raffreddata, ha subíto un lungo trasporto lontano dal contatto con l'aria, ad esempio nel sacco portaselvaggina impermeabile"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 3]
   },
   {
     "id": "4091",
-    "question": "Cosa è bene considerare con riferimento al consumo alimentare di carne di capi selvatici che",
+    "question": "Cosa è bene considerare con riferimento al consumo alimentare di carne di capi selvatici che sono stati feriti e oggetto di una ricerca col cane da traccia?",
     "answers": [
-      "La carne dei capi feriti e recuperati è molto spesso compromessa.",
-      "",
-      "La carne dei capi feriti e recuperati deve rimanere appesa più a lungo per poter frollare.",
-      "La carne di un selvatico oggetto di un colpo addominale, e ritrovato morto dopo una lunga"
+      "La carne dei capi feriti e recuperati è molto spesso compromessa",
+      "La carne dei capi feriti, e recuperati dopo un lungo inseguimento da parte del cane, non frolla",
+      "La carne dei capi feriti e recuperati deve rimanere appesa più a lungo per poter frollare",
+      "La carne di un selvatico oggetto di un colpo addominale, e ritrovato morto dopo una lunga ricerca iniziata con ritardo, è decisamente poco apprezzabile sotto il profilo gastronomico"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "4092",
     "question": "Quali accorgimenti vanno osservati nel trasporto di capi ungulati abbattuti?",
     "answers": [
-      "I capi raffreddati non possono essere trasportati nel bagagliaio delle autovetture.",
-      "Il trasporto deve avvenire rapidamente, e il capo deve possibilmente giungere con celerità in un",
-      "Da scuoiata la carcassa si raffredda meglio, pertanto va scuoiata prima del trasporto.",
+      "I capi raffreddati non possono essere trasportati nel bagagliaio delle autovetture",
+      "Il trasporto deve avvenire rapidamente, e il capo deve possibilmente giungere con celerità in un locale frigo per il raffreddamento",
+      "Da scuoiata la carcassa si raffredda meglio, pertanto va scuoiata prima del trasporto",
       ""
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "4093",
-    "question": "Dai peli di quali dei seguenti animali è possibile ricavare dei pennacchi ornamentali (i",
+    "question": "Dai peli di quali dei seguenti animali è possibile ricavare dei pennacchi ornamentali (i cosiddetti \"Bart\")?",
     "answers": [
-      "Camoscio maschio.",
-      "",
-      "Cervo.",
-      "Tasso."
+      "Camoscio maschio",
+      "Capriolo maschio",
+      "Cervo",
+      "Tasso"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 2, 3]
   },
   {
     "id": "4094",
     "question": "Quali dei seguenti lavori del cane da caccia vanno svolti prima dello sparo?",
     "answers": [
-      "Ricerca dell'animale ferito.",
-      "Parata della selvaggina con voce (braccheggiamento).",
-      "Ricerca nel fitto.",
-      "Riporto."
+      "Ricerca dell'animale ferito",
+      "Parata della selvaggina con voce (braccheggiamento)",
+      "Ricerca nel fitto",
+      "Riporto"
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "4095",
     "question": "Quali dei seguenti lavori del cane da caccia vanno svolti dopo lo sparo?",
     "answers": [
-      "Riportare l'animale ferito.",
-      "Parata della selvaggina con voce (braccheggiamento).",
-      "Fare la ferma.",
-      "Riporto."
+      "Riportare l'animale ferito",
+      "Parata della selvaggina con voce (braccheggiamento)",
+      "Fare la ferma",
+      "Riporto"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 3]
   },
   {
     "id": "4096",
     "question": "Quali dei seguenti lavori vengono richiesti dai segugi?",
     "answers": [
-      "Seguire le tracce fredde e calde del selvatico con voce.",
-      "Indicare al cacciatore con un atteggiamento particolare il selvatico.",
-      "Trovare la selvaggina bassa abbattuta e portarla al conduttore.",
+      "Seguire le tracce fredde e calde del selvatico con voce",
+      "Indicare al cacciatore con un atteggiamento particolare il selvatico",
+      "Trovare la selvaggina bassa abbattuta e portarla al conduttore",
       "La ricerca silenziosa della traccia"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4097",
     "question": "Quali delle seguenti specie di selvaggina possono essere parate con voce (braccheggiate)?",
     "answers": [
-      "Lepre.",
-      "Volpe.",
-      "Cinghiale.",
-      "Camoscio."
+      "Lepre",
+      "Volpe",
+      "Cinghiale",
+      "Camoscio"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4098",
     "question": "Quando abbiamo bisogno di un cane che abbaia sull'usta calda (ovvero di un cane \"spurlaut\")?",
     "answers": [
-      "Per parare con voce (braccheggiare).",
-      "Per la caccia agli acquatici.",
-      "Per la caccia con il cane da ferma.",
-      "Quando si cerca l'animale ferito."
+      "Per parare con voce (braccheggiare)",
+      "Per la caccia agli acquatici",
+      "Per la caccia con il cane da ferma",
+      "Quando si cerca l'animale ferito"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 3]
   },
   {
     "id": "4099",
-    "question": "Quali dei seguenti cani dovrebbero abbaiare sull'usta calda (ovvero dovrebbero essere",
+    "question": "Quali dei seguenti cani dovrebbero abbaiare sull'usta calda (ovvero dovrebbero essere \"spurlaut\")?",
     "answers": [
-      "Segugi.",
-      "",
-      "Cani da ferma.",
-      "Cani da riporto."
+      "Segugi",
+      "Cani da traccia (cane da sangue)",
+      "Cani da ferma",
+      "Cani da riporto"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4100",
     "question": "Quali dei seguenti cani di solito abbaiano sull'usta calda?",
     "answers": [
-      "Cani da tana (Bassotto e Terrier).",
-      "Cani da ferma.",
-      "Cani da riporto.",
+      "Cani da tana (Bassotto e Terrier)",
+      "Cani da ferma",
+      "Cani da riporto",
       ""
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4101",
-    "question": "Un cane che abbaia sull'usta calda (ovvero è \"spurlaut\") che finalità può avere per il",
+    "question": "Un cane che abbaia sull'usta calda (ovvero è \"spurlaut\") che finalità può avere per il cacciatore?",
     "answers": [
-      "Fa sì che il cacciatore possa udire lo spostamento del selvatico inseguito dal cane.",
-      "",
-      "Il cacciatore riconosce dalla voce del cane il tipo di selvaggina che sta riportando.",
+      "Fa sì che il cacciatore possa udire lo spostamento del selvatico inseguito dal cane",
+      "Facilita la caccia agli acquatici",
+      "Il cacciatore riconosce dalla voce del cane il tipo di selvaggina che sta riportando",
       ""
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4102",
     "question": "Quando un cane \"dà voce a vista\" (ovvero \"sichtlaut\")?",
     "answers": [
-      "Quando il cane dà voce a vista di qualsiasi specie di selvaggina.",
-      "Quando il cane, tornando dal selvatico trovato morto, abbaia vedendo il conduttore per avvisare,",
-      "Quando dà voce esclusivamente a vista del selvatico inseguito.",
+      "Quando il cane dà voce a vista di qualsiasi specie di selvaggina",
+      "Quando il cane, tornando dal selvatico trovato morto, abbaia vedendo il conduttore per avvisare, che ha trovato",
+      "Quando dà voce esclusivamente a vista del selvatico inseguito",
       ""
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "4103",
     "question": "Cosa fa un cane da ferma?",
     "answers": [
-      "Si mette davanti al selvatico abbattuto.",
-      "Indica al cacciatore con un atteggiamento particolare di aver il selvatico nell'olfatto.",
-      "Dà voce sulla traccia fredda prima di avere il selvatico nell'olfatto.",
-      "Si mette davanti al cacciatore per segnalare che ha trovato la selvaggina bassa abbattuta."
+      "Si mette davanti al selvatico abbattuto",
+      "Indica al cacciatore con un atteggiamento particolare di aver il selvatico nell'olfatto",
+      "Dà voce sulla traccia fredda prima di avere il selvatico nell'olfatto",
+      "Si mette davanti al cacciatore per segnalare che ha trovato la selvaggina bassa abbattuta"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "4104",
     "question": "Quali sono le doti di un cane da ferma?",
     "answers": [
-      "Cercare il selvatico a naso alto.",
-      "Dare voce sulla traccia.",
-      "Fare la ferma.",
-      "Riportare."
+      "Cercare il selvatico a naso alto",
+      "Dare voce sulla traccia",
+      "Fare la ferma",
+      "Riportare"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 2, 3]
   },
   {
     "id": "4105",
     "question": "Quali delle seguenti razze appartengono ai cani da ferma?",
     "answers": [
-      "Deutsch Kurzhaar (bracco tedesco).",
-      "Setter.",
-      "Labrador Retriever.",
-      "Jagdterrier."
+      "Deutsch Kurzhaar (bracco tedesco)",
+      "Setter",
+      "Labrador Retriever",
+      "Jagdterrier"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4106",
     "question": "Quali delle seguenti razze appartengono ai cani da ferma?",
     "answers": [
-      "Weimaraner.",
-      "Segugio bavarese.",
-      "Bassotto.",
-      "Deutsch Drahthaar (bracco tedesco a pelo forte)."
+      "Weimaraner",
+      "Segugio bavarese",
+      "Bassotto",
+      "Deutsch Drahthaar (bracco tedesco a pelo forte)"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 3]
   },
   {
     "id": "4107",
     "question": "Quali delle seguenti razze appartengono ai cani da ferma?",
     "answers": [
-      "Deutsch Langhaar (bracco tedesco a pelo lungo).",
-      "Pointer.",
-      "Münsterländer.",
-      "Dachsbracke."
+      "Deutsch Langhaar (bracco tedesco a pelo lungo)",
+      "Pointer",
+      "Münsterländer",
+      "Dachsbracke"
     ],
-    "correct": [
-      0,
-      1,
-      2
-    ]
+    "correct": [0, 1, 2]
   },
   {
     "id": "4108",
     "question": "Quali sono le doti di un cane da riporto?",
     "answers": [
-      "Trovare selvaggina bassa abbattuta.",
-      "Portare selvaggina bassa abbattuta.",
-      "Abbaiare a morto sul selvatico abbattuto, ovvero \"Totverbellen\".",
-      "Seguire la volpe nella sua tana e scovarla."
+      "Trovare selvaggina bassa abbattuta",
+      "Portare selvaggina bassa abbattuta",
+      "Abbaiare a morto sul selvatico abbattuto, ovvero \"Totverbellen\"",
+      "Seguire la volpe nella sua tana e scovarla"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4109",
     "question": "Quali delle seguenti razze appartengono ai cani da riporto?",
     "answers": [
-      "Retriever.",
-      "Jagdterrier.",
-      "Dachsbracke.",
-      "Labrador."
+      "Retriever",
+      "Jagdterrier",
+      "Dachsbracke",
+      "Labrador"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 3]
   },
   {
     "id": "4110",
     "question": "Quali delle seguenti razze appartengono alla categoria dei cani da cerca?",
     "answers": [
-      "Wachtelhund.",
-      "Segugio bavarese.",
-      "Spaniel.",
-      "Golden Retriever."
+      "Wachtelhund",
+      "Segugio bavarese",
+      "Spaniel",
+      "Golden Retriever"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "4111",
     "question": "Per quali dei seguenti lavori sono indicati il Terrier e il Bassotto?",
     "answers": [
-      "Caccia in tana.",
-      "Caccia agli acquatici.",
-      "Fare la ferma.",
-      "Lavoro sull'ungulato ferito, se particolarmente addestrati."
+      "Caccia in tana",
+      "Caccia agli acquatici",
+      "Fare la ferma",
+      "Lavoro sull'ungulato ferito, se particolarmente addestrati"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 3]
   },
   {
     "id": "4112",
     "question": "Cosa fa un cane durante la cerca (cioè durante il cosidetto \"Stöbern\")?",
     "answers": [
-      "Cerca il selvatico in un'area ristretta.",
-      "Cerca il selvatico nella tana.",
-      "Cerca il selvatico abbattuto.",
+      "Cerca il selvatico in un'area ristretta",
+      "Cerca il selvatico nella tana",
+      "Cerca il selvatico abbattuto",
       "Cerca palchi caduti o selvaggina morta"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4113",
     "question": "Quali delle seguenti razze appartengono ai cani da tana?",
     "answers": [
-      "Bassotto.",
-      "Spaniel.",
-      "Terrier.",
-      "Setter."
+      "Bassotto",
+      "Spaniel",
+      "Terrier",
+      "Setter"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "4114",
     "question": "Quali dei seguenti lavori vengono richiesti dal cane da traccia (da sangue)?",
     "answers": [
-      "Cercare a naso alto la selvaggina da piuma e fermarla.",
-      "Trovare il selvatico ferito.",
-      "Fermare o finire l'animale ferito.",
-      "Dare voce sul selvatico trovato morto (\"Totverbellen\") oppure chiamare il conduttore per portarlo"
+      "Cercare a naso alto la selvaggina da piuma e fermarla",
+      "Trovare il selvatico ferito",
+      "Fermare o finire l'animale ferito",
+      "Dare voce sul selvatico trovato morto (\"Totverbellen\") oppure chiamare il conduttore per portarlo sull'animale morto (\"Totverweisen\")"
     ],
-    "correct": [
-      1,
-      2,
-      3
-    ]
+    "correct": [1, 2, 3]
   },
   {
     "id": "4115",
     "question": "Cosa si intende per comando a terra del cane (\"Ablegen\")?",
     "answers": [
-      "Il cane deve rimanere a terra sulla postazione ordinatagli, in attesa del conduttore.",
-      "L'imminente reazione del cane a seguito del comando \"Alt\" (\"fermo\").",
-      "Deporre a terra il selvatico riportato.",
+      "Il cane deve rimanere a terra sulla postazione ordinatagli, in attesa del conduttore",
+      "L'imminente reazione del cane a seguito del comando \"Alt\" (\"fermo\")",
+      "Deporre a terra il selvatico riportato",
       ""
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4116",
     "question": "Qual è lo scopo delle usanze venatorie?",
     "answers": [
-      "Distinguersi dai non cacciatori nel modo di comportarsi, di esprimersi e di abbigliarsi.",
-      "Rafforzare il senso di appartenenza alla comunità venatoria e dare sicurezza nel",
-      "Tramite le usanze venatorie il cacciatore si esplicita rispetto verso la fauna selvatica e verso gli",
+      "Distinguersi dai non cacciatori nel modo di comportarsi, di esprimersi e di abbigliarsi",
+      "Rafforzare il senso di appartenenza alla comunità venatoria e dare sicurezza nel comportamento",
+      "Tramite le usanze venatorie il cacciatore si esplicita rispetto verso la fauna selvatica e verso gli altri cacciatori",
       ""
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "4117",
     "question": "Quali delle seguenti \"norme\" tradizionali sono superate e oggi inattuali?",
     "answers": [
-      "Nell'eviscerare un capo non è consentito arrotolarsi le maniche.",
-      "Nell'eviscerare, non si può pulire la cavità addominale con acqua.",
-      "In occasioni ufficiali, vanno indossati abiti di foggia venatoria.",
-      "Coricare sul fianco il capo abbattuto."
+      "Nell'eviscerare un capo non è consentito arrotolarsi le maniche",
+      "Nell'eviscerare, non si può pulire la cavità addominale con acqua",
+      "In occasioni ufficiali, vanno indossati abiti di foggia venatoria",
+      "Coricare sul fianco il capo abbattuto"
     ],
-    "correct": [
-      0,
-      1
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4118",
     "question": "Quali delle seguenti \"norme\" tradizionali sono superate e oggi inattuali?",
     "answers": [
-      "Nell'eviscerare non è consentito portare guanti.",
-      "Il rametto dell'abbattitore (\"Erlegerbruch\") va bagnato nel sangue della preda.",
-      "Il punto in cui si trovava l'animale al momento dello sparo (\"Anschuss\") va marcato con un",
-      "Al termine di un recupero riuscito, una parte del rametto dell'abbattitore va consegnata al"
+      "Nell'eviscerare non è consentito portare guanti",
+      "Il rametto dell'abbattitore (\"Erlegerbruch\") va bagnato nel sangue della preda",
+      "Il punto in cui si trovava l'animale al momento dello sparo (\"Anschuss\") va marcato con un ramoscello",
+      "Al termine di un recupero riuscito, una parte del rametto dell'abbattitore va consegnata al recuperatore, per fissarla al collare del suo cane da traccia"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4119",
-    "question": "Cos'è, nel gergo venatorio, il \"ramoscello della presa di possesso\" (\"Streckenbruch)?",
+    "question": "Cos'è, nel gergo venatorio, il \"ramoscello della presa di possesso\" (\"Streckenbruch\")?",
     "answers": [
-      "Il rametto verde che l'autore di un abbattimento si appunta sulla destra del cappello.",
-      "Il rametto verde che viene posto nella bocca o nel becco del capo abbattuto, dopo averlo",
-      "Il rametto verde che viene posto sulla scapola del capo abbattuto, dopo averlo coricato sul",
-      "Il rametto che marca il punto in cui il cane da recupero è stato posto sulla traccia."
+      "Il rametto verde che l'autore di un abbattimento si appunta sulla destra del cappello",
+      "Il rametto verde che viene posto nella bocca o nel becco del capo abbattuto, dopo averlo coricato sul fianco",
+      "Il rametto verde che viene posto sulla scapola del capo abbattuto, dopo averlo coricato sul fianco",
+      "Il rametto che marca il punto in cui il cane da recupero è stato posto sulla traccia"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "4120",
     "question": "Cos'è, nel gergo venatorio, \"l'ultimo pasto\"?",
     "answers": [
-      "Il rametto verde che l'autore di un abbattimento si appunta sulla destra del cappello.",
-      "Il rametto verde che viene posto nella bocca o nel becco del capo abbattuto.",
-      "Il rametto verde che viene posto sulla scapola del capo abbattuto, dopo averlo coricato sul",
-      "Sono le interiora del capo abbattuto, che, al termine di una ricerca fruttuosa del capo, il"
+      "Il rametto verde che l'autore di un abbattimento si appunta sulla destra del cappello",
+      "Il rametto verde che viene posto nella bocca o nel becco del capo abbattuto",
+      "Il rametto verde che viene posto sulla scapola del capo abbattuto, dopo averlo coricato sul fianco",
+      "Sono le interiora del capo abbattuto, che, al termine di una ricerca fruttuosa del capo, il cacciatore dà al conduttore del cane da traccia per il proprio ausiliare"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "4121",
     "question": "Cos'è, nel gergo venatorio, il \"rametto dell'abbattitore\" (\"Erlegerbruch\")?",
     "answers": [
-      "Il rametto verde che l'autore di un abbattimento si appunta sulla destra del cappello.",
-      "Il rametto verde che viene posto nella bocca o nel becco del capo abbattuto.",
-      "Il rametto verde che viene posto sulla scapola del capo abbattuto.",
-      "Il rametto verde con il quale l'autore del prelievo marca il punto in cui si trovava l'animale al"
+      "Il rametto verde che l'autore di un abbattimento si appunta sulla destra del cappello",
+      "Il rametto verde che viene posto nella bocca o nel becco del capo abbattuto",
+      "Il rametto verde che viene posto sulla scapola del capo abbattuto",
+      "Il rametto verde con il quale l'autore del prelievo marca il punto in cui si trovava l'animale al momento dello sparo"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4122",
     "question": "Cos'è, nel gergo venatorio, il \"rametto dell'Anschuss\"?",
     "answers": [
-      "Il rametto verde che il cacciatore si appunta sulla destra del cappello quando ha ferito un capo.",
-      "Il rametto verde che viene posto nella bocca o nel becco del capo ferito.",
-      "Il rametto verde con il quale il cacciatore marca, per il conduttore di cane da recupero, il punto in",
+      "Il rametto verde che il cacciatore si appunta sulla destra del cappello quando ha ferito un capo",
+      "Il rametto verde che viene posto nella bocca o nel becco del capo ferito",
+      "Il rametto verde con il quale il cacciatore marca, per il conduttore di cane da recupero, il punto in cui si trovava l'animale al momento dello sparo",
       ""
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "4123",
-    "question": "In occasioni venatorie festose o particolari, su quale lato del cappello viene portato il rametto",
+    "question": "In occasioni venatorie festose o particolari, su quale lato del cappello viene portato il rametto verde?",
     "answers": [
-      "A sinistra.",
-      "",
-      "Ai matrimoni sulla destra, in tutte le altre occasioni a sinistra.",
+      "A sinistra",
+      "A destra",
+      "Ai matrimoni sulla destra, in tutte le altre occasioni a sinistra",
       ""
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4124",
     "question": "Ai funerali di cacciatori, che uso viene fatto del rametto verde?",
     "answers": [
-      "Viene portato sul cappello, a destra.",
-      "Viene portato sul cappello, a sinistra.",
-      "Viene consegnato ai congiunti dello scomparso.",
-      "Viene portato sul cappello, con la faccia inferiore degli aghi rivolta all'esterno."
+      "Viene portato sul cappello, a destra",
+      "Viene portato sul cappello, a sinistra",
+      "Viene consegnato ai congiunti dello scomparso",
+      "Viene portato sul cappello, con la faccia inferiore degli aghi rivolta all'esterno"
     ],
-    "correct": [
-      1,
-      3
-    ]
+    "correct": [1, 3]
   },
   {
     "id": "4125",
     "question": "I rametti i di quali alberi vengono impiegati ai funerali?",
     "answers": [
-      "Pino cembro.",
-      "Larice.",
-      "Abete bianco.",
-      "Quercia."
+      "Pino cembro",
+      "Larice",
+      "Abete bianco",
+      "Quercia"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "4126",
     "question": "Tradizionalmente, come viene composto l'ungulato abbattuto?",
     "answers": [
-      "Coricato sul suo fianco destro, con il \"rametto della presa di possesso\" sulla scapola sinistra.",
-      "Eviscerato.",
-      "Non eviscerato.",
-      "Con in bocca \"l'ultimo pasto\"."
+      "Coricato sul suo fianco destro, con il \"rametto della presa di possesso\" sulla scapola sinistra",
+      "Eviscerato",
+      "Non eviscerato",
+      "Con in bocca \"l'ultimo pasto\""
     ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
+    "correct": [0, 1, 3]
   },
   {
     "id": "4127",
@@ -3726,25 +3412,18 @@ const questions = [
       "Faggio",
       "Roverella"
     ],
-    "correct": [
-      1,
-      3
-    ]
+    "correct": [1, 3]
   },
   {
     "id": "4128",
-    "question": "Quali delle seguenti specie arboree crescono specialmente nelle boscaglie vicine a",
+    "question": "Quali delle seguenti specie arboree crescono specialmente nelle boscaglie vicine a fondovalle?",
     "answers": [
       "Carpinella / carpino nero",
-      "",
+      "Pino cembro / cirmolo",
       "Castagno",
       "Roverella"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 2, 3]
   },
   {
     "id": "4129",
@@ -3755,23 +3434,18 @@ const questions = [
       "Ontano verde",
       "Abete bianco"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "4130",
-    "question": "Quali specie arboree sono presenti soprattutto in aree dal clima temperato e sufficientemente",
+    "question": "Quali specie arboree sono presenti soprattutto in aree dal clima temperato e sufficientemente umido?",
     "answers": [
       "Abete bianco",
-      "",
+      "Faggio",
       "Pino cembro, cirmolo",
       "Pino mugo"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4131",
@@ -3782,23 +3456,18 @@ const questions = [
       "Sono quartieri per volpe, capriolo e cervo",
       ""
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "4132",
-    "question": "Quali provvedimenti aggiuntivi può prendere l'assessore competente, qualora una riserva di",
+    "question": "Quali provvedimenti aggiuntivi può prendere l'assessore competente, qualora una riserva di caccia non faccia fronte all'indennizzo di danni da selvaggina entro i termini fissati?",
     "answers": [
       "Revoca dei permessi di caccia ai soci della riserva in questione",
-      "",
+      "Incarico di riduzione delle consistenze di ungulati a persone idonee",
       "Revoca dei porto d'armi per uso caccia ai soci della riserva in questione",
       "Pignoramenti per l'importo fissato"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4133",
@@ -3809,23 +3478,18 @@ const questions = [
       "Elenco dei capi abbattuti",
       "Esame venatorio"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "4134",
-    "question": "Siamo a metà della stagione venatoria e in una riserva viene valutato il prelievo di selvaggina",
+    "question": "Siamo a metà della stagione venatoria e in una riserva viene valutato il prelievo di selvaggina bassa. In base al \"segno di Stroh\" emerge che fra i capi abbattuti non vi sono lepri giovani. Quali conseguenze se ne possono trarre?",
     "answers": [
       "La consistenza di lepri è soddisfacente, si può accentuare il prelievo senza problemi",
-      "È un indice di allarme; si può supporre che nell'anno in questione vi sia una carenza riproduttiva,",
+      "È un indice di allarme; si può supporre che nell'anno in questione vi sia una carenza riproduttiva, e di conseguenza è opportuno trattenersi nell'intervento venatorio",
       "Non si possono trarre conclusioni sul successo riproduttivo",
       "Il \"segno di Stroh\" non ha lo scopo di determinare le lepri giovani"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "4135",
@@ -3836,10 +3500,7 @@ const questions = [
       "In base all'usura dei denti",
       "Nei capi giovani, in base al cambio dei denti da latte"
     ],
-    "correct": [
-      0,
-      3
-    ]
+    "correct": [0, 3]
   },
   {
     "id": "4136",
@@ -3850,22 +3511,18 @@ const questions = [
       "Gli accoppiamenti fra lepri comuni",
       "Le parate nuziali a terra del gallo cedrone"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "4137",
     "question": "Nei giorni di gelate, è necessario eviscerare il rapidamente quanto nelle calde giornate estive?",
     "answers": [
-      "Si",
-      "",
-      "Dipende dalla temperatura esterna. Se è inferiore ai -10 °C, non è necessario eviscerare",
+      "Sì",
+      "No",
+      "Dipende dalla temperatura esterna. Se è inferiore ai -10 °C, non è necessario eviscerare rapidamente",
       ""
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4138",
@@ -3876,22 +3533,18 @@ const questions = [
       "Quando, dall'eccitazione, dà voce senza aver visto o annusato la traccia del selvatico",
       ""
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4139",
-    "question": "Che cos'è lo \"Standlaut\"(abbaiare a fermo)?",
+    "question": "Che cos'è lo \"Standlaut\" (abbaiare a fermo)?",
     "answers": [
       "Dare voce sulla postazione del tiratore",
       "Dare voce mentre insegue un capriolo sano",
       "Dare voce durante la ricerca sul selvatico bloccato",
       ""
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "4140",
@@ -3902,132 +3555,106 @@ const questions = [
       "Un cane che spaventa a morte il selvatico abbaiando",
       ""
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4141",
-    "question": "Quale specie alloctona di pino venne usata negli anni '50 per riforestare ampie superfici in Val",
+    "question": "Quale specie alloctona di pino venne usata negli anni '50 per riforestare ampie superfici in Val Venosta?",
     "answers": [
       "Il pino cembro",
-      "",
+      "Il pino silvestre",
       "Il pino mugo",
       "Il Pino nero"
     ],
-    "correct": [
-      3
-    ]
+    "correct": [3]
   },
   {
     "id": "4142",
     "question": "Quali di queste asserzioni relative all'abete rosso sono corrette?",
     "answers": [
-      "Il gufo fa il nido nelle chiome dei vecchi abeti.",
-      "Aghi e germogli sono un apprezzato nutrimento del gallo cedrone.",
-      "Il francolino di monte si nasconde spesso nelle chiome più fitte.",
-      "L'abete rosso è la seconda specie arborea più diffusa in Alto Adige."
+      "Il gufo fa il nido nelle chiome dei vecchi abeti",
+      "Aghi e germogli sono un apprezzato nutrimento del gallo cedrone",
+      "Il francolino di monte si nasconde spesso nelle chiome più fitte",
+      "L'abete rosso è la seconda specie arborea più diffusa in Alto Adige"
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "4143",
     "question": "Quali di queste asserzioni relative al larice sono corrette?",
     "answers": [
-      "Gemme e germogli sono un apprezzato nutrimento del gallo cedrone e del gallo forcello.",
-      "La corteccia del larice è spesso mangiata dai cervi.",
-      "Il crociere si ciba dei semi del larice.",
-      "Il larice è una specie alloctona in Alto Adige ed è stata massicciamente usata in Val Venosta per"
+      "Gemme e germogli sono un apprezzato nutrimento del gallo cedrone e del gallo forcello",
+      "La corteccia del larice è spesso mangiata dai cervi",
+      "Il crociere si ciba dei semi del larice",
+      "Il larice è una specie alloctona in Alto Adige ed è stata massicciamente usata in Val Venosta per le riforestazioni postbelliche"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "4144",
     "question": "Perché i tetraonidi riescono a digerire bene gli aghi ed i germogli delle conifere?",
     "answers": [
-      "Perché hanno lo stomaco diviso in quattro settori.",
-      "Perché hanno due appendici.",
-      "Perché hanno un ventriglio dotato di placche cornee che tritura il cibo.",
-      "Perché deglutiscono in aggiunta insetti che aiutano la digestione."
+      "Perché hanno lo stomaco diviso in quattro settori",
+      "Perché hanno due appendici",
+      "Perché hanno un ventriglio dotato di placche cornee che tritura il cibo",
+      "Perché deglutiscono in aggiunta insetti che aiutano la digestione"
     ],
-    "correct": [
-      1,
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "4145",
-    "question": "Quali di queste specie arboree si trovano nell'habitat del gallo cedrone, del gallo forcello e del",
+    "question": "Quali di queste specie arboree si trovano nell'habitat del gallo cedrone, del gallo forcello e del francolino di monte e forniscono un importante nutrimento ai tetraonidi?",
     "answers": [
       "Il noce",
-      "",
+      "Il sorbo",
       "La robinia",
       "Il salicone"
     ],
-    "correct": [
-      3
-    ]
+    "correct": [1, 3]
   },
   {
     "id": "4146",
-    "question": "Quali di questi fattori devono essere tenuti in considerazione nei piani di prelievo degli",
+    "question": "Quali di questi fattori devono essere tenuti in considerazione nei piani di prelievo degli ungulati?",
     "answers": [
-      "Lo stato della popolazione.",
-      "",
-      "I danni da selvaggina all'agricoltura ed alle foreste.",
-      "I censimenti faunistici."
+      "Lo stato della popolazione",
+      "Il numero dei cacciatori nella riserva",
+      "I danni da selvaggina all'agricoltura ed alle foreste",
+      "I censimenti faunistici"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 2, 3]
   },
   {
     "id": "4147",
-    "question": "Quali di questi fattori devono essere tenuti in considerazione nei piani di prelievo degli",
+    "question": "Quali di questi fattori devono essere tenuti in considerazione nei piani di prelievo degli ungulati?",
     "answers": [
-      "Il numero degli individui morti per altre cause.",
-      "",
-      "Il numero delle strade forestali nella riserva.",
-      "La distribuzione in classi di età dei cacciatori."
+      "Il numero degli individui morti per altre cause",
+      "I censimenti faunistici",
+      "Il numero delle strade forestali nella riserva",
+      "La distribuzione in classi di età dei cacciatori"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4148",
-    "question": "Quali di questi fattori devono essere tenuti in considerazione nei piani di prelievo dei",
+    "question": "Quali di questi fattori devono essere tenuti in considerazione nei piani di prelievo dei tetraonidi?",
     "answers": [
       "I censimenti annuali",
-      "",
+      "Un parere dell'Associazione Cacciatori",
       "La Valutazione d'Incidenza dell'Ufficio caccia e pesca",
       "Il numero dei cacciatori nella Riserva di riferimento"
     ],
-    "correct": [
-      0,
-      2
-    ]
+    "correct": [0, 2]
   },
   {
     "id": "4149",
-    "question": "Come viene garantito in Alto Adige che la caccia non danneggi le popolazioni dei tetraonidi",
+    "question": "Come viene garantito in Alto Adige che la caccia non danneggi le popolazioni dei tetraonidi cacciabili?",
     "answers": [
-      "Tramite una dichiarazione della Ripartizione Natura e Paesaggio che il Piano di Abbattimento è",
+      "Tramite una dichiarazione della Ripartizione Natura e Paesaggio che il Piano di Abbattimento è ininfluente",
       "Tramite un parere dell'ISPRA (Istituto Superiore per la Protezione e la Ricerca Ambientale)",
       "Tramite una Dichiarazione d'Incidenza dell'Ufficio caccia e pesca",
       "Tramite un parere dell'Osservatorio Faunistico"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "4150",
@@ -4038,25 +3665,18 @@ const questions = [
       "Gli alpeggi",
       "Le siepi e gli arbusteti a confine"
     ],
-    "correct": [
-      2,
-      3
-    ]
+    "correct": [2, 3]
   },
   {
     "id": "4151",
-    "question": "Sulla base dello stato d'usura della dentiera si possono trarre informazioni relative all'età degli",
+    "question": "Sulla base dello stato d'usura della dentiera si possono trarre informazioni relative all'età degli ungulati. Quali delle seguenti asserzioni sono corrette?",
     "answers": [
-      "Gli individui più vecchi hanno una superficie di masticazione più liscia.",
-      "",
-      "Individui giovani hanno delle incisioni profonde nei molari.",
-      "I denti da latte si consumano più in fretta di quelli permanenti."
+      "Gli individui più vecchi hanno una superficie di masticazione più liscia",
+      "I molari degli individui più vecchi presentano profonde scanalature",
+      "Individui giovani hanno delle incisioni profonde nei molari",
+      "I denti da latte si consumano più in fretta di quelli permanenti"
     ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
+    "correct": [0, 2, 3]
   },
   {
     "id": "4152",
@@ -4067,98 +3687,84 @@ const questions = [
       "I denti permanenti sono più chiari",
       "Non si distinguono tra loro"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0]
   },
   {
     "id": "4153",
     "question": "A partire da quale età in un cervo gli incisivi sono permanenti?",
     "answers": [
-      "A partire da 1 anno d`età",
-      "A partire da 2 anni d`età",
-      "A partire da 3 anni d`età",
-      "A partire da 4 anni d`età"
+      "A partire da 1 anno d'età",
+      "A partire da 2 anni d'età",
+      "A partire da 3 anni d'età",
+      "A partire da 4 anni d'età"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "4154",
     "question": "A partire da quale età in un camoscio i sei incisivi sono permanenti?",
     "answers": [
-      "A partire da 1 anno d`età",
-      "A partire da 2 anni d`età",
-      "A partire da 3 anni d`età",
-      "A partire da 4 anni d`età"
+      "A partire da 1 anno d'età",
+      "A partire da 2 anni d'età",
+      "A partire da 3 anni d'età",
+      "A partire da 4 anni d'età"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "4155",
     "question": "Come si riconosce dalla mandibola se si tratta di un capriolo o di un camoscio?",
     "answers": [
-      "Nel camoscio i denti sono più consumati.",
-      "La mandibola del capriolo ha un'appendice ad angolo.",
-      "Il capriolo ha solamente 6 incisivi.",
-      "I molari del camoscio sono scuri."
+      "Nel camoscio i denti sono più consumati",
+      "La mandibola del capriolo ha un'appendice ad angolo",
+      "Il capriolo ha solamente 6 incisivi",
+      "I molari del camoscio sono scuri"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "4156",
-    "question": "In funzione del cambiamento dei denti può essere stimata l`età dei giovani ungulati con una",
+    "question": "In funzione del cambiamento dei denti può essere stimata l'età dei giovani ungulati con una buona approssimazione. Il terzo premolare svolge un ruolo importante in questa stima: esso è infatti nella dentatura da latte ...",
     "answers": [
       "compatto",
       "diviso in due parti",
       "diviso in tre parti",
       "diviso in quattro parti"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "4157",
-    "question": "In funzione del cambiamento dei denti può essere stimata l`età dei giovani ungulati con una",
+    "question": "In funzione del cambiamento dei denti può essere stimata l'età dei giovani ungulati con una buona approssimazione. Il terzo premolare è il dente di riferimento: nei giovani è diviso in due parti, negli adulti in tre parti. Nel capriolo viene cambiato ...",
     "answers": [
-      "",
-      "... all'età di due anni.",
-      "... all'età di due anni e mezzo.",
-      "... all'età di tre anni."
+      "... all'età di un anno",
+      "... all'età di due anni",
+      "... all'età di due anni e mezzo",
+      "... all'età di tre anni"
     ],
-    "correct": []
+    "correct": [0]
   },
   {
     "id": "4158",
-    "question": "In funzione del cambiamento dei denti può essere stimata l`età dei giovani ungulati con una",
+    "question": "In funzione del cambiamento dei denti può essere stimata l'età dei giovani ungulati con una buona approssimazione. Il terzo premolare è il dente di riferimento: nei giovani è diviso in due parti, negli adulti in tre parti. Nel cervo viene cambiato ...",
     "answers": [
-      "... all'età di un anno.",
-      "... all'età di due anno.",
-      "... all'età di due anni e mezzo.",
-      "... all'età di tre anni."
+      "... all'età di un anno",
+      "... all'età di due anni",
+      "... all'età di due anni e mezzo",
+      "... all'età di tre anni"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "4159",
-    "question": "In funzione del cambiamento dei denti può essere stimata l`età dei giovani ungulati con una",
+    "question": "In funzione del cambiamento dei denti può essere stimata l'età dei giovani ungulati con una buona approssimazione. Il terzo premolare è il dente di riferimento: nei giovani è diviso in due parti, negli adulti in tre parti. Nel camoscio e nello stambecco viene cambiato...",
     "answers": [
-      "... all'età di un anno.",
-      "... all'età di due anni.",
-      "... all'età di due anni e mezzo.",
-      "... all'età di tre anni."
+      "... all'età di un anno",
+      "... all'età di due anni",
+      "... all'età di due anni e mezzo",
+      "... all'età di tre anni"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [2]
   },
   {
     "id": "4160",
@@ -4169,9 +3775,7 @@ const questions = [
       "Il corno Hift",
       "Il corno a mezzaluna del Sauerland"
     ],
-    "correct": [
-      1
-    ]
+    "correct": [1]
   },
   {
     "id": "4161",
@@ -4182,62 +3786,51 @@ const questions = [
       "Per creare atmosfera nelle feste medioevali",
       "Per comunicare durante le battute di caccia"
     ],
-    "correct": [
-      3
-    ]
+    "correct": [3]
   },
   {
     "id": "4162",
-    "question": "Essere cacciatori nell'era dei socialmedia: quali dei seguenti contenuti sono da considerare",
+    "question": "Essere cacciatori nell'era dei socialmedia: quali dei seguenti contenuti sono da considerare problematici per le loro conseguenze sui social?",
     "answers": [
       "Il salvataggio di piccoli di capriolo",
-      "",
+      "Immagini di abbattimenti",
       "Abbattimenti di cani o gatti randagi",
       "Progetti di tutela della natura e delle specie"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "4163",
-    "question": "Essere cacciatori nell'era dei socialmedia: quali dei seguenti contenuti sono da considerare",
+    "question": "Essere cacciatori nell'era dei socialmedia: quali dei seguenti contenuti sono da considerare problematici per le loro conseguenze sui social?",
     "answers": [
       "Miglioramenti degli habitat",
-      "",
+      "Cani da caccia",
       "Immagini con molto sangue",
       "Immagini di trofei conseguenti a viaggi di caccia"
     ],
-    "correct": [
-      2,
-      3
-    ]
+    "correct": [2, 3]
   },
   {
     "id": "4164",
-    "question": "Essere cacciatori nell'era dei socialmedia: quali dei seguenti contenuti sono da considerare",
+    "question": "Essere cacciatori nell'era dei socialmedia: quali dei seguenti contenuti sono da considerare problematici per le loro conseguenze sui social?",
     "answers": [
       "Armi in primo piano",
-      "",
+      "Abbattimento di piccoli di volpe",
       "La collocazione di catadiottri antiselvaggina",
       "Eseguire censimenti faunistici"
     ],
-    "correct": [
-      0
-    ]
+    "correct": [0, 1]
   },
   {
     "id": "4165",
-    "question": "Essere cacciatori nell'era dei socialmedia: quali dei seguenti contenuti sono da considerare",
+    "question": "Essere cacciatori nell'era dei socialmedia: quali dei seguenti contenuti sono da considerare problematici per le loro conseguenze sui social?",
     "answers": [
       "Preparazione di un piatto a base di selvaggina",
-      "",
+      "Cacciatori in posa da vincitori",
       "Abbinamento tra la caccia, le armi e l'alcool",
       "Incidenti con animali selvatici"
     ],
-    "correct": [
-      2
-    ]
+    "correct": [1, 2]
   },
   {
     "id": "1001",
