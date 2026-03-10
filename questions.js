@@ -8412,6 +8412,1501 @@ const questions = [
       1,
       2
     ]
+  },{
+    "id": "2001",
+    "question": "Quali delle seguenti leggi e norme regolano l'ambito della caccia e della fauna selvatica?",
+    "answers": [
+      "La legge provinciale del 17 luglio 1987, n. 14, e successive modifiche e integrazioni",
+      "Il regolamento d'esecuzione La legge provinciale del 17 luglio 1987, n. 14, e successive modifiche e integrazioni",
+      "La legge per la tutela del paesaggio",
+      "Il regolamento provinciale sulla caccia"
+    ],
+    "correct": [0, 1, 3]
+  },
+  {
+    "id": "2002",
+    "question": "Cosa si intende con esercizio della caccia ai sensi della L.P. 14/87?",
+    "answers": [
+      "L'abbattimento o la cattura di fauna selvatica",
+      "Il soffermarsi in un comprensorio di caccia con armi e mezzi di cattura o in attitudine di ricerca o di attesa della fauna selvatica per abbatterla o catturarla",
+      "L'abbattimento di fauna selvatica talmente malata da aver perso il naturale istinto alla fuga",
+      "L'osservazione di fauna selvatica cacciabile"
+    ],
+    "correct": [0, 1]
+  },
+  {
+    "id": "2003",
+    "question": "A quali distanze di sicurezza bisogna attenersi nell'esercizio della caccia all'atto dell'abbattimento di fauna selvatica?",
+    "answers": [
+      "50 m da strade carrozzabili",
+      "100 m da strade carrozzabili",
+      "100 m da abitati",
+      "Vanno rispettate distanze di sicurezza solo quando si spara in direzione di case e strade"
+    ],
+    "correct": [0, 2]
+  },
+  {
+    "id": "2004",
+    "question": "Quale distanza minima da strade carrozzabili bisogna, di regola, mantenere nell'effettuazione di uno sparo durante l'esercizio della caccia ai sensi della legge venatoria provinciale?",
+    "answers": [
+      "50 metri",
+      "100 metri",
+      "5 metri",
+      "Non è prevista alcuna distanza minima, purché non sorgano concreti pericoli dallo sparo."
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2005",
+    "question": "Quali limitazioni temporali vigono in Alto Adige per l'esercizio della caccia?",
+    "answers": [
+      "La caccia è consentita per 24 ore al giorno",
+      "La caccia è consentita da un'ora prima dell'alba a un'ora dopo il tramonto",
+      "La caccia è consentita per tre giorni alla settimana, a parte la caccia agli ungulati",
+      "La caccia è consentita solo dal 1 maggio al 15 dicembre"
+    ],
+    "correct": [1, 2]
+  },
+  {
+    "id": "2006",
+    "question": "Per quanti giorni alla settimana è consentita la caccia alla volpe nell'ambito del periodo di caccia a norma di legge?",
+    "answers": [
+      "Per 3 giorni alla settimana",
+      "Per 7 giorni alla settimana",
+      "Per 5 giorni alla settimana",
+      "Per 6 giorni alla settimana (La domenica giornata di silenzio venatorio)"
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2007",
+    "question": "Quale regola vige per neocacciatori il primo anno successivo al rilascio del primo permesso di caccia in una riserva di diritto?",
+    "answers": [
+      "Devono essere accompagnati nell'esercizio della caccia a specie soggette al piano d'abbattimento",
+      "Devono essere sempre accompagnati nell'esercizio della caccia",
+      "Il tirocinio di pratica venatoria previsto per il rilascio del certificato di abilitazione all'esercizio venatorio esenta dall'obbligo ad essere accompagnati nel primo anno successivo al rilascio del primo permesso di caccia in una riserva di diritto.",
+      "Neocacciatori durante il primo anno non possono effettuare abbattimenti di ungulati"
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2008",
+    "question": "Per quali delle seguenti specie è obbligatorio un accompagnatore il primo anno di esercizio di caccia in riserva di diritto?",
+    "answers": [
+      "Per tutta la fauna selvatica da piuma",
+      "Per ungulati eccetto il cinghiale",
+      "Per volpe e lepre",
+      "Per pernice bianca, maschio di fagiano di monte e coturnice"
+    ],
+    "correct": [1, 3]
+  },
+  {
+    "id": "2009",
+    "question": "Per la caccia a quale specie di fauna selvatica è sempre previsto un accompagnatore ai sensi del Regolamento d'esecuzione alla L.P. 14/87?",
+    "answers": [
+      "Cervo",
+      "Camoscio",
+      "Tutte le specie sottoposte alla pianificazione degli abbattimenti",
+      "Lepre bianca"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2010",
+    "question": "Quale di queste attività NON costituisce esercizio della caccia ai sensi della L.P. 14/87?",
+    "answers": [
+      "La cattura e l'abbattimento di specie non soggette a piano d'abbattimento",
+      "L'abbattimento di fauna selvatica in caso di manifesta necessità",
+      "La ricerca autorizzata di fauna selvatica ferita",
+      "Gli abbattimenti sanitari effettuati da cacciatori"
+    ],
+    "correct": [1, 2]
+  },
+  {
+    "id": "2011",
+    "question": "Quali sono i presupposti per abbattere fauna selvatica in stato di manifesta necessità?",
+    "answers": [
+      "L'abbattimento può essere effettuato solamente nel periodo annuale di caccia alla specie in questione.",
+      "La specie in questione deve essere cacciabile",
+      "L'esemplare deve avere perso completamente il naturale istinto di fuga o qualora l'abbattimento sia necessario per motivi di pubblica sicurezza",
+      "Il selvatico in questione manifesta i sintomi di una malattia."
+    ],
+    "correct": [1, 2]
+  },
+  {
+    "id": "2012",
+    "question": "Quali di queste affermazioni sono esatte in caso di ricerca autorizzata di fauna selvatica?",
+    "answers": [
+      "Non si tratta di esercizio di caccia",
+      "Viene autorizzata dal rettore di riserva",
+      "Trattasi d'esercizio di caccia",
+      "Può essere effettuata da qualsivoglia cacciatore con un cane da caccia"
+    ],
+    "correct": [0, 1]
+  },
+  {
+    "id": "2013",
+    "question": "Su una strada pubblica viene investito e ucciso incidentalmente con un automezzo un cervo maschio. Quali di queste affermazioni sono esatte?",
+    "answers": [
+      "L'incidente deve essere comunicato entro 24 ore al gestore del comprensorio competente, all'agente venatorio o agli organi di polizia forestale",
+      "In caso di comunicazione agli organi competenti la spoglia della fauna selvatica appartiene al conducente del veicolo investitore",
+      "La spoglia dell'esemplare deve essere consegnato al gestore del comprensorio competente",
+      "La spoglia può essere venduta in ogni caso senza incorrere in violazioni dal conducente del veicolo investitore"
+    ],
+    "correct": [0, 1]
+  },
+  {
+    "id": "2014",
+    "question": "Quali dei seguenti comportamenti sono eticamente corretti durante l'esercizio della caccia?",
+    "answers": [
+      "Procedere a una valutazione visiva della fauna selvatica più precisa possibile prima dello sparo",
+      "Assestare un colpo che, possibilmente, sia immediatamente mortale",
+      "Trattare a regola d'arte il capo abbattuto e destinarlo a un sensato utilizzo",
+      "Indirizzare fauna selvatica dalle riserve confinanti verso la propria"
+    ],
+    "correct": [0, 1, 2]
+  },
+  {
+    "id": "2015",
+    "question": "Di quali dei seguenti documenti bisogna essere muniti per esercitare la caccia?",
+    "answers": [
+      "Porto di fucile a uso caccia",
+      "Polizza assicurativa per infortuni e per responsabilità civile verso terzi",
+      "Certificato d'origine",
+      "Permesso di caccia per la rispettiva riserva"
+    ],
+    "correct": [0, 1, 3]
+  },
+  {
+    "id": "2016",
+    "question": "Quando deve essere barrato il calendario di controllo?",
+    "answers": [
+      "Prima di un'uscita di caccia alla volpe e alla lepre comune",
+      "Prima della caccia alla selvaggina bassa",
+      "Dopo l'abbattimento di una volpe durante la caccia agli ungulati",
+      "Sempre"
+    ],
+    "correct": [0, 1, 2]
+  },
+  {
+    "id": "2017",
+    "question": "Chi rilascia il porto di fucile a uso caccia dopo aver superato l'esame venatorio?",
+    "answers": [
+      "La Stazione Carabinieri",
+      "Il procuratore",
+      "La questura o il competente Commissariato di polizia",
+      "L'Ufficio Gestione fauna selvatica"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2018",
+    "question": "Per quale di queste specie bisogna essere in possesso di autorizzazione speciale?",
+    "answers": [
+      "Lepre bianca",
+      "Cinghiale",
+      "Pernice bianca",
+      "Beccaccia"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2019",
+    "question": "Par la caccia di quali specie bisogna essere in possesso di autorizzazione speciale?",
+    "answers": [
+      "Capriolo",
+      "Maschio di fagiano di monte",
+      "Coturnice",
+      "Folaga"
+    ],
+    "correct": [0, 1, 2]
+  },
+  {
+    "id": "2020",
+    "question": "Di quale dei seguenti documenti bisogna essere in possesso se si porta a preparare o conciare fauna selvatica, trofei o pelli di fauna selvatica?",
+    "answers": [
+      "Decreto dell'Assessore provinciale competente",
+      "Certificato d'origine",
+      "Attestato rilasciato da una \"persona formata\"",
+      "Attestato rilasciato dal veterinario ufficiale"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2021",
+    "question": "Di quale dei seguenti documenti bisogna essere in possesso per la vendita di un capo di ungulato abbattuto?",
+    "answers": [
+      "Benestare del rettore di riserva",
+      "Attestato da parte di una \"persona formata\" sull'inequivocabile dal punto di vista alimentare",
+      "Bolletta d'accompagnamento",
+      "Una partita IVA per l'emissione di fattura"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2022",
+    "question": "Chi rilascia il certificato d'origine per fauna selvatica cacciabile?",
+    "answers": [
+      "Il rettore della riserva",
+      "Il veterinario ufficiale",
+      "Una \"persona formata\"",
+      "Lo stesso cacciatore"
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2023",
+    "question": "Quali permessi di caccia vi sono in Alto Adige nelle riserve di diritto?",
+    "answers": [
+      "Invito scritto",
+      "Permesso giornaliero e settimanale",
+      "Permesso annuale e d'ospite",
+      "Il tesserino di caccia rilasciato dall'Ufficio Gestione fauna selvatica"
+    ],
+    "correct": [1, 2]
+  },
+  {
+    "id": "2024",
+    "question": "Chi rilascia i permessi di caccia annuali e d'ospite per le riserve di diritto?",
+    "answers": [
+      "L'associazione cacciatori Alto Adige",
+      "L'Ufficio Gestione fauna selvatica",
+      "La Questura",
+      "La Giunta Provinciale"
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2025",
+    "question": "Da quanti anni bisogna essere ufficialmente residenti nel territorio di una riserva di diritto per avere diritto al PERMESSO DI CACCIA ANNUALE?",
+    "answers": [
+      "Da almeno 5 anni",
+      "Da almeno 7 anni",
+      "Da almeno 10 anni",
+      ""
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2026",
+    "question": "Per quanti anni bisogna essere stati residenti in passato, anche con interruzioni, nel territorio di una riserva di diritto per avere diritto al PERMESSO DI CACCIA ANNUALE?",
+    "answers": [
+      "Per lo meno 5 anni",
+      "Per lo meno 10 anni",
+      "Per lo meno 15 anni",
+      "Per lo meno 20 anni"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2027",
+    "question": "Da quanti anni bisogna essere ufficialmente residenti nel territorio di una riserva di diritto per avere diritto al PERMESSO DI CACCIA D'OSPITE?",
+    "answers": [
+      "Da almeno 5 anni",
+      "Da almeno 10 anni",
+      "Da almeno 15 anni",
+      "Da almeno 20 anni"
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2028",
+    "question": "Per quanti anni bisogna essere stati residenti in passato, anche con interruzioni, nel territorio di una riserva di diritto per avere diritto al PERMESSO DI CACCIA D'OSPITE?",
+    "answers": [
+      "Per lo meno 15 anni",
+      "Per lo meno 5 anni",
+      "Per lo meno 10 anni",
+      "Per lo meno 20 anni"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2030",
+    "question": "Dove è sempre vietato l'esercizio della caccia?",
+    "answers": [
+      "Nelle bandite",
+      "Nei terreni agricoli prima e dopo il raccolto, se da detto esercizio potrebbero derivare danni",
+      "Nelle vicinanze di campi sportivi",
+      "Nei parchi naturali"
+    ],
+    "correct": [0, 1]
+  },
+  {
+    "id": "2031",
+    "question": "Dove è sempre vietato l'esercizio della caccia?",
+    "answers": [
+      "Nei giardini pubblici e nei parchi",
+      "Ove vi siano opere di difesa dello Stato e monumenti nazionali",
+      "Nel raggio di 100 m da abitazioni",
+      "Nei terreni agricoli al di fuori del periodo del raccolto"
+    ],
+    "correct": [0, 1, 2]
+  },
+  {
+    "id": "2032",
+    "question": "Dove è sempre vietato l'esercizio della caccia?",
+    "answers": [
+      "Nel raggio di 50 m da strade carrozzabili (al di fuori di strade forestali, poderali e vie ciclabili)",
+      "Nei centri di allevamento di fauna selvatica",
+      "Nelle zone denominate \"Natura 2000\" (zone facenti parte della rete ecologica europea)",
+      "In tutti i biotopi"
+    ],
+    "correct": [0, 1]
+  },
+  {
+    "id": "2033",
+    "question": "In quali zone NON può essere cacciata l'avifauna migratoria?",
+    "answers": [
+      "Nelle zone denominate \"Natura 2000\" (zone facenti parte della rete ecologica europea)",
+      "Nei terreni agricoli al di fuori del periodo del raccolto",
+      "Nelle adiacenze di bacini irrigui",
+      "Nel parco nazionale"
+    ],
+    "correct": [0, 3]
+  },
+  {
+    "id": "2034",
+    "question": "Quali di queste specie fanno parte dell'avifauna migratoria cacciabile?",
+    "answers": [
+      "Coturnice",
+      "Marzaiola",
+      "Beccaccia",
+      "Quaglia"
+    ],
+    "correct": [1, 2, 3]
+  },
+  {
+    "id": "2035",
+    "question": "Quale dei seguenti calibri è vietato per l'esercizio della caccia?",
+    "answers": [
+      "Calibro 10 per fucili a canna liscia",
+      "Calibro .222",
+      "Calibro 12 per fucili a canna liscia",
+      "Calibro .308"
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2036",
+    "question": "Quali mezzi sono vietati per l'esercizio della caccia?",
+    "answers": [
+      "Uccelli da richiamo in materia sintetica o uccelli impagliati",
+      "Richiami vivi",
+      "Richiami acustici a funzionamento meccanico, elettromeccanico o elettromagnetico",
+      "Sorgenti luminose artificiali"
+    ],
+    "correct": [1, 2, 3]
+  },
+  {
+    "id": "2037",
+    "question": "Quali mezzi sono vietati per l'esercizio della caccia agli ungulati?",
+    "answers": [
+      "Fucili a tre canne",
+      "Veleno, lacci e trappole",
+      "Fucili ad aria compressa e a gas",
+      "Utilizzo del fucile con canna ad anima liscia (a parte il colpo di grazia)"
+    ],
+    "correct": [1, 2, 3]
+  },
+  {
+    "id": "2038",
+    "question": "Quale delle seguenti forme di caccia è vietata in Alto Adige?",
+    "answers": [
+      "La caccia in tana col cane",
+      "La caccia agli uccelli acquatici",
+      "La caccia non in forma di battuta di caccia organizzata agli ungulati col cane segugio",
+      "L'uccellagione"
+    ],
+    "correct": [2, 3]
+  },
+  {
+    "id": "2039",
+    "question": "Cosa è vietato nelle zone facenti parte della rete ecologica europea?",
+    "answers": [
+      "La caccia alla pernice bianca",
+      "La caccia all'avifauna migratoria",
+      "L'utilizzo di bossoli in materiale plastico",
+      "L'utilizzo di proiettili a espansione in piombo"
+    ],
+    "correct": [0, 1, 2]
+  },
+  {
+    "id": "2040",
+    "question": "Cosa è vietato nelle zone umide facenti parte della rete ecologica europea?",
+    "answers": [
+      "L'Utilizzo di munizionamento a pallini di piombo non nichelate",
+      "La caccia all'avifauna migratoria",
+      "l'utilizzo di munizione di bossoli in materiale plastico",
+      "L'utilizzo di proiettili di piombo semicamiciati"
+    ],
+    "correct": [0, 1, 2]
+  },
+  {
+    "id": "2041",
+    "question": "Qual è la massima autorità venatoria in Alto Adige?",
+    "answers": [
+      "L'associazione cacciatori Alto Adige",
+      "L'Ufficio Gestione fauna selvatica",
+      "Il consiglio direttivo dell'associazione cacciatori Alto Adige",
+      "La Giunta Provinciale"
+    ],
+    "correct": [3]
+  },
+  {
+    "id": "2042",
+    "question": "In quale dei seguenti casi il/la cacciatore/trice deve rivolgersi all'Ufficio Gestione fauna selvatica?",
+    "answers": [
+      "Per il rilascio del tesserino per esercitare la caccia in altre regioni italiane",
+      "Per il rilascio dell'autorizzazione alla detenzione di fauna selvatica in un centro d'allevamento",
+      "Per il rilascio all'autorizzazione al transito su strada forestale",
+      "Per il rilascio del tesserino d'accompagnatore al camoscio per le riserve di diritto"
+    ],
+    "correct": [0, 1]
+  },
+  {
+    "id": "2043",
+    "question": "Quale delle seguenti funzioni è di competenza dell'associazione cacciatori Alto Adige?",
+    "answers": [
+      "Rilascio del tesserino per esercitare la caccia in altre regioni italiane",
+      "Autorizzazione alla detenzione di fauna selvatica",
+      "Rilascio dei permessi annuali e d'ospiti per le riserve di diritto",
+      "Amministrazione delle riserve di diritto"
+    ],
+    "correct": [2, 3]
+  },
+  {
+    "id": "2044",
+    "question": "Quali organi sono preposti alla vigilanza sull'osservanza della legge venatoria e alle norme con essa correlate?",
+    "answers": [
+      "Il corpo forestale provinciale",
+      "Gli ufficiali e agenti di polizia giudiziaria",
+      "I guardiapesca",
+      "Gli agenti venatori"
+    ],
+    "correct": [0, 1, 3]
+  },
+  {
+    "id": "2045",
+    "question": "Quali documenti devono essere esibiti, a richiesta, all'agente venatorio durante l'esercizio della caccia?",
+    "answers": [
+      "Porto di fucile a uso caccia e ricevuta pagamento della tassa annuale di concessione",
+      "Permesso di caccia e autorizzazione speciale",
+      "Abilitazione alla caccia",
+      "Polizza assicurativa per infortuni e per responsabilità civile verso terzi"
+    ],
+    "correct": [0, 1, 3]
+  },
+  {
+    "id": "2046",
+    "question": "Chi può comminare una sanzione amministrativa in caso di violazioni in materia di caccia?",
+    "answers": [
+      "L'Autorità Giudiziaria",
+      "Il Direttore dell'Ufficio caccia e pesca",
+      "Il Direttore dell'associazione cacciatori Alto Adige",
+      "La commissione disciplinare in seno all'associazione cacciatori Alto Adige"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2047",
+    "question": "Chi può comminare un'ammenda in caso di reati?",
+    "answers": [
+      "L'Autorità Giudiziaria",
+      "L'Autorità forestale",
+      "L'associazione cacciatori Alto Adige",
+      "L'Ufficio Gestione fauna selvatica"
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2048",
+    "question": "Quali delle seguenti classi del regno animale sono da considerarsi fauna selvatica ai sensi della normativa provinciale?",
+    "answers": [
+      "Mammiferi",
+      "Anfibi",
+      "Uccelli",
+      "Rettili"
+    ],
+    "correct": [0, 2]
+  },
+  {
+    "id": "2049",
+    "question": "Quali delle seguenti specie NON appartengono alla fauna selvatica ai sensi della legge venatoria?",
+    "answers": [
+      "Topo comune",
+      "Toporagno",
+      "Talpa",
+      "Moscardino"
+    ],
+    "correct": [0, 2]
+  },
+  {
+    "id": "2050",
+    "question": "Quali delle seguenti specie NON appartengono alla fauna selvatica ai sensi della legge venatoria?",
+    "answers": [
+      "Ratto",
+      "Donnola",
+      "Arvicola",
+      "Ghiro"
+    ],
+    "correct": [0, 2]
+  },
+  {
+    "id": "2051",
+    "question": "Capriolo: qual'é il periodo di caccia ai capi maschi di un anno secondo le relative direttive di gestione della specie?",
+    "answers": [
+      "Dal 1 maggio al 15 settembre",
+      "Dal 1 maggio al 20 ottobre",
+      "Dal 15 giugno al 20 ottobre",
+      "Dal 1 maggio al 15 dicembre"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2052",
+    "question": "Capriolo: qual è il periodo di caccia a femmine sottili e a femmine non conduttrici di piccolo secondo le relative direttive di gestione della specie?",
+    "answers": [
+      "Dal 1 maggio al 20 ottobre",
+      "Dal 1 maggio al 15 dicembre",
+      "Dal 1 luglio al 15 dicembre",
+      "Dal 1 settembre al 15 dicembre"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2053",
+    "question": "Capriolo: qual è il periodo di caccia a maschi di più anni secondo le relative direttive di gestione della specie?",
+    "answers": [
+      "Dal 1 maggio al 20 ottobre",
+      "Dal 15 giugno al 20 ottobre",
+      "Dal 1 maggio al 15 settembre",
+      "Dal 15 giugno al 15 dicembre"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2054",
+    "question": "Capriolo: qual è il periodo di caccia a piccoli e a femmine conduttrici di piccolo secondo le relative direttive di gestione della specie?",
+    "answers": [
+      "Dal 1 maggio al 15 dicembre",
+      "Dal 15 giugno al 20 ottobre",
+      "Dal 1 settembre al 15 dicembre",
+      "Dal 1 agosto al 15 dicembre"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2055",
+    "question": "Cervo: qual è il periodo di caccia ai maschi di un anno secondo le relative direttive di gestione della specie?",
+    "answers": [
+      "Dal 1 maggio al 15 dicembre, se così deciso dalla consulta di riserva",
+      "Dal 1 agosto al 15 dicembre",
+      "Dal 1 maggio al 20 ottobre",
+      "Dal 15 giugno al 15 dicembre, se da parte della consulta di riserva non è stata presa una decisione diversa"
+    ],
+    "correct": [0, 3]
+  },
+  {
+    "id": "2056",
+    "question": "Cervo: qual è il periodo di caccia a femmine sottili e a femmine non conduttrici di piccolo secondo le relative direttive di gestione della specie?",
+    "answers": [
+      "Dal 1 maggio al 15 dicembre",
+      "Dal 1 agosto al 15 dicembre",
+      "Dal 1 maggio al 20 ottobre",
+      "Dal 1 settembre al 15 dicembre"
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2057",
+    "question": "Cervo: qual è il periodo di caccia ai maschi di più anni secondo le relative direttive di gestione della specie?",
+    "answers": [
+      "Dal 1 maggio al 15 dicembre",
+      "Dal 1 agosto al 15 dicembre",
+      "Dal 1 maggio al 20 ottobre",
+      "Dal 1 agosto al 20 ottobre"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2058",
+    "question": "Cervo: qual è il periodo di caccia a femmine conduttrici di piccolo secondo le relative direttive di gestione della specie?",
+    "answers": [
+      "Dal 1 maggio al 15 dicembre",
+      "Dal 1 agosto al 15 dicembre",
+      "Dal 1 maggio al 20 ottobre",
+      "Femmine conduttrici di piccolo non sono cacciabili"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2059",
+    "question": "Cervo: qual è il periodo di caccia ai piccoli secondo le relative direttive di gestione della specie?",
+    "answers": [
+      "Dal 1 maggio al 15 dicembre",
+      "Dal 1 agosto al 15 dicembre",
+      "Dal 1 maggio al 20 ottobre",
+      "Dal 1 settembre al 15 dicembre"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2060",
+    "question": "Daino: qual è il periodo di caccia ai sensi di legge?",
+    "answers": [
+      "Dal 1 maggio al 15 dicembre",
+      "Dal 1 agosto al 15 dicembre",
+      "Dal 1 ottobre al 15 dicembre",
+      "Il daino non è specie cacciabile"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2061",
+    "question": "Quando possono essere abbattuti piccoli di camoscio ai sensi di legge?",
+    "answers": [
+      "Solo dal 1 settembre al 15 dicembre",
+      "Solamente in caso sia necessario abbattere la relativa madre",
+      "Mai",
+      "Sempre"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2062",
+    "question": "Qual è il periodo di caccia al camoscio ai sensi di legge?",
+    "answers": [
+      "Dal 1 maggio al 15 dicembre",
+      "Dal 1 agosto al 20 ottobre",
+      "Dal 1 agosto al 15 dicembre",
+      "Dal 1 ottobre al 15 dicembre"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2063",
+    "question": "Muflone: qual è il periodo di caccia ai sensi di legge?",
+    "answers": [
+      "Dal 1 maggio al 15 dicembre",
+      "Dal 1 agosto al 15 dicembre",
+      "Dal 1 ottobre al 15 dicembre",
+      "Il muflone non è specie cacciabile"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2064",
+    "question": "Qual è il periodo di caccia al cinghiale ai sensi di legge?",
+    "answers": [
+      "Dal 1 maggio al 15 dicembre",
+      "Dal 1 luglio al 15 dicembre",
+      "Dal 1 ottobre al 31 dicembre",
+      "Il cinghiale non è specie cacciabile"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2065",
+    "question": "Qual è il periodo di caccia alla lepre comune in Alto Adige ai sensi di legge?",
+    "answers": [
+      "Dalla terza domenica di settembre al 15 dicembre",
+      "Dalla terza domenica di settembre al 31 gennaio",
+      "Dal 1 ottobre al 30 novembre",
+      "La lepre comune non è specie cacciabile"
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2066",
+    "question": "Qual è il periodo di caccia alla lepre bianca in Alto Adige ai sensi di legge?",
+    "answers": [
+      "Dalla terza domenica di settembre al 15 dicembre",
+      "Dalla terza domenica di settembre al 31 gennaio",
+      "Dal 1 ottobre al 30 novembre",
+      "La lepre bianca non è specie cacciabile"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2067",
+    "question": "Qual è il periodo di caccia al coniglio selvatico in Alto Adige ai sensi di legge?",
+    "answers": [
+      "Dalla terza domenica di settembre al 15 dicembre",
+      "Dal 1 ottobre al 30 novembre",
+      "Dal 1 ottobre al 15 dicembre",
+      "La lepre bianca non è specie cacciabile"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2068",
+    "question": "Quali limitazioni vigono in Alto Adige per la caccia alla lepre?",
+    "answers": [
+      "Nell'esercizio della caccia alla lepre comune e alla lepre bianca è vietato il tiro a palla",
+      "La caccia è ammessa solamente su emanazione di apposito decreto dell'Assessore competente",
+      "E' vietato un calibro superiore a 16",
+      "La caccia è ammessa solo tre giorni a settimana"
+    ],
+    "correct": [3]
+  },
+  {
+    "id": "2069",
+    "question": "Qual è il periodo di caccia alla volpe ai sensi di legge?",
+    "answers": [
+      "Dalla terza domenica di settembre al 31 gennaio",
+      "Dalla terza domenica di settembre al 15 dicembre",
+      "Dal 1 luglio al 15 dicembre",
+      "La volpe è cacciabile solo previa disposizione speciale all'abbattimento"
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2070",
+    "question": "Quali delle seguenti specie sono cacciabili in Alto Adige?",
+    "answers": [
+      "Scoiattolo",
+      "Cane procione",
+      "Volpe",
+      "Tasso"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2071",
+    "question": "Quali delle seguenti specie sono cacciabili in Alto Adige?",
+    "answers": [
+      "Daino",
+      "Martora",
+      "Faina",
+      "Corvo imperiale"
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2074",
+    "question": "Quali delle seguenti specie sono cacciabili in Alto Adige?",
+    "answers": [
+      "Puzzola",
+      "Lontra",
+      "Lepre bianca",
+      "Driomio"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2075",
+    "question": "Quali delle seguenti specie di avifauna sono cacciabili in Alto Adige?",
+    "answers": [
+      "Maschio di gallo cedrone",
+      "Pernice bianca",
+      "Francolino di monte",
+      "Fagiano"
+    ],
+    "correct": [1, 3]
+  },
+  {
+    "id": "2076",
+    "question": "Quali delle seguenti specie di avifauna sono cacciabili in Alto Adige?",
+    "answers": [
+      "Starna",
+      "Quaglia",
+      "Colombaccio",
+      "Beccaccino"
+    ],
+    "correct": [1, 2]
+  },
+  {
+    "id": "2077",
+    "question": "Quali delle seguenti specie di avifauna sono cacciabili in Alto Adige?",
+    "answers": [
+      "Beccaccia",
+      "Tortora dal collare",
+      "Nocciolaia",
+      "Germano reale"
+    ],
+    "correct": [0, 3]
+  },
+  {
+    "id": "2078",
+    "question": "Quali delle seguenti specie di avifauna sono cacciabili in Alto Adige?",
+    "answers": [
+      "Merlo",
+      "Moretta",
+      "Gallinella d'acqua",
+      "Cesena"
+    ],
+    "correct": [0, 3]
+  },
+  {
+    "id": "2079",
+    "question": "Quali delle seguenti specie di avifauna sono cacciabili in Alto Adige?",
+    "answers": [
+      "Airone cenerino",
+      "Marzaiola",
+      "Tordo bottaccio",
+      "Cormorano"
+    ],
+    "correct": [1, 2]
+  },
+  {
+    "id": "2080",
+    "question": "Quali delle seguenti specie di avifauna sono cacciabili in Alto Adige?",
+    "answers": [
+      "Beccaccino",
+      "Corvo imperiale",
+      "Cornacchia",
+      "Alzavola"
+    ],
+    "correct": [2, 3]
+  },
+  {
+    "id": "2081",
+    "question": "Quali delle seguenti specie di avifauna sono cacciabili in Alto Adige?",
+    "answers": [
+      "Ghiandaia",
+      "Upupa",
+      "Aquila reale",
+      "Gazza"
+    ],
+    "correct": [0, 3]
+  },
+  {
+    "id": "2082",
+    "question": "Quali delle seguenti specie di avifauna sono cacciabili in Alto Adige?",
+    "answers": [
+      "Maschio di fagiano di monte",
+      "Folaga",
+      "Balestruccio",
+      "Coturnice"
+    ],
+    "correct": [0, 1, 3]
+  },
+  {
+    "id": "2083",
+    "question": "Qual è il periodo di caccia al maschio di fagiano di monte ai sensi di legge?",
+    "answers": [
+      "Dal 1 ottobre al 30 novembre",
+      "Dal 1 ottobre al 15 dicembre",
+      "Dal 15 ottobre al 15 dicembre",
+      "Il fagiano di monte non è cacciabile in Italia"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2084",
+    "question": "Qual è il periodo di caccia alla pernice bianca ai sensi di legge?",
+    "answers": [
+      "Dal 1 ottobre al 30 novembre",
+      "Dal 15 ottobre al 15 dicembre",
+      "La pernice bianca alpina non è cacciabile negli stati dell'Unione Europea",
+      "Il maschio è cacciabile dal 1 ottobre al 15 dicembre"
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2085",
+    "question": "Qual è il periodo di caccia alla coturnice ai sensi di legge?",
+    "answers": [
+      "Dal 1 ottobre al 30 novembre",
+      "Dal 15 ottobre al 15 dicembre",
+      "Il maschio di coturnice non è cacciabile",
+      "Il maschio è cacciabile dal 1 ottobre al 15 dicembre"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2086",
+    "question": "Quale delle seguenti affermazioni relative alle anatre è esatta per l'Alto Adige?",
+    "answers": [
+      "Anatre cacciabili possono essere cacciate dalla terza domenica di settembre al 15 dicembre",
+      "Anatre cacciabili possono essere cacciate dal 1 ottobre al 15 dicembre",
+      "Nessuna specie di anatra tuffatrice può essere cacciata in Alto Adige",
+      "Nessuna specie di anatra può essere cacciata in Alto Adige"
+    ],
+    "correct": [1, 2]
+  },
+  {
+    "id": "2087",
+    "question": "Cosa si intende per esercizio della caccia?",
+    "answers": [
+      "Il vagare o soffermarsi con armi da caccia nei comprensori di caccia.",
+      "L'uccisione ovvero l'abbattimento di fauna selvatica in stato di manifesta necessità.",
+      "L'abbattimento igienico sanitario di fauna cacciabile da parte degli organi di sorveglianza",
+      "La cattura di fauna selvatica."
+    ],
+    "correct": [0, 3]
+  },
+  {
+    "id": "2088",
+    "question": "Quanti giorni la settimana può essere esercitata la caccia?",
+    "answers": [
+      "La caccia alla selvaggina bassa: cinque giorni la settimana.",
+      "La caccia agli ungulati: tutti i giorni della settimana.",
+      "La caccia alla selvaggina bassa: tre giorni la settimana.",
+      "La caccia agli ungulati: cinque giorni la settimana."
+    ],
+    "correct": [1, 2]
+  },
+  {
+    "id": "2089",
+    "question": "Durante il primo anno successivo al rilascio del primo permesso di caccia, è possibile esercitare la caccia a talune specie solo se accompagnati. A quali specie?",
+    "answers": [
+      "Capriolo e cervo.",
+      "Lepre comune.",
+      "Maschio del fagiano di monte.",
+      "Tutte le specie soggette a piano di abbattimento."
+    ],
+    "correct": [0, 2, 3]
+  },
+  {
+    "id": "2091",
+    "question": "In quali casi è consentito il prelievo di specie non cacciabili o quello di specie cacciabili al di fuori dei periodi di caccia?",
+    "answers": [
+      "Nel caso in cui l'aumento eccessivo di determinate specie pregiudichi notevolmente l'equilibrio ecologico, la consistenza della fauna selvatica, la pubblica sicurezza o la salute.",
+      "Quando gli agricoltori ne fanno richiesta.",
+      "Quando l'aumento eccessivo di determinate specie pregiudichi in modo notevole l'agricoltura, la selvicoltura o la piscicoltura.",
+      "Quando una specie è oggetto di incremento eccessivo."
+    ],
+    "correct": [0, 2]
+  },
+  {
+    "id": "2092",
+    "question": "Chi a norma di legge emana il decreto per il controllo di specie cacciabili al di fuori dei periodi di caccia?",
+    "answers": [
+      "Il direttore dell'Ufficio provinciale caccia e pesca",
+      "L'Osservatorio faunistico provinciale",
+      "L'Associazione Cacciatori Alto Adige",
+      "L'assessore competente per la materia"
+    ],
+    "correct": [3]
+  },
+  {
+    "id": "2093",
+    "question": "Antecedentemente all'emanazione di un decreto per il controllo in deroga di fauna selvatica, di norma presso quali sedi è necessario acquisire un parere?",
+    "answers": [
+      "L'Ufficio Gestione fauna selvatica",
+      "L'Osservatorio faunistico provinciale",
+      "L'ufficiale veterinario",
+      "L'Istituto Superiore per la Protezione e la Ricerca Ambientale (ISPRA)"
+    ],
+    "correct": [1, 3]
+  },
+  {
+    "id": "2095",
+    "question": "Quali di queste specie fanno parte dell'avifauna migratoria cacciabile?",
+    "answers": [
+      "Merlo",
+      "Alzavola",
+      "Fagiano",
+      "Gazza"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2096",
+    "question": "Quali dei seguenti mezzi non sono consentiti per l'esercizio della caccia?",
+    "answers": [
+      "La balestra",
+      "I fucili con canna ad anima liscia semi-automatici limitati con apposito accorgimento tecnico all'utilizzazione di non più di due colpi.",
+      "I fucili a quattro canne",
+      "Trappole a cassetta"
+    ],
+    "correct": [0, 2, 3]
+  },
+  {
+    "id": "2097",
+    "question": "Di cosa è fatto divieto?",
+    "answers": [
+      "Di esercitare la caccia con l'impiego del falco",
+      "Di sparare un colpo per finire un cervo ferito con calibro inferiore al 6,5 mm",
+      "Di esercitare la caccia un'ora prima del sorgere del sole.",
+      "Di esercitare la caccia agli ungulati per più di tre giorni la settimana."
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2098",
+    "question": "Quale delle seguenti sedi è competente per la gestione delle riserve di diritto altoatesine?",
+    "answers": [
+      "L'Associazione Cacciatori Alto Adige",
+      "L'Ufficio Gestione fauna selvatica",
+      "L'Agenzia Demanio Forestale",
+      "La Giunta Provinciale di Bolzano"
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2099",
+    "question": "Chi / quale sede emana il regolamento provinciale sulla caccia?",
+    "answers": [
+      "Il direttore dell'Ufficio provinciale caccia e pesca",
+      "L'Osservatorio faunistico provinciale",
+      "L'Associazione Cacciatori Alto Adige",
+      "L'assessore provinciale competente"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2100",
+    "question": "Chi / quale sede emana le prescrizioni integrative per le singole riserve di caccia?",
+    "answers": [
+      "L'Associazione Cacciatori Alto Adige",
+      "L'Ufficio Gestione fauna selvatica",
+      "L'assemblea generale delle rispettive riserve",
+      "La commissione per i piani di prelievo"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2101",
+    "question": "Quali documenti devono essere esibiti, a richiesta, all'agente venatorio durante l'esercizio della caccia?",
+    "answers": [
+      "La denuncia di detenzione dell'arma / delle armi",
+      "Il permesso di caccia e autorizzazione speciale",
+      "La carta europea d'arma da fuoco",
+      "Il calendario di controllo"
+    ],
+    "correct": [1, 3]
+  },
+  {
+    "id": "2102",
+    "question": "Quale status rivestono gli agenti venatori nell'esercizio delle loro funzioni?",
+    "answers": [
+      "pubblico ufficiale",
+      "guardia giurata privata",
+      "agente di polizia giudiziaria limitatamente al settore caccia",
+      "guardia giurata particolare"
+    ],
+    "correct": [0, 2, 3]
+  },
+  {
+    "id": "2104",
+    "question": "In quali casi il direttore dell'ufficio provinciale competente per la caccia dispone la sospensione del permesso di caccia per un periodo da un mese a quattro anni?",
+    "answers": [
+      "Esercizio della caccia con mezzi di caccia vietati, oppure senza la prescritta copertura assicurativa, oppure senza permesso di caccia.",
+      "Esercizio della caccia durante il periodo di divieto generale o durante il periodo di divieto giornaliero oppure in zone di divieto.",
+      "Esercizio della caccia in un Parco naturale",
+      "Violazione delle norme vigenti in materia di sicurezza pubblica e tutela degli animali"
+    ],
+    "correct": [0, 1, 3]
+  },
+  {
+    "id": "2105",
+    "question": "È sempre prevista la sospensione del permesso di caccia...",
+    "answers": [
+      "nel caso di un reato venatorio commesso",
+      "nel caso di abbattimenti errati",
+      "nel caso di vendita di carne di selvaggina senza il certificato della \"persona formata\" o del veterinario ufficiale",
+      "nel caso di esercizio della caccia con mezzi vietati"
+    ],
+    "correct": [0, 1, 3]
+  },
+  {
+    "id": "2106",
+    "question": "Cosa accade in caso di rinvenimento di un uccello ferito?",
+    "answers": [
+      "Chi lo ha trovato può tenerlo temporaneamente per curarlo",
+      "Il rettore di riserva provvede alla consegna dello stesso ad un centro autorizzato, se elencati negli allegati di cui alla direttiva uccelli CE concernente la conservazione degli uccelli selvatici",
+      "Chi lo ha rinvenuto deve informare del ritrovamento il rettore competente entro 24 ore",
+      "L'agente venatorio competente decide sul come procedere"
+    ],
+    "correct": [1, 2]
+  },
+  {
+    "id": "2107",
+    "question": "Come deve comportarsi un cacciatore il quale veda un orso o un lupo o trovi segni di presenza di tali specie?",
+    "answers": [
+      "Gli avvistamenti di orsi e lupi vanno segnalati all'Ufficio Gestione fauna selvatica entro 24 ore.",
+      "I segni di presenza di orsi e lupi vanno segnalati all'Ufficio Gestione fauna selvatica entro 24 ore.",
+      "Gli avvistamenti di orsi e lupi vanno segnalati unicamente alla più vicina Stazione Carabinieri.",
+      "Gli avvistamenti e segni di presenza di orsi e lupi vanno segnalati per lo meno al rettore della riserva"
+    ],
+    "correct": [0, 1]
+  },
+  {
+    "id": "2108",
+    "question": "Quale delle seguenti affermazioni risponde al vero, con riferimento alle infrastrutture faunistico-venatorie?",
+    "answers": [
+      "Non esistono prescrizioni di alcun tipo circa la realizzazione di infrastrutture faunistico-venatorie in riserva.",
+      "Le infrastrutture faunistico-venatorie non possono essere realizzate senza il consenso del proprietario del fondo.",
+      "Per la realizzazione di palchi e altane di altezza superiore ai 2 metri è necessaria una concessione edilizia.",
+      "In riserva possono essere realizzate delle infrastrutture faunistico-venatorie solo con il consenso del rettore."
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2109",
+    "question": "Cosa non è considerato esercizio di caccia ai sensi della L.P. 14/1987?",
+    "answers": [
+      "Il trasporto di armi in custodia nella riserva di caccia",
+      "Il vagare o il soffermarsi in riserva di caccia senza i mezzi destinati ad abbattere o catturare fauna selvatica",
+      "Piazzare trappole a cassetta per la cattura di fauna selvatica",
+      "L'abbattimento di selvaggina in un centro d'allevamento autorizzato"
+    ],
+    "correct": [0, 1, 3]
+  },
+  {
+    "id": "2110",
+    "question": "Un anziano cacciatore è stato residente in tre differenti riserve di caccia per più di 15 anni cadauna. Dove ha diritto al permesso annuale per via della rispettiva residenza?",
+    "answers": [
+      "Solo a quello di ultima residenza",
+      "In tutte le riserve nelle quali è stato residente per detto periodo",
+      "In una delle tre riserve a sua scelta",
+      "In due riserve, tenendo conto che in una ha diritto al permesso annuale, nella seconda a quello d'ospite"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2111",
+    "question": "Quali mezzi sono vietati per l'esercizio della caccia ai sensi della L.P. 14/1987?",
+    "answers": [
+      "Arco e frecce",
+      "Adescamento",
+      "Foto e video trappole",
+      "Qualsiasi impiego del cane segugio nella caccia agli ungulati"
+    ],
+    "correct": [0, 2]
+  },
+  {
+    "id": "2112",
+    "question": "Chi emana il Decreto alla regolamentazione di specie non cacciabili, allo scopo di evitare che l'aumento eccessivo di determinate specie pregiudichi in modo notevole l'equilibrio ecologico o l'agricoltura?",
+    "answers": [
+      "Il Presidente dell'Associazione cacciatori",
+      "L'Assessore competente",
+      "Il Sindaco competente per il territorio della riserva",
+      "Il Direttore dell'Ufficio caccia e pesca"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2113",
+    "question": "Chi emana il Decreto all'apertura temporanea della caccia di specie non cacciabili ai sensi della normativa nazionale?",
+    "answers": [
+      "Il Ministro dell'ambiente",
+      "L'Assessore competente",
+      "Il Presidente della Provincia",
+      "Il Direttore dell'Ufficio caccia e pesca"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2114",
+    "question": "Il porto di fucile ad uso caccia riporta la data dell'11 settembre. Quando è da versare la tassa di concessione, onde non perdere neanche per un giorno la possibilità di esercitare la caccia?",
+    "answers": [
+      "sempre prima dell'11 settembre",
+      "il 12 settembre",
+      "l'11 settembre",
+      "sempre il giorno di calendario dell'ultimo versamento effettuato"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2115",
+    "question": "Un conducente d'autoveicolo ha investito un capriolo, che è scappato senza lasciare tracce. Quali obblighi ha il conducente?",
+    "answers": [
+      "Dovrebbe controllare se il capriolo ritorna",
+      "Il conducente non ha obblighi di nessuna natura",
+      "Il conducente ha l'obbligo di comunicare il fatto entro 24 ore al gestore del comprensorio competente, all'agente venatorio o agli appartenenti al Corpo forestale provinciale",
+      "Il conducente ha l'obbligo di suddetta comunicazione solo se la propria vettura ha subito danni o se vi siano tracce di sangue sulla strada"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2116",
+    "question": "A chi, se del caso, deve essere fatto visionare un capo maschio di fagiano di monte abbattuto?",
+    "answers": [
+      "Al rettore di riserva entro 24 ore",
+      "Non deve essere fatto visionare ma solamente comunicato al rettore di riserva entro 24 ore",
+      "Basta segnarlo nel calendario venatorio",
+      "Deve essere fatto visionare entro 24 ore all'agente venatorio competente per territorio"
+    ],
+    "correct": [3]
+  },
+  {
+    "id": "2117",
+    "question": "Per quali specie di uccelli cacciabili è obbligatoria la valutazione dell'incidenza del prelievo sulla consistenza ed evoluzione della specie interessata?",
+    "answers": [
+      "maschio di fagiano di monte, pernice bianca e coturnice",
+      "cormorano",
+      "solo tetraonidi cacciabili",
+      "maschio di fagiano di monte, pernice bianca e francolino di monte"
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2118",
+    "question": "Può essere rilasciata fauna selvatica in natura?",
+    "answers": [
+      "in nessun caso",
+      "si, ma solamente fauna autoctona nella misura in cui è giustificato il miglioramento della consistenza numerica della specie",
+      "si, se con il rilascio vengono aumentate le possibilità di prelievo",
+      "sempre, se trattasi di specie autoctone"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2119",
+    "question": "Quale fauna selvatica deve sempre essere fatta visionare all'agente venatorio competente per territorio?",
+    "answers": [
+      "tutte le femmine di cervidi e i galliformi",
+      "femmine di capriolo, maschi di fagiano di monte e maschi di cervo",
+      "solo le specie per le quali è obbligatorio il controllo da parte della persona formata",
+      "femmine e piccoli di cervo, maschio di fagiano di monte, pernice bianca e coturnice"
+    ],
+    "correct": [3]
+  },
+  {
+    "id": "2120",
+    "question": "Cosa si propone la legge venatoria provinciale riguardo alla consistenza faunistica?",
+    "answers": [
+      "la legge non prevede obblighi; ogni riserva può decidere a piacimento",
+      "possibilmente molta fauna selvatica",
+      "buone consistenze di fauna selvatica interessante dal punto di vista prettamente venatorio e consistenze minori di fauna selvatica predatoria e cinghiali",
+      "una consistenza di fauna selvatica equilibrata, che possibilmente non arrechi troppi danni alle colture agricole e forestali"
+    ],
+    "correct": [3]
+  },
+  {
+    "id": "2121",
+    "question": "Il sistema di caccia altoatesino dà ad ogni cittadino residente il diritto di esercitare la caccia. Quali sono le obbligatorie controprestazioni che lo stesso deve fornire al sistema venatorio?",
+    "answers": [
+      "L'assicurazione e il finanziamento della vigilanza venatoria e il risarcimento di danni da fauna selvatica nonché quelli causati dall'attività venatoria",
+      "Nessuna, basta attenersi alle varie norme venatorie",
+      "Nessuna, l'esercizio della caccia è sempre stato ed è un privilegio",
+      "Il versamento dell'annuale tassa di concessione per la licenza di porto di fucile per uso di caccia"
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2122",
+    "question": "Quali delle seguenti affermazioni riguardo alla distanza di sicurezza da tenere da strade pubbliche nell'esercizio della caccia è esatta?",
+    "answers": [
+      "non è mai ammessa a meno di 50 m",
+      "non è mai ammessa a meno di 100 m",
+      "a prescindere dalla distanza, non è mai ammessa in direzione delle stesse",
+      "è ammessa sempre, se sulla stessa non transita un veicolo"
+    ],
+    "correct": [0, 2]
+  },
+  {
+    "id": "2123",
+    "question": "In caso di ricerca di fauna selvatica ferita da arma da fuoco al di fuori della propria riserva a quale delle seguenti regole bisogna attenersi?",
+    "answers": [
+      "Ogni ricerca è unicamente da comunicare alla relativa riserva",
+      "La ricerca di ungulati e fagiano di monte può essere effettuata, solo previa autorizzazione dall'amministratore del relativo comprensorio di caccia",
+      "La ricerca di ungulati e fagiano di monte può essere effettuata, solo previa comunicazione all'amministratore del relativo comprensorio di caccia",
+      "La ricerca di fauna selvatica, esclusi gli ungulati e fagiano di monte, devono essere comunicati al rettore della relativa riserva di caccia entro 48 ore"
+    ],
+    "correct": [1, 3]
+  },
+  {
+    "id": "2124",
+    "question": "Quali sono le prerogative per un cittadino altoatesino con abilitazione all'esercizio della caccia per poter cacciare in un'altra regione d'Italia?",
+    "answers": [
+      "Deve essere in possesso dei documenti previsti anche per l'Alto Adige",
+      "Deve essere in possesso del tesserino venatorio rilasciato a tempo determinato dall'Ufficio Gestione fauna selvatica",
+      "Deve essere unicamente in possesso del permesso di caccia per il relativo territorio",
+      "Prima di esercitare la caccia, deve sostenere l'esame venatorio nella relativa regione"
+    ],
+    "correct": [0, 1]
+  },
+  {
+    "id": "2125",
+    "question": "Quali delle seguenti azioni vietate costituisce un reato?",
+    "answers": [
+      "sparare da veicoli a motore, in centri abitati da o in direzione di vie pubbliche",
+      "esercitare la caccia durante il periodo di divieto giornaliero",
+      "esercitare la caccia durante il periodo di divieto annuale",
+      "abbattimento di fauna selvatica non cacciabile"
+    ],
+    "correct": [0, 2, 3]
+  },
+  {
+    "id": "2126",
+    "question": "Quali delle seguenti azioni vietate costituisce un reato?",
+    "answers": [
+      "esercitare la caccia senza essere in possesso del permesso di caccia",
+      "esercitare la caccia in oasi di protezione e in bandite",
+      "mancata sorveglianza di armi da fuoco",
+      "abbattimento di cervi con un calibro di 5,6 mm"
+    ],
+    "correct": [1, 2]
+  },
+  {
+    "id": "2127",
+    "question": "Chi determina le sanzioni in caso di reati venatori?",
+    "answers": [
+      "il Procuratore della Repubblica",
+      "il Tribunale Ordinario",
+      "l'Ufficio Gestione fauna selvatica",
+      "l'agente venatorio"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2128",
+    "question": "Chi infligge sanzioni amministrative in materia di caccia?",
+    "answers": [
+      "il tribunale",
+      "l'Ufficio Gestione fauna selvatica",
+      "l'agente venatorio",
+      "l'Associazione cacciatori Alto Adige"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2129",
+    "question": "Il rettore di una riserva di caccia è competente per",
+    "answers": [
+      "assegnazione degli abbattimenti ai cacciatori della riserva",
+      "la compilazione degli elenchi della fauna selvatica abbattuta e di quella trovata morta",
+      "rilevare violazioni venatorie",
+      "autorizzare le ricerche di capi feriti"
+    ],
+    "correct": [1, 3]
+  },
+  {
+    "id": "2130",
+    "question": "Quali sono i motivi che possono portare ad un diniego alla richiesta di rilascio del porto di fucile ad uso di caccia?",
+    "answers": [
+      "una condanna penale",
+      "gravi mancanze di vista o udito",
+      "salute cagionevole",
+      "malattie psichiche e dipendenze da droghe"
+    ],
+    "correct": [0, 1, 3]
+  },
+  {
+    "id": "2131",
+    "question": "Tiri di prova sono ammessi",
+    "answers": [
+      "durante tutto l'anno",
+      "solo durante la stagione venatoria",
+      "solo con tutti i documenti obbligatori per l'esercizio della caccia, incluso il permesso di caccia",
+      "solo con tutti i documenti obbligatori per l'esercizio della caccia, escluso il permesso di caccia, non venendo abbattuta fauna selvatica"
+    ],
+    "correct": [1, 2]
+  },
+  {
+    "id": "2132",
+    "question": "Prima di essere messa in commercio la carne di fauna selvatica deve",
+    "answers": [
+      "Essere ispezionata da un veterinario ufficiale onde certificarne lo stato di salute",
+      "Per lo meno essere controllata da una \"persona formata\"",
+      "Essere ispezionata da un veterinario onde verificare la presenza di eventuali agenti patogeni",
+      "Dapprima essere controllata da una \"persona formata\" e, inoltre, in caso di dubbi, da un veterinario ufficiale"
+    ],
+    "correct": [1, 3]
+  },
+  {
+    "id": "2133",
+    "question": "Quanta fauna selvatica abbattuta può essere commercializzata da un cacciatore nell'arco di un anno?",
+    "answers": [
+      "sino ad un totale di 5 capi d'ungulati e sino ad un totale di 50 capi di selvaggina di penna e/o lagomorfi possono essere venduti, direttamente al consumatore finale o ad un negozio al dettaglio sul territorio provinciale",
+      "sino ad un totale di 10 capi d'ungulati e sino ad un totale 50 capi di selvaggina di penna e/o lagomorfi possono essere venduti, direttamente al consumatore finale o ad un negozio al dettaglio sul territorio provinciale",
+      "se il veterinario ufficiale ne ha certificato la commestibilità, in numero imprecisato",
+      "chi intende porre in commercio più di 5 capi d'ungulati e più di 50 capi di selvaggina di penna e/o lagomorfi deve conferire la selvaggina abbattuta ad un centro di lavorazione della selvaggina riconosciuto"
+    ],
+    "correct": [0, 3]
+  },
+  {
+    "id": "2134",
+    "question": "A cosa bisogna prestare attenzione nella conduzione del cane nel comprensorio di caccia?",
+    "answers": [
+      "Di norma i cani devono essere condotti sotto la massima sorveglianza",
+      "I cani da caccia sono esentati dal divieto di vagare",
+      "I cani segugi sono esentati dal divieto di vagare durante l'apertura della caccia alla lepre",
+      ""
+    ],
+    "correct": [0, 2]
+  },
+  {
+    "id": "2135",
+    "question": "Che validità ha il porto di fucile ad uso caccia?",
+    "answers": [
+      "Una volta rilasciato ha validità illimitata",
+      "5 anni, dopodiché bisogna richiederne il rinnovo",
+      "6 anni, dopodiché bisogna richiederne il rinnovo",
+      ""
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2137",
+    "question": "Quando bisogna essere in possesso del tesserino di caccia?",
+    "answers": [
+      "Se si vuole esercitare la caccia all'estero",
+      "Se si vuole esercitare la caccia sul territorio nazionale al di fuori della Regione",
+      "Se si richiede il tesserino di caccia",
+      "Se si intende associarsi ad una riserva di caccia"
+    ],
+    "correct": [1]
+  },
+  {
+    "id": "2138",
+    "question": "Cosa si intende con arma lunga?",
+    "answers": [
+      "Un'arma con una lunghezza totale di almeno 60 cm e la lunghezza della canna di almeno 30 cm",
+      "Un'arma con una lunghezza totale di più di 1 m",
+      "Un'arma con una lunghezza totale di almeno 80 cm e la lunghezza della canna di almeno 40 cm",
+      ""
+    ],
+    "correct": [0]
+  },
+  {
+    "id": "2139",
+    "question": "Cosa si intende con arma corta?",
+    "answers": [
+      "Un'arma con una lunghezza totale inferiore a 60 cm",
+      "Un'arma con una lunghezza totale di almeno 80 cm e la lunghezza della canna di almeno 40 cm",
+      "Un'arma con una lunghezza della canna inferiore a 30 cm",
+      ""
+    ],
+    "correct": [0, 2]
+  },
+  {
+    "id": "2140",
+    "question": "Quale delle seguenti affermazioni riguardo al prestito di armi da caccia è esatta?",
+    "answers": [
+      "Il prestito di armi da caccia è vietato",
+      "Possono essere prestati unicamente fucili con canna ad anima liscia",
+      "Il prestito di armi da caccia deve essere denunciato se viene superato il limite di 72 ore",
+      "Per prestare un'arma bisogna ottenere l'autorizzazione dell'Autorità di pubblica sicurezza"
+    ],
+    "correct": [2]
+  },
+  {
+    "id": "2141",
+    "question": "Quali dei seguenti rappresentanti istituzionali siedono nella Commissione per i piani di abbattimento?",
+    "answers": [
+      "Rappresentanti della Ripartizione Agricoltura",
+      "Alcuni componenti del Consiglio Direttivo dell'Associazione Cacciatori",
+      "Rappresentanti dell'Ufficio caccia e pesca",
+      "il Rettore competente per territorio"
+    ],
+    "correct": [0, 2]
+  },
+  {
+    "id": "2142",
+    "question": "Quali dei seguenti rappresentanti istituzionali siedono nella Commissione per i piani di abbattimento?",
+    "answers": [
+      "Rappresentanti dell'Autorità Forestale competente per territorio",
+      "Rappresentanti della Ripartizione Natura, Paesaggio e Pianificazione Urbanistica",
+      "Rappresentanti del Bauernbund, l'Associazione dei contadini sudtirolesi",
+      "Il Presidente distrettuale competente per territorio"
+    ],
+    "correct": [0, 2, 3]
+  },
+  {
+    "id": "2143",
+    "question": "Chi è il Presidente della Commissione per i piani di abbattimento?",
+    "answers": [
+      "Il Direttore dell'Ispettorato Forestale competente per territorio",
+      "Il Direttore dell'Ufficio caccia e pesca",
+      "Un esperto nominato del Consiglio Direttivo dell'Associazione Cacciatori",
+      "Il Presidente distrettuale competente per territorio"
+    ],
+    "correct": [2]
   },
   {
     "id": "3001",
