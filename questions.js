@@ -3,40 +3,48 @@ const questions = [
     "id": "1001",
     "question": "Indichi i motivi per la biodiversità in Sudtirolo.",
     "answers": [
-      "Le notevoli differenze di altitudine e di clima. L'intensa attività edilizia da parte dell'uomo. L'agricoltura intensiva.",
+      "Le notevoli differenze di altitudine e di clima." 
+      "L'intensa attività edilizia da parte dell'uomo."
+      "L'agricoltura intensiva.",
       "La presenza di molteplici ambienti naturali."
+    ],
+    "correct": [
+      0, 3
+    ]
+  },
+  {
+    "id": "1002",
+    "question": "Quante specie di animali vertebrati vivono approssimativamente in Sudtirolo?",
+    "answers": [
+      "all'incirca 500",
+      "90",
+      "35",
+      "15",
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "1003",
+    "question": " Quale è la zona con le maggiori precipitazioni in Sudtirolo?",
+    "answers": [
+      "Le Alpi Sarentinesi", 
+      "Oltreadige e Bassa Atesina",
+      "Le zone lungo la catena principale alpina nel nord della provincia.", 
+      "L'ovest del Sudtirolo."
     ],
     "correct": [
       2
     ]
   },
   {
-    "id": "1002",
-    "question": "Quante specie di animali vertebrati vivono approssimativamente in Sudtirolo? Quale è la zona con le maggiori precipitazioni in Sudtirolo?",
-    "answers": [
-      "Le Alpi Sarentinesi Oltreadige e Bassa Atesina",
-      "Le zone lungo la catena principale alpina nel nord della provincia. L'ovest del Sudtirolo."
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "1003",
-    "question": "Quante specie di animali vertebrati vivono approssimativamente in Sudtirolo? Quale è la zona con le maggiori precipitazioni in Sudtirolo?",
-    "answers": [
-      "Le Alpi Sarentinesi Oltreadige e Bassa Atesina",
-      "Le zone lungo la catena principale alpina nel nord della provincia. L'ovest del Sudtirolo."
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
     "id": "1004",
     "question": "Quale è in Sudtirolo l`ambiente naturale con la maggiore estensione di superficie?",
     "answers": [
-      "Frutteti Boschi Prati alpini",
+      "Frutteti",
+      "Boschi",
+      "Prati alpini",
       "Zone urbane"
     ],
     "correct": [
@@ -45,24 +53,27 @@ const questions = [
   },
   {
     "id": "1005",
-    "question": "Quale tipologia forestale predomina in Sudtirolo? Cosa s'intende sotto: fascia degli arbusti contorti?",
+    "question": "Quale tipologia forestale predomina in Sudtirolo? ",
     "answers": [
-      "Fascia fitoaltitudinale contigua al limite superiore del bosco, dove crescono arbusti nani, pino mugo e ontano verde.",
-      "Lo strato inferiore del bosco di conifere, dove i rami crescono contorti. Una pecceta (bosco d'abete rosso), nella quale gli alberi crescono storti."
+      "Bosco di conifere composto di abete rosso, larice, cirmolo, pino silvestre e abete bianco",
+      "Bosco ripariale",
+      "Bosco di roverella e bosco di capino nero",
+      "Bosco ceduo"
     ],
     "correct": [
-      1
+      0
     ]
   },
   {
     "id": "1006",
-    "question": "Quale tipologia forestale predomina in Sudtirolo? Cosa s'intende sotto: fascia degli arbusti contorti?",
+    "question": "Cosa s'intende sotto: fascia degli arbusti contorti?",
     "answers": [
       "Fascia fitoaltitudinale contigua al limite superiore del bosco, dove crescono arbusti nani, pino mugo e ontano verde.",
-      "Lo strato inferiore del bosco di conifere, dove i rami crescono contorti. Una pecceta (bosco d'abete rosso), nella quale gli alberi crescono storti."
+      "Lo strato inferiore del bosco di conifere, dove i rami crescono contorti.",
+      "Una pecceta (bosco d'abete rosso), nella quale gli alberi crescono storti."
     ],
     "correct": [
-      1
+      0
     ]
   },
   {
@@ -75,14 +86,15 @@ const questions = [
       "Sono territori di predazione per l'aquila pescatrice."
     ],
     "correct": [
-      1
+      0,1
     ]
   },
   {
     "id": "1008",
     "question": "I boschi di ripa sono forme forestali ecologicamente preziose, da noi in via di estinzione. Dove si possono trovare oggigiorno in quantità esigue?",
     "answers": [
-      "Lungo le pendici dei bassi rilievi montani. Lungo i fiumi.",
+      "Lungo le pendici dei bassi rilievi montani.",
+      "Lungo i fiumi.",
       "Sui pendii di alta montagna, esposti a rischio valanghe."
     ],
     "correct": [
@@ -99,85 +111,97 @@ const questions = [
       "I boschi di ripa"
     ],
     "correct": [
-      4
+      3
     ]
   },
   {
     "id": "1010",
     "question": "Quali requisiti deve avere un habitat per essere idoneo per una specie selvatica?",
     "answers": [
-      "Pastura Riparo",
+      "Pastura",
+      "Riparo",
       "Superficie minima di 10 ettari",
       "Possibilità di accoppiamento, riproduzione e allevamento della prole"
     ],
     "correct": [
-      3
+      0,1,3
     ]
   },
   {
     "id": "1011",
     "question": "Esistono specie animali, che da noi sono specializzate a determinate altitudini e habitat, i cosiddetti specialisti. Indichi esempi.",
     "answers": [
-      "Gallo cedrone Stambecco",
-      "Capriolo Faina"
+      "Gallo cedrone";
+      "Stambecco ",
+      "Capriolo",
+      "Faina"
     ],
     "correct": [
-      1
+      0, 1
     ]
   },
   {
     "id": "1012",
     "question": "Esistono specie animali, che da noi sono specializzate a determinate altitudini e habitat, i cosiddetti specialisti. Indichi esempi.",
     "answers": [
-      "Marmotta Gallo forcello",
-      "Cervo Volpe"
+      "Marmotta",
+      "Gallo forcello",
+      "Cervo",
+      "Volpe"
     ],
     "correct": [
-      1
+      0, 1
     ]
   },
   {
     "id": "1013",
     "question": "Esistono specie animali, che da noi sono specializzate a determinate altitudini e habitat, i cosiddetti specialisti. Indichi esempi.",
     "answers": [
-      "Pernice bianca Coturnice",
-      "Faina Volpe"
+      "Pernice bianca",
+      "Coturnice",
+      "Faina",
+      "Volpe"
     ],
     "correct": [
-      1
+      0, 1
     ]
   },
   {
     "id": "1014",
     "question": "Esistono specie animali adattabili, con una distribuzione che spazia dalle diverse altitudini e ambienti naturali. I cosiddetti generalisti. Indichi esempi.",
     "answers": [
-      "Gallo cedrone Gallo forcello",
+      "Gallo cedrone",
+      "Gallo forcello",
+      "Faina",
       "Capriolo"
     ],
     "correct": [
-      2
+      0, 1
     ]
   },
   {
     "id": "1015",
     "question": "Esistono specie animali adattabili, con una distribuzione che spazia dalle diverse altitudini e ambienti naturali. I cosiddetti generalisti. Indichi esempi.",
     "answers": [
-      "Stambecco Marmotta",
-      "CervoX VolpeX CervoX Volpe"
+      "Stambecco",
+      "Marmotta",
+      "Cervo",
+      "Volpe"
     ],
     "correct": [
-      1
+      2, 3
     ]
   },
   {
     "id": "1016",
     "question": "Quale di questi due gruppi: specialisti o generalisti reagisce con maggior sensibilità ai mutamenti ambientali?",
     "answers": [
-      "Specialisti Generalisti",
+      "Specialisti",
+      "Generalisti",
       "Entrambi ugualmente"
     ],
     "correct": [
-      1
+      0
     ]
   },
   {
@@ -185,50 +209,59 @@ const questions = [
     "question": "Esistono specie selvatiche, che prediligono volentieri anche la vicinanza delle zone urbane. Vengono denominati \"animali colturali\". Indichi esempi.",
     "answers": [
       "Francolino di monte",
-      "Rondine Volpe Lince"
+      "Rondine",
+      "Volpe",
+      "Lince"
     ],
     "correct": [
-      2
+      1, 2
     ]
   },
   {
     "id": "1018",
     "question": "Esistono specie selvatiche, che prediligono volentieri anche la vicinanza delle zone urbane. Vengono denominati \"animali colturali\". Indichi esempi.",
     "answers": [
+      "Faina",
       "Balestruccio",
-      "Francolino di monte Lince"
+      "Francolino di monte",
+      "Lince"
     ],
     "correct": [
-      1
+      0,1
     ]
   },
   {
     "id": "1019",
     "question": "Esistono specie selvatiche, che non sopportano ed evitano la presenza dell'uomo. Questi animali non sono adattati agli ambienti colturali. Indichi esempi.",
     "answers": [
-      "Capriolo Volpe Merlo",
-      "4X Lince4X Lince"
+      "Capriolo",
+      "Volpe",
+      "Merlo",
+      "Lince"
     ],
     "correct": [
-      1
+      3
     ]
   },
   {
     "id": "1020",
     "question": "Esistono specie selvatiche, che non sopportano ed evitano la presenza dell'uomo. Questi animali non sono adattati agli ambienti colturali. Indichi esempi.",
     "answers": [
-      "Rondine e Balestruccio Tortora",
+      "Faina",
+      "Rondine e Balestruccio",
+      "Tortora",
       "Francolino di monte"
     ],
     "correct": [
-      2
+      3
     ]
   },
   {
     "id": "1021",
     "question": "Cosa s'intende quando si parla di home range (spazio vitale)?",
     "answers": [
-      "Si tratta di una zona di sosta temporanea per uccelli migratori. È il territorio che l'animale popola durante tutto l'anno.",
+      "Si tratta di una zona di sosta temporanea per uccelli migratori.",
+      "È il territorio che l'animale popola durante tutto l'anno.",
       "È una zona protetta interdetta alla caccia."
     ],
     "correct": [
@@ -239,12 +272,13 @@ const questions = [
     "id": "1022",
     "question": "Le aree frequentate dallo stambecco cambiano durante l'anno. Quali tipologie di ambiente predilige lo stambecco d'inverno?",
     "answers": [
-      "Pendii ripidi, rocciosi, soleggiati e liberi da neve. Zone boscose ricche di copertura.",
+      "Pendii ripidi, rocciosi, soleggiati e liberi da neve.",
+      "Zone boscose ricche di copertura.",
       "Pendii ombreggiati.",
       "Prati alpestri pianeggianti."
     ],
     "correct": [
-      1
+      0
     ]
   },
   {
@@ -256,7 +290,7 @@ const questions = [
       "Cotici erbosi alpini e regioni rocciose."
     ],
     "correct": [
-      2
+      1
     ]
   },
   {
@@ -264,11 +298,12 @@ const questions = [
     "question": "Quali effetti si riscontrano in presenza di un'alta densità di popolazione di ungulati, in riferimento alla selvaggina e al suo habitat?",
     "answers": [
       "Aumento dei danni alle colture",
-      "Una migliore condizione fisica dei selvatici Aumenta la vulnerabilità alle malattie.",
+      "Una migliore condizione fisica dei selvatici",
+      "Aumenta la vulnerabilità alle malattie.",
       "Incremento ponderale dei selvatici"
     ],
     "correct": [
-      1
+      0,2
     ]
   },
   {
@@ -280,130 +315,150 @@ const questions = [
       "In primavera gli yearling girovagano intorno irrequieti."
     ],
     "correct": [
-      1
+      0, 1
     ]
   },
   {
     "id": "1026",
-    "question": "Quali animali dipendono particolarmente dalla presenza di prati e pascoli? Frutteti e vigneti coprono il 3% del territorio provinciale. Quali specie animali sono qui particolarmente presenti?",
+    "question": "Quali animali dipendono particolarmente dalla presenza di prati e pascoli?",
     "answers": [
-      "Merlo e tordo bottaccio Lepre comune",
-      "Coniglio selvatico, starna Fringuello"
+      "Lepre comune",
+      "Gheppio e poiana",
+      "picchi",
+      "astore e sparviero"
     ],
     "correct": [
-      1
+      0, 1
     ]
   },
   {
     "id": "1027",
-    "question": "Quali animali dipendono particolarmente dalla presenza di prati e pascoli? Frutteti e vigneti coprono il 3% del territorio provinciale. Quali specie animali sono qui particolarmente presenti?",
+    "question": " Frutteti e vigneti coprono il 3% del territorio provinciale. Quali specie animali sono qui particolarmente presenti?",
     "answers": [
-      "Merlo e tordo bottaccio Lepre comune",
-      "Coniglio selvatico, starna Fringuello"
+       "Merlo e tordo bottaccio",
+      "Lepre comune",
+      "Coniglio selvatico, starna",
+      "Fringuello"
     ],
     "correct": [
-      1
+      0,1
     ]
   },
   {
     "id": "1028",
-    "question": "Anche presso gli insediamenti urbani sono presenti alcune specie selvatiche. Indichi esempi. Quali specie animali sono tipiche nelle regioni alpine?",
+    "question": "Anche presso gli insediamenti urbani sono presenti alcune specie selvatiche. Indichi esempi.",
     "answers": [
-      "Ghiandaia Camoscio Marmotta Allocco"
+      "Balestruccio",
+      "Rondone",
+      "Riccio",
+      "Francolino di monte"
     ],
     "correct": [
-      1
+      0,1,2
     ]
   },
   {
     "id": "1029",
-    "question": "Anche presso gli insediamenti urbani sono presenti alcune specie selvatiche. Indichi esempi. Quali specie animali sono tipiche nelle regioni alpine?",
+    "question": "Quali specie animali sono tipiche nelle regioni alpine?",
     "answers": [
-      "Ghiandaia Camoscio Marmotta Allocco"
+      "Ghiandaia",
+      "Camoscio",
+      "Marmotta",
+      "Allocco"
     ],
     "correct": [
-      1
+      1,2
     ]
   },
   {
     "id": "1030",
     "question": "Quali di queste specie animali sono tipiche nelle regioni alpine e glaciali?",
     "answers": [
-      "Assiolo Aquila reale",
+      "Assiolo",
+      "Aquila reale",
       "Civetta",
       "Pernice bianca"
     ],
     "correct": [
-      3
+      1,3
     ]
   },
   {
     "id": "1031",
-    "question": "Quali di queste specie animali sono tipiche nelle regioni alpine? Quali di queste specie vegetali sono tipiche nelle regioni alpine?",
+    "question": "Quali di queste specie animali sono tipiche nelle regioni alpine?",
     "answers": [
-      "Roverella Pino mugo",
-      "Rododendro alpino Carpino nero"
+      "Gracchio alpino",
+      "Airone cenerino",
+      "Picchio verde",
+      "Lepre bianca (o lepre variabile"
     ],
     "correct": [
-      1
+      0,3
     ]
   },
   {
     "id": "1032",
-    "question": "Quali di queste specie animali sono tipiche nelle regioni alpine? Quali di queste specie vegetali sono tipiche nelle regioni alpine?",
+    "question": "Quali di queste specie vegetali sono tipiche nelle regioni alpine?",
     "answers": [
-      "Roverella Pino mugo",
-      "Rododendro alpino Carpino nero"
+      "Roverella",
+      "Pino mugo",
+      "Rododendro alpino",
+      "Carpino nero"
     ],
     "correct": [
-      1
+      1,2
     ]
   },
   {
     "id": "1035",
     "question": "Quali di queste specie di selvatici vivono in gruppi?",
     "answers": [
-      "Martora Cervo Lince",
-      "4X Camoscio4X Camoscio"
+      "Martora"
+      "Cervo",
+      "Lince",
+      "Camoscio"
     ],
     "correct": [
-      1
+      1,3
     ]
   },
   {
     "id": "1036",
-    "question": "Perché animali vivono territorialmente? Quale vantaggio porta questo comportamento? Perché animali vivono in gruppi? Quali vantaggi porta questo comportamento?",
+    "question": "Perché animali vivono territorialmente? Quale vantaggio porta questo comportamento?",
     "answers": [
-      "Minore concorrenza alimentare Maggiore sicurezza contro i predatori",
+      "Minore concorrenza alimentare",
+      "Maggiore sicurezza contro i predatori",
       "Per proteggersi meglio contro le malattie.",
       "Per tramandare le conoscenze necessarie alla ricerca di quartieri idonei."
     ],
     "correct": [
-      3
+      0
     ]
   },
   {
     "id": "1037",
-    "question": "Perché animali vivono territorialmente? Quale vantaggio porta questo comportamento? Perché animali vivono in gruppi? Quali vantaggi porta questo comportamento?",
+    "question": "Perché animali vivono in gruppi? Quali vantaggi porta questo comportamento?",
     "answers": [
-      "Minore concorrenza alimentare Maggiore sicurezza contro i predatori",
+      "Minore concorrenza alimentare",
+      "Maggiore sicurezza contro i predatori",
       "Per proteggersi meglio contro le malattie.",
       "Per tramandare le conoscenze necessarie alla ricerca di quartieri idonei."
     ],
     "correct": [
-      3
+      1,3
     ]
   },
   {
     "id": "1038",
     "question": "Come possono influire i disturbi ambientali sugli animali selvatici?",
     "answers": [
-      "Aumento della frequenza cardiaca Zone inquiete vengono evitate",
-      "XPredilige maggiormente l'attività notturna.",
+      "Aumento della frequenza cardiaca",
+      "Zone inquiete vengono evitate",
+      "Predilige maggiormente l'attività notturna.",
       "Dimostra un'eccessiva aggressività verso gli individui della stessa specie."
     ],
     "correct": [
-      1
+      0,1,2
     ]
   },
   {
@@ -416,17 +471,20 @@ const questions = [
       "Se i disturbi sono regolari e non comportano conseguenze negative per gli animali selvatici, questi sono in grado di adattarsi e ad abituarsi al disturbo."
     ],
     "correct": [
-      1
+      2,3
     ]
   },
   {
     "id": "1040",
     "question": "Caratteristiche generali di tutti i mammiferi.",
     "answers": [
+      "Mammiferi sono onnivori",
+      "Hanno una cistifellea",
+      "Sono coperti da peli"
       "Le femmine hanno ghiandole mammarie"
     ],
     "correct": [
-      1
+      2,3
     ]
   },
   {
@@ -435,58 +493,50 @@ const questions = [
     "answers": [
       "Capriolo",
       "Stambecco",
-      "Cinghiale",
-      "Daino",
-      "Camoscio",
-      "Cervo",
-      "Volpe Marmotta",
-      "Martora",
-      "Ermellino"
+      "Gallo cedrone",
+      "Cinghiale"
     ],
     "correct": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
+      0, 1, 3
     ]
   },
   {
     "id": "1047",
     "question": "I cervidi hanno ...",
     "answers": [
-      "palchi (trofeo) / (di norma solo i maschi) una cistifellea",
+      "palchi (trofeo) / (di norma solo i maschi)"
+      "una cistifellea",
       "la ricrescita dei denti incisivi",
       "un paio di zoccoli per arto (= artiodattili)"
     ],
     "correct": [
-      3
+      0,3
     ]
   },
   {
     "id": "1048",
     "question": "I bovidi hanno ...",
     "answers": [
-      "Valida YX una cistifelleaX uno stomaco diviso in quattro partiX la mascella superiore sprovvista da denti incisiviValida YX una cistifelleaX uno stomaco diviso in quattro partiX la mascella superiore sprovvista da denti incisivi"
+      "Palchi",
+      "una cistifellea",
+      "uno stomaco diviso in quattro parti",
+      "La mascella superiore sprovvista da denti incisivi"
     ],
     "correct": [
-      1
+      1,2,3
     ]
   },
   {
     "id": "1049",
     "question": "I bovidi hanno ...",
     "answers": [
-      "uno stomaco diviso in quattro parti la ricrescita dei denti incisivi",
+      "uno stomaco diviso in quattro parti",
+      "la ricrescita dei denti incisivi",
       "otto denti molari sia nella mascella superiore che inferiore",
       "un paio di zoccoli per arto (= artiodattili)"
     ],
     "correct": [
-      3
+      0, 3
     ]
   },
   {
@@ -494,15 +544,12 @@ const questions = [
     "question": "Quali specie fanno parte dei bovidi?",
     "answers": [
       "Muflone",
-      "Stambecco",
-      "Cervo",
-      "Capriolo"
+      "Capriolo",
+      "Camoscio",
+      "Stambecco"
     ],
     "correct": [
-      1,
-      2,
-      3,
-      4
+      0,2,3
     ]
   },
   {
@@ -510,11 +557,12 @@ const questions = [
     "question": "Quali caratteristiche corrispondono ai palchi dei cervidi presenti in Sudtirolo?",
     "answers": [
       "sono composti da cellule cornee morte",
-      "vengono rinnovati ogni anno, mediante caduta e ricrescita il basto viene sfregato al termine della crescita",
+      "vengono rinnovati ogni anno, mediante caduta e ricrescita",
+      "il basto viene sfregato al termine della crescita",
       "i palchi sono utili a determinare l'età dell'animale"
     ],
     "correct": [
-      1
+      1,2
     ]
   },
   {
@@ -522,11 +570,12 @@ const questions = [
     "question": "Quali caratteristiche corrispondono ai palchi dei cervidi presenti in Sudtirolo?",
     "answers": [
       "i palchi sono costituiti da tessuto osseo",
-      "dal numero degli apici sui palchi si può riconoscere l'età dell'animale entrambe i sessi portano i palchi",
+      "dal numero degli apici sui palchi si può riconoscere l'età dell'animale",
+      "entrambe i sessi portano i palchi",
       "la crescita strutturale e la caduta dei palchi vengono regolate da ormoni"
     ],
     "correct": [
-      3
+      0, 3
     ]
   },
   {
@@ -536,22 +585,23 @@ const questions = [
       "le corna sono costituite da tessuto osseo",
       "sono produzioni cornee, formate dalla cavicchia ossea e crescono quindi ogni anno un pezzo in più",
       "vengono gettate ogni anno",
-      "4X sono utili per la determinazione dell'età4X sono utili per la determinazione dell'età"
+      "sono utili per la determinazione dell'età"
     ],
     "correct": [
-      1
+      1,3
     ]
   },
   {
     "id": "1055",
     "question": "Quali caratteristiche corrispondono alle corna dei bovidi autoctoni presenti in Sudtirolo?",
     "answers": [
-      "sono composte da cellule cornee morte non vengono gettate ogni anno",
+      "sono composte da cellule cornee morte",
+      "non vengono gettate ogni anno",
       "il basto viene sfregato al termine della crescita",
       "entrambe i sessi portano le corna"
     ],
     "correct": [
-      3
+      0,1,3
     ]
   },
   {
@@ -564,8 +614,8 @@ const questions = [
       "cercano i propri quartieri invernali, laddove il freddo, il vento e i disturbi si manifestino al minimo"
     ],
     "correct": [
-      3,
-      4
+      2,
+      3
     ]
   },
   {
@@ -578,8 +628,7 @@ const questions = [
       "cercano i propri quartieri invernali, laddove il freddo, il vento e i disturbi si manifestino al minimo"
     ],
     "correct": [
-      3,
-      4
+      0, 2, 3
     ]
   },
   {
