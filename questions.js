@@ -5696,10 +5696,10 @@ const questions = [
   },
   {
     "id": "1108",
-    "question": "Autunno: Si osserva un capriolo maschio giovane con trofeo a piccole punte semplici nel",
+    "question": "Autunno: Si osserva un capriolo maschio giovane con trofeo a piccole punte semplici nel basto. Di che classe d'età si tratterà",
     "answers": [
       "piccolo maschio",
-      "",
+      "yearling maschio",
       "capo ammalato",
       ""
     ],
@@ -5709,21 +5709,21 @@ const questions = [
   },
   {
     "id": "1109",
-    "question": "Autunno: Si osserva un capriolo maschio giovane con trofeo a piccole punte semplici pulite",
+    "question": "Autunno: Si osserva un capriolo maschio giovane con trofeo a piccole punte semplici pulite dal basto. Di che classe d'età si tratterà",
     "answers": [
       "piccolo maschio",
-      "",
+      "yearling maschio",
       "capo ammalato",
       ""
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "1110",
-    "question": "I periodi primaverili di muta e si soffregamento, permettono di stimare l'età di un becco di",
+    "question": "I periodi primaverili di muta e si soffregamento, permettono di stimare l'età di un becco di capriolo in buone condizioni. Quali affermazioni sono corrette?",
     "answers": [
       "muta il colore prima il becco di un anno",
-      "",
+      "muta il colore prima il becco adulto",
       "soffrega prima il becco giovane",
       "soffrega prima il becco adulto"
     ],
@@ -5734,10 +5734,10 @@ const questions = [
   },
   {
     "id": "1111",
-    "question": "É inizio ottobre e si osservano due becchi di capriolo in buone condizioni. Uno è di colore",
+    "question": "É inizio ottobre e si osservano due becchi di capriolo in buone condizioni. Uno è di colore grigio mentre l'altro è di colore rosso. Quale dei due, di norma è il più vecchio?",
     "answers": [
       "il becco rosso",
-      "",
+      "il becco grigio",
       "sono della stessa età",
       ""
     ],
@@ -5747,14 +5747,14 @@ const questions = [
   },
   {
     "id": "1112",
-    "question": "Un maschio di capriolo mostra un trofeo forcuto di buon sviluppo e ancora nel basto a inizio",
+    "question": "Un maschio di capriolo mostra un trofeo forcuto di buon sviluppo e ancora nel basto a inizio giugno. Potrebbe trattarsi di un yearling?",
     "answers": [
       "no, un yearling può formare al massimo un trofeo forcuto debole",
-      "",
+      "sì, perchè i maschi adulti in quel periodo portano già il trofeo pulito",
       "no, perchè il yearling non sviluppa ancora un trofeo forcuto",
       ""
     ],
-    "correct": []
+    "correct": [1]
   },
   {
     "id": "1113",
@@ -5763,7 +5763,7 @@ const questions = [
       "devono esserci più becchi che capriole nel popolamento",
       "le capriole vengono tutelate",
       "proporzione equilibrata dei sessi (=sex ratio equilibrata)",
-      "i danni da selvaggina devono tenersi entro limiti tollerabili, la densità del popolamento di caprioli"
+      "i danni da selvaggina devono tenersi entro limiti tollerabili, la densità del popolamento di caprioli deve essere adeguata al habitat"
     ],
     "correct": [
       2,
