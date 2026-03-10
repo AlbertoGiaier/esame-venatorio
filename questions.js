@@ -1,3838 +1,5 @@
 const questions = [
   {
-    "id": "3001",
-    "question": "Quale delle seguenti, dal punto di vista giuridico, è considerata un'arma bianca?",
-    "answers": [
-      "Lo spiedo da cinghiale",
-      "La balestra",
-      "Fucili ad aria compressa",
-      "Tutte le armi non appartenenti alle armi da fuoco"
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3002",
-    "question": "Quali delle seguenti sono armi da fuoco?",
-    "answers": [
-      "Carabine",
-      "La balestra",
-      "Fucili ad aria compressa",
-      "Le armi a canna liscia"
-    ],
-    "correct": [
-      0,
-      3
-    ]
-  },
-  {
-    "id": "3003",
-    "question": "Quali cartucce si utilizzano per armi a canna liscia?",
-    "answers": [
-      "Cartucce a pallini",
-      "Cartucce per carabina",
-      "Cartucce con palla slug (palla unica) per armi a canna liscia",
-      ""
-    ],
-    "correct": [
-      0,
-      2
-    ]
-  },
-  {
-    "id": "3004",
-    "question": "Quali munizioni si utilizzano con i fucili a canna rigata?",
-    "answers": [
-      "Cartucce a pallini",
-      "Cartucce per carabina",
-      "Cartucce con palla slug (palla unica) per armi a canna liscia",
-      ""
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3005",
-    "question": "Quali proprietà ha un fucile a pallini?",
-    "answers": [
-      "L'interno della canna è liscio",
-      "Nella canna sono impresse delle scanalature a spirale",
-      "L'interno della canna è rigato",
-      ""
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3006",
-    "question": "Quali proprietà hanno, di regola, le carabine?",
-    "answers": [
-      "Hanno le canne lisce internamente",
-      "Hanno le canne rigate internamente",
-      "L'interno della canna si restringe verso la bocca",
-      ""
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3007",
-    "question": "Quale funzione ha la rigatura all'interno delle canne di una carabina?",
-    "answers": [
-      "Tiene unito lo sciame di pallini",
-      "Ingrandiscono il tramite del proiettile nel corpo del selvatico",
-      "Impediscono il capovolgimento del proiettile durante il volo stabilizzando il proiettile",
-      "Accelerano il proiettile"
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3008",
-    "question": "Cos'è un fucile combinato giustapposto?",
-    "answers": [
-      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano orizzontale",
-      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano verticale",
-      "Un fucile che ha due canne ad anima liscia e una rigata",
-      "Un fucile che ha due canne ad anima rigata e una liscia"
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3009",
-    "question": "Cos'è un fucile combinato sovrapposto?",
-    "answers": [
-      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano orizzontale",
-      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano verticale",
-      "Un fucile che ha due canne ad anima liscia e una rigata",
-      "Un fucile che ha due canne ad anima rigata e una liscia"
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3010",
-    "question": "Cos'è un drilling?",
-    "answers": [
-      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano orizzontale",
-      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano verticale",
-      "Un fucile a tre canne, solitamente due canne ad anima liscia e una rigata",
-      "Un attrezzo per l'addestramento di cani"
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3011",
-    "question": "Cos'è un fucile non combinato sovrapposto?",
-    "answers": [
-      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano orizzontale",
-      "Un fucile che ha due canne ad anima liscia e una rigata",
-      "Un fucile che ha due canne ad anima liscia poste sullo stesso piano verticale",
-      "Un fucile che ha due canne ad anima liscia poste sullo stesso piano orizzontale"
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3012",
-    "question": "Cos'è una doppietta?",
-    "answers": [
-      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano orizzontale",
-      "Un fucile che ha due canne ad anima liscia e una rigata",
-      "Un fucile che ha due canne ad anima liscia poste sullo stesso piano orizzontale",
-      "Un fucile che ha due canne ad anima rigata poste sullo stesso piano orizzontale"
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3013",
-    "question": "Cos è un Bergstutzen?",
-    "answers": [
-      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano verticale",
-      "Un fucile che ha due canne ad anima rigata dello stesso calibro poste sullo stesso piano",
-      "Un fucile a ripetizione con canne interscambiabili",
-      "Un fucile che ha due canne ad anima rigata di differente calibro"
-    ],
-    "correct": [
-      3
-    ]
-  },
-  {
-    "id": "3014",
-    "question": "Quali delle seguenti armi sono considerate armi combinate?",
-    "answers": [
-      "Un fucile che ha due canne ad anima liscia poste sullo stesso piano verticale",
-      "Un drilling con due canne ad anima rigata",
-      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano verticale",
-      ""
-    ],
-    "correct": [
-      1,
-      2
-    ]
-  },
-  {
-    "id": "3015",
-    "question": "Cosa viene controllato nella prova a fuoco di un'arma lunga presso un banco di prova?",
-    "answers": [
-      "Che l'arma sia precisa",
-      "Che il fucile, specialmente l'otturatore e la canna siano resistenti alla pressione dei gas prodotti",
-      "La potenza di penetrazione dei proiettili",
-      "La distanza di aggiustamento del tiro ideale"
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3016",
-    "question": "Armi: quali affermazioni sono esatte?",
-    "answers": [
-      "Canne danneggiate e arrugginite rappresentano un grosso pericolo per il tiratore",
-      "Lo stecher serve ad aumentare lo sforzo per far scattare il grilletto",
-      "Lo stecher serve da sicura per il fucile",
-      "Il congegno di mira nei fucili a canna ad anima liscia consta nel mirino e nella bindella"
-    ],
-    "correct": [
-      0,
-      3
-    ]
-  },
-  {
-    "id": "3017",
-    "question": "Per quale motivo i fucili con percussore a molla devono essere custoditi con la stessa non in",
-    "answers": [
-      "Per evitare l'usura del percussore",
-      "",
-      "Perché così si risparmia il bossolo salvapercussore",
-      ""
-    ],
-    "correct": []
-  },
-  {
-    "id": "3018",
-    "question": "Quali dei seguenti fucili sono muniti di caricatore o serbatoio, dal quale le cartucce vengono",
-    "answers": [
-      "I fucili a bascula",
-      "",
-      "I fucili semiautomatici con canna ad anima liscia",
-      "Le carabine semiautomatiche"
-    ],
-    "correct": [
-      2,
-      3
-    ]
-  },
-  {
-    "id": "3019",
-    "question": "Quali dei seguenti fucili sono muniti di caricatore o serbatoio, dal quale le cartucce vengono",
-    "answers": [
-      "I fucili a bascula",
-      "",
-      "I fucili a colpo singolo",
-      ""
-    ],
-    "correct": []
-  },
-  {
-    "id": "3020",
-    "question": "Quali di questi fucili sono a canne basculanti?",
-    "answers": [
-      "Bergstutzen",
-      "Fucili a ripetizione",
-      "Drilling",
-      ""
-    ],
-    "correct": [
-      0,
-      2
-    ]
-  },
-  {
-    "id": "3021",
-    "question": "Quali delle seguenti affermazioni sono esatte in merito allo stecher di tipo monogrillo?",
-    "answers": [
-      "E' dotato di un secondo grilletto per attivare la pretensione del grilletto di sparo",
-      "Per attivare la pretensione del grilletto si utilizza il medesimo grilletto di sparo",
-      "Lo spostamento in avanti di un cursore sul calcio permette di mettere in pretensione il grilletto di",
-      "Si può trovare sia nelle carabine a ripetizione che nei fucili basculanti con canne rigate"
-    ],
-    "correct": [
-      1,
-      3
-    ]
-  },
-  {
-    "id": "3022",
-    "question": "Quale delle seguenti affermazioni è esatta in merito allo stecher di tipo bigrillo?",
-    "answers": [
-      "E' dotato di un secondo grilletto per attivare la pretensione del grilletto di sparo",
-      "Viene utilizzato nelle carabine a ripetizione e nei fucili combinati",
-      "Lo spostamento in avanti di un cursore sul calcio permette di mettere in pretensione il grilletto di",
-      ""
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3023",
-    "question": "Quale dei seguenti calibri di fucili con canna ad anima liscia è quello con il diametro della",
-    "answers": [
-      "Calibro 20 Magnum",
-      "",
-      "Calibro 16",
-      "Calibro .410"
-    ],
-    "correct": []
-  },
-  {
-    "id": "3024",
-    "question": "Come si può ridurre l'ampiezza dello sciame di pallini?",
-    "answers": [
-      "Operando sul bossolo della cartuccia",
-      "Mediante una strozzatura della canna",
-      "Utilizzando fucili con canne molto corte",
-      ""
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3025",
-    "question": "Cos'è la strozzatura (Choke)?",
-    "answers": [
-      "Il profilo della canna rigata, che aiuta a stabilizzare il proiettile sulla sua traiettoria",
-      "Un restringimento della canna che influenza la dispersione dello sciame dei pallini",
-      "Una reazione del selvatico quando viene perforato dal proiettile",
-      ""
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3026",
-    "question": "Cosa s'intende con fucile con canna ad anima liscia con caricamento automatico della molla?",
-    "answers": [
-      "Un fucile con canna ad anima liscia che monta la molla facendo basculare la canna stessa",
-      "Un fucile con canna ad anima liscia, che si carica automaticamente mediante una pressione sul",
-      "Un fucile con canna ad anima liscia, che si carica automaticamente con il rinculo del tiro",
-      "Un fucile con canna ad anima liscia, che si carica mediante un congegno a slitta"
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3027",
-    "question": "A cosa serve l'eiettore nei fucili con canna ad anima liscia?",
-    "answers": [
-      "Per diminuire il rinculo",
-      "Per mettere il fucile automaticamente in sicurezza",
-      "Per eliminare automaticamente i bossoli sparati",
-      "Per allentare la molla del fucile"
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3028",
-    "question": "A cosa serve la sicura?",
-    "answers": [
-      "Per assicurare che il fucile non venga maneggiato da bambini o da persone non capaci di",
-      "",
-      "Per diminuire il rinculo",
-      "Per aumentare la pressione del grilletto"
-    ],
-    "correct": []
-  },
-  {
-    "id": "3029",
-    "question": "A cosa serve lo stecher?",
-    "answers": [
-      "Per aumentare la pressione da effettuare sul grilletto",
-      "Per diminuire la pressione da effettuare sul grilletto",
-      "Per dover utilizzare meno forza nell'azionare il grilletto in modo di evitare di strappare",
-      "Per mettere l'arma in sicura"
-    ],
-    "correct": [
-      1,
-      2
-    ]
-  },
-  {
-    "id": "3030",
-    "question": "Cosa avviene azionando l'otturatore di un fucile a ripetizione?",
-    "answers": [
-      "Le cartucce sparate vengono eliminate dalla camera di scoppio",
-      "Le cartucce piene passano dal serbatoio o dal caricatore alla camera di scoppio",
-      "Il meccanismo di pretensionamento del grilletto viene attivato",
-      "Il caricatore o il serbatoio vengono caricati"
-    ],
-    "correct": [
-      0,
-      1
-    ]
-  },
-  {
-    "id": "3031",
-    "question": "Cosa avviene azionando l'otturatore di un fucile a ripetizione?",
-    "answers": [
-      "Le cartucce sparate vengono eliminate dalla camera di scoppio",
-      "Il fucile viene ricaricato",
-      "Il fucile viene basculato",
-      "Il fucile viene messo automaticamente in sicura"
-    ],
-    "correct": [
-      0,
-      1
-    ]
-  },
-  {
-    "id": "3032",
-    "question": "Cosa s'intende con calibro nei fucili da caccia?",
-    "answers": [
-      "Diametro interno della canna nei fucili con canne ad anima liscia",
-      "Diametro dei proiettili nelle carabine",
-      "Proiettili particolarmente grosse",
-      ""
-    ],
-    "correct": [
-      0,
-      1
-    ]
-  },
-  {
-    "id": "3033",
-    "question": "Qual è il calibro più grosso ammesso in Alto Adige per fucili con canna ad anima liscia?",
-    "answers": [
-      "Calibro 12",
-      "Calibro 16",
-      "Calibro 20 Magnum",
-      "Calibro 6,5 mm"
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3034",
-    "question": "Quali sono i calibri più piccoli ammessi in Alto Adige per carabine?",
-    "answers": [
-      "Calibro 20",
-      "Calibro 5,6 mm",
-      "Calibro 0,222 pollici",
-      "Calibro 6,5 mm"
-    ],
-    "correct": [
-      1,
-      2
-    ]
-  },
-  {
-    "id": "3035",
-    "question": "Cosa può succedere se da un fucile con canna ad anima liscia con calibro 12/70 si spara una",
-    "answers": [
-      "La canna potrebbe rompersi",
-      "",
-      "Aumenta la rosata dei pallini",
-      ""
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3036",
-    "question": "Cosa può succedere se da un fucile con canna ad anima liscia con calibro 16/70 si spara una",
-    "answers": [
-      "La canna potrebbe rompersi",
-      "",
-      "I pallini aumentano di potenza",
-      "La cartuccia non può essere inserita non passando per la canna"
-    ],
-    "correct": [
-      3
-    ]
-  },
-  {
-    "id": "3037",
-    "question": "Quali delle seguenti cartucce può essere utilizzata nelle carabine a ripetizione?",
-    "answers": [
-      "Calibro .270 Win",
-      "Calibro 6.5 x 65 R",
-      "Calibro 7 mm Rem. Mag.",
-      "Calibro 20 Magnum"
-    ],
-    "correct": [
-      0,
-      2
-    ]
-  },
-  {
-    "id": "3038",
-    "question": "Cosa indica la cifra \"12/70\" sulla confezione di cartucce a pallini?",
-    "answers": [
-      "Calibro 12, lunghezza del bossolo a vuoto di 70 mm",
-      "Grandezza dei pallini di 0,12 pollici, lunghezza del bossolo a vuoto di 70 mm",
-      "Calibro 12, 70 cartucce",
-      "Anno di produzione delle cartucce: dicembre 1970"
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3039",
-    "question": "Quale delle seguenti cartucce, a parità di grandezza dei pallini, contiene il maggior numero di",
-    "answers": [
-      "Cartuccia 12/70",
-      "",
-      "Cartuccia 20/70",
-      ""
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3040",
-    "question": "A quali misure si riferiscono le indicazioni relative alla lunghezza delle cartucce a pallini?",
-    "answers": [
-      "Alla lunghezza della cartuccia prima dello sparo",
-      "Alla lunghezza del bossolo dopo lo sparo",
-      "Alla lunghezza minima della camera di scoppio da utilizzare",
-      "Al calibro della cartuccia"
-    ],
-    "correct": [
-      1,
-      2
-    ]
-  },
-  {
-    "id": "3042",
-    "question": "Cosa si intende con \"misura dei pallini\"?",
-    "answers": [
-      "Quantità di polvere da sparo utilizzata",
-      "Diametro della cartuccia a pallini",
-      "Diametro del singolo pallino con cui viene caricato il bossolo",
-      ""
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3043",
-    "question": "Cosa si intende con l'indicazione di cartucce 6,5 x 68 R?",
-    "answers": [
-      "Calibro 6,5 mm, lunghezza del bossolo 68 mm, cartuccia con orlo (bordo)",
-      "Lunghezza del bossolo 6,5 cm, calibro 0,68 pollici, cartuccia a percussione anulare",
-      "Calibro 6,5 cm, lunghezza del bossolo 68 pollici, cartuccia per carabine a ripetizione",
-      ""
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3044",
-    "question": "Per quale dei seguenti fucili è adatta una munizione con l'indicazione 6,5 x 57 R?",
-    "answers": [
-      "Carabine basculanti",
-      "Fucili con canna ad anima liscia basculanti",
-      "Fucili a ripetizione",
-      ""
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3045",
-    "question": "Cosa significa la lettera \"R\" nell'indicazione delle cartucce 6,5 x 68 R?",
-    "answers": [
-      "La cartuccia ha un collarino adatto per fucili a ripetizione",
-      "La cartuccia ha un orlo (bordo) che sporge dal fondello e viene principalmente utilizzata per",
-      "La lettera R indica il produttore Remington",
-      ""
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3046",
-    "question": "Cosa accade, se da una carabina cal. 7x57 R si spara una pallottola cal. 7x57?",
-    "answers": [
-      "Non è possibile caricare la carabina",
-      "I bossoli sparati possono essere estratti dalla camera di scoppio solo con un attrezzo",
-      "Si rompe la canna del fucile",
-      ""
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3047",
-    "question": "Si possono utilizzare munizioni cal. 8 x 57 in carabine a ripetizione cal. 7 x 57?",
-    "answers": [
-      "Si",
-      "No",
-      "Si ma solo se non troppo caricate",
-      ""
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3048",
-    "question": "Si possono sparare munizione di cal. 8 x 57 con carabine di cal. 8 x 68?",
-    "answers": [
-      "Si",
-      "No",
-      "Si, ma solo con l'apposito bossolo riduttore di calibro",
-      ""
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3049",
-    "question": "Si possono sparare munizione di cal. 6,5 x 68R con carabine dotate di canna adatta a sparare",
-    "answers": [
-      "Si",
-      "",
-      "Ciò non è possibile, perché non si adattano alla camera di cartuccia",
-      ""
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3050",
-    "question": "Cosa differenzia le cartucce 7 x 57 R e 7 x 57?",
-    "answers": [
-      "La cartuccia 7 x 57 R ha un orlo (bordo) sul fondello",
-      "La cartuccia 7 x 57 R è a percussione anulare",
-      "La cartuccia 7 x 57 ha una scanalatura per facilitarne l'estrazione",
-      "I diametri dei bossoli sono differenti, onde evitare di essere scambiati"
-    ],
-    "correct": [
-      0,
-      2
-    ]
-  },
-  {
-    "id": "3051",
-    "question": "Quale cartuccia è adatta per una carabina a ripetizione di cal. 7 x 57?",
-    "answers": [
-      "7 x 57",
-      "7 x 57 R",
-      "7 x 64",
-      ".270 Win"
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3052",
-    "question": "Che calibro in millimetri ha la cartuccia .222 Remington?",
-    "answers": [
-      "All'incirca 5,6 mm",
-      "All'incirca 6,5 mm",
-      "All'incirca 7,0 mm",
-      ""
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3053",
-    "question": "Quali dei seguenti calibri è ammesso in Alto Adige per la caccia al cervo?",
-    "answers": [
-      ".270",
-      "6,5 x 55",
-      ".243",
-      ".222"
-    ],
-    "correct": [
-      0,
-      1
-    ]
-  },
-  {
-    "id": "3054",
-    "question": "In Alto Adige è ammesso l'utilizzo della palla nei fucili con canna ad anima liscia nell'esercizio",
-    "answers": [
-      "Si",
-      "",
-      "Solo da parte degli agenti venatori",
-      "Si, ma solo nei periodi di caccia in deroga"
-    ],
-    "correct": []
-  },
-  {
-    "id": "3055",
-    "question": "Quali dei seguenti proiettili si deforma fortemente se colpisce un bersaglio resistente?",
-    "answers": [
-      "Proiettili camiciati",
-      "Proiettili parzialmente camiciati",
-      "",
-      ""
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3056",
-    "question": "Quali dei seguenti proiettili vengono utilizzati per la caccia agli ungulati, anche nel rispetto",
-    "answers": [
-      "Proiettili camiciati",
-      "",
-      "Palle o slug per fucili con canna ad anima liscia",
-      ""
-    ],
-    "correct": []
-  },
-  {
-    "id": "3057",
-    "question": "Quali delle seguenti specie cacciabili possono essere abbattute con cartucce a pallini?",
-    "answers": [
-      "Fagiano di monte e pernice bianca",
-      "Capriolo",
-      "Lepri",
-      "Cinghiale"
-    ],
-    "correct": [
-      0,
-      2
-    ]
-  },
-  {
-    "id": "3058",
-    "question": "Quali delle seguenti specie possono essere cacciate a pallini in Alto Adige?",
-    "answers": [
-      "Camoscio",
-      "Selvaggina da piuma",
-      "Volpe",
-      "Cervo"
-    ],
-    "correct": [
-      1,
-      2
-    ]
-  },
-  {
-    "id": "3059",
-    "question": "Armi da caccia e munizioni. Quali affermazioni corrispondono al vero?",
-    "answers": [
-      "Per ogni arma può essere utilizzata unicamente una munizione prevista per la stessa",
-      "Nel caso di un tiro a pallini bisogna prestare attenzione, che i pallini che non colpiscono il",
-      "Pallini di colpi che vengono sparati in verticale non sono pericolosi quando ricadono a terra",
-      "Si può effettuare un colpo a fauna selvatica solamente se il proiettile non metta in pericolo"
-    ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
-  },
-  {
-    "id": "3060",
-    "question": "In quale caso si può dire di aver sparato un colpo in sicurezza?",
-    "answers": [
-      "Sparare su un terreno con buona visibilità, in salita in direzione di tiro con la natura del terreno",
-      "",
-      "Presenza di fabbricati",
-      "Presenza di cespugli"
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3061",
-    "question": "Fino a quale distanza un tiro a pallini con munizione standard è efficace per l'abbattimento di",
-    "answers": [
-      "70 m",
-      "",
-      "35 m",
-      ""
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3062",
-    "question": "Che distanza raggiunge, all'incirca, un tiro con pallini di 2,5 mm di diametro?",
-    "answers": [
-      "25 m",
-      "35 m",
-      "250 m",
-      "2,5 chilometri"
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3063",
-    "question": "Che distanza raggiunge, all'incirca, un tiro con pallini di 4,0 mm di diametro?",
-    "answers": [
-      "35 m",
-      "40 m",
-      "400 m",
-      "4 chilometri"
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3064",
-    "question": "Che distanza raggiunge, all'incirca, un colpo sparato a pallini?",
-    "answers": [
-      "Diametro dei pallini (mm) x 50 m",
-      "Diametro dei pallini (mm) x 100 m",
-      "Diametro dei pallini (mm) x 1000 m",
-      ""
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3065",
-    "question": "Fino a quale distanza è accettabile uno sparo agli ungulati completamente sviluppati?",
-    "answers": [
-      "Massimo 300 m",
-      "Massimo 500 m",
-      "Massimo 700 m",
-      ""
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3066",
-    "question": "Fino a quale distanza può essere pericoloso un proiettile, mediamente, sparato con carabina?",
-    "answers": [
-      "All'incirca 500 m",
-      "All'incirca 5 km",
-      "All'incirca 10 km",
-      ""
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3067",
-    "question": "In una doppietta quale canna viene attivata dal grilletto anteriore?",
-    "answers": [
-      "Quella destra",
-      "Quella sinistra",
-      "",
-      ""
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3068",
-    "question": "In un sovrapposto quale canna viene attivata dal grilletto anteriore?",
-    "answers": [
-      "Quelle superiore",
-      "Quella inferiore",
-      "",
-      ""
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3069",
-    "question": "Quando si può portare un'arma carica?",
-    "answers": [
-      "Non appena scesi dalla macchina",
-      "Non appena con la macchina non si è più su una strada pubblica",
-      "Solo durante la caccia e su terreno non accidentato",
-      "Solamente dopo aver individuato il capo da abbattere"
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3070",
-    "question": "Come deve essere portata un'arma in presenza di altre persone?",
-    "answers": [
-      "Mai in maniera tale, che l¿arma sia puntata verso una persona",
-      "Sempre smontata in ogni sua parte",
-      "Solo in custodia",
-      "Aperta se basculante o con l'otturatore aperto"
-    ],
-    "correct": [
-      0,
-      3
-    ]
-  },
-  {
-    "id": "3072",
-    "question": "A cosa bisogna prestare attenzione prima di caricare un'arma?",
-    "answers": [
-      "Che la canna sia libera",
-      "Che non vi siano ostacoli nella direzione di tiro",
-      "Che vi sia fauna selvatica nei paraggi",
-      "Che il fucile sia in sicura"
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3073",
-    "question": "Come deve comportarsi un cacciatore se, dopo aver premuto il grilletto, il colpo non parte ....",
-    "answers": [
-      "Aprire immediatamente il fucile e prepararsi di nuovo al tiro",
-      "",
-      "",
-      ""
-    ],
-    "correct": []
-  },
-  {
-    "id": "3074",
-    "question": "Quando può essere tolta la sicura a un'arma?",
-    "answers": [
-      "Dopo averla caricata",
-      "Durante l'uscita di caccia",
-      "Immediatamente prima del tiro",
-      ""
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3075",
-    "question": "Quando si può mettere in funzione lo stecher?",
-    "answers": [
-      "Immediatamente dopo aver caricato l'arma",
-      "Immediatamente prima di aver tolto la sicura",
-      "Immediatamente prima del tiro",
-      ""
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3076",
-    "question": "Quando bisogna scaricare un'arma da fuoco?",
-    "answers": [
-      "Mentre si sale su un'altana",
-      "Mentre si devono superare ostacoli",
-      "In caso di maltempo",
-      "Quando si segue la selvaggina in alta quota"
-    ],
-    "correct": [
-      0,
-      1
-    ]
-  },
-  {
-    "id": "3077",
-    "question": "Come ci si comporta, se dopo aver tolto la sicura e inserito lo stecher, non si effettua lo",
-    "answers": [
-      "Prima mettere in sicura, poi disattivare lo stecher",
-      "",
-      "Se è stato attivato lo stecher, l'arma non può più essere messa in sicura",
-      ""
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3078",
-    "question": "Cosa indicano le cifre 8 x 56 in un binocolo?",
-    "answers": [
-      "Ingrandimento per 8 volte",
-      "56 mm di diametro dell'obbiettivo",
-      "Ingrandimento per 8 volte e campo visivo di 56 m a una distanza di 1 chilometro",
-      ""
-    ],
-    "correct": [
-      0,
-      1
-    ]
-  },
-  {
-    "id": "3079",
-    "question": "Cosa comporta l'appoggiare la punta del fucile su una base rigida al momento dello sparo?",
-    "answers": [
-      "Il punto d' impatto sul bersaglio non cambia",
-      "Il rinculo è maggiore, perché la canna non può oscillare liberamente",
-      "Porta spesso a un'alterazione del punto d'impatto, perché la canna non può oscillare",
-      ""
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3080",
-    "question": "Cosa può accadere se in fucile combinato sovrapposto o in un drilling con canna ad anima",
-    "answers": [
-      "La traiettoria risulta bassa",
-      "",
-      "Non si hanno variazioni di traiettoria",
-      ""
-    ],
-    "correct": []
-  },
-  {
-    "id": "3082",
-    "question": "Cosa s'intende con tarare il fucile a 200 m?",
-    "answers": [
-      "La traiettoria della pallottola taglia la linea di mira a una distanza di 200 m",
-      "200 m è la distanza ideale per cagionare un colpo mortale",
-      "La traiettoria ha una lunghezza di 200 m",
-      ""
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3083",
-    "question": "In quale punto del fucile la pressione dei gas risulta maggiore?",
-    "answers": [
-      "Nelle vicinanze della bocca della canna",
-      "Nelle vicinanze del centro della canna",
-      "Nelle vicinanze della camera di cartuccia",
-      ""
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3084",
-    "question": "In quale punto il proiettile raggiunge la sua massima velocità?",
-    "answers": [
-      "A 50 m dalla fuoriuscita dalla canna",
-      "A 100 m dalla fuoriuscita dalla canna",
-      "Al momento della fuoriuscita dalla canna",
-      ""
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3085",
-    "question": "Quante armi da caccia può detenere chi è in possesso di un porto di fucile a uso caccia?",
-    "answers": [
-      "Massimo 6",
-      "Massimo 10",
-      "In numero illimitato",
-      ""
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3086",
-    "question": "Chi può acquistare armi da fuoco in Italia?",
-    "answers": [
-      "Tutti i maggiorenni, senza particolari limitazioni",
-      "Chi ottiene il nulla osta dal Questore",
-      "Chi è in possesso di un qualsiasi porto d'armi",
-      ""
-    ],
-    "correct": [
-      1,
-      2
-    ]
-  },
-  {
-    "id": "3087",
-    "question": "Entro quale termine deve essere comunicato il possesso di armi o di parti essenziali di esse?",
-    "answers": [
-      "72 ore",
-      "1 settimana",
-      "1 mese",
-      ""
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3088",
-    "question": "Secondo la legge sulle armi cosa si intende per parti essenziali di un'arma?",
-    "answers": [
-      "Cannocchiale di puntamento",
-      "Canna",
-      "Otturatore",
-      "Il calcio di un fucile a ripetizione"
-    ],
-    "correct": [
-      1,
-      2
-    ]
-  },
-  {
-    "id": "3089",
-    "question": "Secondo la legge sulle armi cosa rientra fra le parti essenziali di un'arma?",
-    "answers": [
-      "Grilletto",
-      "Bascula",
-      "Il caricatore",
-      "I congegni di puntamento"
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3090",
-    "question": "Quali dati bisogna indicare in caso di denuncia di armi o di parti essenziali di esse?",
-    "answers": [
-      "I dati di riconoscimento dell'arma",
-      "Il luogo di detenzione",
-      "Il prezzo",
-      "Indicazione delle armi già in possesso della persona, per le armi con obbligo di denuncia"
-    ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
-  },
-  {
-    "id": "3091",
-    "question": "Dove deve essere denunciato il possesso di armi o di parti essenziali di esse?",
-    "answers": [
-      "Alla Questura o al Commissariato di Polizia, competente per il comune dove le armi vengono",
-      "",
-      "Al rettore della riserva di diritto di caccia",
-      "Presso gli Uffici del comune di residenza"
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3092",
-    "question": "In quali dei seguenti luoghi si possono custodire armi?",
-    "answers": [
-      "In luoghi sufficientemente sicuri cosicché non possano venir prese da bambini, persone non",
-      "",
-      "Incustodite nella baita dei cacciatori",
-      ""
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3093",
-    "question": "Quali regole vigono per la custodia di munizioni?",
-    "answers": [
-      "Non è obbligatorio denunciare il possesso di munizioni",
-      "Se si è in possesso di un'arma denunciata, non è obbligatorio denunciare il possesso di",
-      "Le munizioni a pallini devono sempre essere denunciate",
-      "Per custodire più di 5 kg di polvere da sparo, compresa quella eventualmente presente in"
-    ],
-    "correct": [
-      1,
-      3
-    ]
-  },
-  {
-    "id": "3094",
-    "question": "Quali regole vigono per il trasporto di armi in Italia?",
-    "answers": [
-      "Bisogna essere in possesso di una licenza di porto d'armi o di un'autorizzazione al loro trasporto",
-      "L'autorizzazione al trasporto di armi deve essere indicato nella patente di guida",
-      "Durante il trasporto le armi non possono essere utilizzabili rapidamente",
-      ""
-    ],
-    "correct": [
-      0,
-      2
-    ]
-  },
-  {
-    "id": "3095",
-    "question": "Come devono essere trasportate le armi in un'autovettura?",
-    "answers": [
-      "Scariche",
-      "Con serbatoio o caricatore scarico, se inserito",
-      "Smontate in ogni sua componente",
-      "In custodia"
-    ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
-  },
-  {
-    "id": "3096",
-    "question": "Come devono essere trasportate armi?",
-    "answers": [
-      "Le munizioni devono essere custodite in luogo separato o impacchettate separatamente dalle",
-      "",
-      "In automobile le armi devono essere trasportate nel portabagagli",
-      ""
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3097",
-    "question": "Trasporto di armi in autovettura. Quali affermazioni sono esatte?",
-    "answers": [
-      "In autovettura le armi non possono in nessun caso essere cariche",
-      "In autovettura le armi devono essere trasportate in custodia",
-      "In autovettura le armi possono essere trasportate cariche e in custodia",
-      "In autovettura le armi possono essere trasportate solo smontate"
-    ],
-    "correct": [
-      0,
-      1
-    ]
-  },
-  {
-    "id": "3098",
-    "question": "A quali persone si possono consegnare le proprie armi da caccia (vendere, imprestare o",
-    "answers": [
-      "Solo a parenti",
-      "",
-      "Solo a persone che hanno superato l'esame venatorio",
-      ""
-    ],
-    "correct": []
-  },
-  {
-    "id": "3099",
-    "question": "Un privato cittadino vende o regala la propria doppietta a una persona con porto d'armi valido.",
-    "answers": [
-      "Devono denunciarlo congiuntamente entro due settimane all'Autorità competente",
-      "",
-      "",
-      ""
-    ],
-    "correct": []
-  },
-  {
-    "id": "3100",
-    "question": "Si possono acquistare armi mezzo corriere?",
-    "answers": [
-      "No, in nessun caso",
-      "Si, non vi sono limitazioni",
-      "Solo con l'autorizzazione del Prefetto o tramite un armaiolo",
-      ""
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3101",
-    "question": "Quali documenti servono per l'esportazione temporanea di armi da caccia al di fuori del",
-    "answers": [
-      "Carta europea armi da fuoco o autorizzazione del Questore",
-      "",
-      "Permesso di caccia",
-      "Certificato d'origine"
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3102",
-    "question": "A cosa serve il numero di matricola di un'arma?",
-    "answers": [
-      "Per l'identificazione certa della stessa",
-      "Per documentarne la resistenza",
-      "Per indicarne il calibro",
-      ""
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3106",
-    "question": "In una carabina vi accorgete che fra la canna e la cassa vi è per tutta la lunghezza un pó di",
-    "answers": [
-      "sia indispensabile, così che la canna possa oscillare liberamente",
-      "",
-      "sia dovuta al deposito del fucile in modo non consono in un luogo troppo secco",
-      "sia indispensabile, dato che l'aerazione aiuta ad evitare l'arrugginimento della canna"
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3107",
-    "question": "A cosa servono i perni indicatori in fucili basculanti?",
-    "answers": [
-      "Indicano se l'arma è completamente chiusa",
-      "Indicano se vi sono cartucce nella camera di cartuccia",
-      "Sono visibili se l'arma non è in sicura e se lo stecher è stato armato",
-      "Indicano che il meccanismo di percussione, cioè il percussore, è armato"
-    ],
-    "correct": [
-      3
-    ]
-  },
-  {
-    "id": "3108",
-    "question": "Cosa si intende per vantaggio del calcio?",
-    "answers": [
-      "una configurazione del calcio che permette una migliore imbracciatura del fucile",
-      "la pulizia e la custodia delle armi nel periodo annuale di silenzio venatorio",
-      "La curvatura laterale del calcio rispetto alla linea di mira sia in fucili con canna ad anima liscia",
-      "L¿individuale angolazione del calciolo, che permette una veloce e buona imbracciatura del"
-    ],
-    "correct": [
-      0,
-      2
-    ]
-  },
-  {
-    "id": "3109",
-    "question": "Cosa corrisponde al vero nell'utilizzo di un compensatore (freno) di bocca?",
-    "answers": [
-      "Riduce il rinculo dell'arma al momento dello sparo",
-      "Il compensatore di bocca riduce la velocità del proiettile",
-      "Venendo le onde sonore, e rispettivamente pressorie, deviate lateralmente, la salute (l'udito) del",
-      "Carabine sparano diversamente se dotate o meno di compensatore di bocca perché cambia il"
-    ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
-  },
-  {
-    "id": "3110",
-    "question": "Quali delle seguenti affermazioni sono esatte relativamente alla pressione del gas?",
-    "answers": [
-      "La maggior parte delle cartucce a palla lavora con una pressione del gas di 3000-4000 bar",
-      "5-30% quelle previste per il normale utilizzo dell'arma",
-      "La scelta della polvere nelle cartucce viene fatta in modo tale che la pressione sia distribuita",
-      "Nei test al Banco di Prova per armi da caccia si lavora con pressioni del gas che superano del"
-    ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
-  },
-  {
-    "id": "3111",
-    "question": "Quali indicazioni si possono trovare sulle scatole per cartucce da carabina?",
-    "answers": [
-      "Produttore",
-      "Il potere di penetrazione",
-      "A volte, dati relativi alla velocità ed energia",
-      "Dati relativi al proiettile utilizzato"
-    ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
-  },
-  {
-    "id": "3112",
-    "question": "Quali indicazioni si possono trovare sulle scatole per cartucce da carabina?",
-    "answers": [
-      "L¿indicazione di tenere le munizioni fuori dalla portata dei bambini",
-      "Dati sulla traiettoria, compresa la distanza ottimale d'azzeramento",
-      "La gettata massima del proiettile",
-      "Il numero del lotto di produzione"
-    ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
-  },
-  {
-    "id": "3113",
-    "question": "Cosa corrisponde al vero nell'indicazione del calibro da carabina?",
-    "answers": [
-      "Le indicazioni del calibro sono spesso indicazioni commerciali arrotondate, che corrispondono",
-      "",
-      "L'indicazione del calibro in millimetri corrisponde sempre esattamente al diametro del proiettile",
-      "Le cartucce di calibro .308 Win e .300 Win Mag hanno il medesimo diametro dei proiettili"
-    ],
-    "correct": [
-      0,
-      3
-    ]
-  },
-  {
-    "id": "3115",
-    "question": "A che scopo vengono rivestiti i proiettili per carabine?",
-    "answers": [
-      "Si ha una diminuzione di depositi di materiale della palla all'interno della canna",
-      "Vengono aumentate le deformazioni e frammentazioni del proiettile nel corpo del selvatico",
-      "Diminuisce l'attrito all'interno della canna",
-      "Viene migliorata l'aerodinamica del proiettile"
-    ],
-    "correct": [
-      0,
-      2
-    ]
-  },
-  {
-    "id": "3116",
-    "question": "Quali di queste affermazioni riguardo alle palle uniche per armi non rigate (\"slug\")",
-    "answers": [
-      "Possono essere sparate con tutti i fucili ad anima liscia, con qualsiasi strozzatura",
-      "",
-      "Da noi sono ammesse per la caccia al cinghiale",
-      "Possono essere utilizzate in caso di ricerca autorizzata di fauna selvatica ferita quale, ad"
-    ],
-    "correct": [
-      0,
-      3
-    ]
-  },
-  {
-    "id": "3117",
-    "question": "Quali dei seguenti dati si riferiscono a calibri per fucili con canna ad anima liscia?",
-    "answers": [
-      ".222, .223 e .243",
-      "76, 70 e 67,5",
-      "12, 16, e 20",
-      "10, 24 e 28"
-    ],
-    "correct": [
-      2,
-      3
-    ]
-  },
-  {
-    "id": "3119",
-    "question": "Di cosa bisogna tenere conto nella scelta della dimensione dei pallini?",
-    "answers": [
-      "Pallini di dimensioni troppo grandi possono avere effetti a distanze più lunghe, ma, colpendo il",
-      "La giusta scelta della dimensione dei pallini consente di sparare a distanze un pò più lunghe",
-      "Pallini troppo piccoli perdono velocemente velocità e potere di penetrazione e non riescono a",
-      ""
-    ],
-    "correct": [
-      0,
-      2
-    ]
-  },
-  {
-    "id": "3120",
-    "question": "Una cartuccia senza collarino può essere sparata da un fucile a canna basculante?",
-    "answers": [
-      "No",
-      "Sì, se l'arma è stata allo scopo adattata",
-      "Sì, se l'arma è sta sottoposta a una ulteriore prova a fuoco",
-      "Sì, ma solamente se la bascula è in acciaio"
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3121",
-    "question": "Cosa può essere sparato da un fucile con canna ad anima liscia con calibro 12/76, strozzatura",
-    "answers": [
-      "Palla unica per armi non rigate 12/76 magnum",
-      "",
-      "Cartucce 12/70 con 36 g di pallini in acciaio da 3 mm",
-      "Cartucce 12/67,5 con 32 g di pallini in piombo da 4 mm"
-    ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
-  },
-  {
-    "id": "3122",
-    "question": "Come mai per fucili ad anima liscia vengono vendute munizioni con bossoli di 67,5 mm?",
-    "answers": [
-      "Perché i fucili di tutti i calibri sono dotati di camera di scoppio di questa grandezza",
-      "Perché queste munizioni possono essere utilizzate con i vecchi fucili con camera di scoppio di",
-      "Si tratta di una munizione con una pressione del gas più bassa, così da poter essere utilizzata",
-      "Questo tipo di munizione è stato creato principalmente quale compromesso per essere utilizzato"
-    ],
-    "correct": [
-      1,
-      3
-    ]
-  },
-  {
-    "id": "3123",
-    "question": "Cosa corrisponde al vero nell'utilizzo di munizioni magnum con fucili con canne ad anima",
-    "answers": [
-      "Le munizioni magnum operano con una maggiore pressione del gas",
-      "",
-      "Camere di scoppio di 76 mm sono adatte all'utilizzo di munizioni magnum",
-      "Con calibro uguale al 20 o più piccolo, le munizioni magnum non vengono più commercializzate"
-    ],
-    "correct": [
-      0,
-      2
-    ]
-  },
-  {
-    "id": "3124",
-    "question": "Cosa NON dovrebbe essere utilizzato nella caccia a ungulati di sana costituzione?",
-    "answers": [
-      "Proiettili con punte in plastica",
-      "Proiettili interamente mantellati",
-      "Proiettili a punta cava",
-      "Proiettili in rame"
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3125",
-    "question": "In alternativa ai proiettili parzialmente camiciati con nocciolo in piombo che possono",
-    "answers": [
-      "Proiettili pieni in ottone",
-      "",
-      "Proiettili parzialmente camiciati con nocciolo in uranio",
-      "Proiettili parzialmente camiciati con nocciolo in stagno"
-    ],
-    "correct": [
-      0,
-      3
-    ]
-  },
-  {
-    "id": "3126",
-    "question": "Quali affermazioni rispetto ai pallini in acciaio (ferro dolce) sono vere?",
-    "answers": [
-      "A parità di diametro, i pallini in acciaio sono più leggeri di quelli in piombo",
-      "I nuovi fucili con canna ad anima liscia di norma sono adatti all¿utilizzo di pallini in acciaio,",
-      "Sulla stessa distanza cartucce a pallini in acciaio garantiscono una migliore copertura rispetto a",
-      "I pallini in acciaio vengono frenati nella propria traiettoria più velocemente di quelli in piombo, a"
-    ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
-  },
-  {
-    "id": "3128",
-    "question": "Per quale motivo le munizioni per carabine non dovrebbero essere conservate troppo a lungo",
-    "answers": [
-      "Per danni inevitabili alle stesse, causati da umidità e ruggine",
-      "",
-      "In quanto la capsula d'innesco potrebbe non funzionare",
-      "Perché a lungo termine la polvere subisce variazioni chimiche che possono ripercuotersi sul"
-    ],
-    "correct": [
-      3
-    ]
-  },
-  {
-    "id": "3130",
-    "question": "Cosa sono le cartucce a pallini con dispersore?",
-    "answers": [
-      "Cartucce per carabine, le cui pallottole mostrano una maggior dispersione",
-      "Cartucce a pallini che sono più dispersanti di quelle standard",
-      "Cartucce a pallini costruite in tale maniera per motivi ecologici, così che la borra si frantuma",
-      "Cartucce a pallini che vengono preferite, ad esempio, per la caccia alle beccacce"
-    ],
-    "correct": [
-      1,
-      3
-    ]
-  },
-  {
-    "id": "3132",
-    "question": "Cosa corrisponde al vero in riferimento al tiro con l'utilizzo o meno del sensibilizzatore di",
-    "answers": [
-      "Nella caccia a battuta, con o senza cane, di regola non è ammesso l'utilizzo dello stecher",
-      "",
-      "Anche per motivi di sicurezza, nelle carabine di nuova generazione si tende a preferire lo scatto",
-      "Gli stecher sono regolabili in modo da essere molto sensibili, ma nell'effettuazione del tiro è"
-    ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
-  },
-  {
-    "id": "3133",
-    "question": "In una carabina a ripetizione manuale con stecher a due grilletti, il grilletto posteriore viene",
-    "answers": [
-      "Non succede nulla, perché non è possibile",
-      "",
-      "Può partire un colpo se l'arma è pronta al tiro",
-      "L¿otturatore può essere completamente estratto dal cilindro (scatola di culatta)"
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3134",
-    "question": "Quali accorgimenti importanti dal punto di vista della sicurezza bisogna adottare nelle armi con",
-    "answers": [
-      "Nei fucili a canne basculanti cariche con due acciarini si ha un'arma ancora pronta al tiro dopo",
-      "Con due successivi azionamenti della leva o slitta d'armamento in alcune armi basculanti",
-      "Fucili a ripetizione con monta manuale a leva o a slitta, di norma, dopo lo sparo e la successiva",
-      "Spesso i fucili combinati a tre canne hanno un sistema di caricamento automatico per le canne"
-    ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
-  },
-  {
-    "id": "3135",
-    "question": "Quale delle seguenti affermazioni è esatta nel caso di uno sparo con residui d'olio nella",
-    "answers": [
-      "I residui d'olio usato per la pulizia della canna vengono espulsi dal proiettile",
-      "",
-      "Il colpo con canna oliata provoca quasi sempre scostamenti della traiettoria",
-      ""
-    ],
-    "correct": [
-      0,
-      2
-    ]
-  },
-  {
-    "id": "3136",
-    "question": "Dovete dare il colpo di grazia da una breve distanza (5 metri) con una carabina dotata di",
-    "answers": [
-      "Linea di mira e traiettoria si discostano di alcuni centimetri fra loro",
-      "",
-      "Puntare alcuni cm più in basso",
-      "Puntare alcuni cm più in alto"
-    ],
-    "correct": [
-      0,
-      3
-    ]
-  },
-  {
-    "id": "3137",
-    "question": "Quali delle seguenti affermazioni in riferimento ai reticoli fosforescenti (illuminati) sono esatte?",
-    "answers": [
-      "I reticoli fosforescenti sono vietati, in quanto anche la caccia nelle ore notturne è vietata",
-      "I reticoli fosforescenti servono a un preciso riconoscimento del bersaglio",
-      "I reticoli fosforescenti permettono di riconoscere il reticolo di mira in caso di luce insufficiente",
-      "L¿utilizzo di reticoli fosforescenti, da non confondersi con le sorgenti luminose artificiali o con i"
-    ],
-    "correct": [
-      2,
-      3
-    ]
-  },
-  {
-    "id": "3138",
-    "question": "Quali delle seguenti affermazioni in riferimento alla parallasse dei cannocchiali sono esatte?",
-    "answers": [
-      "Si parla di parallasse se guardando attraverso il cannocchiale il reticolo di mira si muove sul",
-      "",
-      "Normalmente fino a 300 metri non si dovrebbero riscontrare errori di puntamento a causa della",
-      "Errori di puntamento a causa della parallasse possono essere evitati se si riesce a guardare"
-    ],
-    "correct": [
-      0,
-      3
-    ]
-  },
-  {
-    "id": "3139",
-    "question": "Quali dei seguenti parametri dei cannocchiali sono di particolare rilevanza in caso di luce",
-    "answers": [
-      "Diametro dell'oculare (lente più vicina all'occhio)",
-      "",
-      "Diametro dell'obiettivo (lente più lontana dall'occhio)",
-      "Lunghezza del cannocchiale"
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3140",
-    "question": "Quale dei seguenti binocoli dà i migliori presupposti per un utilizzo alla luce crepuscolare?",
-    "answers": [
-      "8 x 30",
-      "8 x 42",
-      "8 x 56",
-      "10 x 42"
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3141",
-    "question": "Cosa si ottiene con il trattamento anti-riflesso delle lenti di un binocolo o cannocchiale?",
-    "answers": [
-      "Si aumentano i tempi di intorbidamento della lente",
-      "Si diminuisce la tendenza all'appannamento della lente",
-      "Si diminuisce il riflesso sulla superficie della lente",
-      "Si aumenta la permeabilità ai raggi luminosi della luce"
-    ],
-    "correct": [
-      2,
-      3
-    ]
-  },
-  {
-    "id": "3142",
-    "question": "Cosa si intende per gli intensificatori di luce residua?",
-    "answers": [
-      "Vengono anche detti visori notturni e aumentano, tramite apposito valvola intensificatore,",
-      "",
-      "Funzionano solamente se viene attivata una lampada a raggi infrarossi, peraltro non recepita",
-      "In caso di danni da fauna selvatica a colture agricole intensive, il suo utilizzo per la caccia al"
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3143",
-    "question": "Cosa si intende per balistica esterna di un proiettile sparato con carabina?",
-    "answers": [
-      "I processi che avvengono dal momento dell'innesco della cartuccia fino al momento in cui il",
-      "",
-      "I processi che avvengono dopo l'uscita del proiettile dal corpo dell'animale colpito",
-      "Il moto del proiettile dal distacco dal bossolo fino alla volata"
-    ],
-    "correct": []
-  },
-  {
-    "id": "3144",
-    "question": "Cosa s'intende per balistica interna?",
-    "answers": [
-      "I processi che avvengono all'interno dell'animale colpito durante la penetrazione del proiettile",
-      "I processi dello sparo all'interno della cartuccia e della canna",
-      "Le proprietà comportamentali del proiettile dovute alla sua costituzione interna",
-      "Tutti i processi che si svolgono all'interno della culatta da quando si preme il grilletto all'urto della"
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "3145",
-    "question": "Quali forze influenzano principalmente la traiettoria di un proiettile?",
-    "answers": [
-      "Il rinculo",
-      "L'attrito dell'aria",
-      "L'attrito della canna",
-      "La forza di gravità"
-    ],
-    "correct": [
-      1,
-      3
-    ]
-  },
-  {
-    "id": "3146",
-    "question": "Cosa accade se al momento dell'effettuazione di un tiro una carabina viene inclinata",
-    "answers": [
-      "Il colpo risulta spostato leggermente in alto e nella stessa direzione dell'inclinazione",
-      "",
-      "Il colpo risulta spostato leggermente in basso e nella stessa direzione dell'inclinazione",
-      "Il colpo risulta spostato leggermente in basso e in direzione contraria all'inclinazione"
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3147",
-    "question": "Che influsso ha il deposito di materiale del proiettile sulle pareti interne della canna?",
-    "answers": [
-      "Influisce sulla precisione del tiro",
-      "Aumenta la vampa di volata",
-      "A causa di reazioni chimiche col gas prodotto dallo sparo, risultano più visibili",
-      "Dopo aver pulito a fondo e asportato completamente il materiale depositato, si possono"
-    ],
-    "correct": [
-      0,
-      3
-    ]
-  },
-  {
-    "id": "3148",
-    "question": "Quali affermazioni sono esatte in un tiro con grande angolo di sito?",
-    "answers": [
-      "In un tiro verso valle l'animale deve essere colpito un pò più in alto, così che il proiettile trapassi",
-      "",
-      "Con tiri con grande angolo di sito, l'impatto del proiettile è più alto che nei tiri in piano, dato che",
-      "In un tiro verso monte l'animale deve essere colpito un pò più in basso, così che il proiettile"
-    ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
-  },
-  {
-    "id": "3149",
-    "question": "In una tabella di tiro trovate l'indicazione \"E100\". Di cosa si tratta?",
-    "answers": [
-      "Indica di tarare il fucile a 100 m",
-      "L'elevazione a 100 m, se l'arma è stata tarata sulla distanza ottimale di azzeramento",
-      "Il valore dell'energia del proiettile (indicata normalmente in joule) a una distanza di tiro di 100 m",
-      "Indica che questa munizione dovrebbe essere utilizzata solo fino a 100 m di distanza a causa"
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3151",
-    "question": "In quale dei seguenti punti di una traiettoria si trova la distanza ottimale d'azzeramento in caso",
-    "answers": [
-      "All¿incrocio del proiettile in traiettoria discendente con la linea di mira",
-      "",
-      "All¿incrocio del proiettile in traiettoria ascendente con la linea di mira",
-      "Nel punto in cui il proiettile incrocia la seconda volta la linea di mira"
-    ],
-    "correct": [
-      0,
-      3
-    ]
-  },
-  {
-    "id": "3152",
-    "question": "Come tarate una carabina, la cui munizione ha una distanza ottimale di azzeramento di 170",
-    "answers": [
-      "Col punto in bianco a 200 m",
-      "",
-      "Col punto in bianco a 170 m",
-      "Punto d¿impatto a 100 metri 5 cm sopra il punto di mira"
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3153",
-    "question": "Quante volte la traiettoria di un proiettile di carabina incrocia l'asse dell'anima della canna",
-    "answers": [
-      "1 volta",
-      "",
-      "mai",
-      ""
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3154",
-    "question": "Come bisogna tarare le carabine per un tiro utile alla prassi venatoria in un poligono a 100",
-    "answers": [
-      "In maniera tale, che la traiettoria del proiettile a 100 m abbia il rialzo rispetto alla linea di mira",
-      "Chi a volte vuole sparare a distanze molto lunghe dovrebbe alzare la traiettoria a 8 - 10 cm",
-      "Il rialzo del punto d'impatto non andrebbe mai portato sopra i 4 cm, in quanto l'ordinata massima",
-      ""
-    ],
-    "correct": [
-      0,
-      2
-    ]
-  },
-  {
-    "id": "3158",
-    "question": "Con quale inclinatura in alto della canna i proiettili di carabina raggiungono la distanza",
-    "answers": [
-      "15° (gradi sessagesimali)",
-      "",
-      "30° - 35°",
-      "40° - 45°"
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3161",
-    "question": "Cos'è importante relativamente all'energia dei proiettili?",
-    "answers": [
-      "La velocità del proiettile",
-      "La scelta del materiale di composizione del proiettile",
-      "Il grado di frammentazione dell'incamiciatura",
-      "La massa del proiettile"
-    ],
-    "correct": [
-      0,
-      3
-    ]
-  },
-  {
-    "id": "3162",
-    "question": "Cosa corrisponde al vero riguardo alle velocità dei proiettili?",
-    "answers": [
-      "proiettili per carabina raggiungono velocità anche superiori ai 1000 m/s",
-      "Proiettili di fucili con canna ad anima liscia raggiungono velocità simili a quelli di carabine, solo",
-      "Quando escono dalla bocca dell'arma i pallini raggiungono una velocità all'incirca del 20%",
-      "Proiettili leggeri possono essere accelerati a una velocità superiore, ma vengono frenati più"
-    ],
-    "correct": [
-      0,
-      2,
-      3
-    ]
-  },
-  {
-    "id": "3163",
-    "question": "Quali armi sono consentite in Alto Adige per l'esercizio della caccia?",
-    "answers": [
-      "Fucili a canna liscia semiautomatici con limitazione del serbatoio o caricatore a un solo colpo",
-      "Carabine a ripetizione con serbatoio o caricatore predisposto per 5 colpi",
-      "Carabine semiautomatiche con riduzione della capacità del serbatoio o caricatore a 2 colpi",
-      "Fucili automatici, se la capacità del serbatoio o caricatore viene ridotta a due soli colpi"
-    ],
-    "correct": [
-      0,
-      1
-    ]
-  },
-  {
-    "id": "3164",
-    "question": "Cosa bisogna considerare nell'indicazione dell diametro dei pallini espresso in numeri?",
-    "answers": [
-      "Con numerazione tedesca il diametro varia di ca. 0,25 mm per ogni numero intero",
-      "In Italia si utilizza volentieri una numerazione con intervalli di ca. 0,20 mm per ogni numero",
-      "Nell'Unione Europea esistono norme unificate per l'indicazione in numeri dei pallini",
-      "A causa di differenti numerazioni utilizzate per indicare il diametro dei pallini è opportuno"
-    ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
-  },
-  {
-    "id": "3165",
-    "question": "Cosa bisogna considerare, sparando con vento?",
-    "answers": [
-      "La forza del vento e la sua direzione condizionano la traiettoria del proiettile",
-      "Peso, sagomatura e velocità del proiettile condizionano la traiettoria, sparando con vento",
-      "Con i calibri magnum ad alta velocità il vento non influisce sulla traiettoria del proiettile",
-      "Nel rispetto dell'etica venatoria si raccomanda di rinunciare a tiri lontani con vento"
-    ],
-    "correct": [
-      0,
-      1,
-      3
-    ]
-  },
-  {
-    "id": "3166",
-    "question": "L'arma va pulita...",
-    "answers": [
-      "dopo ogni utilizzo",
-      "una volta l'anno",
-      "una volta al mese",
-      ""
-    ],
-    "correct": [
-      0
-    ]
-  },
-  {
-    "id": "3167",
-    "question": "Le cartucce a pallini che hanno preso umidiá...",
-    "answers": [
-      "devono essere asciugate prima dell'utilizzo",
-      "possono essere utilizzate solo a scopo di esercitazione",
-      "non devono essere più utilizzate",
-      ""
-    ],
-    "correct": [
-      2
-    ]
-  },
-  {
-    "id": "3168",
-    "question": "La perdita di velocità...",
-    "answers": [
-      "è maggiore con pallini più grandi",
-      "è maggiore con pallini più piccoli",
-      "è uguale in entrambi i casi",
-      ""
-    ],
-    "correct": [
-      1
-    ]
-  },
-  {
-    "id": "4001",
-    "question": "Qual è la specie arborea più frequente in Alto Adige?",
-    "answers": [
-      "Faggio",
-      "Abete rosso",
-      "Abete bianco",
-      "Larice"
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4002",
-    "question": "Qual è generalmente la distribuzione altitudinale dell'abete rosso?",
-    "answers": [
-      "sotto agli 800 m",
-      "solamente sotto i 1500 m",
-      "da 800 a 1200 m",
-      "sopra i 2000 m"
-    ],
-    "correct": [2]
-  },
-  {
-    "id": "4003",
-    "question": "Quale specie di conifera perde gli aghi in autunno?",
-    "answers": [
-      "Larice",
-      "Abete rosso",
-      "Pino cembro / cirmolo",
-      "Abete bianco"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4004",
-    "question": "Quale è la specie arborea, le cui pigne mature sono erette unicamente all'insù sui rami?",
-    "answers": [
-      "Abete bianco",
-      "Abete rosso",
-      "Pino silvestre",
-      "Larice"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4005",
-    "question": "Quali specie arboree sono presenti verso il limite superiore del bosco?",
-    "answers": [
-      "Quercia",
-      "Abete rosso",
-      "Pino cembro / cirmolo",
-      "Larice"
-    ],
-    "correct": [1, 2, 3]
-  },
-  {
-    "id": "4006",
-    "question": "Quale specie arboree crescono e sono presenti soprattutto al limite superiore del bosco?",
-    "answers": [
-      "Pino cembro/cirmolo",
-      "Abete bianco",
-      "Acero montano",
-      "Pino mugo"
-    ],
-    "correct": [0, 3]
-  },
-  {
-    "id": "4007",
-    "question": "Quali delle seguenti affermazioni riguardanti l'abete rosso sono corrette?",
-    "answers": [
-      "I picchi estraggono le formiche dai tronchi decomposti degli abeti rossi",
-      "Il gufo reale nidifica nelle corone degli abeti rossi vecchi (maturi)",
-      "I giovani abeti rossi vengono volentieri morsicati dagli ungulati",
-      "Il larice è, per diffusione, la seconda specie arborea presente nei boschi dell'Alto Adige"
-    ],
-    "correct": [0, 2]
-  },
-  {
-    "id": "4008",
-    "question": "Quali delle seguenti affermazioni riguardanti l'abete rosso sono corrette?",
-    "answers": [
-      "Gli scoiattoli si cibano dei semi che trovano nelle pigne d'abete rosso",
-      "L'abete rosso è, per diffusione, la seconda specie arborea presente nei boschi dell'Alto Adige",
-      "Il cervo scorteccia i tronchi dei giovani abeti rossi",
-      ""
-    ],
-    "correct": [0, 2]
-  },
-  {
-    "id": "4009",
-    "question": "Quali delle seguenti affermazioni riguardanti il larice sono corrette?",
-    "answers": [
-      "Il larice è, per diffusione, la seconda specie arborea presente nei boschi dell'Alto Adige",
-      "Nella corteccia del larice, molti uccelli del bosco trovano insetti",
-      "I giovani larici vengono spesso soffregati dai becchi di capriolo e dai maschi del cervo",
-      "I giovani larici vengono spesso morsicati dagli ungulati"
-    ],
-    "correct": [0, 2]
-  },
-  {
-    "id": "4010",
-    "question": "Quali delle seguenti affermazioni riguardanti il pino silvestre sono corrette?",
-    "answers": [
-      "Gli alberi di pino silvestre sono frequentemente utilizzati dai galli cedroni per le parate nuziali",
-      "D'inverno il gallo cedrone si ciba volentieri degli aghi di pino silvestre",
-      "Spesso e volentieri, d'inverno i pini silvestri vengono morsicati dagli ungulati",
-      "Si trovano spesso pini silvestri nelle vicinanze dei corsi d'acqua"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4011",
-    "question": "Quali delle seguenti specie animali si trovano particolarmente a loro agio nei boschi ricchi di faggio?",
-    "answers": [
-      "Picchio nero",
-      "Gracchio alpino",
-      "Coturnice",
-      "Beccaccia"
-    ],
-    "correct": [0, 3]
-  },
-  {
-    "id": "4012",
-    "question": "Quali delle seguenti piante sono appetite dagli ungulati, come pastura?",
-    "answers": [
-      "Pioppo tremulo",
-      "Larice",
-      "Salice caprino",
-      "Castagno"
-    ],
-    "correct": [0, 2, 3]
-  },
-  {
-    "id": "4013",
-    "question": "Quali delle seguenti piante sono appetite dagli ungulati, come pastura?",
-    "answers": [
-      "Pino silvestre",
-      "Frassino",
-      "Acero",
-      "Quercia"
-    ],
-    "correct": [1, 2, 3]
-  },
-  {
-    "id": "4014",
-    "question": "Quali delle seguenti piante sono appetite dagli ungulati, come pastura?",
-    "answers": [
-      "Noce",
-      "Cespuglio di lampone",
-      "Sambuco",
-      "Pino cembro / cirmolo"
-    ],
-    "correct": [1, 2]
-  },
-  {
-    "id": "4015",
-    "question": "Quali delle seguenti affermazioni sono corrette?",
-    "answers": [
-      "I giovani abeti bianchi vengono morsicati volentieri d'inverno",
-      "I pinoli di cirmolo sono una fonte d'alimento importante per la nocciolaia (cirmolaia)",
-      "La presenza del tiglio indica che un habitat è idoneo per lo stambecco",
-      "I castagneti offrono buone possibilità di nidificazione agli uccelli che si riproducono in cavità"
-    ],
-    "correct": [0, 1, 3]
-  },
-  {
-    "id": "4016",
-    "question": "Quale valenza hanno i boschetti di ontano verde per la selvaggina?",
-    "answers": [
-      "Sono habitat per le anatre selvatiche",
-      "Offrono agli ungulati selvatici disponibilità di foraggio e protezione",
-      "Sono habitat per il francolino di monte",
-      "Vengono ricercati dal gallo forcello per eseguirvi le parate nuziali"
-    ],
-    "correct": [1, 2]
-  },
-  {
-    "id": "4017",
-    "question": "Quale valenza hanno i boschi di ripa per la selvaggina?",
-    "answers": [
-      "Sono un habitat importante per molti uccelli",
-      "Vengono ricercati dal gallo cedrone per eseguirvi le parate nuziali",
-      "Sono quartieri per volpe, capriolo e cervo",
-      ""
-    ],
-    "correct": [0, 2]
-  },
-  {
-    "id": "4018",
-    "question": "Quali delle seguenti affermazioni sono corrette?",
-    "answers": [
-      "La presenza di betulle in un bosco indica che l'habitat è idoneo per il francolino di monte",
-      "La coturnice mangia con gusto le bacche di ginepro",
-      "I picchi favoriscono la diffusione del pino cembro",
-      ""
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4019",
-    "question": "Per quali delle seguenti specie animali i mugheti sono ottimi ripari?",
-    "answers": [
-      "Capriolo, cervo e camoscio",
-      "Quaglia",
-      "Lepre variabile",
-      "Tasso"
-    ],
-    "correct": [0, 2]
-  },
-  {
-    "id": "4020",
-    "question": "Cosa intende la legge provinciale sulla caccia per danni da selvaggina?",
-    "answers": [
-      "I danni arrecati dalla fauna selvatica alle colture agricole e forestali",
-      "I danni arrecati dalla fauna selvatica agli animali domestici",
-      "I danni arrecati dalla fauna selvatica ad autoveicoli ed edifici",
-      ""
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4021",
-    "question": "Chi risponde dei danni arrecati dalla fauna selvatica agli animali domestici?",
-    "answers": [
-      "La riserva di caccia",
-      "La Giunta Provinciale risarcisce i danni causati da alcune specie di selvatici protetti",
-      "La Giunta Provinciale risarcisce i danni causati dalla volpe",
-      "Sono coperti dalla polizza assicurativa del cacciatore"
-    ],
-    "correct": [1, 2]
-  },
-  {
-    "id": "4022",
-    "question": "Quali dei seguenti tipi di danni sono considerati danni da selvaggina ai sensi della legge provinciale sulla caccia?",
-    "answers": [
-      "Brucamento di alberi giovani da parte di fauna ungulata o lepri",
-      "Scortecciamento arrecato da capre domestiche inselvatichite",
-      "Brucamento a carico di frutteti o vigneti arrecati da fauna ungulata o lepri",
-      "Incidenti stradali originati dalla fauna ungulata"
-    ],
-    "correct": [0, 2]
-  },
-  {
-    "id": "4023",
-    "question": "Quali dei seguenti tipi di danno sono considerati danni da selvaggina ai sensi della legge provinciale sulla caccia?",
-    "answers": [
-      "Brucamento a carico di alberi giovani da parte di buoi, pecore o capre",
-      "Scortecciamento da parte di fauna ungulata",
-      "Danni arrecati da mustelidi ad autoveicoli",
-      ""
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4024",
-    "question": "Quali dei seguenti tipi di danno sono considerati danni da selvaggina ai sensi della legge sulla caccia?",
-    "answers": [
-      "Incidenti stradali originati da mammiferi predatori",
-      "Danni ai campi causati da ungulati selvatici",
-      "Danni per alimentazione diretta causati da uccelli a carico di frutteti e vigneti",
-      "Danni per alimentazione diretta e calpestio da parte causati da ungulati selvatici a carico di colture cerealicole"
-    ],
-    "correct": [1, 2, 3]
-  },
-  {
-    "id": "4025",
-    "question": "Cosa si intende per danni provocati da attività venatoria?",
-    "answers": [
-      "Danni a carico di colture agricole e forestali causati dalla fauna selvatica",
-      "Danni a carico del bestiame domestico causati dalla fauna selvatica",
-      "Danni alle colture agricole e forestali verificatisi in seguito all'esercizio venatorio",
-      "Danni agli animali domestici verificatisi in seguito all'esercizio venatorio"
-    ],
-    "correct": [2, 3]
-  },
-  {
-    "id": "4026",
-    "question": "Chi risponde dei danni causati nell'esercizio dell'attività venatoria?",
-    "answers": [
-      "Chi li ha cagionati",
-      "La riserva di caccia",
-      "Lo stato italiano",
-      "Nessuno"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4027",
-    "question": "Quali dei seguenti selvatici, in bosco, morsicano germogli degli alberi giovani?",
-    "answers": [
-      "Ungulati",
-      "Topi",
-      "Lepri",
-      "Beccacce"
-    ],
-    "correct": [0, 1, 2]
-  },
-  {
-    "id": "4028",
-    "question": "Danni da morso in bosco: quali delle seguenti affermazioni sono corrette?",
-    "answers": [
-      "Alberi di latifoglie e abete bianco sono i più ricercati dalla fauna come oggetto di morsicatura",
-      "Pino e pino cembro sono molto ricercati come oggetto di morsicatura",
-      "I danni da morso possono avvenire anche in conseguenza di errato foraggiamento della fauna selvatica",
-      ""
-    ],
-    "correct": [0, 2]
-  },
-  {
-    "id": "4029",
-    "question": "Quali ripercussioni ha sulle piante la morsicatura della cima?",
-    "answers": [
-      "Sulla pianta si sviluppa un doppio apice (deformazione del tronco)",
-      "La pianta viene limitata nel suo sviluppo in altezza",
-      "La pianta muore",
-      "Nessuna ripercussione"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4030",
-    "question": "Quali ripercussioni ecologiche può avere un morsicamento massiccio delle piante?",
-    "answers": [
-      "Alcune specie arboree (abete bianco, latifoglie) sono sottoposte a una sorta di \"potatura\", con effetti negativi sulla varietà arborea",
-      "Il bosco viene inibito nel rinnovamento e può non essere più in grado di assolvere alla sua funzione protettiva",
-      "Piante acquatiche rare muoiono",
-      ""
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4031",
-    "question": "Quali delle seguenti specie possono lasciare tracce di scortecciamento sui tronchi degli alberi?",
-    "answers": [
-      "Cervo",
-      "Capriolo",
-      "Capra e muflone",
-      "Lepre"
-    ],
-    "correct": [0, 2, 3]
-  },
-  {
-    "id": "4032",
-    "question": "Quali delle seguenti specie possono lasciare tracce di rosicchiamento sulla corteccia degli alberi?",
-    "answers": [
-      "Tasso",
-      "Camoscio",
-      "Topi",
-      "Martora/faina"
-    ],
-    "correct": [2]
-  },
-  {
-    "id": "4033",
-    "question": "Come si ripercuotono sull'albero i danni da scortecciamento?",
-    "answers": [
-      "L'albero sviluppa un doppio apice",
-      "Nell'albero penetrano spore fungine, e il tronco è vittima di marciume rosso",
-      "L'albero diviene più vulnerabile al peso della neve e al vento",
-      "Lo sviluppo della pianta viene condizionato solo in maniera irrilevante"
-    ],
-    "correct": [1, 2]
-  },
-  {
-    "id": "4034",
-    "question": "Quali specie arboree vengono scortecciate preferibilmente?",
-    "answers": [
-      "Gli alberi con corteccia sottile",
-      "Gli alberi resinosi, con corteccia grossolana",
-      "Gli alberi con molti rami",
-      "Larici"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4035",
-    "question": "Quali delle seguenti specie arboree vengono soffregate preferibilmente?",
-    "answers": [
-      "Pino silvestre",
-      "Larice",
-      "Frassino",
-      "Quercia"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4036",
-    "question": "Come si ripercuote sull'albero un danno da soffregamento?",
-    "answers": [
-      "L'albero non riporta conseguenze",
-      "L'albero sviluppa molti germogli",
-      "L'albero può morire",
-      ""
-    ],
-    "correct": [2]
-  },
-  {
-    "id": "4037",
-    "question": "Quali danni da selvaggina creano problemi all'agricoltura?",
-    "answers": [
-      "Danni da scavo sulle aree pascolive, causati da marmotte",
-      "Danni da scavo e danni per alimentazione diretta alle colture di mais, causati dal tasso",
-      "Danni da scavo ai vigneti, causati dalla lepre comune",
-      "Danni al suolo sui campi, causati da grufolamento (rooting) del cinghiale"
-    ],
-    "correct": [0, 1, 3]
-  },
-  {
-    "id": "4038",
-    "question": "Il morsicamento da parte del capriolo è differente da quello della lepre comune. Come si presenta il germoglio morsicato dal capriolo?",
-    "answers": [
-      "È obliquo e liscio, come tagliato di netto con una lama di coltello",
-      "È sfilacciato e schiacciato",
-      "Fra i due tipi di morso non c'è differenza",
-      ""
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4039",
-    "question": "Quali sono le ragioni della caccia?",
-    "answers": [
-      "Fruizione sostenibile del bene naturale rappresentato dalla carne di selvaggina",
-      "Controllo e conservazione in salute delle consistenze di fauna selvatica",
-      "È una interessante gara a chi ottiene il miglior trofeo",
-      "Prevenzione dei danni da selvaggina alle colture agricolo-forestali"
-    ],
-    "correct": [0, 1, 3]
-  },
-  {
-    "id": "4040",
-    "question": "Quali sono i principi alla base di un esercizio venatorio eticamente corretto e responsabile?",
-    "answers": [
-      "Non arrecare disturbo inutile alla fauna selvatica",
-      "Osare tiri molto lunghi per ridurre il disturbo venatorio a carico della fauna",
-      "Un approccio rispettoso al capo abbattuto e al carniere",
-      "Cautela nel maneggio dell'arma"
-    ],
-    "correct": [0, 2, 3]
-  },
-  {
-    "id": "4041",
-    "question": "Per quali delle seguente specie è previsto in Alto Adige un piano di abbattimento?",
-    "answers": [
-      "Ungulati selvatici, eccettuato il cinghiale",
-      "Volpe",
-      "Gallo forcello (maschio del fagiano di monte)",
-      "Lepre bianca"
-    ],
-    "correct": [0, 2]
-  },
-  {
-    "id": "4042",
-    "question": "Per quali delle seguente specie è previsto in Alto Adige un piano di abbattimento?",
-    "answers": [
-      "Beccaccia",
-      "Pernice bianca",
-      "Coturnice",
-      "Cinghiale"
-    ],
-    "correct": [1, 2]
-  },
-  {
-    "id": "4043",
-    "question": "Per quali dei seguenti selvatici l'età del capo abbattuto può essere determinata notevolmente meglio in base al trofeo che non in base all'usura dentale?",
-    "answers": [
-      "Cervo",
-      "Camoscio",
-      "Stambecco",
-      "Capriolo"
-    ],
-    "correct": [1, 2]
-  },
-  {
-    "id": "4044",
-    "question": "Da cosa si deduce la condizione fisica degli animali selvatici?",
-    "answers": [
-      "Dalla presenza di riserve di grasso nei muscoli, nel midollo, nei reni e sottopelle",
-      "Dalla grandezza del rumine",
-      "Dall'usura dentale",
-      "Sempre dal trofeo"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4045",
-    "question": "Valutazione visiva del capo: quali affermazioni sono corrette?",
-    "answers": [
-      "I capi femmine vanno in muta prima dei capi maschi",
-      "Nel cervo, il piccolo maschio e piccolo femmina si distinguono dalla coda",
-      "Nei piccoli di capriolo nel mantello invernale, le femmine si identificano dal \"grembiule\", i maschi dal pennello",
-      "I capi sani e forti vanno in muta prima di quelli scarsi/deboli"
-    ],
-    "correct": [2, 3]
-  },
-  {
-    "id": "4046",
-    "question": "Perché è importante sapere se un capo femmina ha il piccolo o meno?",
-    "answers": [
-      "Perché all'atto del prelievo bisogna tenere presente che i piccoli, per il loro sviluppo, hanno bisogno della madre",
-      "Perché per le femmine conduttrici vigono periodi di prelievo in parte differenti",
-      "Per prevenire tiri che rendano necessaria una ricerca",
-      "Perché i piccoli di capriolo e cervo vanno abbattuti assolutamente dopo la madre"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4047",
-    "question": "Poniamo che si stiano per abbattere una vecchia femmina di capriolo e il suo piccolo debole. In quale ordine deve avvenire il prelievo?",
-    "answers": [
-      "Prima la femmina, poi il piccolo",
-      "Prima il piccolo, poi la femmina",
-      "Vanno prelevati insieme, quando si trovano uno dietro l'altro, in una posizione che consenta di abbatterli entrambi con un solo colpo",
-      "Dipende dalla situazione, prima la femmina oppure il piccolo"
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4048",
-    "question": "I piccoli di cervo rimasti orfani tentano di aggregarsi ad altri selvatici: da quali vengono accettati più facilmente?",
-    "answers": [
-      "Da un cervo maschio",
-      "Da una femmina di cervo con piccolo",
-      "Da una femmina di cervo sottile",
-      "Da una femmina di capriolo"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4049",
-    "question": "Nel mese di giugno, da cosa si è in grado di capire inequivocabilmente se una femmina di capriolo ha il piccolo?",
-    "answers": [
-      "Dalla testa",
-      "Dal \"grembiule\"",
-      "Dalle mammelle",
-      "Dalla muta del pelo"
-    ],
-    "correct": [2]
-  },
-  {
-    "id": "4050",
-    "question": "Da quali parti fisiche è possibile capire, nel mese di luglio, se una cerva che sta pasturando sola è una vecchia femmina conduttrice o una femmina sottile?",
-    "answers": [
-      "Dal mantello",
-      "Dalle mammelle",
-      "Dalla coda",
-      "Se sta pasturando da sola, sicuramente non ha il piccolo"
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4051",
-    "question": "Alla fine di novembre da una distanza di tiro confacente e in presenza di luce idonea a tirare, è possibile determinare con certezza se un capriolo femmina, intento a pasturare lungamente su un prato da solo, è una femmina sottile o una femmina vecchia?",
-    "answers": [
-      "Sì",
-      "No",
-      "Solo se si osserva il capo dal di dietro",
-      ""
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4052",
-    "question": "Nel mese di dicembre, da quale dei seguenti elementi è possibile distinguere con certezza un capriolo maschio adulto da una femmina?",
-    "answers": [
-      "Dal pennello",
-      "Dai testicoli",
-      "Dalla corporatura",
-      "Dallo \"specchio\""
-    ],
-    "correct": [0, 1, 3]
-  },
-  {
-    "id": "4053",
-    "question": "A fine novembre osservate due caprioli maschi all'incirca della stessa stazza: l'uno con piccoli bottoni non ancora puliti, l'altro con piccole punte pulite. Quale dei due maschi è il piccolo dell'anno?",
-    "answers": [
-      "Quello con le piccole punte pulite",
-      "Quello con i bottoni non ancora puliti",
-      "Sono entrambi dell'anno, quindi hanno la stessa età",
-      ""
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4054",
-    "question": "Nel mese di novembre vi trovate di fronte, a una distanza di 80 metri, un singolo camoscio che determinate come vecchio maschio. A quali delle seguenti caratteristiche fisiche va fatto riferimento per ritenere che sia un maschio e non una femmina?",
-    "answers": [
-      "La mancanza del \"grembiule\"",
-      "Un pennello ben visibile",
-      "Corni fortemente uncinati",
-      "Corni alti e molto divaricati"
-    ],
-    "correct": [1, 2]
-  },
-  {
-    "id": "4055",
-    "question": "Siamo all'inizio della stagione venatoria, ai primi di maggio. Un capriolo maschio in muta quasi completata, con corni ad altezza di orecchio e non puliti, è un capo di un anno o un maschio più vecchio con sviluppo ritardato del trofeo?",
-    "answers": [
-      "Un maschio di un anno",
-      "Un maschio più vecchio",
-      "È impossibile fare una distinzione",
-      ""
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4056",
-    "question": "Per quali specie in Alto Adige è indicata la caccia da appostamento?",
-    "answers": [
-      "Per le specie molto schive",
-      "Per la selvaggina da penna",
-      "Per la lepre comune e la lepre bianca",
-      "Per la beccaccia"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4057",
-    "question": "Con quali condizioni meteorologiche la caccia agli ungulati è più promettente?",
-    "answers": [
-      "In presenza di nebbia fitta",
-      "In presenza di gelate",
-      "Con una leggera pioggia",
-      "Con il vento"
-    ],
-    "correct": [2]
-  },
-  {
-    "id": "4058",
-    "question": "Nella caccia col richiamo, quale verso viene abitualmente simulato dal cacciatore nel periodo degli amori del capriolo?",
-    "answers": [
-      "Il fippio della femmina o del piccolo",
-      "L'abbaio d'allarme della femmina",
-      "L'abbaio d'allarme del maschio",
-      ""
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4059",
-    "question": "Nell'esercizio venatorio bisogna tenere conto anche del vento. Come spira, normalmente, sui pendii montani di prima mattina?",
-    "answers": [
-      "Verso valle",
-      "Verso monte",
-      "Da ovest a est",
-      ""
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4060",
-    "question": "Nell'esercizio venatorio bisogna tenere conto anche del vento. Come spira, normalmente, sui pendii al solivo durante il giorno?",
-    "answers": [
-      "Verso valle",
-      "Verso monte",
-      "Da est a ovest",
-      ""
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4061",
-    "question": "Per quali delle seguenti specie, in Alto Adige, la caccia si pratica anche con il cane segugio?",
-    "answers": [
-      "Volpe",
-      "Lepre",
-      "Camoscio",
-      "Cervo"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4062",
-    "question": "Sparando a un ungulato, a cosa si deve mirare, di norma, per tirare un colpo che abbatta il capo sicuramente, con rapidità e senza dolore?",
-    "answers": [
-      "Alla testa",
-      "Alla spalla o subito dietro alla stessa",
-      "Al collo",
-      "Alla colonna vertebrale"
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4063",
-    "question": "Tirando alla spalla di un capriolo posizionato di traverso, quali dei seguenti organi possono essere attinti?",
-    "answers": [
-      "Il rumine",
-      "Il polmone",
-      "I reni",
-      "Il cuore"
-    ],
-    "correct": [1, 3]
-  },
-  {
-    "id": "4064",
-    "question": "Come deve essere posizionato un capo di selvaggina ungulata al momento del tiro?",
-    "answers": [
-      "Trasversalmente al tiratore",
-      "Frontalmente al tiratore",
-      "Col posteriore al tiratore",
-      "È indifferente, quel che conta è che venga colpito"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4065",
-    "question": "A cosa deve prestare attenzione il cacciatore prima di tirare al selvatico?",
-    "answers": [
-      "A eventuali segni esteriori di malattie in atto",
-      "Acché il capo sia sufficientemente distante da lui, così da non notarlo",
-      "Al luogo esatto ove si trova l'animale",
-      "Acché la traiettoria del colpo sia libera e sia presente un \"fermapalle\" adatto"
-    ],
-    "correct": [0, 2, 3]
-  },
-  {
-    "id": "4066",
-    "question": "Cosa deve valutare il cacciatore prima di tirare al selvatico?",
-    "answers": [
-      "Un eventuale comportamento anomalo dell'animale, o tale da farlo ritenere malato",
-      "Che la carne sia idonea al consumo",
-      "La possibilità, in caso di abbattimento, di recuperare la carcassa",
-      "Che sia presente un \"fermapalle\" adatto"
-    ],
-    "correct": [0, 2, 3]
-  },
-  {
-    "id": "4067",
-    "question": "Avete tirato a un capriolo maschio da un palco, e l'animale è caduto sul colpo. Cosa fate ora?",
-    "answers": [
-      "Ricarico, e, con l'arma pronta al tiro, osservo il capo aspettando almeno 5 minuti",
-      "Scarico l'arma, scendo dal palco, ricarico e mi reco subito correndo verso il punto dove è caduto l'animale",
-      "Scendo subito dal palco, poi scarico l'arma e mi reco camminando verso il punto dove è caduto l'animale",
-      "Chiamo un conduttore di cane da traccia per sentire la sua opinione"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4068",
-    "question": "Quando il tiro a un cervo posizionato trasversalmente impatta sull'addome, quali dei seguenti organi possono essere attinti?",
-    "answers": [
-      "Polmone",
-      "Cuore",
-      "Rumine",
-      "Intestino"
-    ],
-    "correct": [2, 3]
-  },
-  {
-    "id": "4069",
-    "question": "Avete tirato a un capriolo maschio da un palco; l'animale si è dapprima messo in fuga, poi si è messo giù. Cosa fate?",
-    "answers": [
-      "Ricarico e tento di dare il colpo di grazia",
-      "Scarico l'arma, scendo dal palco, ricarico e mi reco di corsa verso il punto dove si trovava l'animale al momento del tiro (\"Anschuss\")",
-      "Avviare la ricerca con il cane da recupero",
-      "In un caso del genere, evidentemente l'animale è stato mancato"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4070",
-    "question": "Il comportamento del cacciatore dopo il tiro. Quale delle seguenti affermazioni è corretta?",
-    "answers": [
-      "Dopo aver tirato, il cacciatore raggiunge rapidamente il posto dove si trovava il capo al momento del tiro (Anschuss) e lo marca con un rametto verde",
-      "Se non è certo che il capo sia caduto sul colpo, aspetta un po', poi si porta sul posto dove si trovava il capo al momento del tiro (Anschuss)",
-      "Ispeziona il luogo ove si trovava l'animale al momento dello sparo, in cerca di eventuali indizi del colpo o tracce del proiettile",
-      ""
-    ],
-    "correct": [1, 2]
-  },
-  {
-    "id": "4071",
-    "question": "Un capriolo maschio cade sul colpo, ma dopo breve tempo si rialza e fugge, come se fosse sano. Di che tipo di colpo si potrebbe trattare?",
-    "answers": [
-      "Il colpo ha ferito la spalla",
-      "Il colpo ha ferito i processi spinosi",
-      "Il colpo ha strisciato l'addome",
-      "Il colpo ha ferito un arto"
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4072",
-    "question": "Sul luogo ove si trovava - al momento dello sparo - il capriolo maschio a cui avete tirato, e che è fuggito dopo il colpo, rinvenite del sangue rosso chiaro e schiumoso. Quale parte è stata attinta?",
-    "answers": [
-      "La punta del petto",
-      "Il collo",
-      "Il polmone",
-      "Il fegato"
-    ],
-    "correct": [2]
-  },
-  {
-    "id": "4073",
-    "question": "Se sul luogo ove si trovava un ungulato al momento dello sparo non si rinvengono né sangue né altri segni di ferimento, ciò indica che si tratta di un colpo mancato?",
-    "answers": [
-      "Sì",
-      "No",
-      "Solo se al suolo vengono trovate tracce provocate dal proiettile colpendo il terreno",
-      ""
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4074",
-    "question": "Se sul luogo ove si trovava un ungulato al momento dello sparo si rinviene del sangue rosso scuro e granuloso, quale organo può essere stato attinto?",
-    "answers": [
-      "Il polmone",
-      "Il fegato",
-      "Il cuore",
-      "L'intestino"
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4075",
-    "question": "Durante un appostamento mattutino, un cacciatore tira a una femmina sottile di cervo, e dopo il colpo la vede arrancare verso una spessaia distante una ventina di metri. È ipotizzabile che abbia accusato un colpo addominale. Quali dei seguenti comportamenti deve tenere il cacciatore?",
-    "answers": [
-      "Non deve correre subito sul punto dove si trovava l'animale al momento del tiro (\"Anschuss\"), bensì deve andare a marcarlo dopo un congruo tempo di attesa; deve contattare il rettore e procurare che arrivi un conduttore di cane da recupero",
-      "Deve subito recarsi nel folto ove suppone di trovare il capo ferito",
-      "Se ha con sé il proprio cane da caccia, non abilitato però alla ricerca di selvatici feriti, deve condurlo sulla traccia del capo ferito affinché lo spinga fuori dal folto",
-      "Aspettare il ritorno dell'animale ferito"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4076",
-    "question": "Durante un'uscita di caccia individuale, un cacciatore ferisce una lepre. Quando deve iniziare la ricerca con un cane idoneo e abilitato?",
-    "answers": [
-      "Quanto prima possibile",
-      "Dopo 30 minuti",
-      "Dopo due ore",
-      "Per selvaggina bassa non è prevista la ricerca con cane da recupero"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4077",
-    "question": "Cosa rientra fra le infrastrutture ausiliarie della riserva?",
-    "answers": [
-      "Sentieri di caccia",
-      "Strade forestali",
-      "Postazioni a terra",
-      "Falciatrici e trattori da utilizzarsi per ottenere fieno a fini di foraggiamento invernale"
-    ],
-    "correct": [0, 2]
-  },
-  {
-    "id": "4078",
-    "question": "Cosa rientra fra le infrastrutture ausiliarie della riserva?",
-    "answers": [
-      "Altane aperte e chiuse",
-      "Punti di foraggiamento e saline",
-      "Rifugi montani",
-      "Argani portatili"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4079",
-    "question": "Con riferimento alle altane, quali delle seguenti operazioni dovete avere cura di svolgere durante tutto l'anno?",
-    "answers": [
-      "Prima di ogni utilizzo, la verifica di eventuali danni sopraggiunti",
-      "La rimozione delle vecchie altane non più utilizzate",
-      "La manutenzione del rivestimento",
-      "La chiusura tramite recinzione di filo spinato"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4080",
-    "question": "Con riferimento al foraggiamento di selvaggina, quali delle seguenti affermazioni sono corrette?",
-    "answers": [
-      "In Alto Adige il foraggiamento e l'offerta di sale alla fauna sono pratiche pressoché non necessarie",
-      "In assenza di foraggiamento, gran parte degli animali selvatici muore di fame",
-      "Un foraggiamento attuato in maniera impropria può provocare danni da selvaggina",
-      "Presso i siti di foraggiamento e le saline può verificarsi il contagio di malattie fra selvatici"
-    ],
-    "correct": [0, 2, 3]
-  },
-  {
-    "id": "4081",
-    "question": "Con riferimento all'eviscerazione del selvatico, quali delle seguenti affermazioni sono corrette?",
-    "answers": [
-      "La selvaggina ungulata abbattuta deve essere eviscerata il prima possibile, così da consentire alla carcassa di raffreddarsi e impedire ai germi di proliferare",
-      "La selvaggina ungulata abbattuta può essere eviscerata solo nella cella frigo / nel locale refrigerato, per evitare di sporcare la carcassa durante il trasporto",
-      "Dapprima tutti i capi abbattuti vengono distesi a terra formando il cosiddetto \"plateau\", poi si procede con l'eviscerazione",
-      ""
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4082",
-    "question": "Secondo le odierne conoscenze in materia di igiene del carniere, con cosa va pulita la cavità addominale di un selvatico ferito all'addome?",
-    "answers": [
-      "Con acqua pulita (potabile)",
-      "Con erba o muschio",
-      "Con il sangue presente nella cavità addominale stessa",
-      "Con un fazzoletto"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4083",
-    "question": "In quali delle seguenti specie la cistifellea deve essere separata dal fegato con cautela?",
-    "answers": [
-      "Capriolo",
-      "Camoscio",
-      "Cervo",
-      "Cinghiale"
-    ],
-    "correct": [1, 3]
-  },
-  {
-    "id": "4084",
-    "question": "In quali delle seguenti specie la cistifellea deve essere separata dal fegato con cautela?",
-    "answers": [
-      "Camoscio",
-      "Stambecco",
-      "Daino",
-      "Capriolo"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4085",
-    "question": "A quale organo è unita la cistifellea, presente in alcune specie di fauna selvatica?",
-    "answers": [
-      "Alla milza",
-      "Al pancreas",
-      "Al fegato",
-      "Ai reni"
-    ],
-    "correct": [2]
-  },
-  {
-    "id": "4086",
-    "question": "Se si intende vendere la carne del selvatico abbattuto, 5 dei suoi organi devono essere sottoposti al controllo della \"persona formata\". Quali dei seguenti organi fanno parte dei 5 da far controllare?",
-    "answers": [
-      "Cuore",
-      "Fegato",
-      "Rumine",
-      "Pancreas"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4087",
-    "question": "Se si intende vendere la carne del selvatico abbattuto, 5 dei suoi organi devono essere sottoposti al controllo della \"persona formata\". Quali dei seguenti organi fanno parte dei 5 da far controllare?",
-    "answers": [
-      "Reni",
-      "Polmone",
-      "Milza",
-      "Cervello"
-    ],
-    "correct": [0, 1, 2]
-  },
-  {
-    "id": "4088",
-    "question": "Igiene del carniere e selvaggina bassa: quale delle seguenti affermazioni sono corrette?",
-    "answers": [
-      "Avendo la selvaggina bassa una massa corporea ridotta, non vi è pericolo che la carne del capo abbattuto si surriscaldi e si deteriori",
-      "Eviscerare rapidamente eleva la qualità della carne e impedisce che essa si deteriori",
-      "Anche se non eviscerata, fuori dal contatto con l'aria la carcassa si conserva senza problemi per alcuni giorni",
-      "Nel trasporto e nella conservazione della selvaggina bassa bisogna avere cura che la carcassa possa raffreddarsi"
-    ],
-    "correct": [1, 3]
-  },
-  {
-    "id": "4089",
-    "question": "Cosa si intende per selvatico \"riscaldato\"?",
-    "answers": [
-      "Un capo di selvaggina abbattuto in presenza di una temperatura esterna molto alta",
-      "Un capo di selvaggina non correttamente raffreddato e la cui carne appare quindi di dubbia qualità per la salute del consumatore",
-      "La carne di un capo maschio nel periodo degli amori",
-      "Un capo di selvaggina abbattuto dopo una fuga prolungata"
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4090",
-    "question": "Quali delle seguenti circostanze possono far sì che la carne del selvatico abbattuto divenga \"riscaldata\"?",
-    "answers": [
-      "La carne stessa non ha potuto raffreddarsi a sufficienza",
-      "Il capo è stato abbattuto con un colpo alla spalla",
-      "La carne è stata attaccata da muffe",
-      "La carcassa, non sufficientemente raffreddata, ha subíto un lungo trasporto lontano dal contatto con l'aria, ad esempio nel sacco portaselvaggina impermeabile"
-    ],
-    "correct": [0, 3]
-  },
-  {
-    "id": "4091",
-    "question": "Cosa è bene considerare con riferimento al consumo alimentare di carne di capi selvatici che sono stati feriti e oggetto di una ricerca col cane da traccia?",
-    "answers": [
-      "La carne dei capi feriti e recuperati è molto spesso compromessa",
-      "La carne dei capi feriti, e recuperati dopo un lungo inseguimento da parte del cane, non frolla",
-      "La carne dei capi feriti e recuperati deve rimanere appesa più a lungo per poter frollare",
-      "La carne di un selvatico oggetto di un colpo addominale, e ritrovato morto dopo una lunga ricerca iniziata con ritardo, è decisamente poco apprezzabile sotto il profilo gastronomico"
-    ],
-    "correct": [0, 1, 3]
-  },
-  {
-    "id": "4092",
-    "question": "Quali accorgimenti vanno osservati nel trasporto di capi ungulati abbattuti?",
-    "answers": [
-      "I capi raffreddati non possono essere trasportati nel bagagliaio delle autovetture",
-      "Il trasporto deve avvenire rapidamente, e il capo deve possibilmente giungere con celerità in un locale frigo per il raffreddamento",
-      "Da scuoiata la carcassa si raffredda meglio, pertanto va scuoiata prima del trasporto",
-      ""
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4093",
-    "question": "Dai peli di quali dei seguenti animali è possibile ricavare dei pennacchi ornamentali (i cosiddetti \"Bart\")?",
-    "answers": [
-      "Camoscio maschio",
-      "Capriolo maschio",
-      "Cervo",
-      "Tasso"
-    ],
-    "correct": [0, 2, 3]
-  },
-  {
-    "id": "4094",
-    "question": "Quali dei seguenti lavori del cane da caccia vanno svolti prima dello sparo?",
-    "answers": [
-      "Ricerca dell'animale ferito",
-      "Parata della selvaggina con voce (braccheggiamento)",
-      "Ricerca nel fitto",
-      "Riporto"
-    ],
-    "correct": [1, 2]
-  },
-  {
-    "id": "4095",
-    "question": "Quali dei seguenti lavori del cane da caccia vanno svolti dopo lo sparo?",
-    "answers": [
-      "Riportare l'animale ferito",
-      "Parata della selvaggina con voce (braccheggiamento)",
-      "Fare la ferma",
-      "Riporto"
-    ],
-    "correct": [0, 3]
-  },
-  {
-    "id": "4096",
-    "question": "Quali dei seguenti lavori vengono richiesti dai segugi?",
-    "answers": [
-      "Seguire le tracce fredde e calde del selvatico con voce",
-      "Indicare al cacciatore con un atteggiamento particolare il selvatico",
-      "Trovare la selvaggina bassa abbattuta e portarla al conduttore",
-      "La ricerca silenziosa della traccia"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4097",
-    "question": "Quali delle seguenti specie di selvaggina possono essere parate con voce (braccheggiate)?",
-    "answers": [
-      "Lepre",
-      "Volpe",
-      "Cinghiale",
-      "Camoscio"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4098",
-    "question": "Quando abbiamo bisogno di un cane che abbaia sull'usta calda (ovvero di un cane \"spurlaut\")?",
-    "answers": [
-      "Per parare con voce (braccheggiare)",
-      "Per la caccia agli acquatici",
-      "Per la caccia con il cane da ferma",
-      "Quando si cerca l'animale ferito"
-    ],
-    "correct": [0, 3]
-  },
-  {
-    "id": "4099",
-    "question": "Quali dei seguenti cani dovrebbero abbaiare sull'usta calda (ovvero dovrebbero essere \"spurlaut\")?",
-    "answers": [
-      "Segugi",
-      "Cani da traccia (cane da sangue)",
-      "Cani da ferma",
-      "Cani da riporto"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4100",
-    "question": "Quali dei seguenti cani di solito abbaiano sull'usta calda?",
-    "answers": [
-      "Cani da tana (Bassotto e Terrier)",
-      "Cani da ferma",
-      "Cani da riporto",
-      ""
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4101",
-    "question": "Un cane che abbaia sull'usta calda (ovvero è \"spurlaut\") che finalità può avere per il cacciatore?",
-    "answers": [
-      "Fa sì che il cacciatore possa udire lo spostamento del selvatico inseguito dal cane",
-      "Facilita la caccia agli acquatici",
-      "Il cacciatore riconosce dalla voce del cane il tipo di selvaggina che sta riportando",
-      ""
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4102",
-    "question": "Quando un cane \"dà voce a vista\" (ovvero \"sichtlaut\")?",
-    "answers": [
-      "Quando il cane dà voce a vista di qualsiasi specie di selvaggina",
-      "Quando il cane, tornando dal selvatico trovato morto, abbaia vedendo il conduttore per avvisare, che ha trovato",
-      "Quando dà voce esclusivamente a vista del selvatico inseguito",
-      ""
-    ],
-    "correct": [2]
-  },
-  {
-    "id": "4103",
-    "question": "Cosa fa un cane da ferma?",
-    "answers": [
-      "Si mette davanti al selvatico abbattuto",
-      "Indica al cacciatore con un atteggiamento particolare di aver il selvatico nell'olfatto",
-      "Dà voce sulla traccia fredda prima di avere il selvatico nell'olfatto",
-      "Si mette davanti al cacciatore per segnalare che ha trovato la selvaggina bassa abbattuta"
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4104",
-    "question": "Quali sono le doti di un cane da ferma?",
-    "answers": [
-      "Cercare il selvatico a naso alto",
-      "Dare voce sulla traccia",
-      "Fare la ferma",
-      "Riportare"
-    ],
-    "correct": [0, 2, 3]
-  },
-  {
-    "id": "4105",
-    "question": "Quali delle seguenti razze appartengono ai cani da ferma?",
-    "answers": [
-      "Deutsch Kurzhaar (bracco tedesco)",
-      "Setter",
-      "Labrador Retriever",
-      "Jagdterrier"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4106",
-    "question": "Quali delle seguenti razze appartengono ai cani da ferma?",
-    "answers": [
-      "Weimaraner",
-      "Segugio bavarese",
-      "Bassotto",
-      "Deutsch Drahthaar (bracco tedesco a pelo forte)"
-    ],
-    "correct": [0, 3]
-  },
-  {
-    "id": "4107",
-    "question": "Quali delle seguenti razze appartengono ai cani da ferma?",
-    "answers": [
-      "Deutsch Langhaar (bracco tedesco a pelo lungo)",
-      "Pointer",
-      "Münsterländer",
-      "Dachsbracke"
-    ],
-    "correct": [0, 1, 2]
-  },
-  {
-    "id": "4108",
-    "question": "Quali sono le doti di un cane da riporto?",
-    "answers": [
-      "Trovare selvaggina bassa abbattuta",
-      "Portare selvaggina bassa abbattuta",
-      "Abbaiare a morto sul selvatico abbattuto, ovvero \"Totverbellen\"",
-      "Seguire la volpe nella sua tana e scovarla"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4109",
-    "question": "Quali delle seguenti razze appartengono ai cani da riporto?",
-    "answers": [
-      "Retriever",
-      "Jagdterrier",
-      "Dachsbracke",
-      "Labrador"
-    ],
-    "correct": [0, 3]
-  },
-  {
-    "id": "4110",
-    "question": "Quali delle seguenti razze appartengono alla categoria dei cani da cerca?",
-    "answers": [
-      "Wachtelhund",
-      "Segugio bavarese",
-      "Spaniel",
-      "Golden Retriever"
-    ],
-    "correct": [0, 2]
-  },
-  {
-    "id": "4111",
-    "question": "Per quali dei seguenti lavori sono indicati il Terrier e il Bassotto?",
-    "answers": [
-      "Caccia in tana",
-      "Caccia agli acquatici",
-      "Fare la ferma",
-      "Lavoro sull'ungulato ferito, se particolarmente addestrati"
-    ],
-    "correct": [0, 3]
-  },
-  {
-    "id": "4112",
-    "question": "Cosa fa un cane durante la cerca (cioè durante il cosidetto \"Stöbern\")?",
-    "answers": [
-      "Cerca il selvatico in un'area ristretta",
-      "Cerca il selvatico nella tana",
-      "Cerca il selvatico abbattuto",
-      "Cerca palchi caduti o selvaggina morta"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4113",
-    "question": "Quali delle seguenti razze appartengono ai cani da tana?",
-    "answers": [
-      "Bassotto",
-      "Spaniel",
-      "Terrier",
-      "Setter"
-    ],
-    "correct": [0, 2]
-  },
-  {
-    "id": "4114",
-    "question": "Quali dei seguenti lavori vengono richiesti dal cane da traccia (da sangue)?",
-    "answers": [
-      "Cercare a naso alto la selvaggina da piuma e fermarla",
-      "Trovare il selvatico ferito",
-      "Fermare o finire l'animale ferito",
-      "Dare voce sul selvatico trovato morto (\"Totverbellen\") oppure chiamare il conduttore per portarlo sull'animale morto (\"Totverweisen\")"
-    ],
-    "correct": [1, 2, 3]
-  },
-  {
-    "id": "4115",
-    "question": "Cosa si intende per comando a terra del cane (\"Ablegen\")?",
-    "answers": [
-      "Il cane deve rimanere a terra sulla postazione ordinatagli, in attesa del conduttore",
-      "L'imminente reazione del cane a seguito del comando \"Alt\" (\"fermo\")",
-      "Deporre a terra il selvatico riportato",
-      ""
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4116",
-    "question": "Qual è lo scopo delle usanze venatorie?",
-    "answers": [
-      "Distinguersi dai non cacciatori nel modo di comportarsi, di esprimersi e di abbigliarsi",
-      "Rafforzare il senso di appartenenza alla comunità venatoria e dare sicurezza nel comportamento",
-      "Tramite le usanze venatorie il cacciatore si esplicita rispetto verso la fauna selvatica e verso gli altri cacciatori",
-      ""
-    ],
-    "correct": [1, 2]
-  },
-  {
-    "id": "4117",
-    "question": "Quali delle seguenti \"norme\" tradizionali sono superate e oggi inattuali?",
-    "answers": [
-      "Nell'eviscerare un capo non è consentito arrotolarsi le maniche",
-      "Nell'eviscerare, non si può pulire la cavità addominale con acqua",
-      "In occasioni ufficiali, vanno indossati abiti di foggia venatoria",
-      "Coricare sul fianco il capo abbattuto"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4118",
-    "question": "Quali delle seguenti \"norme\" tradizionali sono superate e oggi inattuali?",
-    "answers": [
-      "Nell'eviscerare non è consentito portare guanti",
-      "Il rametto dell'abbattitore (\"Erlegerbruch\") va bagnato nel sangue della preda",
-      "Il punto in cui si trovava l'animale al momento dello sparo (\"Anschuss\") va marcato con un ramoscello",
-      "Al termine di un recupero riuscito, una parte del rametto dell'abbattitore va consegnata al recuperatore, per fissarla al collare del suo cane da traccia"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4119",
-    "question": "Cos'è, nel gergo venatorio, il \"ramoscello della presa di possesso\" (\"Streckenbruch\")?",
-    "answers": [
-      "Il rametto verde che l'autore di un abbattimento si appunta sulla destra del cappello",
-      "Il rametto verde che viene posto nella bocca o nel becco del capo abbattuto, dopo averlo coricato sul fianco",
-      "Il rametto verde che viene posto sulla scapola del capo abbattuto, dopo averlo coricato sul fianco",
-      "Il rametto che marca il punto in cui il cane da recupero è stato posto sulla traccia"
-    ],
-    "correct": [2]
-  },
-  {
-    "id": "4120",
-    "question": "Cos'è, nel gergo venatorio, \"l'ultimo pasto\"?",
-    "answers": [
-      "Il rametto verde che l'autore di un abbattimento si appunta sulla destra del cappello",
-      "Il rametto verde che viene posto nella bocca o nel becco del capo abbattuto",
-      "Il rametto verde che viene posto sulla scapola del capo abbattuto, dopo averlo coricato sul fianco",
-      "Sono le interiora del capo abbattuto, che, al termine di una ricerca fruttuosa del capo, il cacciatore dà al conduttore del cane da traccia per il proprio ausiliare"
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4121",
-    "question": "Cos'è, nel gergo venatorio, il \"rametto dell'abbattitore\" (\"Erlegerbruch\")?",
-    "answers": [
-      "Il rametto verde che l'autore di un abbattimento si appunta sulla destra del cappello",
-      "Il rametto verde che viene posto nella bocca o nel becco del capo abbattuto",
-      "Il rametto verde che viene posto sulla scapola del capo abbattuto",
-      "Il rametto verde con il quale l'autore del prelievo marca il punto in cui si trovava l'animale al momento dello sparo"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4122",
-    "question": "Cos'è, nel gergo venatorio, il \"rametto dell'Anschuss\"?",
-    "answers": [
-      "Il rametto verde che il cacciatore si appunta sulla destra del cappello quando ha ferito un capo",
-      "Il rametto verde che viene posto nella bocca o nel becco del capo ferito",
-      "Il rametto verde con il quale il cacciatore marca, per il conduttore di cane da recupero, il punto in cui si trovava l'animale al momento dello sparo",
-      ""
-    ],
-    "correct": [2]
-  },
-  {
-    "id": "4123",
-    "question": "In occasioni venatorie festose o particolari, su quale lato del cappello viene portato il rametto verde?",
-    "answers": [
-      "A sinistra",
-      "A destra",
-      "Ai matrimoni sulla destra, in tutte le altre occasioni a sinistra",
-      ""
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4124",
-    "question": "Ai funerali di cacciatori, che uso viene fatto del rametto verde?",
-    "answers": [
-      "Viene portato sul cappello, a destra",
-      "Viene portato sul cappello, a sinistra",
-      "Viene consegnato ai congiunti dello scomparso",
-      "Viene portato sul cappello, con la faccia inferiore degli aghi rivolta all'esterno"
-    ],
-    "correct": [1, 3]
-  },
-  {
-    "id": "4125",
-    "question": "I rametti i di quali alberi vengono impiegati ai funerali?",
-    "answers": [
-      "Pino cembro",
-      "Larice",
-      "Abete bianco",
-      "Quercia"
-    ],
-    "correct": [2]
-  },
-  {
-    "id": "4126",
-    "question": "Tradizionalmente, come viene composto l'ungulato abbattuto?",
-    "answers": [
-      "Coricato sul suo fianco destro, con il \"rametto della presa di possesso\" sulla scapola sinistra",
-      "Eviscerato",
-      "Non eviscerato",
-      "Con in bocca \"l'ultimo pasto\""
-    ],
-    "correct": [0, 1, 3]
-  },
-  {
-    "id": "4127",
-    "question": "Quali specie arboree crescono specialmente su soprasuoli asciutti e rocciosi?",
-    "answers": [
-      "Abete bianco",
-      "Pino silvestre",
-      "Faggio",
-      "Roverella"
-    ],
-    "correct": [1, 3]
-  },
-  {
-    "id": "4128",
-    "question": "Quali delle seguenti specie arboree crescono specialmente nelle boscaglie vicine a fondovalle?",
-    "answers": [
-      "Carpinella / carpino nero",
-      "Pino cembro / cirmolo",
-      "Castagno",
-      "Roverella"
-    ],
-    "correct": [0, 2, 3]
-  },
-  {
-    "id": "4129",
-    "question": "Quali specie arboree sono frequentemente presenti lungo i corsi d'acqua?",
-    "answers": [
-      "Ontano nero",
-      "Larice",
-      "Ontano verde",
-      "Abete bianco"
-    ],
-    "correct": [0, 2]
-  },
-  {
-    "id": "4130",
-    "question": "Quali specie arboree sono presenti soprattutto in aree dal clima temperato e sufficientemente umido?",
-    "answers": [
-      "Abete bianco",
-      "Faggio",
-      "Pino cembro, cirmolo",
-      "Pino mugo"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4131",
-    "question": "Quale valenza hanno i boschi di ripa per la selvaggina?",
-    "answers": [
-      "Sono un habitat importante per molti uccelli",
-      "Vengono ricercati dal gallo cedrone per eseguirvi le parate nuziali",
-      "Sono quartieri per volpe, capriolo e cervo",
-      ""
-    ],
-    "correct": [0, 2]
-  },
-  {
-    "id": "4132",
-    "question": "Quali provvedimenti aggiuntivi può prendere l'assessore competente, qualora una riserva di caccia non faccia fronte all'indennizzo di danni da selvaggina entro i termini fissati?",
-    "answers": [
-      "Revoca dei permessi di caccia ai soci della riserva in questione",
-      "Incarico di riduzione delle consistenze di ungulati a persone idonee",
-      "Revoca dei porto d'armi per uso caccia ai soci della riserva in questione",
-      "Pignoramenti per l'importo fissato"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4133",
-    "question": "Quali dei seguenti strumenti sono deputati al controllo sul rispetto del piano di prelievo?",
-    "answers": [
-      "Obbligo di sottoporre il capo al controllo visivo",
-      "Denuncia del colpo sparato",
-      "Elenco dei capi abbattuti",
-      "Esame venatorio"
-    ],
-    "correct": [0, 2]
-  },
-  {
-    "id": "4134",
-    "question": "Siamo a metà della stagione venatoria e in una riserva viene valutato il prelievo di selvaggina bassa. In base al \"segno di Stroh\" emerge che fra i capi abbattuti non vi sono lepri giovani. Quali conseguenze se ne possono trarre?",
-    "answers": [
-      "La consistenza di lepri è soddisfacente, si può accentuare il prelievo senza problemi",
-      "È un indice di allarme; si può supporre che nell'anno in questione vi sia una carenza riproduttiva, e di conseguenza è opportuno trattenersi nell'intervento venatorio",
-      "Non si possono trarre conclusioni sul successo riproduttivo",
-      "Il \"segno di Stroh\" non ha lo scopo di determinare le lepri giovani"
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4135",
-    "question": "Come può essere determinata l'età di un ungulato abbattuto?",
-    "answers": [
-      "In base agli anelli di accrescimento annuali delle corna",
-      "In base alla conformazione del trofeo",
-      "In base all'usura dei denti",
-      "Nei capi giovani, in base al cambio dei denti da latte"
-    ],
-    "correct": [0, 3]
-  },
-  {
-    "id": "4136",
-    "question": "Cosa provoca il formarsi dei cerchi anche conosciuti come \"anelli delle streghe\"?",
-    "answers": [
-      "La marcatura del territorio da parte del capriolo maschio",
-      "Le rincorse fra caprioli nel periodo degli amori",
-      "Gli accoppiamenti fra lepri comuni",
-      "Le parate nuziali a terra del gallo cedrone"
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4137",
-    "question": "Nei giorni di gelate, è necessario eviscerare il rapidamente quanto nelle calde giornate estive?",
-    "answers": [
-      "Sì",
-      "No",
-      "Dipende dalla temperatura esterna. Se è inferiore ai -10 °C, non è necessario eviscerare rapidamente",
-      ""
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4138",
-    "question": "Quando un cane dà il \"Vorlaut\" (abbaia con anticipo)?",
-    "answers": [
-      "Sulla traccia fredda prima di aver scovato il selvatico",
-      "Quando arriva sul selvatico precedentemente inseguito",
-      "Quando, dall'eccitazione, dà voce senza aver visto o annusato la traccia del selvatico",
-      ""
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4139",
-    "question": "Che cos'è lo \"Standlaut\" (abbaiare a fermo)?",
-    "answers": [
-      "Dare voce sulla postazione del tiratore",
-      "Dare voce mentre insegue un capriolo sano",
-      "Dare voce durante la ricerca sul selvatico bloccato",
-      ""
-    ],
-    "correct": [2]
-  },
-  {
-    "id": "4140",
-    "question": "Che cos'è il \"Totverbeller\"?",
-    "answers": [
-      "Un cane che dà voce sul selvatico morto fino all'arrivo del conduttore",
-      "Un cane che, dall'eccitazione, dà voce senza avere visto né annusato la traccia del selvatico",
-      "Un cane che spaventa a morte il selvatico abbaiando",
-      ""
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4141",
-    "question": "Quale specie alloctona di pino venne usata negli anni '50 per riforestare ampie superfici in Val Venosta?",
-    "answers": [
-      "Il pino cembro",
-      "Il pino silvestre",
-      "Il pino mugo",
-      "Il Pino nero"
-    ],
-    "correct": [3]
-  },
-  {
-    "id": "4142",
-    "question": "Quali di queste asserzioni relative all'abete rosso sono corrette?",
-    "answers": [
-      "Il gufo fa il nido nelle chiome dei vecchi abeti",
-      "Aghi e germogli sono un apprezzato nutrimento del gallo cedrone",
-      "Il francolino di monte si nasconde spesso nelle chiome più fitte",
-      "L'abete rosso è la seconda specie arborea più diffusa in Alto Adige"
-    ],
-    "correct": [1, 2]
-  },
-  {
-    "id": "4143",
-    "question": "Quali di queste asserzioni relative al larice sono corrette?",
-    "answers": [
-      "Gemme e germogli sono un apprezzato nutrimento del gallo cedrone e del gallo forcello",
-      "La corteccia del larice è spesso mangiata dai cervi",
-      "Il crociere si ciba dei semi del larice",
-      "Il larice è una specie alloctona in Alto Adige ed è stata massicciamente usata in Val Venosta per le riforestazioni postbelliche"
-    ],
-    "correct": [0, 2]
-  },
-  {
-    "id": "4144",
-    "question": "Perché i tetraonidi riescono a digerire bene gli aghi ed i germogli delle conifere?",
-    "answers": [
-      "Perché hanno lo stomaco diviso in quattro settori",
-      "Perché hanno due appendici",
-      "Perché hanno un ventriglio dotato di placche cornee che tritura il cibo",
-      "Perché deglutiscono in aggiunta insetti che aiutano la digestione"
-    ],
-    "correct": [1, 2]
-  },
-  {
-    "id": "4145",
-    "question": "Quali di queste specie arboree si trovano nell'habitat del gallo cedrone, del gallo forcello e del francolino di monte e forniscono un importante nutrimento ai tetraonidi?",
-    "answers": [
-      "Il noce",
-      "Il sorbo",
-      "La robinia",
-      "Il salicone"
-    ],
-    "correct": [1, 3]
-  },
-  {
-    "id": "4146",
-    "question": "Quali di questi fattori devono essere tenuti in considerazione nei piani di prelievo degli ungulati?",
-    "answers": [
-      "Lo stato della popolazione",
-      "Il numero dei cacciatori nella riserva",
-      "I danni da selvaggina all'agricoltura ed alle foreste",
-      "I censimenti faunistici"
-    ],
-    "correct": [0, 2, 3]
-  },
-  {
-    "id": "4147",
-    "question": "Quali di questi fattori devono essere tenuti in considerazione nei piani di prelievo degli ungulati?",
-    "answers": [
-      "Il numero degli individui morti per altre cause",
-      "I censimenti faunistici",
-      "Il numero delle strade forestali nella riserva",
-      "La distribuzione in classi di età dei cacciatori"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4148",
-    "question": "Quali di questi fattori devono essere tenuti in considerazione nei piani di prelievo dei tetraonidi?",
-    "answers": [
-      "I censimenti annuali",
-      "Un parere dell'Associazione Cacciatori",
-      "La Valutazione d'Incidenza dell'Ufficio caccia e pesca",
-      "Il numero dei cacciatori nella Riserva di riferimento"
-    ],
-    "correct": [0, 2]
-  },
-  {
-    "id": "4149",
-    "question": "Come viene garantito in Alto Adige che la caccia non danneggi le popolazioni dei tetraonidi cacciabili?",
-    "answers": [
-      "Tramite una dichiarazione della Ripartizione Natura e Paesaggio che il Piano di Abbattimento è ininfluente",
-      "Tramite un parere dell'ISPRA (Istituto Superiore per la Protezione e la Ricerca Ambientale)",
-      "Tramite una Dichiarazione d'Incidenza dell'Ufficio caccia e pesca",
-      "Tramite un parere dell'Osservatorio Faunistico"
-    ],
-    "correct": [2]
-  },
-  {
-    "id": "4150",
-    "question": "Quali di questi elementi paesaggistici minacciano negli ultimi anni di diminuire sempre più?",
-    "answers": [
-      "Il bosco",
-      "Le superfici a prato",
-      "Gli alpeggi",
-      "Le siepi e gli arbusteti a confine"
-    ],
-    "correct": [2, 3]
-  },
-  {
-    "id": "4151",
-    "question": "Sulla base dello stato d'usura della dentiera si possono trarre informazioni relative all'età degli ungulati. Quali delle seguenti asserzioni sono corrette?",
-    "answers": [
-      "Gli individui più vecchi hanno una superficie di masticazione più liscia",
-      "I molari degli individui più vecchi presentano profonde scanalature",
-      "Individui giovani hanno delle incisioni profonde nei molari",
-      "I denti da latte si consumano più in fretta di quelli permanenti"
-    ],
-    "correct": [0, 2, 3]
-  },
-  {
-    "id": "4152",
-    "question": "Come si distinguono negli ungulati gli incisivi da latte da quelli permanenti?",
-    "answers": [
-      "I denti da latte sono più piccoli",
-      "I denti da latte sono più grandi",
-      "I denti permanenti sono più chiari",
-      "Non si distinguono tra loro"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4153",
-    "question": "A partire da quale età in un cervo gli incisivi sono permanenti?",
-    "answers": [
-      "A partire da 1 anno d'età",
-      "A partire da 2 anni d'età",
-      "A partire da 3 anni d'età",
-      "A partire da 4 anni d'età"
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4154",
-    "question": "A partire da quale età in un camoscio i sei incisivi sono permanenti?",
-    "answers": [
-      "A partire da 1 anno d'età",
-      "A partire da 2 anni d'età",
-      "A partire da 3 anni d'età",
-      "A partire da 4 anni d'età"
-    ],
-    "correct": [2]
-  },
-  {
-    "id": "4155",
-    "question": "Come si riconosce dalla mandibola se si tratta di un capriolo o di un camoscio?",
-    "answers": [
-      "Nel camoscio i denti sono più consumati",
-      "La mandibola del capriolo ha un'appendice ad angolo",
-      "Il capriolo ha solamente 6 incisivi",
-      "I molari del camoscio sono scuri"
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4156",
-    "question": "In funzione del cambiamento dei denti può essere stimata l'età dei giovani ungulati con una buona approssimazione. Il terzo premolare svolge un ruolo importante in questa stima: esso è infatti nella dentatura da latte ...",
-    "answers": [
-      "compatto",
-      "diviso in due parti",
-      "diviso in tre parti",
-      "diviso in quattro parti"
-    ],
-    "correct": [2]
-  },
-  {
-    "id": "4157",
-    "question": "In funzione del cambiamento dei denti può essere stimata l'età dei giovani ungulati con una buona approssimazione. Il terzo premolare è il dente di riferimento: nei giovani è diviso in due parti, negli adulti in tre parti. Nel capriolo viene cambiato ...",
-    "answers": [
-      "... all'età di un anno",
-      "... all'età di due anni",
-      "... all'età di due anni e mezzo",
-      "... all'età di tre anni"
-    ],
-    "correct": [0]
-  },
-  {
-    "id": "4158",
-    "question": "In funzione del cambiamento dei denti può essere stimata l'età dei giovani ungulati con una buona approssimazione. Il terzo premolare è il dente di riferimento: nei giovani è diviso in due parti, negli adulti in tre parti. Nel cervo viene cambiato ...",
-    "answers": [
-      "... all'età di un anno",
-      "... all'età di due anni",
-      "... all'età di due anni e mezzo",
-      "... all'età di tre anni"
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4159",
-    "question": "In funzione del cambiamento dei denti può essere stimata l'età dei giovani ungulati con una buona approssimazione. Il terzo premolare è il dente di riferimento: nei giovani è diviso in due parti, negli adulti in tre parti. Nel camoscio e nello stambecco viene cambiato...",
-    "answers": [
-      "... all'età di un anno",
-      "... all'età di due anni",
-      "... all'età di due anni e mezzo",
-      "... all'età di tre anni"
-    ],
-    "correct": [2]
-  },
-  {
-    "id": "4160",
-    "question": "Quale corno da caccia è il più usato in Alto Adige?",
-    "answers": [
-      "Il corno da caccia Fürst-Pless",
-      "Il corno da caccia Parforce",
-      "Il corno Hift",
-      "Il corno a mezzaluna del Sauerland"
-    ],
-    "correct": [1]
-  },
-  {
-    "id": "4161",
-    "question": "Quale funzione aveva originariamente il corno da caccia?",
-    "answers": [
-      "Per indirizzare i cani da caccia",
-      "Nelle braccate, per spaventare la selvaggina",
-      "Per creare atmosfera nelle feste medioevali",
-      "Per comunicare durante le battute di caccia"
-    ],
-    "correct": [3]
-  },
-  {
-    "id": "4162",
-    "question": "Essere cacciatori nell'era dei socialmedia: quali dei seguenti contenuti sono da considerare problematici per le loro conseguenze sui social?",
-    "answers": [
-      "Il salvataggio di piccoli di capriolo",
-      "Immagini di abbattimenti",
-      "Abbattimenti di cani o gatti randagi",
-      "Progetti di tutela della natura e delle specie"
-    ],
-    "correct": [1, 2]
-  },
-  {
-    "id": "4163",
-    "question": "Essere cacciatori nell'era dei socialmedia: quali dei seguenti contenuti sono da considerare problematici per le loro conseguenze sui social?",
-    "answers": [
-      "Miglioramenti degli habitat",
-      "Cani da caccia",
-      "Immagini con molto sangue",
-      "Immagini di trofei conseguenti a viaggi di caccia"
-    ],
-    "correct": [2, 3]
-  },
-  {
-    "id": "4164",
-    "question": "Essere cacciatori nell'era dei socialmedia: quali dei seguenti contenuti sono da considerare problematici per le loro conseguenze sui social?",
-    "answers": [
-      "Armi in primo piano",
-      "Abbattimento di piccoli di volpe",
-      "La collocazione di catadiottri antiselvaggina",
-      "Eseguire censimenti faunistici"
-    ],
-    "correct": [0, 1]
-  },
-  {
-    "id": "4165",
-    "question": "Essere cacciatori nell'era dei socialmedia: quali dei seguenti contenuti sono da considerare problematici per le loro conseguenze sui social?",
-    "answers": [
-      "Preparazione di un piatto a base di selvaggina",
-      "Cacciatori in posa da vincitori",
-      "Abbinamento tra la caccia, le armi e l'alcool",
-      "Incidenti con animali selvatici"
-    ],
-    "correct": [1, 2]
-  },
-  {
     "id": "1001",
     "question": "Indichi i motivi per la biodiversità in Sudtirolo.",
     "answers": [
@@ -3902,9 +69,9 @@ const questions = [
     "id": "1006",
     "question": "Cosa s'intende sotto: fascia degli arbusti contorti?",
     "answers": [
-      "Fascia fitoaltitudinale contigua al limite superiore del bosco, dove crescono arbusti nani, pino",
+      "Fascia fitoaltitudinale contigua al limite superiore del bosco, dove crescono arbusti nani, pino mugo e ontano verde.",
       "",
-      "Una pecceta (bosco d'abete rosso), nella quale gli alberi crescono storti.",
+      "Una pecceta (bosco d'abete rosso), nella quale gli alberi crescono storti. 4",
       ""
     ],
     "correct": [
@@ -3930,7 +97,7 @@ const questions = [
     "answers": [
       "Lungo le pendici dei bassi rilievi montani.",
       "",
-      "Sui pendii di alta montagna, esposti a rischio valanghe.",
+      "Sui pendii di alta montagna, esposti a rischio valanghe. 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica",
       ""
     ],
     "correct": []
@@ -4036,7 +203,7 @@ const questions = [
     "answers": [
       "Specialisti",
       "",
-      "Entrambi ugualmente",
+      "Entrambi ugualmente 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica",
       ""
     ],
     "correct": [
@@ -4101,7 +268,7 @@ const questions = [
     "answers": [
       "Si tratta di una zona di sosta temporanea per uccelli migratori.",
       "È il territorio che l'animale popola durante tutto l'anno.",
-      "È una zona protetta interdetta alla caccia.",
+      "È una zona protetta interdetta alla caccia. 4",
       ""
     ],
     "correct": [
@@ -4127,7 +294,7 @@ const questions = [
     "answers": [
       "Zone boscose ricche di copertura.",
       "",
-      "Cotici erbosi alpini e regioni rocciose.",
+      "Cotici erbosi alpini e regioni rocciose. 4",
       ""
     ],
     "correct": [
@@ -4141,7 +308,7 @@ const questions = [
       "Aumento dei danni alle colture",
       "",
       "Aumenta la vulnerabilità alle malattie.",
-      "Incremento ponderale dei selvatici"
+      "Incremento ponderale dei selvatici rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -4154,7 +321,7 @@ const questions = [
     "answers": [
       "La zona della linea di confine tra i territori di due maschi di capriolo viene da loro evitata.",
       "Il confine posto fra due diversi ambienti naturali offre condizioni di vita particolarmente favorevoli",
-      "In primavera gli yearling girovagano intorno irrequieti.",
+      "In primavera gli yearling girovagano intorno irrequieti. 4",
       ""
     ],
     "correct": [
@@ -4252,7 +419,7 @@ const questions = [
       "Roverella",
       "Pino mugo",
       "Rododendro alpino",
-      "Carpino nero"
+      "Carpino nero rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       1,
@@ -4306,7 +473,7 @@ const questions = [
     "answers": [
       "Minore concorrenza alimentare",
       "Maggiore sicurezza contro i predatori",
-      "Migliore adattabilità ai fattori climatici",
+      "Migliore adattabilità ai fattori climatici 4",
       ""
     ],
     "correct": [
@@ -4349,7 +516,7 @@ const questions = [
       "Anticipazione del parto",
       "Predilige maggiormente l'attività diurna",
       "Gli animali consumano eccessivamente energia durante la fuga e indeboliscono.",
-      "Se i disturbi sono regolari e non comportano conseguenze negative per gli animali selvatici,"
+      "Se i disturbi sono regolari e non comportano conseguenze negative per gli animali selvatici, questi sono in grado di adattarsi e ad abituarsi al disturbo."
     ],
     "correct": [
       2,
@@ -4363,7 +530,7 @@ const questions = [
       "Mammiferi sono onnivori",
       "Hanno una cistifellea",
       "Sono coperti da peli",
-      "Le femmine hanno ghiandole mammarie"
+      "Le femmine hanno ghiandole mammarie rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       2,
@@ -4492,7 +659,7 @@ const questions = [
       "uno stomaco diviso in quattro parti",
       "la ricrescita dei denti incisivi",
       "otto denti molari sia nella mascella superiore che inferiore",
-      "un paio di zoccoli per arto (= artiodattili)"
+      "un paio di zoccoli per arto (= artiodattili) rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -4606,7 +773,7 @@ const questions = [
       "il fabbisogno alimentare si riduce",
       "d'inverno gli ungulati aumentano la loro attività per produrre più calore corporeo",
       "gli ungulati sono meno attivi durante il periodo invernale",
-      "cercano i propri quartieri invernali, laddove il freddo, il vento e i disturbi si manifestino al minimo"
+      "cercano i propri quartieri invernali, laddove il freddo, il vento e i disturbi si manifestino al minimo rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -4663,7 +830,7 @@ const questions = [
     "answers": [
       "nel fitto del bosco di conifere",
       "nei territori caratterizzati dall'alternanza di bosco e prato/coltivi, con molto sottobosco e zone",
-      "zone ripide e rocciose al disopra del confine del bosco a 2000 m di altitudine",
+      "zone ripide e rocciose al disopra del confine del bosco a 2000 m di altitudine 4",
       ""
     ],
     "correct": [
@@ -4690,7 +857,7 @@ const questions = [
     "answers": [
       "gennaio",
       "maggio",
-      "settembre",
+      "settembre 4",
       ""
     ],
     "correct": [
@@ -4718,7 +885,7 @@ const questions = [
       "prati fortemente sovra concimati",
       "posti umidi dove rotolarsi nel fango e melma",
       "ambito di transito da bosco in prato",
-      "ghiaioni alpini al disopra del confine del bosco"
+      "ghiaioni alpini al disopra del confine del bosco rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       2
@@ -4744,7 +911,7 @@ const questions = [
     "answers": [
       "territoriale",
       "prevalentemente solitario",
-      "in gruppi",
+      "in gruppi 4",
       ""
     ],
     "correct": [
@@ -4828,7 +995,7 @@ const questions = [
       "allo specchio",
       "",
       "presso le zampe posteriori",
-      "sulla regione frontale in prossimità del trofeo"
+      "sulla regione frontale in prossimità del trofeo rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       2,
@@ -4868,7 +1035,7 @@ const questions = [
     "answers": [
       "febbraio - marzo",
       "aprile - maggio",
-      "luglio - agosto",
+      "luglio - agosto 4",
       ""
     ],
     "correct": [
@@ -4935,7 +1102,7 @@ const questions = [
     "answers": [
       "in ottobre",
       "in dicembre",
-      "in febbraio",
+      "in febbraio 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica",
       ""
     ],
     "correct": [
@@ -4948,7 +1115,7 @@ const questions = [
     "answers": [
       "lo svezzamento dei piccoli avviene in un periodo climaticamente favorevole",
       "tutte le femmine riproduttive, ovvero sessualmente mature, vengono coperte",
-      "molta calma e possibilmente poco movimento favoriscono il bilancio energetico durante lo",
+      "molta calma e possibilmente poco movimento favoriscono il bilancio energetico durante lo sviluppo embrionale",
       "il metabolismo aumenta durante i mesi invernali, quando vige scarsità di foraggio"
     ],
     "correct": [
@@ -4989,7 +1156,7 @@ const questions = [
     "answers": [
       "14esimo mese di vita",
       "18esimo mese di vita",
-      "22esimo mese di vita",
+      "22esimo mese di vita 4",
       ""
     ],
     "correct": [
@@ -5002,7 +1169,7 @@ const questions = [
     "answers": [
       "con mezzo anno di età",
       "con un anno di età",
-      "con due anni di età",
+      "con due anni di età 4",
       ""
     ],
     "correct": [
@@ -5015,7 +1182,7 @@ const questions = [
     "answers": [
       "con un anno di età",
       "con due anni di età",
-      "con tre anno di età",
+      "con tre anno di età 4",
       ""
     ],
     "correct": [
@@ -5041,7 +1208,7 @@ const questions = [
     "answers": [
       "ogni secondo anno un piccolo",
       "ogni anno due piccoli",
-      "ogni anno tre o più piccoli",
+      "ogni anno tre o più piccoli 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica",
       ""
     ],
     "correct": [
@@ -5065,8 +1232,8 @@ const questions = [
     "id": "1091",
     "question": "Comportamento dei piccoli di capriolo nelle prime settimane di vita. Quali affermazioni sono",
     "answers": [
-      "i piccoli sono pressoché autosufficienti e seguono permanentemente la madre già dopo 1 - 2",
-      "le prime settimane di vita vengono trascorse al riparo e le capriole raggiungono i piccoli per",
+      "i piccoli sono pressoché autosufficienti e seguono permanentemente la madre già dopo 1 - 2 giorni",
+      "le prime settimane di vita vengono trascorse al riparo e le capriole raggiungono i piccoli per l'allattamento",
       "in caso di pericolo, i piccoli di capriolo rimangono distesi e immobili",
       "in caso di pericolo, i piccoli di capriolo fuggono immediatamente"
     ],
@@ -5094,7 +1261,7 @@ const questions = [
     "answers": [
       "2 - 3 mesi dopo la nascita",
       "5 - 6 mesi dopo la nascita",
-      "durante tutto il primo anno di vita",
+      "durante tutto il primo anno di vita 4",
       ""
     ],
     "correct": [
@@ -5107,7 +1274,7 @@ const questions = [
     "answers": [
       "ci sono un po' più capriole che becchi",
       "capriole e becchi sono presenti in uguale misura",
-      "ci sono un po' più becchi che capriole",
+      "ci sono un po' più becchi che capriole 4",
       ""
     ],
     "correct": [
@@ -5134,7 +1301,7 @@ const questions = [
       "nessuna influenza",
       "ogni inverno è causa di notevoli morie",
       "maltempo umido e freddo nel tempo di parto dei piccoli è causa di perdite/morie",
-      "precoci abbassamenti di temperatura in tarda estate/autunno indeboliscono e debilitano il"
+      "precoci abbassamenti di temperatura in tarda estate/autunno indeboliscono e debilitano il popolamento di caprioli nel periodo degli amori"
     ],
     "correct": [
       2
@@ -5147,7 +1314,7 @@ const questions = [
       "peso corporeo e trofei si riducono",
       "Le capriole partoriscono 2 o piú piccoli",
       "maggiori perdite dovute alla rogna",
-      "il tasso di sopravvivenza dei piccoli diminuisce"
+      "il tasso di sopravvivenza dei piccoli diminuisce rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -5241,7 +1408,7 @@ const questions = [
     "answers": [
       "gennaio - febbraio",
       "marzo - aprile",
-      "maggio - giugno",
+      "maggio - giugno 4",
       ""
     ],
     "correct": [
@@ -5255,7 +1422,7 @@ const questions = [
       "febbraio / marzo",
       "settembre (dopo il periodo degli amori)",
       "ottobre / novembre",
-      "gennaio / febbraio"
+      "gennaio / febbraio rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       2
@@ -5267,7 +1434,7 @@ const questions = [
     "answers": [
       "tramite l'afflusso di sangue",
       "",
-      "tramite la linfa delle pinte, battendo e soffregando il trofeo contro i rami e tronchi deboli",
+      "tramite la linfa delle pinte, battendo e soffregando il trofeo contro i rami e tronchi deboli 4",
       ""
     ],
     "correct": [
@@ -5289,11 +1456,11 @@ const questions = [
   },
   {
     "id": "1108",
-    "question": "Autunno: Si osserva un capriolo maschio giovane con trofeo a piccole punte semplici nel basto. Di che classe d'età si tratterà",
+    "question": "Autunno: Si osserva un capriolo maschio giovane con trofeo a piccole punte semplici nel",
     "answers": [
       "piccolo maschio",
-      "yearling maschio",
-      "capo ammalato",
+      "",
+      "capo ammalato 4",
       ""
     ],
     "correct": [
@@ -5302,21 +1469,21 @@ const questions = [
   },
   {
     "id": "1109",
-    "question": "Autunno: Si osserva un capriolo maschio giovane con trofeo a piccole punte semplici pulite dal basto. Di che classe d'età si tratterà",
+    "question": "Autunno: Si osserva un capriolo maschio giovane con trofeo a piccole punte semplici pulite",
     "answers": [
       "piccolo maschio",
-      "yearling maschio",
-      "capo ammalato",
+      "",
+      "capo ammalato 4",
       ""
     ],
-    "correct": [1]
+    "correct": []
   },
   {
     "id": "1110",
-    "question": "I periodi primaverili di muta e si soffregamento, permettono di stimare l'età di un becco di capriolo in buone condizioni. Quali affermazioni sono corrette?",
+    "question": "I periodi primaverili di muta e si soffregamento, permettono di stimare l'età di un becco di",
     "answers": [
       "muta il colore prima il becco di un anno",
-      "muta il colore prima il becco adulto",
+      "",
       "soffrega prima il becco giovane",
       "soffrega prima il becco adulto"
     ],
@@ -5327,11 +1494,11 @@ const questions = [
   },
   {
     "id": "1111",
-    "question": "É inizio ottobre e si osservano due becchi di capriolo in buone condizioni. Uno è di colore grigio mentre l'altro è di colore rosso. Quale dei due, di norma è il più vecchio?",
+    "question": "É inizio ottobre e si osservano due becchi di capriolo in buone condizioni. Uno è di colore",
     "answers": [
       "il becco rosso",
-      "il becco grigio",
-      "sono della stessa età",
+      "",
+      "sono della stessa età 4",
       ""
     ],
     "correct": [
@@ -5340,14 +1507,14 @@ const questions = [
   },
   {
     "id": "1112",
-    "question": "Un maschio di capriolo mostra un trofeo forcuto di buon sviluppo e ancora nel basto a inizio giugno. Potrebbe trattarsi di un yearling?",
+    "question": "Un maschio di capriolo mostra un trofeo forcuto di buon sviluppo e ancora nel basto a inizio",
     "answers": [
       "no, un yearling può formare al massimo un trofeo forcuto debole",
-      "sì, perchè i maschi adulti in quel periodo portano già il trofeo pulito",
-      "no, perchè il yearling non sviluppa ancora un trofeo forcuto",
+      "",
+      "no, perchè il yearling non sviluppa ancora un trofeo forcuto 4",
       ""
     ],
-    "correct": [1]
+    "correct": []
   },
   {
     "id": "1113",
@@ -5356,7 +1523,7 @@ const questions = [
       "devono esserci più becchi che capriole nel popolamento",
       "le capriole vengono tutelate",
       "proporzione equilibrata dei sessi (=sex ratio equilibrata)",
-      "i danni da selvaggina devono tenersi entro limiti tollerabili, la densità del popolamento di caprioli deve essere adeguata al habitat"
+      "i danni da selvaggina devono tenersi entro limiti tollerabili, la densità del popolamento di caprioli deve essere adeguata al habitat rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       2,
@@ -5369,7 +1536,7 @@ const questions = [
     "answers": [
       "popolamento sano",
       "alta densità di selvaggina",
-      "trofei di qualità",
+      "trofei di qualità 4",
       ""
     ],
     "correct": [
@@ -5383,7 +1550,7 @@ const questions = [
       "per non intervenire in modo eccessivo nella classe dei pluriennali",
       "",
       "perché da fine ottobre i becchi perdono il trofeo",
-      "perché il mutato bilancio ormonale durante la spinta del nuovo trofeo pregiudica il sapore della"
+      "perché il mutato bilancio ormonale durante la spinta del nuovo trofeo pregiudica il sapore della carne di selvaggina"
     ],
     "correct": [
       2
@@ -5436,7 +1603,7 @@ const questions = [
     "answers": [
       "agosto",
       "ottobre",
-      "dicembre",
+      "dicembre 4",
       ""
     ],
     "correct": [
@@ -5466,7 +1633,7 @@ const questions = [
       "getti e gemme",
       "corteccia",
       "legna decomposta",
-      "aghi, foglie, erbe"
+      "aghi, foglie, erbe rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -5523,7 +1690,7 @@ const questions = [
     "answers": [
       "il cervo dominante difende il branco di femmine in fregola",
       "il cervo difende il proprio territorio",
-      "calvi e cervi maschi vivono insieme per tutto l'arco dell'anno",
+      "calvi e cervi maschi vivono insieme per tutto l'arco dell'anno 4",
       ""
     ],
     "correct": [
@@ -5592,7 +1759,7 @@ const questions = [
     "answers": [
       "marzo / aprile",
       "maggio / giugno",
-      "luglio / agosto",
+      "luglio / agosto 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica",
       ""
     ],
     "correct": [
@@ -5620,7 +1787,7 @@ const questions = [
       "I branchi di cervi si sciolgono prima del periodo degli amori.",
       "I maschi raggiungono le cosiddette \"arene\", solitamente in settembre.",
       "I maschi rimangono insieme con il branco di calvi durante tutto l'anno e lo proteggono.",
-      "Prima degli amori, nel periodo di incremento della costituzione fisica (periodo d'ingrassamento),"
+      "Prima degli amori, nel periodo di incremento della costituzione fisica (periodo d'ingrassamento), i maschi maturi vivono da soli o accompagnati da cervi tollerati"
     ],
     "correct": [
       0,
@@ -5648,7 +1815,7 @@ const questions = [
     "answers": [
       "da metà luglio fino a metà agosto",
       "da metà settembre fino a metà ottobre",
-      "da metà novembre fino a metà dicembre",
+      "da metà novembre fino a metà dicembre 4",
       ""
     ],
     "correct": [
@@ -5690,7 +1857,7 @@ const questions = [
     "answers": [
       "I cervi si muovono posando in parallelo sia le zampe anteriori, che quelle posteriori",
       "i cervi spruzzano urina",
-      "i cervi bramiscono",
+      "i cervi bramiscono 4",
       ""
     ],
     "correct": [
@@ -5705,7 +1872,7 @@ const questions = [
       "Il cervo maschio cerca un branco di calvi e lo difende.",
       "Spesso si verificano ferite serie dovute ai combattimenti.",
       "Dopo la fregola, a fine ottobre i cervi maschi gettano il trofeo.",
-      "I cervi maschi s'intimidiscono a vicenda con atteggiamenti d'imposizione e minaccia."
+      "I cervi maschi s'intimidiscono a vicenda con atteggiamenti d'imposizione e minaccia. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -5718,7 +1885,7 @@ const questions = [
     "answers": [
       "1 anno",
       "3 anni",
-      "5 anni",
+      "5 anni 4",
       ""
     ],
     "correct": [
@@ -5731,7 +1898,7 @@ const questions = [
     "answers": [
       "ogni secondo anno un cerbiatto",
       "ogni anno un cerbiatto",
-      "ogni anno due cerbiatti",
+      "ogni anno due cerbiatti 4",
       ""
     ],
     "correct": [
@@ -5758,7 +1925,7 @@ const questions = [
     "answers": [
       "nessun influenza, irrilevante",
       "scarsa influenza, poco rilevante",
-      "forte influenza, considerevole",
+      "forte influenza, considerevole 4",
       ""
     ],
     "correct": [
@@ -5771,7 +1938,7 @@ const questions = [
     "answers": [
       "orso",
       "",
-      "lupo",
+      "lupo 4",
       ""
     ],
     "correct": [
@@ -5809,10 +1976,10 @@ const questions = [
     "id": "1146",
     "question": "Da cosa si riconosce la presenza di cervi nella riserva?",
     "answers": [
-      "tracce di soffregamento nei mesi di luglio / agosto su alberelli sino al diametro di un braccio, le",
+      "tracce di soffregamento nei mesi di luglio / agosto su alberelli sino al diametro di un braccio, le quali possono arrivare sino ad altezza d'uomo",
       "",
       "si notano formicai distrutti",
-      "tracce di scortecciamento sugli alberi"
+      "tracce di scortecciamento sugli alberi rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -5825,7 +1992,7 @@ const questions = [
     "answers": [
       "nell'autunno, dell'anno di nascita",
       "nella primavera successiva, dell'anno di nascita",
-      "nell'estate successiva, dell'anno di nascita",
+      "nell'estate successiva, dell'anno di nascita 4",
       ""
     ],
     "correct": [
@@ -5838,7 +2005,7 @@ const questions = [
     "answers": [
       "Cervi di un anno sviluppano quasi sempre palchi a singola terminazione.",
       "",
-      "Non ha le rose.",
+      "Non ha le rose. 4",
       ""
     ],
     "correct": [
@@ -5852,7 +2019,7 @@ const questions = [
     "answers": [
       "Viene pulito, soffregando il velluto, in luglio.",
       "",
-      "Ha le rose.",
+      "Ha le rose. 4",
       ""
     ],
     "correct": []
@@ -5863,7 +2030,7 @@ const questions = [
     "answers": [
       "nell'inverno dell'anno di nascita (con mezzo anno d'età)",
       "nella primavera successiva all'anno di nascita (con un anno d'età)",
-      "in aprile / maggio (con due anni d'età)",
+      "in aprile / maggio (con due anni d'età) 4",
       ""
     ],
     "correct": [
@@ -5876,7 +2043,7 @@ const questions = [
     "answers": [
       "dalla prima testa",
       "dalla seconda testa",
-      "dalla terza testa",
+      "dalla terza testa 4",
       ""
     ],
     "correct": [
@@ -5889,7 +2056,7 @@ const questions = [
     "answers": [
       "due anni compiuti, sta nel terzo anno di vita",
       "tre anni compiuti, sta nel quarto anno di vita",
-      "dipende, se ha sviluppato un primo trofeo oppure no",
+      "dipende, se ha sviluppato un primo trofeo oppure no 4",
       ""
     ],
     "correct": [
@@ -5902,7 +2069,7 @@ const questions = [
     "answers": [
       "da febbraio a luglio",
       "da maggio ad agosto",
-      "da maggio ad ottobre",
+      "da maggio ad ottobre 4",
       ""
     ],
     "correct": [
@@ -5915,7 +2082,7 @@ const questions = [
     "answers": [
       "da novembre a gennaio",
       "da febbraio ad aprile",
-      "da maggio a luglio",
+      "da maggio a luglio 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica",
       ""
     ],
     "correct": [
@@ -5928,7 +2095,7 @@ const questions = [
     "answers": [
       "giugno",
       "agosto",
-      "ottobre",
+      "ottobre 4",
       ""
     ],
     "correct": [
@@ -5955,7 +2122,7 @@ const questions = [
     "answers": [
       "hanno una struttura relativamente snella",
       "",
-      "portano il capo (la testa) alto",
+      "portano il capo (la testa) alto 4",
       ""
     ],
     "correct": [
@@ -5969,7 +2136,7 @@ const questions = [
     "answers": [
       "il trofeo mantiene il velluto sino all'autunno",
       "",
-      "il collo e il dorso formano una linea retta",
+      "il collo e il dorso formano una linea retta 4",
       ""
     ],
     "correct": []
@@ -6010,7 +2177,7 @@ const questions = [
     "answers": [
       "fino ad agosto / settembre",
       "fino alla formazione del primo trofeo",
-      "fino alla primavera successiva all'anno di nascita (con un anno d'età)",
+      "fino alla primavera successiva all'anno di nascita (con un anno d'età) 4",
       ""
     ],
     "correct": [
@@ -6023,7 +2190,7 @@ const questions = [
     "answers": [
       "cerbiatti maschili hanno un ciuffo di peli (la falsa coda) sullo specchio anale",
       "cerbiatti maschili urinano in avanti",
-      "Sino alla fine dell'anno è di norma difficile distinguere i due sessi in base a caratteristiche",
+      "Sino alla fine dell'anno è di norma difficile distinguere i due sessi in base a caratteristiche corporee 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica",
       ""
     ],
     "correct": [
@@ -6051,7 +2218,7 @@ const questions = [
     "answers": [
       "Il profilo del cranio è allungato, rispetto a quello della cerva sottile.",
       "dal momento del parto sono visibili le mammelle",
-      "muta il colore del mantello prima della cerva sottile",
+      "muta il colore del mantello prima della cerva sottile 4",
       ""
     ],
     "correct": [
@@ -6065,7 +2232,7 @@ const questions = [
     "answers": [
       "ci devono essere più cervi maschi che calvi",
       "trofei di qualità (trofei massicci)",
-      "limitare la consistenza della specie nel nostro territorio",
+      "limitare la consistenza della specie nel nostro territorio 4",
       ""
     ],
     "correct": [
@@ -6076,9 +2243,9 @@ const questions = [
     "id": "1166",
     "question": "Quale rapporto d'abbattimento, tra cervi maschili e femminili, è previsto dalle direttive di",
     "answers": [
-      "Per ogni abbattimento di un cervo da trofeo, è prescritto il prelievo tra i due e i quattro capi",
+      "Per ogni abbattimento di un cervo da trofeo, è prescritto il prelievo tra i due e i quattro capi d'individui calvi.",
       "Per ogni abbattimento di un fusone è prescritto il prelievo da uno a due capi d'individui calvi.",
-      "Per ogni abbattimento di un cervo da trofeo, è prescritto il prelievo di un fusone.",
+      "Per ogni abbattimento di un cervo da trofeo, è prescritto il prelievo di un fusone. 4",
       ""
     ],
     "correct": [
@@ -6105,7 +2272,7 @@ const questions = [
     "answers": [
       "Per i suoi spostamenti invernali.",
       "Per fuga da aree faunistiche recintate.",
-      "Viene introdotto per motivi venatori.",
+      "Viene introdotto per motivi venatori. 4",
       ""
     ],
     "correct": [
@@ -6134,7 +2301,7 @@ const questions = [
       "Dove vi sono ricche coperture erbose al di sopra del bosco.",
       "Boschi montani radi.",
       "Ambienti di alternanza tra campi e prati.",
-      "Boschi ripariali."
+      "Boschi ripariali. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -6161,7 +2328,7 @@ const questions = [
     "answers": [
       "La presenza di aree rocciose.",
       "La presenza di pozze fangose.",
-      "La presenza di alberi.",
+      "La presenza di alberi. 4",
       ""
     ],
     "correct": [
@@ -6202,7 +2369,7 @@ const questions = [
     "answers": [
       "Una femmina.",
       "Un maschio maturo.",
-      "Un maschio giovane.",
+      "Un maschio giovane. 4",
       ""
     ],
     "correct": [
@@ -6257,7 +2424,7 @@ const questions = [
     "answers": [
       "Da agosto a settembre.",
       "Da novembre a dicembre.",
-      "Da gennaio a febbraio.",
+      "Da gennaio a febbraio. 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica",
       ""
     ],
     "correct": [
@@ -6270,7 +2437,7 @@ const questions = [
     "answers": [
       "A fine ottobre, i maschi si uniscono ai branchi di femmine.",
       "I maschi in fregola riuniscono il branco di femmine e scacciano altri maschi.",
-      "Il periodo degli amori è molto tranquillo.",
+      "Il periodo degli amori è molto tranquillo. 4",
       ""
     ],
     "correct": [
@@ -6326,7 +2493,7 @@ const questions = [
     "answers": [
       "A 1 anno",
       "A 2-3 anni.",
-      "A 4-5 anni.",
+      "A 4-5 anni. 4",
       ""
     ],
     "correct": [
@@ -6339,7 +2506,7 @@ const questions = [
     "answers": [
       "Marzo-aprile.",
       "Maggio-giugno.",
-      "Luglio-agosto.",
+      "Luglio-agosto. 4",
       ""
     ],
     "correct": [
@@ -6352,7 +2519,7 @@ const questions = [
     "answers": [
       "1 piccolo ogni 2 anni.",
       "1 piccolo quasi ogni anno.",
-      "2 piccoli ogni anno.",
+      "2 piccoli ogni anno. 4",
       ""
     ],
     "correct": [
@@ -6380,7 +2547,7 @@ const questions = [
       "Giacigli sotto sporgenze rocciose.",
       "pozze umide per i bagni di fango",
       "Fischi di allarme.",
-      "Raspature al suolo."
+      "Raspature al suolo. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -6408,7 +2575,7 @@ const questions = [
       "Solo i maschi portano le corna.",
       "A partire dal 5° anno la crescita annuale delle corna è limitata.",
       "Le corna crescono da settembre ad aprile.",
-      "Gli anelli cornei più lunghi sono quelli delle fasi del piccolo (capretto) e del capo di un anno"
+      "Gli anelli cornei più lunghi sono quelli delle fasi del piccolo (capretto) e del capo di un anno (\"jahrling\")."
     ],
     "correct": [
       1,
@@ -6463,7 +2630,7 @@ const questions = [
     "answers": [
       "Dalle mammelle.",
       "Sta da sola.",
-      "Dal comportamento.",
+      "Dal comportamento. 4",
       ""
     ],
     "correct": [
@@ -6476,7 +2643,7 @@ const questions = [
     "answers": [
       "Un capo di un anno (\"jahrling\") malato.",
       "",
-      "Una femmina adulta.",
+      "Una femmina adulta. 4",
       ""
     ],
     "correct": []
@@ -6487,7 +2654,7 @@ const questions = [
     "answers": [
       "Dall'altezza delle corna.",
       "Dall'usura dei denti.",
-      "Dagli anelli di crescita delle corna.",
+      "Dagli anelli di crescita delle corna. 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica",
       ""
     ],
     "correct": [
@@ -6500,7 +2667,7 @@ const questions = [
     "answers": [
       "Alte densità di popolamento.",
       "Popolazioni sane.",
-      "Un buon equilibrio tra le classi di età.",
+      "Un buon equilibrio tra le classi di età. 4",
       ""
     ],
     "correct": [
@@ -6528,7 +2695,7 @@ const questions = [
     "answers": [
       "In Alto Adige lo stambecco si era estinto; successivamente è stato reintrodotto.",
       "Lo stambecco non è mai stato autoctono in Alto Adige, è stato introdotto decenni fa.",
-      "I popolamenti altoatesini di stambecco si sono lentamente sviluppati da individui fuggiti da",
+      "I popolamenti altoatesini di stambecco si sono lentamente sviluppati da individui fuggiti da parchi faunistici. 4",
       ""
     ],
     "correct": [
@@ -6555,7 +2722,7 @@ const questions = [
     "answers": [
       "Pendici rocciose molto ripide e soleggiate.",
       "Boschi ricchi di latifoglia di media montagna.",
-      "Boschi ripariali.",
+      "Boschi ripariali. 4",
       ""
     ],
     "correct": [
@@ -6568,7 +2735,7 @@ const questions = [
     "answers": [
       "La disponibilità di rocce e pareti rocciose.",
       "La disponibilità di pozze umide per fare i bagni di fango.",
-      "La disponibilità di alberi.",
+      "La disponibilità di alberi. 4",
       ""
     ],
     "correct": [
@@ -6596,7 +2763,7 @@ const questions = [
       "D'inverno i maschi e i branchi di femmine vivono in areali differenti.",
       "Dalla primavera all'autunno i maschi difendono il proprio territorio.",
       "Dalla primavera all'autunno i maschi vivono in branchi.",
-      "Alcuni maschi possono vivere solitari."
+      "Alcuni maschi possono vivere solitari. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       2,
@@ -6609,7 +2776,7 @@ const questions = [
     "answers": [
       "Da agosto a settembre.",
       "Da ottobre a novembre.",
-      "Da dicembre a gennaio.",
+      "Da dicembre a gennaio. 4",
       ""
     ],
     "correct": [
@@ -6651,7 +2818,7 @@ const questions = [
     "answers": [
       "Aprile.",
       "Giugno.",
-      "Agosto.",
+      "Agosto. 4",
       ""
     ],
     "correct": [
@@ -6664,7 +2831,7 @@ const questions = [
     "answers": [
       "Per i giovani fino a 2 anni non si riesce a distinguere il sesso da lontano.",
       "Le femmine non hanno le corna.",
-      "L'età degli stambecchi si può stimare dai segmenti di crescita delle corna.",
+      "L'età degli stambecchi si può stimare dai segmenti di crescita delle corna. 4",
       ""
     ],
     "correct": [
@@ -6678,7 +2845,7 @@ const questions = [
     "answers": [
       "Il muflone è stato eradicato dall'Alto Adige e poi reintrodotto.",
       "Il muflone non è naturalmente presente in Alto Adige.",
-      "Occasionalmente arriva dalle regioni confinanti di presenza.",
+      "Occasionalmente arriva dalle regioni confinanti di presenza. 4",
       ""
     ],
     "correct": [
@@ -6692,7 +2859,7 @@ const questions = [
     "answers": [
       "Camoscio e stambecco.",
       "Capriolo e cervo.",
-      "Cinghiale.",
+      "Cinghiale. 4",
       ""
     ],
     "correct": [
@@ -6705,7 +2872,7 @@ const questions = [
     "answers": [
       "Il muflone non è un ruminante.",
       "La femmina di muflone non porta mai le corna.",
-      "Il muflone può causare danni alla corteccia degli alberi.",
+      "Il muflone può causare danni alla corteccia degli alberi. 4",
       ""
     ],
     "correct": [
@@ -6718,7 +2885,7 @@ const questions = [
     "answers": [
       "Difese.",
       "Uncini.",
-      "Canini vestigiali.",
+      "Canini vestigiali. 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica",
       ""
     ],
     "correct": [
@@ -6731,7 +2898,7 @@ const questions = [
     "answers": [
       "Il cinghiale è un carnivoro obbligato.",
       "Il cinghiale è un erbivoro obbligato.",
-      "Il cinghiale è un onnivoro.",
+      "Il cinghiale è un onnivoro. 4",
       ""
     ],
     "correct": [
@@ -6744,7 +2911,7 @@ const questions = [
     "answers": [
       "Agosto-settembre.",
       "Ottobre-dicembre.",
-      "Novembre-gennaio.",
+      "Novembre-gennaio. 4",
       ""
     ],
     "correct": [
@@ -6757,7 +2924,7 @@ const questions = [
     "answers": [
       "Marzo.",
       "",
-      "Agosto.",
+      "Agosto. 4",
       ""
     ],
     "correct": [
@@ -6828,7 +2995,7 @@ const questions = [
       "Occhi e orecchie piccoli.",
       "Coda folta.",
       "Hanno un letargo invernale.",
-      "Sono ben adattati alla vita sotterranea."
+      "Sono ben adattati alla vita sotterranea. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -6938,7 +3105,7 @@ const questions = [
       "Pendii assolati, asciutti e sassosi.",
       "Formicai.",
       "Copertura del suolo (fratte con erbe alte).",
-      "Boschi fitti."
+      "Boschi fitti. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       2
@@ -7018,7 +3185,7 @@ const questions = [
     "answers": [
       "Da 2 a 5.",
       "Da 6 a 9.",
-      "Da 10 a 12.",
+      "Da 10 a 12. 4",
       ""
     ],
     "correct": [
@@ -7031,7 +3198,7 @@ const questions = [
     "answers": [
       "Una volta.",
       "Tre volte.",
-      "Cinque volte.",
+      "Cinque volte. 4",
       ""
     ],
     "correct": [
@@ -7044,7 +3211,7 @@ const questions = [
     "answers": [
       "Una volta.",
       "Due volte.",
-      "Cinque volte.",
+      "Cinque volte. 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica",
       ""
     ],
     "correct": [
@@ -7150,7 +3317,7 @@ const questions = [
     "answers": [
       "Pino mugo.",
       "Insetti e larve.",
-      "Piante erbacee.",
+      "Piante erbacee. 4",
       ""
     ],
     "correct": [
@@ -7164,7 +3331,7 @@ const questions = [
       "Le marmotte vivono solitarie per la maggior parte dell'anno.",
       "Le marmotte vivono in comunità familiari.",
       "Sono di preferenza crepuscolari e notturne.",
-      "Vivono in tane scavate da loro."
+      "Vivono in tane scavate da loro. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       1,
@@ -7289,7 +3456,7 @@ const questions = [
       "Seppelliscono noci e semi come scorta invernale.",
       "In inverno si seppelliscono nella neve.",
       "Fischiano in caso di pericolo.",
-      "Trascorrono il letargo in uno o due per tana."
+      "Trascorrono il letargo in uno o due per tana. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0
@@ -7386,7 +3553,7 @@ const questions = [
     "answers": [
       "Danni alla corteccia nella parte superiore di giovani alberi.",
       "Rosicchiature alle radici.",
-      "Morsicature sui frutti.",
+      "Morsicature sui frutti. 4",
       ""
     ],
     "correct": [
@@ -7415,7 +3582,7 @@ const questions = [
       "Volpe.",
       "Sciacallo dorato.",
       "Tasso.",
-      "Puzzola."
+      "Puzzola. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -7542,7 +3709,7 @@ const questions = [
       "Ottobre/Novembre.",
       "Gennaio/Febbraio.",
       "Aprile/Maggio.",
-      "Luglio/Agosto."
+      "Luglio/Agosto. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       1
@@ -7555,7 +3722,7 @@ const questions = [
       "I cuccioli nascono a gennaio.",
       "I cuccioli nascono ad aprile.",
       "I cuccioli sono seguiti dai genitori fino alla tarda estate.",
-      "Il parto delle femmine è regolato attraverso una sospensione dello sviluppo embrionale"
+      "Il parto delle femmine è regolato attraverso una sospensione dello sviluppo embrionale (embriostasi)."
     ],
     "correct": [
       1,
@@ -7652,7 +3819,7 @@ const questions = [
       "Il tasso predilige ambienti rocciosi.",
       "Il tasso è maggiormente presente negli ambienti con alternanza di bosco e prati/campi.",
       "Il tasso si insedia fino a 1800 m di quota.",
-      "Il tasso si insedia perlopiù al di sopra del limite superiore del bosco."
+      "Il tasso si insedia perlopiù al di sopra del limite superiore del bosco. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       1,
@@ -7694,7 +3861,7 @@ const questions = [
     "answers": [
       "Febbraio-Marzo.",
       "Maggio-Giugno.",
-      "Luglio-Agosto.",
+      "Luglio-Agosto. 4",
       ""
     ],
     "correct": [
@@ -7718,7 +3885,7 @@ const questions = [
     "id": "1287",
     "question": "Quali delle seguenti particolarità riconosciamo nel tasso?",
     "answers": [
-      "Le femmine di tasso hanno una gestazione interrotta e possono essere rifecondate prima del",
+      "Le femmine di tasso hanno una gestazione interrotta e possono essere rifecondate prima del parto.",
       "",
       "I cuccioli trascorrono le prime settimane di vita in una sacca ventrale della madre.",
       "Il periodo degli accoppiamenti non è fisso."
@@ -7760,7 +3927,7 @@ const questions = [
       "Cinque dita visibili.",
       "Quattro dita visibili.",
       "Impronta lunga delle unghie, soprattutto nelle zampe anteriori",
-      "Traccia con impronte appaiate."
+      "Traccia con impronte appaiate. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -7866,10 +4033,10 @@ const questions = [
     "id": "1298",
     "question": "Quali delle seguenti particolarità si riscontrano nei Mustelidi?",
     "answers": [
-      "Le femmine hanno una gestazione interrotta e prima del parto possono essere nuovamente",
+      "Le femmine hanno una gestazione interrotta e prima del parto possono essere nuovamente fecondate.",
       "",
       "I cuccioli trascorrono le prime settimane di vita in una sacca ventrale della madre.",
-      "Hanno solo quattro dita nelle zampe anteriori."
+      "Hanno solo quattro dita nelle zampe anteriori. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": []
   },
@@ -7989,7 +4156,7 @@ const questions = [
       "La punta della sua coda rimane nera anche in estate.",
       "Si nutre quasi esclusivamente di topi.",
       "Non è cacciabile.",
-      "È esclusivamente un animale notturno."
+      "È esclusivamente un animale notturno. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       1,
@@ -8114,7 +4281,7 @@ const questions = [
       "Anatre.",
       "Rapaci.",
       "Scolopacidi.",
-      "Galliformi."
+      "Galliformi. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       1
@@ -8237,7 +4404,7 @@ const questions = [
       "Beccaccia.",
       "Fagiano.",
       "Tortora dal collare orientale.",
-      "Sparviere."
+      "Sparviere. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -8348,7 +4515,7 @@ const questions = [
       "Non sono grandi volatori.",
       "D'inverno, alcune specie si rifugiano sotto la neve per proteggersi dal freddo.",
       "Tutti i tetraonidi sono monogami.",
-      "I tetraonidi rigurgitano i resti indigeriti sotto forma di borre."
+      "I tetraonidi rigurgitano i resti indigeriti sotto forma di borre. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -8455,7 +4622,7 @@ const questions = [
       "Soffici coperture nevose.",
       "Tempo caldo e asciutto.",
       "La possibilità di ingerire sassolini.",
-      "Tanti insetti e larve."
+      "Tanti insetti e larve. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       1,
@@ -8469,7 +4636,7 @@ const questions = [
       "Proteggono i pulcini dai rapaci e mimetizzano il nido.",
       "I galli si posano su di essi per la parata nuziale.",
       "I germogli sono usati come alimento.",
-      "Il gallo cedrone e il fagiano di monte cacciano topi che si nascondono volentieri sotto gli arbusti"
+      "Il gallo cedrone e il fagiano di monte cacciano topi che si nascondono volentieri sotto gli arbusti nani."
     ],
     "correct": [
       0,
@@ -8562,7 +4729,7 @@ const questions = [
       "I galli cedroni non volano molto agilmente e a lungo.",
       "Le femmine nidificano in posizioni protette di pareti rocciose.",
       "I galli cedroni difendono i propri territori di parata.",
-      "Maschi e femmine allevano insieme la covata."
+      "Maschi e femmine allevano insieme la covata. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -8673,7 +4840,7 @@ const questions = [
       "Francolino di monte",
       "Quaglia",
       "Fagiano",
-      "Beccaccia"
+      "Beccaccia rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       1,
@@ -8714,7 +4881,7 @@ const questions = [
     "answers": [
       "Pendii erbosi, soleggiati e ricchi di rocce",
       "Fitte foreste",
-      "Pascoli richiusi dal bosco e dai cespugli",
+      "Pascoli richiusi dal bosco e dai cespugli 4",
       ""
     ],
     "correct": [
@@ -8797,7 +4964,7 @@ const questions = [
       "Beccaccino",
       "Quaglia",
       "Beccaccia",
-      "Fagiano"
+      "Fagiano rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -8824,7 +4991,7 @@ const questions = [
     "answers": [
       "Boschi misti",
       "Praterie alpine",
-      "Pendi erbosi soleggiati e ricchi di rocce",
+      "Pendi erbosi soleggiati e ricchi di rocce 4",
       ""
     ],
     "correct": [
@@ -8908,7 +5075,7 @@ const questions = [
       "Possono involarsi dall'acqua senza alcuna rincorsa",
       "Durante il nuoto la coda tocca la superficie dell'acqua",
       "Possono ricercare il nutrimento sott'acqua per minuti",
-      "Durante il volo tengono il collo ripiegato a S"
+      "Durante il volo tengono il collo ripiegato a S rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       1,
@@ -8921,7 +5088,7 @@ const questions = [
     "answers": [
       "Mutano il piumaggio due volte l'anno",
       "Durante la muta non riescono quasi a volare",
-      "Le anatre di superficie sono in grado di involarsi solo dopo lunga rincorsa sulla superficie",
+      "Le anatre di superficie sono in grado di involarsi solo dopo lunga rincorsa sulla superficie dell'acqua",
       "I pulcini sono in grado di nuotare subito dopo la schiusa"
     ],
     "correct": [
@@ -9005,7 +5172,7 @@ const questions = [
     "answers": [
       "Cicogna bianca",
       "Airone cenerino",
-      "Cigno reale",
+      "Cigno reale 4",
       ""
     ],
     "correct": [
@@ -9019,7 +5186,7 @@ const questions = [
       "Corsi d'acqua e zone umide",
       "Pendii soleggiati e rocciosi",
       "Boschi misti ricchi di latifoglie",
-      "In cerca di cibo anche prati e fossati"
+      "In cerca di cibo anche prati e fossati rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -9046,7 +5213,7 @@ const questions = [
     "answers": [
       "Esclusivamente di pesci",
       "Di pesci, pulcini di anatre e di altri uccelli acquatici",
-      "Di anfibi e uova di uccelli",
+      "Di anfibi e uova di uccelli 4",
       ""
     ],
     "correct": [
@@ -9059,7 +5226,7 @@ const questions = [
     "answers": [
       "Corvo imperiale",
       "Colombaccio",
-      "Cormorano",
+      "Cormorano 4",
       ""
     ],
     "correct": [
@@ -9142,7 +5309,7 @@ const questions = [
       "Turdidi",
       "Fringillidi",
       "Rondini",
-      "Storni"
+      "Storni rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       2
@@ -9254,8 +5421,8 @@ const questions = [
     "answers": [
       "È migratrice",
       "Appartiene ai corvidi",
-      "L'alimentazione consta in numerosi piccoli animali e nel periodo riproduttivo anche in uova e",
-      "La gazza evita i centri abitati"
+      "L'alimentazione consta in numerosi piccoli animali e nel periodo riproduttivo anche in uova e nidiacei",
+      "La gazza evita i centri abitati rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       1,
@@ -9363,7 +5530,7 @@ const questions = [
     "answers": [
       "Appartiene ai passeriformi",
       "Appartiene ai corvidi",
-      "E' esclusivamente vegetariana",
+      "E' esclusivamente vegetariana 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica",
       ""
     ],
     "correct": [
@@ -9419,7 +5586,7 @@ const questions = [
     "answers": [
       "Favorire la presenza nel bosco di adeguata necromassa (legno morto)",
       "Mantenere alberi vetusti",
-      "Piantare arbusti bacciferi",
+      "Piantare arbusti bacciferi 4",
       ""
     ],
     "correct": [
@@ -9459,7 +5626,7 @@ const questions = [
     "answers": [
       "Falchi",
       "Accipitriformi",
-      "Gipeto",
+      "Gipeto 4",
       ""
     ],
     "correct": [
@@ -9486,7 +5653,7 @@ const questions = [
     "answers": [
       "Con una beccata alla nuca",
       "Sollevano la preda in volo e la lasciano precipitare al suolo",
-      "Con gli artigli",
+      "Con gli artigli 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica",
       ""
     ],
     "correct": [
@@ -9526,7 +5693,7 @@ const questions = [
     "answers": [
       "Falchi",
       "",
-      "Accipitriformi",
+      "Accipitriformi 4",
       ""
     ],
     "correct": []
@@ -9592,7 +5759,7 @@ const questions = [
       "Gipeto",
       "Falco pecchiaiolo",
       "Nibbi",
-      "Gheppio"
+      "Gheppio rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       1,
@@ -9647,7 +5814,7 @@ const questions = [
     "answers": [
       "Con un colpo del suo forte becco alla nuca della preda",
       "Con gli artigli",
-      "Cattura la preda con gli artigli, la solleva in volo e la lascia precipitare al suolo",
+      "Cattura la preda con gli artigli, la solleva in volo e la lascia precipitare al suolo 4",
       ""
     ],
     "correct": [
@@ -9687,7 +5854,7 @@ const questions = [
     "answers": [
       "Astore e poiana",
       "",
-      "Astore e sparviere",
+      "Astore e sparviere 4",
       ""
     ],
     "correct": [
@@ -9700,7 +5867,7 @@ const questions = [
     "answers": [
       "Prati alpini oltre il limite del bosco",
       "Foreste miste e di conifere",
-      "Campi e coltivi",
+      "Campi e coltivi 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica",
       ""
     ],
     "correct": [
@@ -9805,7 +5972,7 @@ const questions = [
       "Falco pellegrino",
       "",
       "Astore",
-      "Aquila reale"
+      "Aquila reale rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": []
   },
@@ -9815,7 +5982,7 @@ const questions = [
     "answers": [
       "Al suolo",
       "In cavità di picidi",
-      "Su alberi",
+      "Su alberi 4",
       ""
     ],
     "correct": [
@@ -9828,7 +5995,7 @@ const questions = [
     "answers": [
       "Il becco (mandibola superiore) è più fortemente piegato",
       "Il becco (mandibola superiore) dei falchi ha una colorazione tendente dal rossiccio",
-      "Il becco (mandibola superiore) nei falchi è provvista di una sorta di \"dente\"",
+      "Il becco (mandibola superiore) nei falchi è provvista di una sorta di \"dente\" 4",
       ""
     ],
     "correct": [
@@ -9855,7 +6022,7 @@ const questions = [
     "answers": [
       "Falco pellegrino",
       "Lodolaio",
-      "Gheppio",
+      "Gheppio 4",
       ""
     ],
     "correct": [
@@ -9922,7 +6089,7 @@ const questions = [
       "Il loro volo è del tutto silenzioso",
       "Le principali prede sono uccelli",
       "Catturano le prede esclusivamente in volo",
-      "Molte specie si sono specializzate nella caccia ai micromammiferi"
+      "Molte specie si sono specializzate nella caccia ai micromammiferi rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -9961,7 +6128,7 @@ const questions = [
     "answers": [
       "Boschi e loro margini, con rocce e aree aperte per la caccia",
       "Boschi molto chiusi",
-      "Aree d'alta quota",
+      "Aree d'alta quota 4",
       ""
     ],
     "correct": [
@@ -10015,7 +6182,7 @@ const questions = [
     "answers": [
       "Uccelli",
       "Anfibi e rettili",
-      "Topi",
+      "Topi 4",
       ""
     ],
     "correct": [
@@ -10029,7 +6196,7 @@ const questions = [
       "Allocco",
       "",
       "Civetta nana",
-      "Civetta"
+      "Civetta rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -10070,7 +6237,7 @@ const questions = [
     "answers": [
       "Civetta nana",
       "Gufo comune",
-      "Allocco",
+      "Allocco 4",
       ""
     ],
     "correct": [
@@ -10139,7 +6306,7 @@ const questions = [
       "carbonchio",
       "cimurro",
       "rabbia",
-      "pedaina"
+      "pedaina rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -10195,7 +6362,7 @@ const questions = [
       "il carbonchio colpisce gli unghioni dei bovidi",
       "la malattia ha un decorso rapido ed è spesso mortale",
       "il carbonchio compare solo in inverno",
-      "il carbonchio è una malattia batterica altamente contagiosa (per contatto cutaneo, inalazione"
+      "il carbonchio è una malattia batterica altamente contagiosa (per contatto cutaneo, inalazione delle spore e ingestione di carne infetta)"
     ],
     "correct": [
       1,
@@ -10249,7 +6416,7 @@ const questions = [
       "la rabbia può colpire tutti i mammiferi e l`uomo",
       "i virus raggiungono il midollo spinale ed il cervello, la malattia è letale",
       "i virus della rabbia provocano la perdita delle piume negli uccelli",
-      "i cadaveri di animali selvatici sospetti rabidi vanno seppelliti molto accuratamente."
+      "i cadaveri di animali selvatici sospetti rabidi vanno seppelliti molto accuratamente. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -10290,7 +6457,7 @@ const questions = [
       "portare il cadavere a casa per poterlo mostrare all`occorrenza",
       "seppellire la volpe il prima possibile perchè non costituisca più un pericolo",
       "informare il guardiacaccia, la polizia, gli uffici comunali o il veterinario ufficiale.",
-      "Evitare ogni contatto con il cadavere; utilizzare guanti monouso e raccogliere la carcassa in"
+      "Evitare ogni contatto con il cadavere; utilizzare guanti monouso e raccogliere la carcassa in doppio sacco di plastica, inserendovi anche i guanti utilizzati; consegnare la volpe così confezionata all'Istituto zooprofilattico per le analisi."
     ],
     "correct": [
       2,
@@ -10303,7 +6470,7 @@ const questions = [
     "answers": [
       "Le cisti idatidee dell'echinococco distruggono il fegato, gli organi o il cervello",
       "la tenia provoca una grave enterite con diarrea",
-      "ll virus echinococco distrugge i polmoni",
+      "ll virus echinococco distrugge i polmoni 4",
       ""
     ],
     "correct": [
@@ -10316,7 +6483,7 @@ const questions = [
     "answers": [
       "inalando le uova del cestode durante la manipolazione del manto",
       "ingerendo alimenti : le uova del cestode possono essere adese a bacche e frutti di bosco, funghi",
-      "mangiando carne di selvaggina",
+      "mangiando carne di selvaggina 4",
       ""
     ],
     "correct": [
@@ -10328,7 +6495,7 @@ const questions = [
     "id": "1479",
     "question": "Come ci si può proteggere dal contagio con l'ecchinococco?",
     "answers": [
-      "indossare guanti monouso e mascherina alla bocca durante la scuoiatura e la manipolazione",
+      "indossare guanti monouso e mascherina alla bocca durante la scuoiatura e la manipolazione del pelo",
       "",
       "congelare il cadavere prima di scuoiarlo",
       "sverminare regolarmente il cane, dato che anche il cane potrebbe essere portatore del parassita"
@@ -10342,7 +6509,7 @@ const questions = [
     "id": "1480",
     "question": "Come ci si può proteggere dal contagio con l'ecchinococco?",
     "answers": [
-      "indossare guanti monouso e mascherina alla bocca e lavare accuratamente le mani e",
+      "indossare guanti monouso e mascherina alla bocca e lavare accuratamente le mani e l'attrezzatura dopo lo scuoiamento",
       "",
       "congelare frutti di bosco e funghi prima di mangiarli",
       "assumere un vermifugo"
@@ -10358,7 +6525,7 @@ const questions = [
       "Meningoencefalite primaverile-estiva (TBE)",
       "Rogna",
       "Borreliosi di Lyme",
-      "Echinococcosi"
+      "Echinococcosi rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -10401,7 +6568,7 @@ const questions = [
       "i cisticerchi degli strongili polmonari distruggono il fegato, gli organi o il cervello",
       "gli strongili polmonari colpiscono in prevalenza camosci e caprioli,e maggiormente i soggetti",
       "la strongilosi polmonare porta quasi sempre a morte gli animali selvatici",
-      "una lieve presenza di strongili polmonari, quando l'animale è in buone condizioni di nutrizione,"
+      "una lieve presenza di strongili polmonari, quando l'animale è in buone condizioni di nutrizione, non pregiudica la commestibilità delle carni"
     ],
     "correct": [
       1,
@@ -10442,7 +6609,7 @@ const questions = [
     "answers": [
       "il cimurro colpisce prevalentemente canidi, tassi e furetti",
       "il cimurro è una malattia epidemica degli uccelli",
-      "gli animali ammalati hanno difficoltà a camminare, sono sonnolenti e perdono la naturale",
+      "gli animali ammalati hanno difficoltà a camminare, sono sonnolenti e perdono la naturale diffidenza",
       "la trasmissione del virus avviene tramite secreti corporei, feci e urina"
     ],
     "correct": [
@@ -10457,7 +6624,7 @@ const questions = [
     "answers": [
       "la cheratocongiuntivite infettiva colpisce tutti i bovidi",
       "gli animali ammalati rimangono ciechi",
-      "la malattia è sempre mortale",
+      "la malattia è sempre mortale 4",
       ""
     ],
     "correct": [
@@ -10470,7 +6637,7 @@ const questions = [
     "answers": [
       "la cheratocongiuntivite infettiva compare prevalentemente nei mesi estivi",
       "la cheratocongiuntivite infettiva colpisce solo cervi e caprioli",
-      "la cheratocongiuntivite infettiva ha un decorso raramente mortale se gli animali vengono lasciati",
+      "la cheratocongiuntivite infettiva ha un decorso raramente mortale se gli animali vengono lasciati tranquilli 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica",
       ""
     ],
     "correct": [
@@ -10513,7 +6680,7 @@ const questions = [
     "answers": [
       "larve di estridi",
       "acari della rogna",
-      "strongili polmonari",
+      "strongili polmonari 4",
       ""
     ],
     "correct": [
@@ -10596,7 +6763,7 @@ const questions = [
       "capriolo",
       "volpe",
       "camoscio",
-      "lepre"
+      "lepre rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       1,
@@ -10608,7 +6775,7 @@ const questions = [
     "question": "Entrando nella tana di una volpe il cane da caccia può contrarre la rogna?",
     "answers": [
       "sì",
-      "no",
+      "no 3 4",
       "",
       ""
     ],
@@ -10703,7 +6870,7 @@ const questions = [
       "il capriolo è ferito alla testa in seguito ad incidente stradale",
       "",
       "il capriolo è in ipotermia",
-      "il capriolo ha la rogna"
+      "il capriolo ha la rogna rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": []
   },
@@ -10713,7 +6880,7 @@ const questions = [
     "answers": [
       "emorragie agli organi",
       "imbrattamento fecale",
-      "grosse croste grigie e aree prive di pelo sulla cute",
+      "grosse croste grigie e aree prive di pelo sulla cute 4",
       ""
     ],
     "correct": [
@@ -10725,7 +6892,7 @@ const questions = [
     "question": "Un cacciatore intende vendere un capriolo cacciato, che alla eviscerazione non presentava",
     "answers": [
       "sì",
-      "no",
+      "no 3 4",
       "",
       ""
     ],
@@ -10767,7 +6934,7 @@ const questions = [
     "answers": [
       "Si asportano i focolai di pus, la carne è commestibile",
       "",
-      "la carcassa va raccolta in doppio sacco di plastica e consegnata all'Istituto zooprofilattico o ad un",
+      "la carcassa va raccolta in doppio sacco di plastica e consegnata all'Istituto zooprofilattico o ad un posto di raccolta: c'è il sospetto di brucellosi. 4",
       ""
     ],
     "correct": [
@@ -10810,7 +6977,7 @@ const questions = [
       "polmonite acuta",
       "diarrea lieve",
       "grave dimagramento in animale con malattia acuta in corso",
-      "animale con deformazione del palco"
+      "animale con deformazione del palco rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -10822,7 +6989,7 @@ const questions = [
     "question": "La miasi nasale del capriolo condiziona la commestibilità delle carni?",
     "answers": [
       "sì",
-      "no",
+      "no 3 4",
       "",
       ""
     ],
@@ -10835,7 +7002,7 @@ const questions = [
     "question": "Le carni di una femmina di capriolo sono libere per il proprio consumo senza visita ispettiva da",
     "answers": [
       "",
-      "no",
+      "no 3 4",
       "",
       ""
     ],
@@ -10918,7 +7085,7 @@ const questions = [
       "Pino mugo",
       "Frassino",
       "Castagno",
-      "Carpino nero"
+      "Carpino nero rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0
@@ -11014,7 +7181,7 @@ const questions = [
     "answers": [
       "Tutti mammiferi sono artiodattili",
       "Mammiferi non hanno denti incisivi nella mascella superiore",
-      "Tutti mammiferi sono vivipari e di norma partoriscono cuccioli completamente sviluppati",
+      "Tutti mammiferi sono vivipari e di norma partoriscono cuccioli completamente sviluppati 4",
       ""
     ],
     "correct": [
@@ -11028,7 +7195,7 @@ const questions = [
       "Donnola",
       "Aquila reale",
       "Lince",
-      "Puzzola"
+      "Puzzola rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -11081,7 +7248,7 @@ const questions = [
     "answers": [
       "5 anni",
       "10 anni",
-      "20 anni",
+      "20 anni 4",
       ""
     ],
     "correct": [
@@ -11094,7 +7261,7 @@ const questions = [
     "answers": [
       "dal 30 al 70 % delle capriole presenti in primavera",
       "dal 80 al 120 % delle capriole presenti in primavera",
-      "supera il 150 % delle capriole presenti in primavera",
+      "supera il 150 % delle capriole presenti in primavera 4",
       ""
     ],
     "correct": [
@@ -11107,7 +7274,7 @@ const questions = [
     "answers": [
       "becchi yearling sono sempre fusoni",
       "becchi yearling possono formare anche un trofeo forcuto",
-      "becchi yearling non hanno mai un trofeo a sei punte",
+      "becchi yearling non hanno mai un trofeo a sei punte 4",
       ""
     ],
     "correct": [
@@ -11120,7 +7287,7 @@ const questions = [
     "answers": [
       "dopo il soffregamento del trofeo fino all¿inizio degli amori",
       "nei mesi successivi al periodo degli amori",
-      "nel periodo di sviluppo del trofeo",
+      "nel periodo di sviluppo del trofeo 4",
       ""
     ],
     "correct": [
@@ -11133,7 +7300,7 @@ const questions = [
     "answers": [
       "si",
       "",
-      "no",
+      "no 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica",
       ""
     ],
     "correct": [
@@ -11146,7 +7313,7 @@ const questions = [
     "answers": [
       "ca. 3 mesi",
       "",
-      "ca. 8 mesi",
+      "ca. 8 mesi 4",
       ""
     ],
     "correct": []
@@ -11157,7 +7324,7 @@ const questions = [
     "answers": [
       "abbattere principalmente capi di cervi maschili",
       "risparmiare le femmine",
-      "intervenire incisivamente sulla classe delle cerve adulte",
+      "intervenire incisivamente sulla classe delle cerve adulte 4",
       ""
     ],
     "correct": [
@@ -11170,7 +7337,7 @@ const questions = [
     "answers": [
       "A un anno",
       "Da 2 a 3 anni",
-      "Da 3 a 5 anni",
+      "Da 3 a 5 anni 4",
       ""
     ],
     "correct": [
@@ -11241,7 +7408,7 @@ const questions = [
       "Lupo",
       "",
       "Faina",
-      "Lince"
+      "Lince rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0
@@ -11253,7 +7420,7 @@ const questions = [
     "answers": [
       "La volpe e il tasso possono occupare la stessa tana contemporaneamente",
       "La volpe e il tasso non occupano mai contemporaneamente la stessa tana",
-      "Le volpi scacciano sempre i tassi dalla tana",
+      "Le volpi scacciano sempre i tassi dalla tana 4",
       ""
     ],
     "correct": [
@@ -11294,7 +7461,7 @@ const questions = [
     "answers": [
       "solo i fusoni",
       "i cervi vecchi",
-      "tutti i cervi",
+      "tutti i cervi 4",
       ""
     ],
     "correct": [
@@ -11361,7 +7528,7 @@ const questions = [
       "Laghi e stagni",
       "Bosco ripariale",
       "Bosco di conifere",
-      "Prato"
+      "Prato rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -11457,7 +7624,7 @@ const questions = [
     "answers": [
       "Con gli artigli",
       "Con le vibrisse",
-      "Con la coda",
+      "Con la coda 4",
       ""
     ],
     "correct": [
@@ -11471,7 +7638,7 @@ const questions = [
       "Il disegno del pelo",
       "La lunghezza delle zampe e del collo",
       "Le impronte ed i segni del morso",
-      "La coda"
+      "La coda rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -11595,7 +7762,7 @@ const questions = [
       "... è la più piccola anatra autoctona.",
       ".... ha occhi gialli e luminosi.",
       "... ha una fascia bianca che circonda l'occhio.",
-      ".... appartiene alla classe delle cosiddette anatre tuffatrici."
+      ".... appartiene alla classe delle cosiddette anatre tuffatrici. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       1,
@@ -11674,7 +7841,7 @@ const questions = [
     "id": "1578",
     "question": "La cesena (Turdus pilaris) ...",
     "answers": [
-      "... ha capo e collo di colore grigio, la schiena color ruggine, il petto chiazzato ed il basso ventre",
+      "... ha capo e collo di colore grigio, la schiena color ruggine, il petto chiazzato ed il basso ventre bianco.",
       "",
       "... si trova raramente in inverno in Alto Adige.",
       "... ha la coda nera."
@@ -11688,7 +7855,7 @@ const questions = [
     "id": "1579",
     "question": "Il tordo bottaccio (Turdus philomelus) ...",
     "answers": [
-      "... ha capo e collo di colore grigio, la schiena color ruggine, il petto chiazzato ed il basso ventre",
+      "... ha capo e collo di colore grigio, la schiena color ruggine, il petto chiazzato ed il basso ventre bianco.",
       "",
       "... si trova raramente in inverno in Alto Adige.",
       "... è uniformemente nero con il becco giallo."
@@ -11704,7 +7871,7 @@ const questions = [
       "... si nutre, come tutti i turdidi, soprattutto di semi e noci.",
       "... ha capo e collo di colore grigio, la schiena color ruggine, il petto chiazzato ed il basso ventre",
       "... somiglia al tordo bottaccio, ma è più grande.",
-      "... ha una colorazione più grigia del tordo bottaccio, con chiazze meno eleganti nella parte"
+      "... ha una colorazione più grigia del tordo bottaccio, con chiazze meno eleganti nella parte inferiore. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       2,
@@ -11729,7 +7896,7 @@ const questions = [
     "id": "1582",
     "question": "Il merlo (Turdus merula) ...",
     "answers": [
-      "... è a suo agio, in quanto Kulturfolger (= specie che si adatta bene alle modificazioni ambientali",
+      "... è a suo agio, in quanto Kulturfolger (= specie che si adatta bene alle modificazioni ambientali causate dall'uomo), negli insediamenti antropici, nei parchi urbani e nei giardini.",
       "",
       "... è presente nei boschi fino al loro limite superiore.",
       "... si nutre di vermi, insetti, lumache, frutti e verdure."
@@ -11823,7 +7990,7 @@ const questions = [
       "... ha la schiena di colore marrone e il petto chiazzato con macchie gialle e marroni.",
       "... con il suo petto rosso ed il groppone bianco è un uccello che salta all'occhio.",
       "... lo si trova soprattutto nei boschi misti di conifere con fitto sottobosco.",
-      "... ha il petto di colore grigio scuro."
+      "... ha il petto di colore grigio scuro. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       1,
@@ -11834,7 +8001,7 @@ const questions = [
     "id": "1589",
     "question": "Il cardellino (Carduelis carduelis) ...",
     "answers": [
-      "... fa il nido sulle piante dei campi, spesso a foglie caduche, e vive nelle zone coltivate o nei",
+      "... fa il nido sulle piante dei campi, spesso a foglie caduche, e vive nelle zone coltivate o nei centri abitati.",
       "",
       "... è un uccello variopinto molto appariscente.",
       "... fa il nido in cavità di tronchi d'albero abbandonate."
@@ -11863,7 +8030,7 @@ const questions = [
     "id": "1591",
     "question": "La cincia dal ciuffo (Lophophanes cristatus) ...",
     "answers": [
-      "... fa il nido nelle cavità dei tronchi d'albero e provvede a ostruire il foro d¿ingresso lasciando lo",
+      "... fa il nido nelle cavità dei tronchi d'albero e provvede a ostruire il foro d¿ingresso lasciando lo spazio necessario per passare.",
       "",
       "... ha bisogno di tronchi d'albero in decomposizione per fare il nido.",
       "... è il più piccolo uccello canoro autoctono."
@@ -11936,7 +8103,7 @@ const questions = [
       "... costruisce il suo nido di argilla sotto gli spioventi dei tetti e sulle rocce.",
       "... si ciba esclusivamente di insetti volanti.",
       "... si ciba prevalentemente di semi.",
-      "... abita le cavità presenti negli alberi marci."
+      "... abita le cavità presenti negli alberi marci. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -11949,7 +8116,7 @@ const questions = [
     "answers": [
       "... trascorre la gran parte del tempo in volo.",
       "... fa il nido prevalentemente nelle fessure dei muri, tra i mattoni.",
-      "... è un evidente Kulturfolger (= specie che si adatta bene alle modificazioni ambientali causate",
+      "... è un evidente Kulturfolger (= specie che si adatta bene alle modificazioni ambientali causate dall'uomo).",
       "... in inverno migra in Africa."
     ],
     "correct": [
@@ -12053,7 +8220,7 @@ const questions = [
       "... è il più piccolo tra gli uccelli autoctoni.",
       "... preferisce vivere nei boschi di abete rosso.",
       "... è diffuso fino a 2000 m s.l.m..",
-      "... ha una riga sul capo di colore giallo aranciato."
+      "... ha una riga sul capo di colore giallo aranciato. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       0,
@@ -12171,7 +8338,7 @@ const questions = [
       "Il procione",
       "Lo scoiattolo grigio",
       "Il ghiro",
-      "Il topo muschiato"
+      "Il topo muschiato rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 1 Descrizione Habitat - Zoologia venatoria - Malattie della fauna selvatica"
     ],
     "correct": [
       1
@@ -12238,11 +8405,4251 @@ const questions = [
       ".... una malattia che colpisce soprattutto camosci e stambecchi.",
       "... una malattia simile al vaiolo che colpisce la bocca e le mammelle.",
       "... una malattia dalla quale l¿uomo guarisce facilmente.",
-      "... una malattia portata dalle zanzare che colpisce uomini e cani."
+      "... una malattia portata dalle zanzare che colpisce uomini e cani. rep_jfrag"
     ],
     "correct": [
       0,
       1,
+      2
+    ]
+  },
+  {
+    "id": "3001",
+    "question": "Quale delle seguenti, dal punto di vista giuridico, è considerata un'arma bianca?",
+    "answers": [
+      "Lo spiedo da cinghiale",
+      "La balestra",
+      "Fucili ad aria compressa",
+      "Tutte le armi non appartenenti alle armi da fuoco"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3002",
+    "question": "Quali delle seguenti sono armi da fuoco?",
+    "answers": [
+      "Carabine",
+      "La balestra",
+      "Fucili ad aria compressa",
+      "Le armi a canna liscia"
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "3003",
+    "question": "Quali cartucce si utilizzano per armi a canna liscia?",
+    "answers": [
+      "Cartucce a pallini",
+      "Cartucce per carabina",
+      "Cartucce con palla slug (palla unica) per armi a canna liscia 4",
+      ""
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "3004",
+    "question": "Quali munizioni si utilizzano con i fucili a canna rigata?",
+    "answers": [
+      "Cartucce a pallini",
+      "Cartucce per carabina",
+      "Cartucce con palla slug (palla unica) per armi a canna liscia 4",
+      ""
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3005",
+    "question": "Quali proprietà ha un fucile a pallini?",
+    "answers": [
+      "L'interno della canna è liscio",
+      "Nella canna sono impresse delle scanalature a spirale",
+      "L'interno della canna è rigato 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3006",
+    "question": "Quali proprietà hanno, di regola, le carabine?",
+    "answers": [
+      "Hanno le canne lisce internamente",
+      "Hanno le canne rigate internamente",
+      "L'interno della canna si restringe verso la bocca 4",
+      ""
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3007",
+    "question": "Quale funzione ha la rigatura all'interno delle canne di una carabina?",
+    "answers": [
+      "Tiene unito lo sciame di pallini",
+      "Ingrandiscono il tramite del proiettile nel corpo del selvatico",
+      "Impediscono il capovolgimento del proiettile durante il volo stabilizzando il proiettile",
+      "Accelerano il proiettile"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3008",
+    "question": "Cos'è un fucile combinato giustapposto?",
+    "answers": [
+      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano orizzontale",
+      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano verticale",
+      "Un fucile che ha due canne ad anima liscia e una rigata",
+      "Un fucile che ha due canne ad anima rigata e una liscia"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3009",
+    "question": "Cos'è un fucile combinato sovrapposto?",
+    "answers": [
+      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano orizzontale",
+      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano verticale",
+      "Un fucile che ha due canne ad anima liscia e una rigata",
+      "Un fucile che ha due canne ad anima rigata e una liscia rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3010",
+    "question": "Cos'è un drilling?",
+    "answers": [
+      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano orizzontale",
+      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano verticale",
+      "Un fucile a tre canne, solitamente due canne ad anima liscia e una rigata",
+      "Un attrezzo per l'addestramento di cani"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3011",
+    "question": "Cos'è un fucile non combinato sovrapposto?",
+    "answers": [
+      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano orizzontale",
+      "Un fucile che ha due canne ad anima liscia e una rigata",
+      "Un fucile che ha due canne ad anima liscia poste sullo stesso piano verticale",
+      "Un fucile che ha due canne ad anima liscia poste sullo stesso piano orizzontale"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3012",
+    "question": "Cos'è una doppietta?",
+    "answers": [
+      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano orizzontale",
+      "Un fucile che ha due canne ad anima liscia e una rigata",
+      "Un fucile che ha due canne ad anima liscia poste sullo stesso piano orizzontale",
+      "Un fucile che ha due canne ad anima rigata poste sullo stesso piano orizzontale"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3013",
+    "question": "Cos è un Bergstutzen?",
+    "answers": [
+      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano verticale",
+      "Un fucile che ha due canne ad anima rigata dello stesso calibro poste sullo stesso piano",
+      "Un fucile a ripetizione con canne interscambiabili",
+      "Un fucile che ha due canne ad anima rigata di differente calibro"
+    ],
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "3014",
+    "question": "Quali delle seguenti armi sono considerate armi combinate?",
+    "answers": [
+      "Un fucile che ha due canne ad anima liscia poste sullo stesso piano verticale",
+      "Un drilling con due canne ad anima rigata",
+      "Un fucile che ha una canna ad anima liscia e una rigata poste sullo stesso piano verticale 4",
+      ""
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "3015",
+    "question": "Cosa viene controllato nella prova a fuoco di un'arma lunga presso un banco di prova?",
+    "answers": [
+      "Che l'arma sia precisa",
+      "Che il fucile, specialmente l'otturatore e la canna siano resistenti alla pressione dei gas prodotti",
+      "La potenza di penetrazione dei proiettili",
+      "La distanza di aggiustamento del tiro ideale"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3016",
+    "question": "Armi: quali affermazioni sono esatte?",
+    "answers": [
+      "Canne danneggiate e arrugginite rappresentano un grosso pericolo per il tiratore",
+      "Lo stecher serve ad aumentare lo sforzo per far scattare il grilletto",
+      "Lo stecher serve da sicura per il fucile",
+      "Il congegno di mira nei fucili a canna ad anima liscia consta nel mirino e nella bindella"
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "3017",
+    "question": "Per quale motivo i fucili con percussore a molla devono essere custoditi con la stessa non in",
+    "answers": [
+      "Per evitare l'usura del percussore",
+      "",
+      "Perché così si risparmia il bossolo salvapercussore 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
+      ""
+    ],
+    "correct": []
+  },
+  {
+    "id": "3018",
+    "question": "Quali dei seguenti fucili sono muniti di caricatore o serbatoio, dal quale le cartucce vengono",
+    "answers": [
+      "I fucili a bascula",
+      "",
+      "I fucili semiautomatici con canna ad anima liscia",
+      "Le carabine semiautomatiche"
+    ],
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "3019",
+    "question": "Quali dei seguenti fucili sono muniti di caricatore o serbatoio, dal quale le cartucce vengono",
+    "answers": [
+      "I fucili a bascula",
+      "",
+      "I fucili a colpo singolo 4",
+      ""
+    ],
+    "correct": []
+  },
+  {
+    "id": "3020",
+    "question": "Quali di questi fucili sono a canne basculanti?",
+    "answers": [
+      "Bergstutzen",
+      "Fucili a ripetizione",
+      "Drilling 4",
+      ""
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "3021",
+    "question": "Quali delle seguenti affermazioni sono esatte in merito allo stecher di tipo monogrillo?",
+    "answers": [
+      "E' dotato di un secondo grilletto per attivare la pretensione del grilletto di sparo",
+      "Per attivare la pretensione del grilletto si utilizza il medesimo grilletto di sparo",
+      "Lo spostamento in avanti di un cursore sul calcio permette di mettere in pretensione il grilletto di sparo",
+      "Si può trovare sia nelle carabine a ripetizione che nei fucili basculanti con canne rigate"
+    ],
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "3022",
+    "question": "Quale delle seguenti affermazioni è esatta in merito allo stecher di tipo bigrillo?",
+    "answers": [
+      "E' dotato di un secondo grilletto per attivare la pretensione del grilletto di sparo",
+      "Viene utilizzato nelle carabine a ripetizione e nei fucili combinati",
+      "Lo spostamento in avanti di un cursore sul calcio permette di mettere in pretensione il grilletto di sparo 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3023",
+    "question": "Quale dei seguenti calibri di fucili con canna ad anima liscia è quello con il diametro della",
+    "answers": [
+      "Calibro 20 Magnum",
+      "",
+      "Calibro 16",
+      "Calibro .410"
+    ],
+    "correct": []
+  },
+  {
+    "id": "3024",
+    "question": "Come si può ridurre l'ampiezza dello sciame di pallini?",
+    "answers": [
+      "Operando sul bossolo della cartuccia",
+      "Mediante una strozzatura della canna",
+      "Utilizzando fucili con canne molto corte 4",
+      ""
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3025",
+    "question": "Cos'è la strozzatura (Choke)?",
+    "answers": [
+      "Il profilo della canna rigata, che aiuta a stabilizzare il proiettile sulla sua traiettoria",
+      "Un restringimento della canna che influenza la dispersione dello sciame dei pallini",
+      "Una reazione del selvatico quando viene perforato dal proiettile 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
+      ""
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3026",
+    "question": "Cosa s'intende con fucile con canna ad anima liscia con caricamento automatico della molla?",
+    "answers": [
+      "Un fucile con canna ad anima liscia che monta la molla facendo basculare la canna stessa",
+      "Un fucile con canna ad anima liscia, che si carica automaticamente mediante una pressione sul",
+      "Un fucile con canna ad anima liscia, che si carica automaticamente con il rinculo del tiro precedente",
+      "Un fucile con canna ad anima liscia, che si carica mediante un congegno a slitta"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3027",
+    "question": "A cosa serve l'eiettore nei fucili con canna ad anima liscia?",
+    "answers": [
+      "Per diminuire il rinculo",
+      "Per mettere il fucile automaticamente in sicurezza",
+      "Per eliminare automaticamente i bossoli sparati",
+      "Per allentare la molla del fucile"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3028",
+    "question": "A cosa serve la sicura?",
+    "answers": [
+      "Per assicurare che il fucile non venga maneggiato da bambini o da persone non capaci di intendere e volere",
+      "",
+      "Per diminuire il rinculo",
+      "Per aumentare la pressione del grilletto"
+    ],
+    "correct": []
+  },
+  {
+    "id": "3029",
+    "question": "A cosa serve lo stecher?",
+    "answers": [
+      "Per aumentare la pressione da effettuare sul grilletto",
+      "Per diminuire la pressione da effettuare sul grilletto",
+      "Per dover utilizzare meno forza nell'azionare il grilletto in modo di evitare di strappare",
+      "Per mettere l'arma in sicura"
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "3030",
+    "question": "Cosa avviene azionando l'otturatore di un fucile a ripetizione?",
+    "answers": [
+      "Le cartucce sparate vengono eliminate dalla camera di scoppio",
+      "Le cartucce piene passano dal serbatoio o dal caricatore alla camera di scoppio",
+      "Il meccanismo di pretensionamento del grilletto viene attivato",
+      "Il caricatore o il serbatoio vengono caricati"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "3031",
+    "question": "Cosa avviene azionando l'otturatore di un fucile a ripetizione?",
+    "answers": [
+      "Le cartucce sparate vengono eliminate dalla camera di scoppio",
+      "Il fucile viene ricaricato",
+      "Il fucile viene basculato",
+      "Il fucile viene messo automaticamente in sicura"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "3032",
+    "question": "Cosa s'intende con calibro nei fucili da caccia?",
+    "answers": [
+      "Diametro interno della canna nei fucili con canne ad anima liscia",
+      "Diametro dei proiettili nelle carabine",
+      "Proiettili particolarmente grosse 4",
+      ""
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "3033",
+    "question": "Qual è il calibro più grosso ammesso in Alto Adige per fucili con canna ad anima liscia?",
+    "answers": [
+      "Calibro 12",
+      "Calibro 16",
+      "Calibro 20 Magnum",
+      "Calibro 6,5 mm rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3034",
+    "question": "Quali sono i calibri più piccoli ammessi in Alto Adige per carabine?",
+    "answers": [
+      "Calibro 20",
+      "Calibro 5,6 mm",
+      "Calibro 0,222 pollici",
+      "Calibro 6,5 mm"
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "3035",
+    "question": "Cosa può succedere se da un fucile con canna ad anima liscia con calibro 12/70 si spara una",
+    "answers": [
+      "La canna potrebbe rompersi",
+      "",
+      "Aumenta la rosata dei pallini 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3036",
+    "question": "Cosa può succedere se da un fucile con canna ad anima liscia con calibro 16/70 si spara una",
+    "answers": [
+      "La canna potrebbe rompersi",
+      "",
+      "I pallini aumentano di potenza",
+      "La cartuccia non può essere inserita non passando per la canna"
+    ],
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "3037",
+    "question": "Quali delle seguenti cartucce può essere utilizzata nelle carabine a ripetizione?",
+    "answers": [
+      "Calibro .270 Win",
+      "Calibro 6.5 x 65 R",
+      "Calibro 7 mm Rem. Mag.",
+      "Calibro 20 Magnum"
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "3038",
+    "question": "Cosa indica la cifra \"12/70\" sulla confezione di cartucce a pallini?",
+    "answers": [
+      "Calibro 12, lunghezza del bossolo a vuoto di 70 mm",
+      "Grandezza dei pallini di 0,12 pollici, lunghezza del bossolo a vuoto di 70 mm",
+      "Calibro 12, 70 cartucce",
+      "Anno di produzione delle cartucce: dicembre 1970"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3039",
+    "question": "Quale delle seguenti cartucce, a parità di grandezza dei pallini, contiene il maggior numero di",
+    "answers": [
+      "Cartuccia 12/70",
+      "",
+      "Cartuccia 20/70 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3040",
+    "question": "A quali misure si riferiscono le indicazioni relative alla lunghezza delle cartucce a pallini?",
+    "answers": [
+      "Alla lunghezza della cartuccia prima dello sparo",
+      "Alla lunghezza del bossolo dopo lo sparo",
+      "Alla lunghezza minima della camera di scoppio da utilizzare",
+      "Al calibro della cartuccia"
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "3042",
+    "question": "Cosa si intende con \"misura dei pallini\"?",
+    "answers": [
+      "Quantità di polvere da sparo utilizzata",
+      "Diametro della cartuccia a pallini",
+      "Diametro del singolo pallino con cui viene caricato il bossolo 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
+      ""
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3043",
+    "question": "Cosa si intende con l'indicazione di cartucce 6,5 x 68 R?",
+    "answers": [
+      "Calibro 6,5 mm, lunghezza del bossolo 68 mm, cartuccia con orlo (bordo)",
+      "Lunghezza del bossolo 6,5 cm, calibro 0,68 pollici, cartuccia a percussione anulare",
+      "Calibro 6,5 cm, lunghezza del bossolo 68 pollici, cartuccia per carabine a ripetizione 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3044",
+    "question": "Per quale dei seguenti fucili è adatta una munizione con l'indicazione 6,5 x 57 R?",
+    "answers": [
+      "Carabine basculanti",
+      "Fucili con canna ad anima liscia basculanti",
+      "Fucili a ripetizione 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3045",
+    "question": "Cosa significa la lettera \"R\" nell'indicazione delle cartucce 6,5 x 68 R?",
+    "answers": [
+      "La cartuccia ha un collarino adatto per fucili a ripetizione",
+      "La cartuccia ha un orlo (bordo) che sporge dal fondello e viene principalmente utilizzata per",
+      "La lettera R indica il produttore Remington 4",
+      ""
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3046",
+    "question": "Cosa accade, se da una carabina cal. 7x57 R si spara una pallottola cal. 7x57?",
+    "answers": [
+      "Non è possibile caricare la carabina",
+      "I bossoli sparati possono essere estratti dalla camera di scoppio solo con un attrezzo",
+      "Si rompe la canna del fucile 4",
+      ""
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3047",
+    "question": "Si possono utilizzare munizioni cal. 8 x 57 in carabine a ripetizione cal. 7 x 57?",
+    "answers": [
+      "Si",
+      "No",
+      "Si ma solo se non troppo caricate 4",
+      ""
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3048",
+    "question": "Si possono sparare munizione di cal. 8 x 57 con carabine di cal. 8 x 68?",
+    "answers": [
+      "Si",
+      "No",
+      "Si, ma solo con l'apposito bossolo riduttore di calibro 4",
+      ""
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3049",
+    "question": "Si possono sparare munizione di cal. 6,5 x 68R con carabine dotate di canna adatta a sparare",
+    "answers": [
+      "Si",
+      "",
+      "Ciò non è possibile, perché non si adattano alla camera di cartuccia 4",
+      ""
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3050",
+    "question": "Cosa differenzia le cartucce 7 x 57 R e 7 x 57?",
+    "answers": [
+      "La cartuccia 7 x 57 R ha un orlo (bordo) sul fondello",
+      "La cartuccia 7 x 57 R è a percussione anulare",
+      "La cartuccia 7 x 57 ha una scanalatura per facilitarne l'estrazione",
+      "I diametri dei bossoli sono differenti, onde evitare di essere scambiati rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "3051",
+    "question": "Quale cartuccia è adatta per una carabina a ripetizione di cal. 7 x 57?",
+    "answers": [
+      "7 x 57",
+      "7 x 57 R",
+      "7 x 64",
+      ".270 Win"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3052",
+    "question": "Che calibro in millimetri ha la cartuccia .222 Remington?",
+    "answers": [
+      "All'incirca 5,6 mm",
+      "All'incirca 6,5 mm",
+      "All'incirca 7,0 mm 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3053",
+    "question": "Quali dei seguenti calibri è ammesso in Alto Adige per la caccia al cervo?",
+    "answers": [
+      ".270",
+      "6,5 x 55",
+      ".243",
+      ".222"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "3054",
+    "question": "In Alto Adige è ammesso l'utilizzo della palla nei fucili con canna ad anima liscia nell'esercizio",
+    "answers": [
+      "Si",
+      "",
+      "Solo da parte degli agenti venatori",
+      "Si, ma solo nei periodi di caccia in deroga"
+    ],
+    "correct": []
+  },
+  {
+    "id": "3055",
+    "question": "Quali dei seguenti proiettili si deforma fortemente se colpisce un bersaglio resistente?",
+    "answers": [
+      "Proiettili camiciati",
+      "Proiettili parzialmente camiciati 3 4",
+      "",
+      ""
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3056",
+    "question": "Quali dei seguenti proiettili vengono utilizzati per la caccia agli ungulati, anche nel rispetto",
+    "answers": [
+      "Proiettili camiciati",
+      "",
+      "Palle o slug per fucili con canna ad anima liscia 4",
+      ""
+    ],
+    "correct": []
+  },
+  {
+    "id": "3057",
+    "question": "Quali delle seguenti specie cacciabili possono essere abbattute con cartucce a pallini?",
+    "answers": [
+      "Fagiano di monte e pernice bianca",
+      "Capriolo",
+      "Lepri",
+      "Cinghiale"
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "3058",
+    "question": "Quali delle seguenti specie possono essere cacciate a pallini in Alto Adige?",
+    "answers": [
+      "Camoscio",
+      "Selvaggina da piuma",
+      "Volpe",
+      "Cervo rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "3059",
+    "question": "Armi da caccia e munizioni. Quali affermazioni corrispondono al vero?",
+    "answers": [
+      "Per ogni arma può essere utilizzata unicamente una munizione prevista per la stessa",
+      "Nel caso di un tiro a pallini bisogna prestare attenzione, che i pallini che non colpiscono il",
+      "Pallini di colpi che vengono sparati in verticale non sono pericolosi quando ricadono a terra",
+      "Si può effettuare un colpo a fauna selvatica solamente se il proiettile non metta in pericolo persone o non provochi danni (ad esclusione al capo eventualmente colpito)"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "3060",
+    "question": "In quale caso si può dire di aver sparato un colpo in sicurezza?",
+    "answers": [
+      "Sparare su un terreno con buona visibilità, in salita in direzione di tiro con la natura del terreno tale, da non deviare la pallottola",
+      "",
+      "Presenza di fabbricati",
+      "Presenza di cespugli"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3061",
+    "question": "Fino a quale distanza un tiro a pallini con munizione standard è efficace per l'abbattimento di",
+    "answers": [
+      "70 m",
+      "",
+      "35 m 4",
+      ""
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3062",
+    "question": "Che distanza raggiunge, all'incirca, un tiro con pallini di 2,5 mm di diametro?",
+    "answers": [
+      "25 m",
+      "35 m",
+      "250 m",
+      "2,5 chilometri"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3063",
+    "question": "Che distanza raggiunge, all'incirca, un tiro con pallini di 4,0 mm di diametro?",
+    "answers": [
+      "35 m",
+      "40 m",
+      "400 m",
+      "4 chilometri"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3064",
+    "question": "Che distanza raggiunge, all'incirca, un colpo sparato a pallini?",
+    "answers": [
+      "Diametro dei pallini (mm) x 50 m",
+      "Diametro dei pallini (mm) x 100 m",
+      "Diametro dei pallini (mm) x 1000 m 4",
+      ""
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3065",
+    "question": "Fino a quale distanza è accettabile uno sparo agli ungulati completamente sviluppati?",
+    "answers": [
+      "Massimo 300 m",
+      "Massimo 500 m",
+      "Massimo 700 m 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3066",
+    "question": "Fino a quale distanza può essere pericoloso un proiettile, mediamente, sparato con carabina?",
+    "answers": [
+      "All'incirca 500 m",
+      "All'incirca 5 km",
+      "All'incirca 10 km 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
+      ""
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3067",
+    "question": "In una doppietta quale canna viene attivata dal grilletto anteriore?",
+    "answers": [
+      "Quella destra",
+      "Quella sinistra 3 4",
+      "",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3068",
+    "question": "In un sovrapposto quale canna viene attivata dal grilletto anteriore?",
+    "answers": [
+      "Quelle superiore",
+      "Quella inferiore 3 4",
+      "",
+      ""
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3069",
+    "question": "Quando si può portare un'arma carica?",
+    "answers": [
+      "Non appena scesi dalla macchina",
+      "Non appena con la macchina non si è più su una strada pubblica",
+      "Solo durante la caccia e su terreno non accidentato",
+      "Solamente dopo aver individuato il capo da abbattere"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3070",
+    "question": "Come deve essere portata un'arma in presenza di altre persone?",
+    "answers": [
+      "Mai in maniera tale, che l¿arma sia puntata verso una persona",
+      "Sempre smontata in ogni sua parte",
+      "Solo in custodia",
+      "Aperta se basculante o con l'otturatore aperto"
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "3072",
+    "question": "A cosa bisogna prestare attenzione prima di caricare un'arma?",
+    "answers": [
+      "Che la canna sia libera",
+      "Che non vi siano ostacoli nella direzione di tiro",
+      "Che vi sia fauna selvatica nei paraggi",
+      "Che il fucile sia in sicura"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3073",
+    "question": "Come deve comportarsi un cacciatore se, dopo aver premuto il grilletto, il colpo non parte ....",
+    "answers": [
+      "Aprire immediatamente il fucile e prepararsi di nuovo al tiro 3 4",
+      "",
+      "",
+      ""
+    ],
+    "correct": []
+  },
+  {
+    "id": "3074",
+    "question": "Quando può essere tolta la sicura a un'arma?",
+    "answers": [
+      "Dopo averla caricata",
+      "Durante l'uscita di caccia",
+      "Immediatamente prima del tiro 4",
+      ""
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3075",
+    "question": "Quando si può mettere in funzione lo stecher?",
+    "answers": [
+      "Immediatamente dopo aver caricato l'arma",
+      "Immediatamente prima di aver tolto la sicura",
+      "Immediatamente prima del tiro 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
+      ""
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3076",
+    "question": "Quando bisogna scaricare un'arma da fuoco?",
+    "answers": [
+      "Mentre si sale su un'altana",
+      "Mentre si devono superare ostacoli",
+      "In caso di maltempo",
+      "Quando si segue la selvaggina in alta quota"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "3077",
+    "question": "Come ci si comporta, se dopo aver tolto la sicura e inserito lo stecher, non si effettua lo",
+    "answers": [
+      "Prima mettere in sicura, poi disattivare lo stecher",
+      "",
+      "Se è stato attivato lo stecher, l'arma non può più essere messa in sicura 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3078",
+    "question": "Cosa indicano le cifre 8 x 56 in un binocolo?",
+    "answers": [
+      "Ingrandimento per 8 volte",
+      "56 mm di diametro dell'obbiettivo",
+      "Ingrandimento per 8 volte e campo visivo di 56 m a una distanza di 1 chilometro 4",
+      ""
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "3079",
+    "question": "Cosa comporta l'appoggiare la punta del fucile su una base rigida al momento dello sparo?",
+    "answers": [
+      "Il punto d' impatto sul bersaglio non cambia",
+      "Il rinculo è maggiore, perché la canna non può oscillare liberamente",
+      "Porta spesso a un'alterazione del punto d'impatto, perché la canna non può oscillare liberamente 4",
+      ""
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3080",
+    "question": "Cosa può accadere se in fucile combinato sovrapposto o in un drilling con canna ad anima",
+    "answers": [
+      "La traiettoria risulta bassa",
+      "",
+      "Non si hanno variazioni di traiettoria 4",
+      ""
+    ],
+    "correct": []
+  },
+  {
+    "id": "3082",
+    "question": "Cosa s'intende con tarare il fucile a 200 m?",
+    "answers": [
+      "La traiettoria della pallottola taglia la linea di mira a una distanza di 200 m",
+      "200 m è la distanza ideale per cagionare un colpo mortale",
+      "La traiettoria ha una lunghezza di 200 m 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3083",
+    "question": "In quale punto del fucile la pressione dei gas risulta maggiore?",
+    "answers": [
+      "Nelle vicinanze della bocca della canna",
+      "Nelle vicinanze del centro della canna",
+      "Nelle vicinanze della camera di cartuccia 4",
+      ""
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3084",
+    "question": "In quale punto il proiettile raggiunge la sua massima velocità?",
+    "answers": [
+      "A 50 m dalla fuoriuscita dalla canna",
+      "A 100 m dalla fuoriuscita dalla canna",
+      "Al momento della fuoriuscita dalla canna 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
+      ""
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3085",
+    "question": "Quante armi da caccia può detenere chi è in possesso di un porto di fucile a uso caccia?",
+    "answers": [
+      "Massimo 6",
+      "Massimo 10",
+      "In numero illimitato 4",
+      ""
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3086",
+    "question": "Chi può acquistare armi da fuoco in Italia?",
+    "answers": [
+      "Tutti i maggiorenni, senza particolari limitazioni",
+      "Chi ottiene il nulla osta dal Questore",
+      "Chi è in possesso di un qualsiasi porto d'armi 4",
+      ""
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "3087",
+    "question": "Entro quale termine deve essere comunicato il possesso di armi o di parti essenziali di esse?",
+    "answers": [
+      "72 ore",
+      "1 settimana",
+      "1 mese 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3088",
+    "question": "Secondo la legge sulle armi cosa si intende per parti essenziali di un'arma?",
+    "answers": [
+      "Cannocchiale di puntamento",
+      "Canna",
+      "Otturatore",
+      "Il calcio di un fucile a ripetizione"
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "3089",
+    "question": "Secondo la legge sulle armi cosa rientra fra le parti essenziali di un'arma?",
+    "answers": [
+      "Grilletto",
+      "Bascula",
+      "Il caricatore",
+      "I congegni di puntamento"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3090",
+    "question": "Quali dati bisogna indicare in caso di denuncia di armi o di parti essenziali di esse?",
+    "answers": [
+      "I dati di riconoscimento dell'arma",
+      "Il luogo di detenzione",
+      "Il prezzo",
+      "Indicazione delle armi già in possesso della persona, per le armi con obbligo di denuncia"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "3091",
+    "question": "Dove deve essere denunciato il possesso di armi o di parti essenziali di esse?",
+    "answers": [
+      "Alla Questura o al Commissariato di Polizia, competente per il comune dove le armi vengono detenute Questura o un Commissariato di Polizia",
+      "",
+      "Al rettore della riserva di diritto di caccia",
+      "Presso gli Uffici del comune di residenza"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3092",
+    "question": "In quali dei seguenti luoghi si possono custodire armi?",
+    "answers": [
+      "In luoghi sufficientemente sicuri cosicché non possano venir prese da bambini, persone non affidabili o tossicodipendenti",
+      "",
+      "Incustodite nella baita dei cacciatori 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3093",
+    "question": "Quali regole vigono per la custodia di munizioni?",
+    "answers": [
+      "Non è obbligatorio denunciare il possesso di munizioni",
+      "Se si è in possesso di un'arma denunciata, non è obbligatorio denunciare il possesso di",
+      "Le munizioni a pallini devono sempre essere denunciate",
+      "Per custodire più di 5 kg di polvere da sparo, compresa quella eventualmente presente in cartucce, bisogna avere una autorizzazione al deposito di sostanze esplosive"
+    ],
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "3094",
+    "question": "Quali regole vigono per il trasporto di armi in Italia?",
+    "answers": [
+      "Bisogna essere in possesso di una licenza di porto d'armi o di un'autorizzazione al loro trasporto",
+      "L'autorizzazione al trasporto di armi deve essere indicato nella patente di guida",
+      "Durante il trasporto le armi non possono essere utilizzabili rapidamente 4",
+      ""
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "3095",
+    "question": "Come devono essere trasportate le armi in un'autovettura?",
+    "answers": [
+      "Scariche",
+      "Con serbatoio o caricatore scarico, se inserito",
+      "Smontate in ogni sua componente",
+      "In custodia"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "3096",
+    "question": "Come devono essere trasportate armi?",
+    "answers": [
+      "Le munizioni devono essere custodite in luogo separato o impacchettate separatamente dalle armi",
+      "",
+      "In automobile le armi devono essere trasportate nel portabagagli 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3097",
+    "question": "Trasporto di armi in autovettura. Quali affermazioni sono esatte?",
+    "answers": [
+      "In autovettura le armi non possono in nessun caso essere cariche",
+      "In autovettura le armi devono essere trasportate in custodia",
+      "In autovettura le armi possono essere trasportate cariche e in custodia",
+      "In autovettura le armi possono essere trasportate solo smontate"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "3098",
+    "question": "A quali persone si possono consegnare le proprie armi da caccia (vendere, imprestare o",
+    "answers": [
+      "Solo a parenti",
+      "",
+      "Solo a persone che hanno superato l'esame venatorio 4",
+      ""
+    ],
+    "correct": []
+  },
+  {
+    "id": "3099",
+    "question": "Un privato cittadino vende o regala la propria doppietta a una persona con porto d'armi valido.",
+    "answers": [
+      "Devono denunciarlo congiuntamente entro due settimane all'Autorità competente 3 4",
+      "",
+      "",
+      ""
+    ],
+    "correct": []
+  },
+  {
+    "id": "3100",
+    "question": "Si possono acquistare armi mezzo corriere?",
+    "answers": [
+      "No, in nessun caso",
+      "Si, non vi sono limitazioni",
+      "Solo con l'autorizzazione del Prefetto o tramite un armaiolo 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
+      ""
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3101",
+    "question": "Quali documenti servono per l'esportazione temporanea di armi da caccia al di fuori del",
+    "answers": [
+      "Carta europea armi da fuoco o autorizzazione del Questore",
+      "",
+      "Permesso di caccia",
+      "Certificato d'origine"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3102",
+    "question": "A cosa serve il numero di matricola di un'arma?",
+    "answers": [
+      "Per l'identificazione certa della stessa",
+      "Per documentarne la resistenza",
+      "Per indicarne il calibro 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3106",
+    "question": "In una carabina vi accorgete che fra la canna e la cassa vi è per tutta la lunghezza un pó di",
+    "answers": [
+      "sia indispensabile, così che la canna possa oscillare liberamente",
+      "",
+      "sia dovuta al deposito del fucile in modo non consono in un luogo troppo secco",
+      "sia indispensabile, dato che l'aerazione aiuta ad evitare l'arrugginimento della canna"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3107",
+    "question": "A cosa servono i perni indicatori in fucili basculanti?",
+    "answers": [
+      "Indicano se l'arma è completamente chiusa",
+      "Indicano se vi sono cartucce nella camera di cartuccia",
+      "Sono visibili se l'arma non è in sicura e se lo stecher è stato armato",
+      "Indicano che il meccanismo di percussione, cioè il percussore, è armato"
+    ],
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "3108",
+    "question": "Cosa si intende per vantaggio del calcio?",
+    "answers": [
+      "una configurazione del calcio che permette una migliore imbracciatura del fucile",
+      "la pulizia e la custodia delle armi nel periodo annuale di silenzio venatorio",
+      "La curvatura laterale del calcio rispetto alla linea di mira sia in fucili con canna ad anima liscia che in carabine",
+      "L¿individuale angolazione del calciolo, che permette una veloce e buona imbracciatura del fucile"
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "3109",
+    "question": "Cosa corrisponde al vero nell'utilizzo di un compensatore (freno) di bocca?",
+    "answers": [
+      "Riduce il rinculo dell'arma al momento dello sparo",
+      "Il compensatore di bocca riduce la velocità del proiettile",
+      "Venendo le onde sonore, e rispettivamente pressorie, deviate lateralmente, la salute (l'udito) del tiratore e delle persone che gli stanno nelle vicinanze viene messa in pericolo",
+      "Carabine sparano diversamente se dotate o meno di compensatore di bocca perché cambia il comportamento di oscillazione della canna"
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "3110",
+    "question": "Quali delle seguenti affermazioni sono esatte relativamente alla pressione del gas?",
+    "answers": [
+      "La maggior parte delle cartucce a palla lavora con una pressione del gas di 3000-4000 bar",
+      "Le cartucce a pallini lavorano con una pressione fra i 600 e i 1100 bar",
+      "La scelta della polvere nelle cartucce viene fatta in modo tale che la pressione sia distribuita pressoché equamente su tutta la lunghezza della canna",
+      "Nei test al Banco di Prova per armi da caccia si lavora con pressioni del gas che superano del 25-30% quelle previste per il normale utilizzo dell'arma"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "3111",
+    "question": "Quali indicazioni si possono trovare sulle scatole per cartucce da carabina?",
+    "answers": [
+      "Produttore",
+      "Il potere di penetrazione",
+      "A volte, dati relativi alla velocità ed energia",
+      "Dati relativi al proiettile utilizzato rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "3112",
+    "question": "Quali indicazioni si possono trovare sulle scatole per cartucce da carabina?",
+    "answers": [
+      "L¿indicazione di tenere le munizioni fuori dalla portata dei bambini",
+      "Dati sulla traiettoria, compresa la distanza ottimale d'azzeramento",
+      "La gettata massima del proiettile",
+      "Il numero del lotto di produzione"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "3113",
+    "question": "Cosa corrisponde al vero nell'indicazione del calibro da carabina?",
+    "answers": [
+      "Le indicazioni del calibro sono spesso indicazioni commerciali arrotondate, che corrispondono all¿incirca al diametro del proiettile indicato",
+      "",
+      "L'indicazione del calibro in millimetri corrisponde sempre esattamente al diametro del proiettile",
+      "Le cartucce di calibro .308 Win e .300 Win Mag hanno il medesimo diametro dei proiettili"
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "3115",
+    "question": "A che scopo vengono rivestiti i proiettili per carabine?",
+    "answers": [
+      "Si ha una diminuzione di depositi di materiale della palla all'interno della canna",
+      "Vengono aumentate le deformazioni e frammentazioni del proiettile nel corpo del selvatico",
+      "Diminuisce l'attrito all'interno della canna",
+      "Viene migliorata l'aerodinamica del proiettile"
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "3116",
+    "question": "Quali di queste affermazioni riguardo alle palle uniche per armi non rigate (\"slug\")",
+    "answers": [
+      "Possono essere sparate con tutti i fucili ad anima liscia, con qualsiasi strozzatura",
+      "",
+      "Da noi sono ammesse per la caccia al cinghiale",
+      "Possono essere utilizzate in caso di ricerca autorizzata di fauna selvatica ferita quale, ad esempio, al cervo"
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "3117",
+    "question": "Quali dei seguenti dati si riferiscono a calibri per fucili con canna ad anima liscia?",
+    "answers": [
+      ".222, .223 e .243",
+      "76, 70 e 67,5",
+      "12, 16, e 20",
+      "10, 24 e 28"
+    ],
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "3119",
+    "question": "Di cosa bisogna tenere conto nella scelta della dimensione dei pallini?",
+    "answers": [
+      "Pallini di dimensioni troppo grandi possono avere effetti a distanze più lunghe, ma, colpendo il bersaglio in numero minore, manca l'effetto shock, così che l'animale colpito va a morire",
+      "La giusta scelta della dimensione dei pallini consente di sparare a distanze un pò più lunghe",
+      "Pallini troppo piccoli perdono velocemente velocità e potere di penetrazione e non riescono a sviluppare l'effetto mortale desiderato 4",
+      ""
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "3120",
+    "question": "Una cartuccia senza collarino può essere sparata da un fucile a canna basculante?",
+    "answers": [
+      "No",
+      "Sì, se l'arma è stata allo scopo adattata",
+      "Sì, se l'arma è sta sottoposta a una ulteriore prova a fuoco",
+      "Sì, ma solamente se la bascula è in acciaio"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3121",
+    "question": "Cosa può essere sparato da un fucile con canna ad anima liscia con calibro 12/76, strozzatura",
+    "answers": [
+      "Palla unica per armi non rigate 12/76 magnum",
+      "",
+      "Cartucce 12/70 con 36 g di pallini in acciaio da 3 mm",
+      "Cartucce 12/67,5 con 32 g di pallini in piombo da 4 mm rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "3122",
+    "question": "Come mai per fucili ad anima liscia vengono vendute munizioni con bossoli di 67,5 mm?",
+    "answers": [
+      "Perché i fucili di tutti i calibri sono dotati di camera di scoppio di questa grandezza",
+      "Perché queste munizioni possono essere utilizzate con i vecchi fucili con camera di scoppio di",
+      "Si tratta di una munizione con una pressione del gas più bassa, così da poter essere utilizzata con i vecchi fucili a pallini Damasco Dies",
+      "Questo tipo di munizione è stato creato principalmente quale compromesso per essere utilizzato in ambedue le camere di cartuccia di 65 e 70 mm"
+    ],
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "3123",
+    "question": "Cosa corrisponde al vero nell'utilizzo di munizioni magnum con fucili con canne ad anima",
+    "answers": [
+      "Le munizioni magnum operano con una maggiore pressione del gas adeguata prova forzata da parte del Banco di Prova",
+      "",
+      "Camere di scoppio di 76 mm sono adatte all'utilizzo di munizioni magnum",
+      "Con calibro uguale al 20 o più piccolo, le munizioni magnum non vengono più commercializzate"
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "3124",
+    "question": "Cosa NON dovrebbe essere utilizzato nella caccia a ungulati di sana costituzione?",
+    "answers": [
+      "Proiettili con punte in plastica",
+      "Proiettili interamente mantellati",
+      "Proiettili a punta cava",
+      "Proiettili in rame"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3125",
+    "question": "In alternativa ai proiettili parzialmente camiciati con nocciolo in piombo che possono",
+    "answers": [
+      "Proiettili pieni in ottone",
+      "",
+      "Proiettili parzialmente camiciati con nocciolo in uranio",
+      "Proiettili parzialmente camiciati con nocciolo in stagno"
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "3126",
+    "question": "Quali affermazioni rispetto ai pallini in acciaio (ferro dolce) sono vere?",
+    "answers": [
+      "A parità di diametro, i pallini in acciaio sono più leggeri di quelli in piombo",
+      "I nuovi fucili con canna ad anima liscia di norma sono adatti all¿utilizzo di pallini in acciaio, funzione della strozzatura utilizzata, per evitare possibili danni",
+      "Sulla stessa distanza cartucce a pallini in acciaio garantiscono una migliore copertura rispetto a cartucce a pallini di piombo",
+      "I pallini in acciaio vengono frenati nella propria traiettoria più velocemente di quelli in piombo, a parità di peso"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "3128",
+    "question": "Per quale motivo le munizioni per carabine non dovrebbero essere conservate troppo a lungo",
+    "answers": [
+      "Per danni inevitabili alle stesse, causati da umidità e ruggine scoppio",
+      "",
+      "In quanto la capsula d'innesco potrebbe non funzionare",
+      "Perché a lungo termine la polvere subisce variazioni chimiche che possono ripercuotersi sul rendimento del tiro, principalmente sulla pressione dei gas"
+    ],
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "3130",
+    "question": "Cosa sono le cartucce a pallini con dispersore?",
+    "answers": [
+      "Cartucce per carabine, le cui pallottole mostrano una maggior dispersione",
+      "Cartucce a pallini che sono più dispersanti di quelle standard",
+      "Cartucce a pallini costruite in tale maniera per motivi ecologici, così che la borra si frantuma disperdendosi nell'ambiente",
+      "Cartucce a pallini che vengono preferite, ad esempio, per la caccia alle beccacce rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+    ],
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "3132",
+    "question": "Cosa corrisponde al vero in riferimento al tiro con l'utilizzo o meno del sensibilizzatore di",
+    "answers": [
+      "Nella caccia a battuta, con o senza cane, di regola non è ammesso l'utilizzo dello stecher scatto con stecher",
+      "",
+      "Anche per motivi di sicurezza, nelle carabine di nuova generazione si tende a preferire lo scatto diretto senza stecher",
+      "Gli stecher sono regolabili in modo da essere molto sensibili, ma nell'effettuazione del tiro è necessaria una ulteriore azione meccanica, aumentando i movimenti e i tempi fino all'accensione dell'innesco"
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "3133",
+    "question": "In una carabina a ripetizione manuale con stecher a due grilletti, il grilletto posteriore viene",
+    "answers": [
+      "Non succede nulla, perché non è possibile",
+      "",
+      "Può partire un colpo se l'arma è pronta al tiro",
+      "L¿otturatore può essere completamente estratto dal cilindro (scatola di culatta)"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3134",
+    "question": "Quali accorgimenti importanti dal punto di vista della sicurezza bisogna adottare nelle armi con",
+    "answers": [
+      "Nei fucili a canne basculanti cariche con due acciarini si ha un'arma ancora pronta al tiro dopo aver effettuato il primo colpo",
+      "Con due successivi azionamenti della leva o slitta d'armamento in alcune armi basculanti vengono armati due acciarini",
+      "Fucili a ripetizione con monta manuale a leva o a slitta, di norma, dopo lo sparo e la successiva ripetizione sono pronti all'uso",
+      "Spesso i fucili combinati a tre canne hanno un sistema di caricamento automatico per le canne ad anima liscia, così da dover essere messe in sicura separatamente; solo l¿acciarino della canna ad anima rigata viene caricato manualmente"
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "3135",
+    "question": "Quale delle seguenti affermazioni è esatta nel caso di uno sparo con residui d'olio nella",
+    "answers": [
+      "I residui d'olio usato per la pulizia della canna vengono espulsi dal proiettile velocità uniformi delle pallottole",
+      "",
+      "Il colpo con canna oliata provoca quasi sempre scostamenti della traiettoria 4",
+      ""
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "3136",
+    "question": "Dovete dare il colpo di grazia da una breve distanza (5 metri) con una carabina dotata di",
+    "answers": [
+      "Linea di mira e traiettoria si discostano di alcuni centimetri fra loro punto di mira)",
+      "",
+      "Puntare alcuni cm più in basso",
+      "Puntare alcuni cm più in alto"
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "3137",
+    "question": "Quali delle seguenti affermazioni in riferimento ai reticoli fosforescenti (illuminati) sono esatte?",
+    "answers": [
+      "I reticoli fosforescenti sono vietati, in quanto anche la caccia nelle ore notturne è vietata",
+      "I reticoli fosforescenti servono a un preciso riconoscimento del bersaglio",
+      "I reticoli fosforescenti permettono di riconoscere il reticolo di mira in caso di luce insufficiente",
+      "L¿utilizzo di reticoli fosforescenti, da non confondersi con le sorgenti luminose artificiali o con i dispositivi ottici equipaggiati di convertitore di immagini, è consentito"
+    ],
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "3138",
+    "question": "Quali delle seguenti affermazioni in riferimento alla parallasse dei cannocchiali sono esatte?",
+    "answers": [
+      "Si parla di parallasse se guardando attraverso il cannocchiale il reticolo di mira si muove sul bersaglio, quando si sposta l'occhio fenomeno stesso della parallasse solo a una distanza ben definita (solitamente 100 m)",
+      "",
+      "Normalmente fino a 300 metri non si dovrebbero riscontrare errori di puntamento a causa della parallasse",
+      "Errori di puntamento a causa della parallasse possono essere evitati se si riesce a guardare centralmente attraverso il cannocchiale rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "3139",
+    "question": "Quali dei seguenti parametri dei cannocchiali sono di particolare rilevanza in caso di luce",
+    "answers": [
+      "Diametro dell'oculare (lente più vicina all'occhio)",
+      "",
+      "Diametro dell'obiettivo (lente più lontana dall'occhio)",
+      "Lunghezza del cannocchiale"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3140",
+    "question": "Quale dei seguenti binocoli dà i migliori presupposti per un utilizzo alla luce crepuscolare?",
+    "answers": [
+      "8 x 30",
+      "8 x 42",
+      "8 x 56",
+      "10 x 42"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3141",
+    "question": "Cosa si ottiene con il trattamento anti-riflesso delle lenti di un binocolo o cannocchiale?",
+    "answers": [
+      "Si aumentano i tempi di intorbidamento della lente",
+      "Si diminuisce la tendenza all'appannamento della lente",
+      "Si diminuisce il riflesso sulla superficie della lente",
+      "Si aumenta la permeabilità ai raggi luminosi della luce"
+    ],
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "3142",
+    "question": "Cosa si intende per gli intensificatori di luce residua?",
+    "answers": [
+      "Vengono anche detti visori notturni e aumentano, tramite apposito valvola intensificatore, l'intensità della luce residua presente",
+      "",
+      "Funzionano solamente se viene attivata una lampada a raggi infrarossi, peraltro non recepita dall'occhio umano",
+      "In caso di danni da fauna selvatica a colture agricole intensive, il suo utilizzo per la caccia al cervo, anche in combinazione con un cannocchiale di puntamento, è ammesso"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3143",
+    "question": "Cosa si intende per balistica esterna di un proiettile sparato con carabina?",
+    "answers": [
+      "I processi che avvengono dal momento dell'innesco della cartuccia fino al momento in cui il proiettile colpisce il bersaglio colpisce il bersaglio",
+      "",
+      "I processi che avvengono dopo l'uscita del proiettile dal corpo dell'animale colpito",
+      "Il moto del proiettile dal distacco dal bossolo fino alla volata"
+    ],
+    "correct": []
+  },
+  {
+    "id": "3144",
+    "question": "Cosa s'intende per balistica interna?",
+    "answers": [
+      "I processi che avvengono all'interno dell'animale colpito durante la penetrazione del proiettile",
+      "I processi dello sparo all'interno della cartuccia e della canna",
+      "Le proprietà comportamentali del proiettile dovute alla sua costituzione interna",
+      "Tutti i processi che si svolgono all'interno della culatta da quando si preme il grilletto all'urto della punta del percussore sulla capsula d'innesco"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "3145",
+    "question": "Quali forze influenzano principalmente la traiettoria di un proiettile?",
+    "answers": [
+      "Il rinculo",
+      "L'attrito dell'aria",
+      "L'attrito della canna",
+      "La forza di gravità"
+    ],
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "3146",
+    "question": "Cosa accade se al momento dell'effettuazione di un tiro una carabina viene inclinata",
+    "answers": [
+      "Il colpo risulta spostato leggermente in alto e nella stessa direzione dell'inclinazione",
+      "",
+      "Il colpo risulta spostato leggermente in basso e nella stessa direzione dell'inclinazione",
+      "Il colpo risulta spostato leggermente in basso e in direzione contraria all'inclinazione rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3147",
+    "question": "Che influsso ha il deposito di materiale del proiettile sulle pareti interne della canna?",
+    "answers": [
+      "Influisce sulla precisione del tiro",
+      "Aumenta la vampa di volata",
+      "A causa di reazioni chimiche col gas prodotto dallo sparo, risultano più visibili",
+      "Dopo aver pulito a fondo e asportato completamente il materiale depositato, si possono manifestare variazioni d'impatto del proiettile nei primi tiri"
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "3148",
+    "question": "Quali affermazioni sono esatte in un tiro con grande angolo di sito?",
+    "answers": [
+      "In un tiro verso valle l'animale deve essere colpito un pò più in alto, così che il proiettile trapassi trasversalmente all'incirca il centro della gabbia toracica stesso aumenta",
+      "",
+      "Con tiri con grande angolo di sito, l'impatto del proiettile è più alto che nei tiri in piano, dato che la forza di gravità non agisce sul proiettile perpendicolarmente alla sua traiettoria",
+      "In un tiro verso monte l'animale deve essere colpito un pò più in basso, così che il proiettile trapassi trasversalmente all'incirca il centro della gabbia toracica"
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "3149",
+    "question": "In una tabella di tiro trovate l'indicazione \"E100\". Di cosa si tratta?",
+    "answers": [
+      "Indica di tarare il fucile a 100 m",
+      "L'elevazione a 100 m, se l'arma è stata tarata sulla distanza ottimale di azzeramento",
+      "Il valore dell'energia del proiettile (indicata normalmente in joule) a una distanza di tiro di 100 m",
+      "Indica che questa munizione dovrebbe essere utilizzata solo fino a 100 m di distanza a causa della propria energia"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3151",
+    "question": "In quale dei seguenti punti di una traiettoria si trova la distanza ottimale d'azzeramento in caso",
+    "answers": [
+      "All¿incrocio del proiettile in traiettoria discendente con la linea di mira distanza ottimale d'azzeramento",
+      "",
+      "All¿incrocio del proiettile in traiettoria ascendente con la linea di mira",
+      "Nel punto in cui il proiettile incrocia la seconda volta la linea di mira"
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "3152",
+    "question": "Come tarate una carabina, la cui munizione ha una distanza ottimale di azzeramento di 170",
+    "answers": [
+      "Col punto in bianco a 200 m indicato dal produttore per ottenere l'esatta taratura sulla distanza ottimale di azzeramento",
+      "",
+      "Col punto in bianco a 170 m",
+      "Punto d¿impatto a 100 metri 5 cm sopra il punto di mira"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3153",
+    "question": "Quante volte la traiettoria di un proiettile di carabina incrocia l'asse dell'anima della canna",
+    "answers": [
+      "1 volta",
+      "",
+      "mai 4",
+      ""
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3154",
+    "question": "Come bisogna tarare le carabine per un tiro utile alla prassi venatoria in un poligono a 100",
+    "answers": [
+      "In maniera tale, che la traiettoria del proiettile a 100 m abbia il rialzo rispetto alla linea di mira indicato dal produttore per ottenere l'esatta taratura sulla distanza ottimale di azzeramento (solitamente il rialzo è di appena 4 cm)",
+      "Chi a volte vuole sparare a distanze molto lunghe dovrebbe alzare la traiettoria a 8 - 10 cm sopra la linea di mira",
+      "Il rialzo del punto d'impatto non andrebbe mai portato sopra i 4 cm, in quanto l'ordinata massima di traiettoria normalmente è posta leggermente oltre i 100 m di distanza e un innalzamento maggiore potrebbe aumentare il rischio di colpire male l¿animale 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
+      ""
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "3158",
+    "question": "Con quale inclinatura in alto della canna i proiettili di carabina raggiungono la distanza",
+    "answers": [
+      "15° (gradi sessagesimali)",
+      "",
+      "30° - 35°",
+      "40° - 45°"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3161",
+    "question": "Cos'è importante relativamente all'energia dei proiettili?",
+    "answers": [
+      "La velocità del proiettile",
+      "La scelta del materiale di composizione del proiettile",
+      "Il grado di frammentazione dell'incamiciatura",
+      "La massa del proiettile"
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "3162",
+    "question": "Cosa corrisponde al vero riguardo alle velocità dei proiettili?",
+    "answers": [
+      "proiettili per carabina raggiungono velocità anche superiori ai 1000 m/s",
+      "Proiettili di fucili con canna ad anima liscia raggiungono velocità simili a quelli di carabine, solo",
+      "Quando escono dalla bocca dell'arma i pallini raggiungono una velocità all'incirca del 20% superiore a quella del suono",
+      "Proiettili leggeri possono essere accelerati a una velocità superiore, ma vengono frenati più velocemente dalla forza d'attrito dell:aria"
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "3163",
+    "question": "Quali armi sono consentite in Alto Adige per l'esercizio della caccia?",
+    "answers": [
+      "Fucili a canna liscia semiautomatici con limitazione del serbatoio o caricatore a un solo colpo",
+      "Carabine a ripetizione con serbatoio o caricatore predisposto per 5 colpi",
+      "Carabine semiautomatiche con riduzione della capacità del serbatoio o caricatore a 2 colpi",
+      "Fucili automatici, se la capacità del serbatoio o caricatore viene ridotta a due soli colpi"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "3164",
+    "question": "Cosa bisogna considerare nell'indicazione dell diametro dei pallini espresso in numeri?",
+    "answers": [
+      "Con numerazione tedesca il diametro varia di ca. 0,25 mm per ogni numero intero",
+      "In Italia si utilizza volentieri una numerazione con intervalli di ca. 0,20 mm per ogni numero",
+      "Nell'Unione Europea esistono norme unificate per l'indicazione in numeri dei pallini",
+      "A causa di differenti numerazioni utilizzate per indicare il diametro dei pallini è opportuno attenersi alle indicazioni espresse in millimetri"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "3165",
+    "question": "Cosa bisogna considerare, sparando con vento?",
+    "answers": [
+      "La forza del vento e la sua direzione condizionano la traiettoria del proiettile",
+      "Peso, sagomatura e velocità del proiettile condizionano la traiettoria, sparando con vento",
+      "Con i calibri magnum ad alta velocità il vento non influisce sulla traiettoria del proiettile",
+      "Nel rispetto dell'etica venatoria si raccomanda di rinunciare a tiri lontani con vento"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "3166",
+    "question": "L'arma va pulita...",
+    "answers": [
+      "dopo ogni utilizzo",
+      "una volta l'anno",
+      "una volta al mese 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "3167",
+    "question": "Le cartucce a pallini che hanno preso umidiá...",
+    "answers": [
+      "devono essere asciugate prima dell'utilizzo",
+      "possono essere utilizzate solo a scopo di esercitazione",
+      "non devono essere più utilizzate 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 3 Descrizione Armi da caccia",
+      ""
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "3168",
+    "question": "La perdita di velocità...",
+    "answers": [
+      "è maggiore con pallini più grandi",
+      "è maggiore con pallini più piccoli",
+      "è uguale in entrambi i casi 4 rep_jfrag",
+      ""
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "4001",
+    "question": "Qual è la specie arborea più frequente in Alto Adige?",
+    "answers": [
+      "Faggio.",
+      "Abete rosso.",
+      "Abete bianco.",
+      "Larice."
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "4002",
+    "question": "Qual è generalmente la distribuzione altitudinale dell'abete rosso?",
+    "answers": [
+      "sotto agli 800 m.",
+      "solamente sotto i 1500 m.",
+      "da 800 a 1200 m.",
+      "sopra i 2000 m."
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4003",
+    "question": "Quale specie di conifera perde gli aghi in autunno?",
+    "answers": [
+      "Larice.",
+      "Abete rosso",
+      "Pino cembro / cirmolo.",
+      "Abete bianco."
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4004",
+    "question": "Quale è la specie arborea, le cui pigne mature sono erette unicamente all'insù sui rami?",
+    "answers": [
+      "Abete bianco.",
+      "Abete rosso.",
+      "Pino silvestre.",
+      "Larice"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4005",
+    "question": "Quali specie arboree sono presenti verso il limite superiore del bosco?",
+    "answers": [
+      "Quercia.",
+      "Abete rosso.",
+      "Pino cembro / cirmolo.",
+      "Larice."
+    ],
+    "correct": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4006",
+    "question": "Quale specie arboree crescono e sono presenti soprattutto al limite superiore del bosco?",
+    "answers": [
+      "Pino cembro/cirmolo",
+      "Abete bianco.",
+      "Acero montano.",
+      "Pino mugo."
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "4007",
+    "question": "Quali delle seguenti affermazioni riguardanti l'abete rosso sono corrette?",
+    "answers": [
+      "I picchi estraggono le formiche dai tronchi decomposti degli abeti rossi.",
+      "Il gufo reale nidifica nelle corone degli abeti rossi vecchi (maturi).",
+      "I giovani abeti rossi vengono volentieri morsicati dagli ungulati. 4",
+      ""
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "4008",
+    "question": "Quali delle seguenti affermazioni riguardanti l'abete rosso sono corrette?",
+    "answers": [
+      "Gli scoiattoli si cibano dei semi che trovano nelle pigne d'abete rosso.",
+      "L'abete rosso è, per diffusione, la seconda specie arborea presente nei boschi dell'Alto Adige.",
+      "Il cervo scorteccia i tronchi dei giovani abeti rossi. 4",
+      ""
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "4009",
+    "question": "Quali delle seguenti affermazioni riguardanti il larice sono corrette?",
+    "answers": [
+      "Il larice è, per diffusione, la seconda specie arborea presente nei boschi dell'Alto Adige.",
+      "Nella corteccia del larice, molti uccelli del bosco trovano insetti.",
+      "I giovani larici vengono spesso soffregati dai becchi di capriolo e dai maschi del cervo.",
+      "I giovani larici vengono spesso morsicati dagli ungulati. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "4010",
+    "question": "Quali delle seguenti affermazioni riguardanti il pino silvestre sono corrette?",
+    "answers": [
+      "Gli alberi di pino silvestre sono frequentemente utilizzati dai galli cedroni per le parate nuziali.",
+      "D'inverno il gallo cedrone si ciba volentieri degli aghi di pino silvestre.",
+      "Spesso e volentieri, d'inverno i pini silvestri vengono morsicati dagli ungulati.",
+      "Si trovano spesso pini silvestri nelle vicinanze dei corsi d'acqua."
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "4011",
+    "question": "Quali delle seguenti specie animali si trovano particolarmente a loro agio nei boschi ricchi di",
+    "answers": [
+      "Picchio nero.",
+      "",
+      "Coturnice.",
+      "Beccaccia."
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "4012",
+    "question": "Quali delle seguenti piante sono appetite dagli ungulati, come pastura?",
+    "answers": [
+      "Pioppo tremulo.",
+      "Larice.",
+      "Salice caprino.",
+      "Castagno."
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4013",
+    "question": "Quali delle seguenti piante sono appetite dagli ungulati, come pastura?",
+    "answers": [
+      "Pino silvestre.",
+      "Frassino.",
+      "Acero.",
+      "Quercia."
+    ],
+    "correct": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4014",
+    "question": "Quali delle seguenti piante sono appetite dagli ungulati, come pastura?",
+    "answers": [
+      "Noce.",
+      "Cespuglio di lampone.",
+      "Sambuco.",
+      "Pino cembro / cirmolo."
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "4015",
+    "question": "Quali delle seguenti affermazioni sono corrette?",
+    "answers": [
+      "I giovani abeti bianchi vengono morsicati volentieri d'inverno.",
+      "I pinoli di cirmolo sono una fonte d'alimento importante per la nocciolaia (cirmolaia).",
+      "La presenza del tiglio indica che un habitat è idoneo per lo stambecco.",
+      "I castagneti offrono buone possibilità di nidificazione agli uccelli che si riproducono in cavità."
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "4016",
+    "question": "Quale valenza hanno i boschetti di ontano verde per la selvaggina?",
+    "answers": [
+      "Sono habitat per le anatre selvatiche.",
+      "Offrono agli ungulati selvatici disponibilità di foraggio e protezione.",
+      "Sono habitat per il francolino di monte.",
+      "Vengono ricercati dal gallo forcello per eseguirvi le parate nuziali."
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "4017",
+    "question": "Quale valenza hanno i boschi di ripa per la selvaggina?",
+    "answers": [
+      "Sono un habitat importante per molti uccelli.",
+      "Vengono ricercati dal gallo cedrone per eseguirvi le parate nuziali.",
+      "Sono quartieri per volpe, capriolo e cervo. 4 rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie",
+      ""
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "4018",
+    "question": "Quali delle seguenti affermazioni sono corrette?",
+    "answers": [
+      "La presenza di betulle in un bosco indica che l'habitat è idoneo per il francolino di monte.",
+      "La coturnice mangia con gusto le bacche di ginepro.",
+      "I picchi favoriscono la diffusione del pino cembro. 4",
+      ""
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "4019",
+    "question": "Per quali delle seguenti specie animali i mugheti sono ottimi ripari?",
+    "answers": [
+      "Capriolo, cervo e camoscio.",
+      "Quaglia.",
+      "Lepre variabile.",
+      "Tasso."
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "4020",
+    "question": "Cosa intende la legge provinciale sulla caccia per danni da selvaggina?",
+    "answers": [
+      "I danni arrecati dalla fauna selvatica alle colture agricole e forestali.",
+      "I danni arrecati dalla fauna selvatica agli animali domestici.",
+      "I danni arrecati dalla fauna selvatica ad autoveicoli ed edifici. 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4021",
+    "question": "Chi risponde dei danni arrecati dalla fauna selvatica agli animali domestici?",
+    "answers": [
+      "La riserva di caccia.",
+      "La Giunta Provinciale risarcisce i danni causati da alcune specie di selvatici protetti",
+      "La Giunta Provinciale risarcisce i danni causati dalla volpe",
+      "Sono coperti dalla polizza assicurativa del cacciatore."
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "4022",
+    "question": "Quali dei seguenti tipi di danni sono considerati danni da selvaggina ai sensi della legge",
+    "answers": [
+      "Brucamento di alberi giovani da parte di fauna ungulata o lepri.",
+      "",
+      "Brucamento a carico di frutteti o vigneti arrecati da fauna ungulata o lepri.",
+      "Incidenti stradali originati dalla fauna ungulata."
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "4023",
+    "question": "Quali dei seguenti tipi di danno sono considerati danni da selvaggina ai sensi della legge",
+    "answers": [
+      "Brucamento a carico di alberi giovani da parte di buoi, pecore o capre.",
+      "",
+      "Danni arrecati da mustelidi ad autoveicoli. 4",
+      ""
+    ],
+    "correct": []
+  },
+  {
+    "id": "4024",
+    "question": "Quali dei seguenti tipi di danno sono considerati danni da selvaggina ai sensi della legge sulla",
+    "answers": [
+      "Incidenti stradali originati da mammiferi predatori.",
+      "",
+      "Danni per alimentazione diretta causati da uccelli a carico di frutteti e vigneti.",
+      "Danni per alimentazione diretta e calpestio da parte causati da ungulati selvatici a carico di colture cerealicole."
+    ],
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4025",
+    "question": "Cosa si intende per danni provocati da attività venatoria?",
+    "answers": [
+      "Danni a carico di colture agricole e forestali causati dalla fauna selvatica.",
+      "Danni a carico del bestiame domestico causati dalla fauna selvatica.",
+      "Danni alle colture agricole e forestali verificatisi in seguito all'esercizio venatorio.",
+      "Danni agli animali domestici verificatisi in seguito all'esercizio venatorio. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4026",
+    "question": "Chi risponde dei danni causati nell'esercizio dell'attività venatoria?",
+    "answers": [
+      "Chi li ha cagionati.",
+      "La riserva di caccia.",
+      "Lo stato italiano",
+      "Nessuno"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4027",
+    "question": "Quali dei seguenti selvatici, in bosco, morsicano germogli degli alberi giovani?",
+    "answers": [
+      "Ungulati.",
+      "Topi",
+      "Lepri",
+      "Beccacce."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "4028",
+    "question": "Danni da morso in bosco: quali delle seguenti affermazioni sono corrette?",
+    "answers": [
+      "Alberi di latifoglie e abete bianco sono i più ricercati dalla fauna come oggetto di morsicatura.",
+      "Pino e pino cembro sono molto ricercati come oggetto di morsicatura.",
+      "I danni da morso possono avvenire anche in conseguenza di errato foraggiamento della fauna selvatica. 4",
+      ""
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "4029",
+    "question": "Quali ripercussioni ha sulle piante la morsicatura della cima?",
+    "answers": [
+      "Sulla pianta si sviluppa un doppio apice (deformazione del tronco).",
+      "La pianta viene limitata nel suo sviluppo in altezza.",
+      "La pianta muore.",
+      "Nessuna ripercussione."
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "4030",
+    "question": "Quali ripercussioni ecologiche può avere un morsicamento massiccio delle piante?",
+    "answers": [
+      "Alcune specie arboree (abete bianco, latifoglie) sono sottoposte a una sorta di \"potatura\", con effetti negativi sulla varietà arborea. funzione protettiva.",
+      "",
+      "Piante acquatiche rare muoiono. 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4031",
+    "question": "Quali delle seguenti specie possono lasciare tracce di scortecciamento sui tronchi degli",
+    "answers": [
+      "Cervo.",
+      "",
+      "Capra e muflone.",
+      "Lepre"
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4032",
+    "question": "Quali delle seguenti specie possono lasciare tracce di rosicchiamento sulla corteccia degli",
+    "answers": [
+      "Tasso.",
+      "",
+      "Topi.",
+      "Martora/faina."
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4033",
+    "question": "Come si ripercuotono sull'albero i danni da scortecciamento?",
+    "answers": [
+      "L'albero sviluppa un doppio apice.",
+      "Nell'albero penetrano spore fungine, e il tronco è vittima di marciume rosso.",
+      "L'albero diviene più vulnerabile al peso della neve e al vento.",
+      "Lo sviluppo della pianta viene condizionato solo in maniera irrilevante rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "4034",
+    "question": "Quali specie arboree vengono scortecciate preferibilmente?",
+    "answers": [
+      "Gli alberi con corteccia sottile.",
+      "Gli alberi resinosi, con corteccia grossolana.",
+      "Gli alberi con molti rami",
+      "Larici"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4035",
+    "question": "Quali delle seguenti specie arboree vengono soffregate preferibilmente?",
+    "answers": [
+      "Pino silvestre.",
+      "Larice.",
+      "Frassino.",
+      "Quercia."
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "4036",
+    "question": "Come si ripercuote sull'albero un danno da soffregamento?",
+    "answers": [
+      "L'albero non riporta conseguenze.",
+      "L'albero sviluppa molti germogli",
+      "L'albero può morire. 4",
+      ""
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4037",
+    "question": "Quali danni da selvaggina creano problemi all'agricoltura?",
+    "answers": [
+      "Danni da scavo sulle aree pascolive, causati da marmotte.",
+      "Danni da scavo e danni per alimentazione diretta alle colture di mais, causati dal tasso.",
+      "Danni da scavo ai vigneti, causati dalla lepre comune.",
+      "Danni al suolo sui campi, causati da grufolamento (rooting) del cinghiale"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "4038",
+    "question": "Il morsicamento da parte del capriolo è differente da quello della lepre comune. Come si",
+    "answers": [
+      "È obliquo e liscio, come tagliato di netto con una lama di coltello.",
+      "",
+      "Fra i due tipi di morso non c'è differenza. 4",
+      ""
+    ],
+    "correct": []
+  },
+  {
+    "id": "4039",
+    "question": "Quali sono le ragioni della caccia?",
+    "answers": [
+      "Fruizione sostenibile del bene naturale rappresentato dalla carne di selvaggina.",
+      "Controllo e conservazione in salute delle consistenze di fauna selvatica.",
+      "È una interessante gara a chi ottiene il miglior trofeo.",
+      "Prevenzione dei danni da selvaggina alle colture agricolo-forestali."
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "4040",
+    "question": "Quali sono i principi alla base di un esercizio venatorio eticamente corretto e responsabile?",
+    "answers": [
+      "Non arrecare disturbo inutile alla fauna selvatica.",
+      "Osare tiri molto lunghi per ridurre il disturbo venatorio a carico della fauna.",
+      "Un approccio rispettoso al capo abbattuto e al carniere.",
+      "Cautela nel maneggio dell'arma."
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4041",
+    "question": "Per quali delle seguente specie è previsto in Alto Adige un piano di abbattimento?",
+    "answers": [
+      "Ungulati selvatici, eccettuato il cinghiale.",
+      "Volpe.",
+      "Gallo forcello (maschio del fagiano di monte).",
+      "Lepre bianca. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "4042",
+    "question": "Per quali delle seguente specie è previsto in Alto Adige un piano di abbattimento?",
+    "answers": [
+      "Beccaccia",
+      "Pernice bianca.",
+      "Coturnice.",
+      "Cinghiale"
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "4043",
+    "question": "Per quali dei seguenti selvatici l'età del capo abbattuto può essere determinata notevolmente",
+    "answers": [
+      "Cervo.",
+      "",
+      "Stambecco.",
+      "Capriolo."
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4044",
+    "question": "Da cosa si deduce la condizione fisica degli animali selvatici?",
+    "answers": [
+      "Dalla presenza di riserve di grasso nei muscoli, nel midollo, nei reni e sottopelle.",
+      "Dalla grandezza del rumine.",
+      "Dall'usura dentale.",
+      "Sempre dal trofeo"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4045",
+    "question": "Valutazione visiva del capo: quali affermazioni sono corrette?",
+    "answers": [
+      "I capi femmine vanno in muta prima dei capi maschi.",
+      "Nel cervo, il piccolo maschio e piccolo femmina si distinguono dalla coda.",
+      "Nei piccoli di capriolo nel mantello invernale, le femmine si identificano dal \"grembiule\", i maschi dal pennello.",
+      "I capi sani e forti vanno in muta prima di quelli scarsi/deboli"
+    ],
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4046",
+    "question": "Perché è importante sapere se un capo femmina ha il piccolo o meno?",
+    "answers": [
+      "Perché all'atto del prelievo bisogna tenere presente che i piccoli, per il loro sviluppo, hanno bisogno della madre.",
+      "",
+      "Per prevenire tiri che rendano necessaria una ricerca.",
+      "Perché i piccoli di capriolo e cervo vanno abbattuti assolutamente dopo la madre."
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4047",
+    "question": "Poniamo che si stiano per abbattere una vecchia femmina di capriolo e il suo piccolo debole.",
+    "answers": [
+      "Prima la femmina, poi il piccolo.",
+      "",
+      "Vanno prelevati insieme, quando si trovano uno dietro l'altro, in una posizione che consenta di abbatterli entrambi con un solo colpo.",
+      "Dipende dalla situazione, prima la femmina oppure il piccolo"
+    ],
+    "correct": []
+  },
+  {
+    "id": "4048",
+    "question": "I piccoli di cervo rimasti orfani tentano di aggregarsi ad altri selvatici: da quali vengono",
+    "answers": [
+      "Da un cervo maschio.",
+      "",
+      "Da una femmina di cervo sottile.",
+      "Da una femmina di capriolo."
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4049",
+    "question": "Nel mese di giugno, da cosa si è in grado di capire inequivocabilmente se una femmina di",
+    "answers": [
+      "Dalla testa.",
+      "",
+      "Dalle mammelle.",
+      "Dalla muta del pelo. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4050",
+    "question": "Da quali parti fisiche è possibile capire, nel mese di luglio, se una cerva che sta pasturando",
+    "answers": [
+      "Dal mantello.",
+      "",
+      "Dalla coda",
+      "Se sta pasturando da sola, sicuramente non ha il piccolo."
+    ],
+    "correct": []
+  },
+  {
+    "id": "4051",
+    "question": "Alla fine di novembre da una distanza di tiro confacente e in presenza di luce idonea a tirare, è",
+    "answers": [
+      "Sì.",
+      "No.",
+      "Solo se si osserva il capo dal di dietro. 4",
+      ""
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "4052",
+    "question": "Nel mese di dicembre, da quale dei seguenti elementi è possibile distinguere con certezza un",
+    "answers": [
+      "Dal pennello.",
+      "",
+      "Dalla corporatura.",
+      "Dallo \"specchio\"."
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "4053",
+    "question": "A fine novembre osservate due caprioli maschi all'incirca della stessa stazza: l'uno con piccoli",
+    "answers": [
+      "Quello con le piccole punte pulite.",
+      "Quello con i bottoni non ancora puliti.",
+      "Sono entrambi dell'anno, quindi hanno la stessa età. 4",
+      ""
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "4054",
+    "question": "Nel mese di novembre vi trovate di fronte, a una distanza di 80 metri, un singolo camoscio",
+    "answers": [
+      "La mancanza del \"grembiule\".",
+      "Un pennello ben visibile.",
+      "Corni fortemente uncinati.",
+      "Corni alti e molto divaricati."
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "4055",
+    "question": "Siamo all'inizio della stagione venatoria, ai primi di maggio. Un capriolo maschio in muta quasi",
+    "answers": [
+      "",
+      "Un maschio più vecchio.",
+      "È impossibile fare una distinzione. 4",
+      ""
+    ],
+    "correct": []
+  },
+  {
+    "id": "4056",
+    "question": "Per quali specie in Alto Adige è indicata la caccia da appostamento?",
+    "answers": [
+      "Per le specie molto schive.",
+      "Per la selvaggina da penna.",
+      "Per la lepre comune e la lepre bianca.",
+      "Per la becaccia"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4057",
+    "question": "Con quali condizioni meteorologiche la caccia agli ungulati è più promettente?",
+    "answers": [
+      "In presenza di nebbia fitta.",
+      "In presenza di gelate.",
+      "Con una leggera pioggia.",
+      "Con il vento. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4058",
+    "question": "Nella caccia col richiamo, quale verso viene abitualmente simulato dal cacciatore nel periodo",
+    "answers": [
+      "Il fippio della femmina o del piccolo.",
+      "",
+      "L'abbaio d'allarme del maschio. 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4059",
+    "question": "Nell'esercizio venatorio bisogna tenere conto anche del vento. Come spira, normalmente, sui",
+    "answers": [
+      "Verso valle.",
+      "",
+      "Da ovest a est. 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4060",
+    "question": "Nell'esercizio venatorio bisogna tenere conto anche del vento. Come spira, normalmente, sui",
+    "answers": [
+      "Verso valle.",
+      "",
+      "Da est a ovest 4",
+      ""
+    ],
+    "correct": []
+  },
+  {
+    "id": "4061",
+    "question": "Per quali delle seguenti specie, in Alto Adige, la caccia si pratica anche con il cane segugio?",
+    "answers": [
+      "Volpe.",
+      "Lepre.",
+      "Camoscio.",
+      "Cervo."
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "4062",
+    "question": "Sparando a un ungulato, a cosa si deve mirare, di norma, per tirare un colpo che abbatta il",
+    "answers": [
+      "Alla testa.",
+      "",
+      "Al collo.",
+      "Alla colonna vertebrale."
+    ],
+    "correct": []
+  },
+  {
+    "id": "4063",
+    "question": "Tirando alla spalla di un capriolo posizionato di traverso, quali dei seguenti organi possono",
+    "answers": [
+      "Il rumine.",
+      "",
+      "I reni.",
+      "Il cuore."
+    ],
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "4064",
+    "question": "Come deve essere posizionato un capo di selvaggina ungulata al momento del tiro?",
+    "answers": [
+      "Trasversalmente al tiratore.",
+      "Frontalmente al tiratore.",
+      "Col posteriore al tiratore.",
+      "È indifferente, quel che conta è che venga colpito."
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4065",
+    "question": "A cosa deve prestare attenzione il cacciatore prima di tirare al selvatico?",
+    "answers": [
+      "A eventuali segni esteriori di malattie in atto.",
+      "Acché il capo sia sufficientemente distante da lui, così da non notarlo.",
+      "Al luogo esatto ove si trova l'animale",
+      "Acché la traiettoria del colpo sia libera e sia presente un \"fermapalle\" adatto rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4066",
+    "question": "Cosa deve valutare il cacciatore prima di tirare al selvatico?",
+    "answers": [
+      "Un eventuale comportamento anomalo dell'animale, o tale da farlo ritenere malato.",
+      "Che la carne sia idonea al consumo.",
+      "La possibilità, in caso di abbattimento, di recuperare la carcassa.",
+      "Che sia presente un \"fermapalle\" adatto."
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4067",
+    "question": "Avete tirato a un capriolo maschio da un palco, e l'animale è caduto sul colpo. Cosa fate ora?",
+    "answers": [
+      "Ricarico, e, con l'arma pronta al tiro, osservo il capo aspettando almeno 5 minuti.",
+      "Scarico l'arma, scendo dal palco, ricarico e mi reco subito correndo verso il punto dove è caduto",
+      "Scendo subito dal palco, poi scarico l'arma e mi reco camminando verso il punto dove è caduto l'animale.",
+      "Chiamo un conduttore di cane da traccia per sentire la sua opinione"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4068",
+    "question": "Quando il tiro a un cervo posizionato trasversalmente impatta sull'addome, quali dei seguenti",
+    "answers": [
+      "Polmone.",
+      "",
+      "Rumine.",
+      "Intestino."
+    ],
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4069",
+    "question": "Avete tirato a un capriolo maschio da un palco; l'animale si è dapprima messo in fuga, poi si è",
+    "answers": [
+      "Ricarico e tento di dare il colpo di grazia. l'animale al momento del tiro (\"Anschuss\").",
+      "",
+      "Avviare la ricerca con il cane da recupero",
+      "In un caso del genere, evidentemente l'animale è stato mancato."
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4070",
+    "question": "Il comportamento del cacciatore dopo il tiro. Quale delle seguenti affermazioni è corretta?",
+    "answers": [
+      "Dopo aver tirato, il cacciatore raggiunge rapidamente il posto dove si trovava il capo al momento del tiro (Anschuss) e lo marca con un rametto verde. trovava il capo al momento del tiro (Anschuss).",
+      "",
+      "Ispeziona il luogo ove si trovava l'animale al momento dello sparo, in cerca di eventuali indizi del colpo o tracce del proiettile. 4",
+      ""
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4071",
+    "question": "Un capriolo maschio cade sul colpo, ma dopo breve tempo si rialza e fugge, come se fosse",
+    "answers": [
+      "Il colpo ha ferito la spalla.",
+      "",
+      "Il colpo ha strisciato l¿addome.",
+      "Il colpo ha ferito un arto."
+    ],
+    "correct": []
+  },
+  {
+    "id": "4072",
+    "question": "Sul luogo ove si trovava - al momento dello sparo - il capriolo maschio a cui avete tirato, e che",
+    "answers": [
+      "La punta del petto.",
+      "Il collo.",
+      "Il polmone.",
+      "Il fegato. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4073",
+    "question": "Se sul luogo ove si trovava un ungulato al momento dello sparo non si rinvengono né sangue",
+    "answers": [
+      "Sì.",
+      "",
+      "Solo se al suolo vengono trovate tracce provocate dal proiettile colpendo il terreno. 4",
+      ""
+    ],
+    "correct": []
+  },
+  {
+    "id": "4074",
+    "question": "Se sul luogo ove si trovava un ungulato al momento dello sparo si rinviene del sangue rosso",
+    "answers": [
+      "Il polmone.",
+      "",
+      "Il cuore.",
+      "L'intestino."
+    ],
+    "correct": []
+  },
+  {
+    "id": "4075",
+    "question": "Durante un appostamento mattutino, un cacciatore tira a una femmina sottile di cervo, e dopo",
+    "answers": [
+      "Non deve correre subito sul punto dove si trovava l'animale al momento del tiro (\"Anschuss\"), bensì deve andare a marcarlo dopo un congruo tempo di attesa; deve contattare il rettore e procurare che arrivi un conduttore di cane da recupero.",
+      "Deve subito recarsi nel folto ove suppone di trovare il capo ferito.",
+      "Se ha con sé il proprio cane da caccia, non abilitato però alla ricerca di selvatici feriti, deve condurlo sulla traccia del capo ferito affinché lo spinga fuori dal folto.",
+      "Aspettare il ritorno dell'animale ferito"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4076",
+    "question": "Durante un'uscita di caccia individuale, un cacciatore ferisce una lepre. Quando deve iniziare",
+    "answers": [
+      "Quanto prima possibile.",
+      "",
+      "Dopo due ore.",
+      "Per selvaggina bassa non è prevista la ricerca con cane da recupero"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4077",
+    "question": "Cosa rientra fra le infrastrutture ausiliarie della riserva?",
+    "answers": [
+      "Sentieri di caccia.",
+      "Strade forestali.",
+      "Postazioni a terra.",
+      "Falciatrici e trattori da utilizzarsi per ottenere fieno a fini di foraggiamento invernale."
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "4078",
+    "question": "Cosa rientra fra le infrastrutture ausiliarie della riserva?",
+    "answers": [
+      "Altane aperte e chiuse.",
+      "Punti di foraggiamento e saline.",
+      "Rifugi montani.",
+      "Argani portatili."
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "4079",
+    "question": "Con riferimento alle altane, quali delle seguenti operazioni dovete avere cura di svolgere",
+    "answers": [
+      "Prima di ogni utilizzo, la verifica di eventuali danni sopraggiunti.",
+      "",
+      "La manutenzione del rivestimento.",
+      "La chiusura tramite recinzione di filo spinato. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4080",
+    "question": "Con riferimento al foraggiamento di selvaggina, quali delle seguenti affermazioni sono",
+    "answers": [
+      "In Alto Adige il foraggiamento e l'offerta di sale alla fauna sono pratiche pressoché non necessarie.",
+      "In assenza di foraggiamento, gran parte degli animali selvatici muore di fame.",
+      "Un foraggiamento attuato in maniera impropria può provocare danni da selvaggina.",
+      "Presso i siti di foraggiamento e le saline può verificarsi il contagio di malattie fra selvatici."
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4081",
+    "question": "Con riferimento all'eviscerazione del selvatico, quali delle seguenti affermazioni sono corrette?",
+    "answers": [
+      "La selvaggina ungulata abbattuta deve essere eviscerata il prima possibile, così da consentire alla carcassa di raffreddarsi e impedire ai germi di proliferare. refrigerato, per evitare di sporcare la carcassa durante il trasporto.",
+      "",
+      "Dapprima tutti i capi abbattuti vengono distesi a terra formando il cosiddetto \"plateau\", poi si procede con l'eviscerazione. 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4082",
+    "question": "Secondo le odierne conoscenze in materia di igiene del carniere, con cosa va pulita la cavità",
+    "answers": [
+      "Con acqua pulita (potabile).",
+      "",
+      "Con il sangue presente nella cavità addominale stessa.",
+      "Con un fazzoletto."
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4083",
+    "question": "In quali delle seguenti specie la cistifellea deve essere separata dal fegato con cautela?",
+    "answers": [
+      "Capriolo.",
+      "Camoscio.",
+      "Cervo.",
+      "Cinghiale."
+    ],
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "4084",
+    "question": "In quali delle seguenti specie la cistifellea deve essere separata dal fegato con cautela?",
+    "answers": [
+      "Camoscio.",
+      "Stambecco.",
+      "Daino.",
+      "Capriolo."
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "4085",
+    "question": "A quale organo è unita la cistifellea, presente in alcune specie di fauna selvatica?",
+    "answers": [
+      "Alla milza.",
+      "Al pancreas.",
+      "Al fegato.",
+      "Ai reni."
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4086",
+    "question": "Se si intende vendere la carne del selvatico abbattuto, 5 dei suoi organi devono essere",
+    "answers": [
+      "",
+      "Fegato.",
+      "Rumine.",
+      "Pancreas."
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "4087",
+    "question": "Se si intende vendere la carne del selvatico abbattuto, 5 dei suoi organi devono essere",
+    "answers": [
+      "",
+      "Polmone.",
+      "Milza.",
+      "Cervello. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "4088",
+    "question": "Igiene del carniere e selvaggina bassa: quale delle seguenti affermazioni sono corrette?",
+    "answers": [
+      "Avendo la selvaggina bassa una massa corporea ridotta, non vi è pericolo che la carne del capo abbattuto si surriscaldi e si deteriori.",
+      "",
+      "Anche se non eviscerata, fuori dal contatto con l'aria la carcassa si conserva senza problemi per alcuni giorni.",
+      "Nel trasporto e nella conservazione della selvaggina bassa bisogna avere cura che la carcassa possa raffreddarsi."
+    ],
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "4089",
+    "question": "Cosa si intende per selvatico \"riscaldato\"?",
+    "answers": [
+      "Un capo di selvaggina abbattuto in presenza di una temperatura esterna molto alta.",
+      "Un capo di selvaggina non correttamente raffreddato e la cui carne appare quindi di dubbia",
+      "La carne di un capo maschio nel periodo degli amori.",
+      "Un capo di selvaggina abbattuto dopo una fuga prolungata"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "4090",
+    "question": "Quali delle seguenti circostanze possono far sì che la carne del selvatico abbattuto divenga",
+    "answers": [
+      "La carne stessa non ha potuto raffreddarsi a sufficienza.",
+      "",
+      "La carne è stata attaccata da muffe.",
+      "La carcassa, non sufficientemente raffreddata, ha subíto un lungo trasporto lontano dal contatto con l'aria, ad esempio nel sacco portaselvaggina impermeabile."
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "4091",
+    "question": "Cosa è bene considerare con riferimento al consumo alimentare di carne di capi selvatici che",
+    "answers": [
+      "La carne dei capi feriti e recuperati è molto spesso compromessa.",
+      "",
+      "La carne dei capi feriti e recuperati deve rimanere appesa più a lungo per poter frollare.",
+      "La carne di un selvatico oggetto di un colpo addominale, e ritrovato morto dopo una lunga ricerca iniziata con ritardo, è decisamente poco apprezzabile sotto il profilo gastronomico."
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "4092",
+    "question": "Quali accorgimenti vanno osservati nel trasporto di capi ungulati abbattuti?",
+    "answers": [
+      "I capi raffreddati non possono essere trasportati nel bagagliaio delle autovetture.",
+      "Il trasporto deve avvenire rapidamente, e il capo deve possibilmente giungere con celerità in un",
+      "Da scuoiata la carcassa si raffredda meglio, pertanto va scuoiata prima del trasporto. 4",
+      ""
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "4093",
+    "question": "Dai peli di quali dei seguenti animali è possibile ricavare dei pennacchi ornamentali (i",
+    "answers": [
+      "Camoscio maschio.",
+      "",
+      "Cervo.",
+      "Tasso."
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4094",
+    "question": "Quali dei seguenti lavori del cane da caccia vanno svolti prima dello sparo?",
+    "answers": [
+      "Ricerca dell'animale ferito.",
+      "Parata della selvaggina con voce (braccheggiamento).",
+      "Ricerca nel fitto.",
+      "Riporto."
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "4095",
+    "question": "Quali dei seguenti lavori del cane da caccia vanno svolti dopo lo sparo?",
+    "answers": [
+      "Riportare l'animale ferito.",
+      "Parata della selvaggina con voce (braccheggiamento).",
+      "Fare la ferma.",
+      "Riporto. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "4096",
+    "question": "Quali dei seguenti lavori vengono richiesti dai segugi?",
+    "answers": [
+      "Seguire le tracce fredde e calde del selvatico con voce.",
+      "Indicare al cacciatore con un atteggiamento particolare il selvatico.",
+      "Trovare la selvaggina bassa abbattuta e portarla al conduttore.",
+      "La ricerca silenziosa della traccia"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4097",
+    "question": "Quali delle seguenti specie di selvaggina possono essere parate con voce (braccheggiate)?",
+    "answers": [
+      "Lepre.",
+      "Volpe.",
+      "Cinghiale.",
+      "Camoscio."
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "4098",
+    "question": "Quando abbiamo bisogno di un cane che abbaia sull'usta calda (ovvero di un cane \"spurlaut\")?",
+    "answers": [
+      "Per parare con voce (braccheggiare).",
+      "Per la caccia agli acquatici.",
+      "Per la caccia con il cane da ferma.",
+      "Quando si cerca l'animale ferito."
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "4099",
+    "question": "Quali dei seguenti cani dovrebbero abbaiare sull'usta calda (ovvero dovrebbero essere",
+    "answers": [
+      "Segugi.",
+      "",
+      "Cani da ferma.",
+      "Cani da riporto."
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4100",
+    "question": "Quali dei seguenti cani di solito abbaiano sull'usta calda?",
+    "answers": [
+      "Cani da tana (Bassotto e Terrier).",
+      "Cani da ferma.",
+      "Cani da riporto. 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4101",
+    "question": "Un cane che abbaia sull'usta calda (ovvero è \"spurlaut\") che finalità può avere per il",
+    "answers": [
+      "Fa sì che il cacciatore possa udire lo spostamento del selvatico inseguito dal cane.",
+      "",
+      "Il cacciatore riconosce dalla voce del cane il tipo di selvaggina che sta riportando. 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4102",
+    "question": "Quando un cane \"dà voce a vista\" (ovvero \"sichtlaut\")?",
+    "answers": [
+      "Quando il cane dà voce a vista di qualsiasi specie di selvaggina.",
+      "Quando il cane, tornando dal selvatico trovato morto, abbaia vedendo il conduttore per avvisare,",
+      "Quando dà voce esclusivamente a vista del selvatico inseguito. 4",
+      ""
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4103",
+    "question": "Cosa fa un cane da ferma?",
+    "answers": [
+      "Si mette davanti al selvatico abbattuto.",
+      "Indica al cacciatore con un atteggiamento particolare di aver il selvatico nell'olfatto.",
+      "Dà voce sulla traccia fredda prima di avere il selvatico nell'olfatto.",
+      "Si mette davanti al cacciatore per segnalare che ha trovato la selvaggina bassa abbattuta. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "4104",
+    "question": "Quali sono le doti di un cane da ferma?",
+    "answers": [
+      "Cercare il selvatico a naso alto.",
+      "Dare voce sulla traccia.",
+      "Fare la ferma.",
+      "Riportare."
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4105",
+    "question": "Quali delle seguenti razze appartengono ai cani da ferma?",
+    "answers": [
+      "Deutsch Kurzhaar (bracco tedesco).",
+      "Setter.",
+      "Labrador Retriever.",
+      "Jagdterrier."
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "4106",
+    "question": "Quali delle seguenti razze appartengono ai cani da ferma?",
+    "answers": [
+      "Weimaraner.",
+      "Segugio bavarese.",
+      "Bassotto.",
+      "Deutsch Drahthaar (bracco tedesco a pelo forte)."
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "4107",
+    "question": "Quali delle seguenti razze appartengono ai cani da ferma?",
+    "answers": [
+      "Deutsch Langhaar (bracco tedesco a pelo lungo).",
+      "Pointer.",
+      "Münsterländer.",
+      "Dachsbracke."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "4108",
+    "question": "Quali sono le doti di un cane da riporto?",
+    "answers": [
+      "Trovare selvaggina bassa abbattuta.",
+      "Portare selvaggina bassa abbattuta.",
+      "Abbaiare a morto sul selvatico abbattuto, ovvero \"Totverbellen\".",
+      "Seguire la volpe nella sua tana e scovarla."
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "4109",
+    "question": "Quali delle seguenti razze appartengono ai cani da riporto?",
+    "answers": [
+      "Retriever.",
+      "Jagdterrier.",
+      "Dachsbracke.",
+      "Labrador."
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "4110",
+    "question": "Quali delle seguenti razze appartengono alla categoria dei cani da cerca?",
+    "answers": [
+      "Wachtelhund.",
+      "Segugio bavarese.",
+      "Spaniel.",
+      "Golden Retriever."
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "4111",
+    "question": "Per quali dei seguenti lavori sono indicati il Terrier e il Bassotto?",
+    "answers": [
+      "Caccia in tana.",
+      "Caccia agli acquatici.",
+      "Fare la ferma.",
+      "Lavoro sull'ungulato ferito, se particolarmente addestrati."
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "4112",
+    "question": "Cosa fa un cane durante la cerca (cioè durante il cosidetto \"Stöbern\")?",
+    "answers": [
+      "Cerca il selvatico in un'area ristretta.",
+      "Cerca il selvatico nella tana.",
+      "Cerca il selvatico abbattuto.",
+      "Cerca palchi caduti o selvaggina morta rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4113",
+    "question": "Quali delle seguenti razze appartengono ai cani da tana?",
+    "answers": [
+      "Bassotto.",
+      "Spaniel.",
+      "Terrier.",
+      "Setter."
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "4114",
+    "question": "Quali dei seguenti lavori vengono richiesti dal cane da traccia (da sangue)?",
+    "answers": [
+      "Cercare a naso alto la selvaggina da piuma e fermarla.",
+      "Trovare il selvatico ferito.",
+      "Fermare o finire l'animale ferito.",
+      "Dare voce sul selvatico trovato morto (\"Totverbellen\") oppure chiamare il conduttore per portarlo sull'animale morto (\"Totverweisen\")"
+    ],
+    "correct": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4115",
+    "question": "Cosa si intende per comando a terra del cane (\"Ablegen\")?",
+    "answers": [
+      "Il cane deve rimanere a terra sulla postazione ordinatagli, in attesa del conduttore.",
+      "L'imminente reazione del cane a seguito del comando \"Alt\" (\"fermo\").",
+      "Deporre a terra il selvatico riportato. 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4116",
+    "question": "Qual è lo scopo delle usanze venatorie?",
+    "answers": [
+      "Distinguersi dai non cacciatori nel modo di comportarsi, di esprimersi e di abbigliarsi.",
+      "Rafforzare il senso di appartenenza alla comunità venatoria e dare sicurezza nel",
+      "Tramite le usanze venatorie il cacciatore si esplicita rispetto verso la fauna selvatica e verso gli altri cacciatori. 4",
+      ""
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "4117",
+    "question": "Quali delle seguenti \"norme\" tradizionali sono superate e oggi inattuali?",
+    "answers": [
+      "Nell'eviscerare un capo non è consentito arrotolarsi le maniche.",
+      "Nell'eviscerare, non si può pulire la cavità addominale con acqua.",
+      "In occasioni ufficiali, vanno indossati abiti di foggia venatoria.",
+      "Coricare sul fianco il capo abbattuto."
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "4118",
+    "question": "Quali delle seguenti \"norme\" tradizionali sono superate e oggi inattuali?",
+    "answers": [
+      "Nell'eviscerare non è consentito portare guanti.",
+      "Il rametto dell'abbattitore (\"Erlegerbruch\") va bagnato nel sangue della preda.",
+      "Il punto in cui si trovava l'animale al momento dello sparo (\"Anschuss\") va marcato con un ramoscello.",
+      "Al termine di un recupero riuscito, una parte del rametto dell'abbattitore va consegnata al recuperatore, per fissarla al collare del suo cane da traccia."
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4119",
+    "question": "Cos'è, nel gergo venatorio, il \"ramoscello della presa di possesso\" (\"Streckenbruch)?",
+    "answers": [
+      "Il rametto verde che l'autore di un abbattimento si appunta sulla destra del cappello.",
+      "Il rametto verde che viene posto nella bocca o nel becco del capo abbattuto, dopo averlo",
+      "Il rametto verde che viene posto sulla scapola del capo abbattuto, dopo averlo coricato sul fianco.",
+      "Il rametto che marca il punto in cui il cane da recupero è stato posto sulla traccia."
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4120",
+    "question": "Cos'è, nel gergo venatorio, \"l'ultimo pasto\"?",
+    "answers": [
+      "Il rametto verde che l'autore di un abbattimento si appunta sulla destra del cappello.",
+      "Il rametto verde che viene posto nella bocca o nel becco del capo abbattuto.",
+      "Il rametto verde che viene posto sulla scapola del capo abbattuto, dopo averlo coricato sul fianco.",
+      "Sono le interiora del capo abbattuto, che, al termine di una ricerca fruttuosa del capo, il cacciatore dà al conduttore del cane da traccia per il proprio ausiliare. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "4121",
+    "question": "Cos'è, nel gergo venatorio, il \"rametto dell'abbattitore\" (\"Erlegerbruch\")?",
+    "answers": [
+      "Il rametto verde che l'autore di un abbattimento si appunta sulla destra del cappello.",
+      "Il rametto verde che viene posto nella bocca o nel becco del capo abbattuto.",
+      "Il rametto verde che viene posto sulla scapola del capo abbattuto.",
+      "Il rametto verde con il quale l'autore del prelievo marca il punto in cui si trovava l'animale al momento dello sparo."
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4122",
+    "question": "Cos'è, nel gergo venatorio, il \"rametto dell'Anschuss\"?",
+    "answers": [
+      "Il rametto verde che il cacciatore si appunta sulla destra del cappello quando ha ferito un capo.",
+      "Il rametto verde che viene posto nella bocca o nel becco del capo ferito.",
+      "Il rametto verde con il quale il cacciatore marca, per il conduttore di cane da recupero, il punto in cui si trovava l'animale al momento dello sparo. 4",
+      ""
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4123",
+    "question": "In occasioni venatorie festose o particolari, su quale lato del cappello viene portato il rametto",
+    "answers": [
+      "A sinistra.",
+      "",
+      "Ai matrimoni sulla destra, in tutte le altre occasioni a sinistra. 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4124",
+    "question": "Ai funerali di cacciatori, che uso viene fatto del rametto verde?",
+    "answers": [
+      "Viene portato sul cappello, a destra.",
+      "Viene portato sul cappello, a sinistra.",
+      "Viene consegnato ai congiunti dello scomparso.",
+      "Viene portato sul cappello, con la faccia inferiore degli aghi rivolta all'esterno."
+    ],
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "4125",
+    "question": "I rametti i di quali alberi vengono impiegati ai funerali?",
+    "answers": [
+      "Pino cembro.",
+      "Larice.",
+      "Abete bianco.",
+      "Quercia."
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4126",
+    "question": "Tradizionalmente, come viene composto l'ungulato abbattuto?",
+    "answers": [
+      "Coricato sul suo fianco destro, con il \"rametto della presa di possesso\" sulla scapola sinistra.",
+      "Eviscerato.",
+      "Non eviscerato.",
+      "Con in bocca \"l'ultimo pasto\"."
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "4127",
+    "question": "Quali specie arboree crescono specialmente su soprasuoli asciutti e rocciosi?",
+    "answers": [
+      "Abete bianco",
+      "Pino silvestre",
+      "Faggio",
+      "Roverella"
+    ],
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "4128",
+    "question": "Quali delle seguenti specie arboree crescono specialmente nelle boscaglie vicine a",
+    "answers": [
+      "Carpinella / carpino nero",
+      "",
+      "Castagno",
+      "Roverella rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4129",
+    "question": "Quali specie arboree sono frequentemente presenti lungo i corsi d'acqua?",
+    "answers": [
+      "Ontano nero",
+      "Larice",
+      "Ontano verde",
+      "Abete bianco"
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "4130",
+    "question": "Quali specie arboree sono presenti soprattutto in aree dal clima temperato e sufficientemente",
+    "answers": [
+      "Abete bianco",
+      "",
+      "Pino cembro, cirmolo",
+      "Pino mugo"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4131",
+    "question": "Quale valenza hanno i boschi di ripa per la selvaggina?",
+    "answers": [
+      "Sono un habitat importante per molti uccelli",
+      "Vengono ricercati dal gallo cedrone per eseguirvi le parate nuziali",
+      "Sono quartieri per volpe, capriolo e cervo 4",
+      ""
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "4132",
+    "question": "Quali provvedimenti aggiuntivi può prendere l'assessore competente, qualora una riserva di",
+    "answers": [
+      "Revoca dei permessi di caccia ai soci della riserva in questione",
+      "",
+      "Revoca dei porto d'armi per uso caccia ai soci della riserva in questione",
+      "Pignoramenti per l'importo fissato"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4133",
+    "question": "Quali dei seguenti strumenti sono deputati al controllo sul rispetto del piano di prelievo?",
+    "answers": [
+      "Obbligo di sottoporre il capo al controllo visivo",
+      "Denuncia del colpo sparato",
+      "Elenco dei capi abbattuti",
+      "Esame venatorio"
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "4134",
+    "question": "Siamo a metà della stagione venatoria e in una riserva viene valutato il prelievo di selvaggina",
+    "answers": [
+      "La consistenza di lepri è soddisfacente, si può accentuare il prelievo senza problemi",
+      "È un indice di allarme; si può supporre che nell'anno in questione vi sia una carenza riproduttiva, e di conseguenza è opportuno trattenersi nell'intervento venatorio",
+      "Non si possono trarre conclusioni sul successo riproduttivo",
+      "Il \"segno di Stroh\" non ha lo scopo di determinare le lepri giovani"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "4135",
+    "question": "Come può essere determinata l'età di un ungulato abbattuto?",
+    "answers": [
+      "In base agli anelli di accrescimento annuali delle corna",
+      "In base alla conformazione del trofeo",
+      "In base all'usura dei denti",
+      "Nei capi giovani, in base al cambio dei denti da latte"
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "4136",
+    "question": "Cosa provoca il formarsi dei cerchi anche conosciuti come \"anelli delle streghe\"?",
+    "answers": [
+      "La marcatura del territorio da parte del capriolo maschio",
+      "Le rincorse fra caprioli nel periodo degli amori",
+      "Gli accoppiamenti fra lepri comuni",
+      "Le parate nuziali a terra del gallo cedrone rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "4137",
+    "question": "Nei giorni di gelate, è necessario eviscerare il rapidamente quanto nelle calde giornate estive?",
+    "answers": [
+      "Si",
+      "",
+      "Dipende dalla temperatura esterna. Se è inferiore ai -10 °C, non è necessario eviscerare rapidamente 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4138",
+    "question": "Quando un cane dà il \"Vorlaut\" (abbaia con anticipo)?",
+    "answers": [
+      "Sulla traccia fredda prima di aver scovato il selvatico",
+      "Quando arriva sul selvatico precedentemente inseguito",
+      "Quando, dall'eccitazione, dà voce senza aver visto o annusato la traccia del selvatico 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4139",
+    "question": "Che cos'è lo \"Standlaut\"(abbaiare a fermo)?",
+    "answers": [
+      "Dare voce sulla postazione del tiratore",
+      "Dare voce mentre insegue un capriolo sano",
+      "Dare voce durante la ricerca sul selvatico bloccato 4",
+      ""
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4140",
+    "question": "Che cos'è il \"Totverbeller\"?",
+    "answers": [
+      "Un cane che dà voce sul selvatico morto fino all'arrivo del conduttore",
+      "Un cane che, dall'eccitazione, dà voce senza avere visto né annusato la traccia del selvatico",
+      "Un cane che spaventa a morte il selvatico abbaiando 4",
+      ""
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4141",
+    "question": "Quale specie alloctona di pino venne usata negli anni '50 per riforestare ampie superfici in Val",
+    "answers": [
+      "Il pino cembro",
+      "",
+      "Il pino mugo",
+      "Il Pino nero"
+    ],
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "4142",
+    "question": "Quali di queste asserzioni relative all'abete rosso sono corrette?",
+    "answers": [
+      "Il gufo fa il nido nelle chiome dei vecchi abeti.",
+      "Aghi e germogli sono un apprezzato nutrimento del gallo cedrone.",
+      "Il francolino di monte si nasconde spesso nelle chiome più fitte.",
+      "L'abete rosso è la seconda specie arborea più diffusa in Alto Adige."
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "4143",
+    "question": "Quali di queste asserzioni relative al larice sono corrette?",
+    "answers": [
+      "Gemme e germogli sono un apprezzato nutrimento del gallo cedrone e del gallo forcello.",
+      "La corteccia del larice è spesso mangiata dai cervi.",
+      "Il crociere si ciba dei semi del larice.",
+      "Il larice è una specie alloctona in Alto Adige ed è stata massicciamente usata in Val Venosta per le riforestazioni postbelliche."
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "4144",
+    "question": "Perché i tetraonidi riescono a digerire bene gli aghi ed i germogli delle conifere?",
+    "answers": [
+      "Perché hanno lo stomaco diviso in quattro settori.",
+      "Perché hanno due appendici.",
+      "Perché hanno un ventriglio dotato di placche cornee che tritura il cibo.",
+      "Perché deglutiscono in aggiunta insetti che aiutano la digestione. rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "4145",
+    "question": "Quali di queste specie arboree si trovano nell'habitat del gallo cedrone, del gallo forcello e del",
+    "answers": [
+      "Il noce",
+      "",
+      "La robinia",
+      "Il salicone"
+    ],
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "4146",
+    "question": "Quali di questi fattori devono essere tenuti in considerazione nei piani di prelievo degli",
+    "answers": [
+      "Lo stato della popolazione.",
+      "",
+      "I danni da selvaggina all'agricoltura ed alle foreste.",
+      "I censimenti faunistici."
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4147",
+    "question": "Quali di questi fattori devono essere tenuti in considerazione nei piani di prelievo degli",
+    "answers": [
+      "Il numero degli individui morti per altre cause.",
+      "",
+      "Il numero delle strade forestali nella riserva.",
+      "La distribuzione in classi di età dei cacciatori."
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4148",
+    "question": "Quali di questi fattori devono essere tenuti in considerazione nei piani di prelievo dei",
+    "answers": [
+      "I censimenti annuali",
+      "",
+      "La Valutazione d'Incidenza dell'Ufficio caccia e pesca",
+      "Il numero dei cacciatori nella Riserva di riferimento"
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "4149",
+    "question": "Come viene garantito in Alto Adige che la caccia non danneggi le popolazioni dei tetraonidi",
+    "answers": [
+      "Tramite una dichiarazione della Ripartizione Natura e Paesaggio che il Piano di Abbattimento è ininfluente",
+      "Tramite un parere dell'ISPRA (Istituto Superiore per la Protezione e la Ricerca Ambientale)",
+      "Tramite una Dichiarazione d'Incidenza dell'Ufficio caccia e pesca",
+      "Tramite un parere dell'Osservatorio Faunistico"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4150",
+    "question": "Quali di questi elementi paesaggistici minacciano negli ultimi anni di diminuire sempre più?",
+    "answers": [
+      "Il bosco",
+      "Le superfici a prato",
+      "Gli alpeggi",
+      "Le siepi e gli arbusteti a confine"
+    ],
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4151",
+    "question": "Sulla base dello stato d'usura della dentiera si possono trarre informazioni relative all'età degli",
+    "answers": [
+      "Gli individui più vecchi hanno una superficie di masticazione più liscia.",
+      "",
+      "Individui giovani hanno delle incisioni profonde nei molari.",
+      "I denti da latte si consumano più in fretta di quelli permanenti."
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4152",
+    "question": "Come si distinguono negli ungulati gli incisivi da latte da quelli permanenti?",
+    "answers": [
+      "I denti da latte sono più piccoli",
+      "I denti da latte sono più grandi",
+      "I denti permanenti sono più chiari",
+      "Non si distinguono tra loro rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4153",
+    "question": "A partire da quale età in un cervo gli incisivi sono permanenti?",
+    "answers": [
+      "A partire da 1 anno d`età",
+      "A partire da 2 anni d`età",
+      "A partire da 3 anni d`età",
+      "A partire da 4 anni d`età"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "4154",
+    "question": "A partire da quale età in un camoscio i sei incisivi sono permanenti?",
+    "answers": [
+      "A partire da 1 anno d`età",
+      "A partire da 2 anni d`età",
+      "A partire da 3 anni d`età",
+      "A partire da 4 anni d`età"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4155",
+    "question": "Come si riconosce dalla mandibola se si tratta di un capriolo o di un camoscio?",
+    "answers": [
+      "Nel camoscio i denti sono più consumati.",
+      "La mandibola del capriolo ha un'appendice ad angolo.",
+      "Il capriolo ha solamente 6 incisivi.",
+      "I molari del camoscio sono scuri."
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "4156",
+    "question": "In funzione del cambiamento dei denti può essere stimata l`età dei giovani ungulati con una",
+    "answers": [
+      "compatto",
+      "diviso in due parti",
+      "diviso in tre parti",
+      "diviso in quattro parti"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4157",
+    "question": "In funzione del cambiamento dei denti può essere stimata l`età dei giovani ungulati con una",
+    "answers": [
+      "",
+      "... all'età di due anni.",
+      "... all'età di due anni e mezzo.",
+      "... all'età di tre anni."
+    ],
+    "correct": []
+  },
+  {
+    "id": "4158",
+    "question": "In funzione del cambiamento dei denti può essere stimata l`età dei giovani ungulati con una",
+    "answers": [
+      "... all'età di un anno.",
+      "... all'età di due anno.",
+      "... all'età di due anni e mezzo.",
+      "... all'età di tre anni."
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "4159",
+    "question": "In funzione del cambiamento dei denti può essere stimata l`età dei giovani ungulati con una",
+    "answers": [
+      "... all'età di un anno.",
+      "... all'età di due anni.",
+      "... all'età di due anni e mezzo.",
+      "... all'età di tre anni."
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4160",
+    "question": "Quale corno da caccia è il più usato in Alto Adige?",
+    "answers": [
+      "Il corno da caccia Fürst-Pless",
+      "Il corno da caccia Parforce",
+      "Il corno Hift",
+      "Il corno a mezzaluna del Sauerland rep_jfrag AUTONOME PROVINZ BOZEN SÜDTIROL PROVINCIA AUTONOMA DI BOLZANO ALTO ADIGE Abteilung 32 Ripartizione 32 Forstwirtschaft Foreste Amt 32.4 Amt für Jagd und Fischerei Ufficio 32.4 Ufficio Caccia e Pesca Categoria 4 Descrizione Botanica - Danni da selvaggina - Pratica venatoria - Cani da caccia - Usanze venatorie"
+    ],
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "4161",
+    "question": "Quale funzione aveva originariamente il corno da caccia?",
+    "answers": [
+      "Per indirizzare i cani da caccia",
+      "Nelle braccate, per spaventare la selvaggina",
+      "Per creare atmosfera nelle feste medioevali",
+      "Per comunicare durante le battute di caccia"
+    ],
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "4162",
+    "question": "Essere cacciatori nell'era dei socialmedia: quali dei seguenti contenuti sono da considerare",
+    "answers": [
+      "Il salvataggio di piccoli di capriolo",
+      "",
+      "Abbattimenti di cani o gatti randagi",
+      "Progetti di tutela della natura e delle specie"
+    ],
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "4163",
+    "question": "Essere cacciatori nell'era dei socialmedia: quali dei seguenti contenuti sono da considerare",
+    "answers": [
+      "Miglioramenti degli habitat",
+      "",
+      "Immagini con molto sangue",
+      "Immagini di trofei conseguenti a viaggi di caccia"
+    ],
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "4164",
+    "question": "Essere cacciatori nell'era dei socialmedia: quali dei seguenti contenuti sono da considerare",
+    "answers": [
+      "Armi in primo piano",
+      "",
+      "La collocazione di catadiottri antiselvaggina",
+      "Eseguire censimenti faunistici"
+    ],
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "4165",
+    "question": "Essere cacciatori nell'era dei socialmedia: quali dei seguenti contenuti sono da considerare",
+    "answers": [
+      "Preparazione di un piatto a base di selvaggina",
+      "",
+      "Abbinamento tra la caccia, le armi e l'alcool",
+      "Incidenti con animali selvatici rep_jfrag"
+    ],
+    "correct": [
       2
     ]
   }
